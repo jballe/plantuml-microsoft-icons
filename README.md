@@ -1,7 +1,7 @@
 # Microsoft icon set for plantuml
 
 Inspired by [plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites)
-but created with the Microsoft Icon Set
+but created with the [Microsoft icon set](http://aka.ms/CnESymbols)
 
 ## How to use
 
