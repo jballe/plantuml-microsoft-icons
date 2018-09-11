@@ -1,0 +1,65 @@
+@startuml
+
+skinparam defaultTextAlignment center
+
+left to right direction
+
+skinparam monochrome true
+skinparam backgroundColor white
+skinparam linetype polyline
+skinParam packageStyle rectangle
+skinparam packageStereotype {
+    FontSize 0
+}
+skinparam rectangleStereotype {
+    FontSize 0
+}
+
+skinparam component {
+  borderColor Transparent
+  backgroundColor Transparent
+  fontColor Black
+  stereotypeFontColor Transparent
+  shadowColor Transparent
+  shadowing false
+}
+
+!include ../sprites/Cloud/Azure_App_service.puml
+!include ../sprites/Cloud/Microsoft_Azure.puml
+!include ../sprites/Cloud/Azure_Active_Directory.puml
+!include ../sprites/Enterprise/Settings.puml
+!include ../sprites/Enterprise/Web.puml
+!include ../sprites/Enterprise/Web_Server.puml
+!include ../sprites/Enterprise/Windows_Server.puml
+!include ../sprites/OtherMicrosoftProd/Excel.puml
+!include ../sprites/OtherMicrosoftProd/Microsoft.puml
+
+'title Microsoft Solution <$microsoft>
+title Microsoft Solution MSIMG_MICROSOFT_C
+
+
+cloud "Azure MSIMG_MICROSOFTAZURE_C" as azure {
+    rectangle "appservice \n MSIMG_AZUREAPPSERVICE_G" as appservice
+    database "ad \n MSIMG_AZUREACTIVEDIRECTORY_G" as ad
+    database "settings \n MSIMG_SETTINGS_G" as settings
+}
+
+rectangle "On premise" {
+    component "web <&heart>\n MSIMG_WEBSERVER_G" as webserver
+}
+
+rectangle "Locally" {
+    component "MSIMG_WINDOWSSERVER_G" as win
+    actor User
+    component "MSIMG_EXCEL_C" as excel
+}
+
+User --> excel
+excel --> webserver
+webserver --> appservice
+appservice--> ad
+appservice--> settings
+settings --> ad
+
+
+@enduml
