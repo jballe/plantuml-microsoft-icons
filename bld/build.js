@@ -68,7 +68,6 @@ function asciifyToPlantuml(spriteArray, size) {
 }
 
 recursive(symbolsDir, [ignoreFile]).then(files => {
-    return files;
     console.log(`Processing ${files.length} files...`);
     return files.map(file => {
         
