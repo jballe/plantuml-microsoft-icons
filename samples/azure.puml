@@ -27,9 +27,18 @@ skinparam component {
 hide sterotype
 
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
-!includeurl MS_SPRITESPATH/Cloud.puml
-!includeurl MS_SPRITESPATH/Enterprise.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd.puml
+' !includeurl MS_SPRITESPATH/Cloud.puml
+' !includeurl MS_SPRITESPATH/Enterprise.puml
+' !includeurl MS_SPRITESPATH/OtherMicrosoftProd.puml
+!includeurl MS_SPRITESPATH/Cloud/Azure_App_Service.puml
+!includeurl MS_SPRITESPATH/Cloud/Microsoft_Azure.puml
+!includeurl MS_SPRITESPATH/Cloud/Azure_Active_Directory.puml
+!includeurl MS_SPRITESPATH/Enterprise/Settings.puml
+!includeurl MS_SPRITESPATH/Enterprise/Web.puml
+!includeurl MS_SPRITESPATH/Enterprise/Web_server.puml
+!includeurl MS_SPRITESPATH/Enterprise/Windows_Server.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Microsoft.puml
 
 'title Microsoft Solution <$microsoft>
 title Microsoft Solution MSIMG_MICROSOFT_C
