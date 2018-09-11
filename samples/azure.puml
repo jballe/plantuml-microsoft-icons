@@ -35,6 +35,7 @@ hide sterotype
 !includeurl MS_SPRITESPATH/Cloud/Azure_Active_Directory.puml
 !includeurl MS_SPRITESPATH/Enterprise/Settings.puml
 !includeurl MS_SPRITESPATH/Enterprise/Web.puml
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !includeurl MS_SPRITESPATH/Enterprise/Web_server.puml
 !includeurl MS_SPRITESPATH/Enterprise/Windows_Server.puml
 !includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
