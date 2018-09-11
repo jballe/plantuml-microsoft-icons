@@ -1,0 +1,3 @@
+@startuml
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+@enduml

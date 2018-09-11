@@ -68,6 +68,7 @@ function asciifyToPlantuml(spriteArray, size) {
 }
 
 recursive(symbolsDir, [ignoreFile]).then(files => {
+    return files;
     console.log(`Processing ${files.length} files...`);
     return files.map(file => {
         
@@ -151,4 +152,16 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
             }); 
         //});
     });
+}).then(() => {
+    const folders = fs.readdirSync(resultDir).filter(name => fs.statSync(path.join(resultDir, name)).isDirectory());
+    folders.map(name => {
+        const folderPath = path.join(resultDir, name);
+        const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml')>0);
+        const content = '@startuml\n'
+                      + '!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n'
+                      + files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n')
+                      + '@enduml';
+        fs.writeFileSync(path.join(resultDir, name+'.puml'), content);
+
+    })
 });

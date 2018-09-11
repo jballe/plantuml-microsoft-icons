@@ -1,0 +1,21 @@
+@startuml
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Access.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/BI_Product.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Cortana_blue.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Cortana_blue_2.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Exchange.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Exel.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Lync.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Microsoft.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Outlook.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/PowerApps.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/PowerPoint.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Sharepoint.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Skype.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Visio.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Windows.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Word.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Xbox.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/XBox_One.puml@enduml

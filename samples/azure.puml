@@ -24,15 +24,12 @@ skinparam component {
   shadowing false
 }
 
-!include ../sprites/Cloud/Azure_App_service.puml
-!include ../sprites/Cloud/Microsoft_Azure.puml
-!include ../sprites/Cloud/Azure_Active_Directory.puml
-!include ../sprites/Enterprise/Settings.puml
-!include ../sprites/Enterprise/Web.puml
-!include ../sprites/Enterprise/Web_Server.puml
-!include ../sprites/Enterprise/Windows_Server.puml
-!include ../sprites/OtherMicrosoftProd/Excel.puml
-!include ../sprites/OtherMicrosoftProd/Microsoft.puml
+hide sterotype
+
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!includeurl MS_SPRITESPATH/Cloud.puml
+!includeurl MS_SPRITESPATH/Enterprise.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd.puml
 
 'title Microsoft Solution <$microsoft>
 title Microsoft Solution MSIMG_MICROSOFT_C

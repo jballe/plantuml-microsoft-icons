@@ -1,0 +1,22 @@
+@startuml
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!includeurl MS_SPRITESPATH/OMS/OMS_alerts.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_App_with_changes.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Assessments.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Capacity.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Config_Assessment.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Dashboard.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Dependency_Monitor.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Diagnostics.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Jobs.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Log_Management.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Log_Search.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Malware_Assessment.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Overview.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Security.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Server_with_changes.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Services.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Solutions.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_System_update.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Track_Changes.puml
+!includeurl MS_SPRITESPATH/OMS/OMS_Wire_Data.puml@enduml
