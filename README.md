@@ -3,6 +3,8 @@
 Inspired by [plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites)
 but created with the [Microsoft icon set](http://aka.ms/CnESymbols)
 
+See the [samples](samples/README.md)
+
 ## How to use
 
 ```
