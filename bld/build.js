@@ -16,7 +16,7 @@ function ignoreFile(file, stats) {
     if(path.extname(file) !== '.png') return true;
     const basename = path.basename(file);
     //if(basename.match(/[\s_](color|copy)$/i)) return true;
-    //return !basename.match(/^Microsoft/i);
+    //return !basename.match(/azure.*app.*service/i);
     return false;
 }
 
@@ -24,10 +24,7 @@ function ignoreFile(file, stats) {
 // asciify format:
 // Set of basic characters ordered by increasing "darkness"
 var chars =        ' .,:;i1tfLCG08@';
-var replacements = '013456789ABCDEF';
-while(chars.length<16) {
-    chars = chars.substr(0, 1) + 'X' + chars.substr(1);
-}
+var replacements = '012346789ABCDEF';
 var map = [];
 for(var index = 0; index<chars.length; index++) {
     var c = chars[index];
@@ -94,62 +91,84 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
         const originalCopiedPath = path.join(targetFolder, fileName.toLowerCase() + '_orig.png');
         const imagePath = path.join(targetFolder, fileName.toLowerCase() + '.png');
         const grayPath =  path.join(targetFolder, fileName.toLowerCase() + '_gray.png');
+        const monoPath =  path.join(targetFolder, fileName.toLowerCase() + '_mono.png');
 
-        //fs.createReadStream(file).pipe(fs.createWriteStream(originalCopiedPath)).end(() => {
+        if(!fs.existsSync) {
+            fs.writeFileSync(originalCopiedPath, fs.readFileSync(file));
+        }
 
-            im.resize({
-                srcPath: originalCopiedPath,
-                dstPath: imagePath,
-                format: 'png',
+        im.resize({
+            srcPath: originalCopiedPath,
+            dstPath: imagePath,
+            format: 'png',
+            width: size,
+            height: size,
+            sharpening: 0,
+            strip: false,
+            filter: null
+        }, (err) => { if(err) { console.warn('error while creating resized img', file, err.message, imagePath); return;} });
+        im.resize({
+            srcPath: originalCopiedPath,
+            dstPath: grayPath,
+            format: 'png',
+            width: size,
+            height: size,
+            sharpening: 0,
+            strip: false,
+            filter: null,
+            colorspace: 'gray'
+        }, (err) => { if(err) { console.warn('error while creating grayscale img', file, err.message, imagePath); return;} });
+        im.resize({
+            srcPath: originalCopiedPath,
+            dstPath: monoPath,
+            format: 'png',
+            width: size,
+            height: size,
+            sharpening: 0,
+            strip: false,
+            filter: null,
+            colorspace: 'gray',
+            customArgs: [
+                '-background', 'white', 
+                '-alpha', 'remove',
+                '-depth', '8', 
+                '-auto-level', 
+                '-contrast',
+                '-separate'
+            ]
+        }, (err) => {
+            if(err) { console.warn('error while creating mono img', file, err.message, grayPath); return; }
+            // Make sprite
+            return asciify(monoPath, {
+                fit: 'box',
                 width: size,
                 height: size,
-                sharpening: 0,
-                strip: false,
-                filter: null
-            }, (err) => { if(err) { console.warn('error while creating resized img', file, err.message, imagePath); return;} });
-            im.resize({
-                srcPath: originalCopiedPath,
-                dstPath: grayPath,
-                format: 'png',
-                width: size,
-                height: size,
-                sharpening: 0,
-                strip: false,
-                filter: null,
-                colorspace: 'gray'
-            }, (err) => {
-                if(err) { console.warn('error while creating grayscale img', file, err.message, grayPath); return; }
-                // Make sprite
-                return asciify(grayPath, {
-                    fit: 'box',
-                    width: size,
-                    height: size,
-                    color: false,
-                    format: 'array',
-                    c_ratio: 1
+                color: false,
+                format: 'array',
+                c_ratio: 1
 
-                }).then(spriteArray => {
+            }).then(spriteArray => {
 
-                    var sprite = asciifyToPlantuml(spriteArray, size);
-                    var format = `${spriteArray.length}x${spriteArray[0].length}`;
-                    const imgName = "MSIMG_" + fileName.replace(/_/g, '').toUpperCase();
-                    const localVarName = fileName.replace(/_/g, '').toLowerCase();
-                    const content = `@startuml\nsprite \$${localVarName} [${format}/16] {\n${sprite}\n}\n\n`
-                        +  `!define ${imgName}_G <img:../sprites/${folderName}/${fileName}_gray.png>\n`
-                        +  `!define ${imgName}_C <img:../sprites/${folderName}/${fileName}.png>\n`
-                        // + `!define ${entityName}(_alias) ENTITY(rectangle,black,${localVarName},_alias,${stereoName})\n`
-                        // + `!define ${entityName}(_alias, _label) ENTITY(rectangle,black,${localVarName},_label, _alias,${stereoName})\n`
-                        // + `!define ${entityName}(_alias, _label, _shape) ENTITY(_shape,black,${localVarName},_label, _alias,${stereoName})\n`
-                        // + `!define ${entityName}(_alias, _label, _shape, _color) ENTITY(_shape,_color,${localVarName},_label, _alias,${stereoName})\n`
-                        // + `skinparam folderBackgroundColor<<${stereoName}>> White\n`
-                        + `@enduml`
-                    ;
-                    const fullPath = path.join(targetFolder, fileName + '.puml');
-                    fs.writeFileSync(fullPath, content);
-                    //fs.unlinkSync(originalCopiedPath);
-                });
-            }); 
-        //});
+                var sprite = asciifyToPlantuml(spriteArray, size);
+                //console.log(fileName);
+                var format = `${spriteArray.length}x${spriteArray[0].length}`;
+                const imgName = "MSIMG_" + fileName.replace(/_/g, '').toUpperCase();
+                const localVarName = fileName.replace(/_/g, '').toLowerCase();
+                const content = `@startuml\nsprite \$${localVarName} [${format}/16] {\n${sprite}\n}\n\n`
+                    +  `!define ${imgName}_G <img:../sprites/${folderName}/${fileName}_gray.png>\n`
+                    +  `!define ${imgName}_M <img:../sprites/${folderName}/${fileName}_mono.png>\n`
+                    +  `!define ${imgName}_C <img:../sprites/${folderName}/${fileName}.png>\n`
+                    // + `!define ${entityName}(_alias) ENTITY(rectangle,black,${localVarName},_alias,${stereoName})\n`
+                    // + `!define ${entityName}(_alias, _label) ENTITY(rectangle,black,${localVarName},_label, _alias,${stereoName})\n`
+                    // + `!define ${entityName}(_alias, _label, _shape) ENTITY(_shape,black,${localVarName},_label, _alias,${stereoName})\n`
+                    // + `!define ${entityName}(_alias, _label, _shape, _color) ENTITY(_shape,_color,${localVarName},_label, _alias,${stereoName})\n`
+                    // + `skinparam folderBackgroundColor<<${stereoName}>> White\n`
+                    + `@enduml`
+                ;
+                const fullPath = path.join(targetFolder, fileName + '.puml');
+                fs.writeFileSync(fullPath, content);
+            });
+        }); 
     });
 }).then(() => {
     const folders = fs.readdirSync(resultDir).filter(name => fs.statSync(path.join(resultDir, name)).isDirectory());
