@@ -1,6 +1,6 @@
 @startuml
 
-!include "styling.puml"
+!include "_styling.puml"
 
 left to right direction
 skinparam defaultTextAlignment center

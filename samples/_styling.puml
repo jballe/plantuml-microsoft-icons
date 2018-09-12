@@ -1,17 +1,9 @@
 @startuml
 
-left to right direction
-
 skinparam monochrome true
 skinparam backgroundColor white
 skinparam linetype polyline
 skinParam packageStyle rectangle
-skinparam packageStereotype {
-    FontSize 0
-}
-skinparam rectangleStereotype {
-    FontSize 0
-}
 
 skinparam component {
   borderColor Transparent
