@@ -26,6 +26,7 @@ skinparam component {
 
 hide sterotype
 
+' !define MS_SPRITESPATH ../sprites
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 ' !includeurl MS_SPRITESPATH/Cloud.puml
 ' !includeurl MS_SPRITESPATH/Enterprise.puml
@@ -35,24 +36,24 @@ hide sterotype
 !includeurl MS_SPRITESPATH/Cloud/Azure_Active_Directory.puml
 !includeurl MS_SPRITESPATH/Enterprise/Settings.puml
 !includeurl MS_SPRITESPATH/Enterprise/Web.puml
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !includeurl MS_SPRITESPATH/Enterprise/Web_server.puml
 !includeurl MS_SPRITESPATH/Enterprise/Windows_Server.puml
 !includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
 !includeurl MS_SPRITESPATH/OtherMicrosoftProd/Microsoft.puml
 
 'title Microsoft Solution <$microsoft>
-title Microsoft Solution MSIMG_MICROSOFT_C
+title Microsoft Solution MSIMG_MICROSOFT_C 
 
 
 cloud "Azure MSIMG_MICROSOFTAZURE_C" as azure {
-    rectangle "appservice \n MSIMG_AZUREAPPSERVICE_G" as appservice
+    rectangle "appservice \n MSIMG_AZUREAPPSERVICE_M" as appservice
     database "ad \n MSIMG_AZUREACTIVEDIRECTORY_G" as ad
     database "settings \n MSIMG_SETTINGS_G" as settings
 }
 
 rectangle "On premise" {
     component "web <&heart>\n MSIMG_WEBSERVER_G" as webserver
+    component "web sprite\n <$azureappservice>"
 }
 
 rectangle "Locally" {

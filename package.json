@@ -4,7 +4,8 @@
   "description": "Microsoft iconset for plantuml",
   "main": "index.js",
   "scripts": {
-    "start": "node bld/build.js"
+    "start": "node bld/build.js",
+    "samples": "java -jar artifacts/plantuml.jar samples/azure.puml"
   },
   "author": "",
   "license": "ISC",
