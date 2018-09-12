@@ -24,7 +24,7 @@ function ignoreFile(file, stats) {
 // asciify format:
 // Set of basic characters ordered by increasing "darkness"
 var chars =        ' .,:;i1tfLCG08@';
-var replacements = '012346789ABCDEF';
+var replacements = 'FFFFE9855310000';
 var map = [];
 for(var index = 0; index<chars.length; index++) {
     var c = chars[index];
