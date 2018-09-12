@@ -1,0 +1,88 @@
+@startuml
+!include styling.puml 
+left to right direction
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!include ../sprites/OMS.puml
+rectangle "OMS" {
+  rectangle "OMS_alerts" { 
+    component "MSIMG_OMSALERTS_M" 
+    component "MSIMG_OMSALERTS_C" 
+  }
+  rectangle "OMS_App_with_changes" { 
+    component "MSIMG_OMSAPPWITHCHANGES_M" 
+    component "MSIMG_OMSAPPWITHCHANGES_C" 
+  }
+  rectangle "OMS_Assessments" { 
+    component "MSIMG_OMSASSESSMENTS_M" 
+    component "MSIMG_OMSASSESSMENTS_C" 
+  }
+  rectangle "OMS_Capacity" { 
+    component "MSIMG_OMSCAPACITY_M" 
+    component "MSIMG_OMSCAPACITY_C" 
+  }
+  rectangle "OMS_Config_Assessment" { 
+    component "MSIMG_OMSCONFIGASSESSMENT_M" 
+    component "MSIMG_OMSCONFIGASSESSMENT_C" 
+  }
+  rectangle "OMS_Dashboard" { 
+    component "MSIMG_OMSDASHBOARD_M" 
+    component "MSIMG_OMSDASHBOARD_C" 
+  }
+  rectangle "OMS_Dependency_Monitor" { 
+    component "MSIMG_OMSDEPENDENCYMONITOR_M" 
+    component "MSIMG_OMSDEPENDENCYMONITOR_C" 
+  }
+  rectangle "OMS_Diagnostics" { 
+    component "MSIMG_OMSDIAGNOSTICS_M" 
+    component "MSIMG_OMSDIAGNOSTICS_C" 
+  }
+  rectangle "OMS_Jobs" { 
+    component "MSIMG_OMSJOBS_M" 
+    component "MSIMG_OMSJOBS_C" 
+  }
+  rectangle "OMS_Log_Management" { 
+    component "MSIMG_OMSLOGMANAGEMENT_M" 
+    component "MSIMG_OMSLOGMANAGEMENT_C" 
+  }
+  rectangle "OMS_Log_Search" { 
+    component "MSIMG_OMSLOGSEARCH_M" 
+    component "MSIMG_OMSLOGSEARCH_C" 
+  }
+  rectangle "OMS_Malware_Assessment" { 
+    component "MSIMG_OMSMALWAREASSESSMENT_M" 
+    component "MSIMG_OMSMALWAREASSESSMENT_C" 
+  }
+  rectangle "OMS_Overview" { 
+    component "MSIMG_OMSOVERVIEW_M" 
+    component "MSIMG_OMSOVERVIEW_C" 
+  }
+  rectangle "OMS_Security" { 
+    component "MSIMG_OMSSECURITY_M" 
+    component "MSIMG_OMSSECURITY_C" 
+  }
+  rectangle "OMS_Server_with_changes" { 
+    component "MSIMG_OMSSERVERWITHCHANGES_M" 
+    component "MSIMG_OMSSERVERWITHCHANGES_C" 
+  }
+  rectangle "OMS_Services" { 
+    component "MSIMG_OMSSERVICES_M" 
+    component "MSIMG_OMSSERVICES_C" 
+  }
+  rectangle "OMS_Solutions" { 
+    component "MSIMG_OMSSOLUTIONS_M" 
+    component "MSIMG_OMSSOLUTIONS_C" 
+  }
+  rectangle "OMS_System_update" { 
+    component "MSIMG_OMSSYSTEMUPDATE_M" 
+    component "MSIMG_OMSSYSTEMUPDATE_C" 
+  }
+  rectangle "OMS_Track_Changes" { 
+    component "MSIMG_OMSTRACKCHANGES_M" 
+    component "MSIMG_OMSTRACKCHANGES_C" 
+  }
+  rectangle "OMS_Wire_Data" { 
+    component "MSIMG_OMSWIREDATA_M" 
+    component "MSIMG_OMSWIREDATA_C" 
+  }
+} 
+@enduml

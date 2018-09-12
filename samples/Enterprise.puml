@@ -1,0 +1,380 @@
+@startuml
+!include styling.puml 
+left to right direction
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!include ../sprites/Enterprise.puml
+rectangle "Enterprise" {
+  rectangle "ActiveDirectoryFederationServicesProxy" { 
+    component "MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_M" 
+    component "MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_C" 
+  }
+  rectangle "AD_FS" { 
+    component "MSIMG_ADFS_M" 
+    component "MSIMG_ADFS_C" 
+  }
+  rectangle "Android_Phone" { 
+    component "MSIMG_ANDROIDPHONE_M" 
+    component "MSIMG_ANDROIDPHONE_C" 
+  }
+  rectangle "Application_blank" { 
+    component "MSIMG_APPLICATIONBLANK_M" 
+    component "MSIMG_APPLICATIONBLANK_C" 
+  }
+  rectangle "Application_server" { 
+    component "MSIMG_APPLICATIONSERVER_M" 
+    component "MSIMG_APPLICATIONSERVER_C" 
+  }
+  rectangle "App_generic" { 
+    component "MSIMG_APPGENERIC_M" 
+    component "MSIMG_APPGENERIC_C" 
+  }
+  rectangle "Azure_pack" { 
+    component "MSIMG_AZUREPACK_M" 
+    component "MSIMG_AZUREPACK_C" 
+  }
+  rectangle "Backup_local" { 
+    component "MSIMG_BACKUPLOCAL_M" 
+    component "MSIMG_BACKUPLOCAL_C" 
+  }
+  rectangle "Backup_online" { 
+    component "MSIMG_BACKUPONLINE_M" 
+    component "MSIMG_BACKUPONLINE_C" 
+  }
+  rectangle "Certificate" { 
+    component "MSIMG_CERTIFICATE_M" 
+    component "MSIMG_CERTIFICATE_C" 
+  }
+  rectangle "Client_application" { 
+    component "MSIMG_CLIENTAPPLICATION_M" 
+    component "MSIMG_CLIENTAPPLICATION_C" 
+  }
+  rectangle "Cloud" { 
+    component "MSIMG_CLOUD_M" 
+    component "MSIMG_CLOUD_C" 
+  }
+  rectangle "Cluster_server" { 
+    component "MSIMG_CLUSTERSERVER_M" 
+    component "MSIMG_CLUSTERSERVER_C" 
+  }
+  rectangle "code_file" { 
+    component "MSIMG_CODEFILE_M" 
+    component "MSIMG_CODEFILE_C" 
+  }
+  rectangle "Connectors" { 
+    component "MSIMG_CONNECTORS_M" 
+    component "MSIMG_CONNECTORS_C" 
+  }
+  rectangle "Database_generic" { 
+    component "MSIMG_DATABASEGENERIC_M" 
+    component "MSIMG_DATABASEGENERIC_C" 
+  }
+  rectangle "Database_server" { 
+    component "MSIMG_DATABASESERVER_M" 
+    component "MSIMG_DATABASESERVER_C" 
+  }
+  rectangle "Database_synchronization" { 
+    component "MSIMG_DATABASESYNCHRONIZATION_M" 
+    component "MSIMG_DATABASESYNCHRONIZATION_C" 
+  }
+  rectangle "Device" { 
+    component "MSIMG_DEVICE_M" 
+    component "MSIMG_DEVICE_C" 
+  }
+  rectangle "Direct_Access_feature" { 
+    component "MSIMG_DIRECTACCESSFEATURE_M" 
+    component "MSIMG_DIRECTACCESSFEATURE_C" 
+  }
+  rectangle "Document" { 
+    component "MSIMG_DOCUMENT_M" 
+    component "MSIMG_DOCUMENT_C" 
+  }
+  rectangle "Domain_controller" { 
+    component "MSIMG_DOMAINCONTROLLER_M" 
+    component "MSIMG_DOMAINCONTROLLER_C" 
+  }
+  rectangle "Enterprise_Building" { 
+    component "MSIMG_ENTERPRISEBUILDING_M" 
+    component "MSIMG_ENTERPRISEBUILDING_C" 
+  }
+  rectangle "File_general" { 
+    component "MSIMG_FILEGENERAL_M" 
+    component "MSIMG_FILEGENERAL_C" 
+  }
+  rectangle "Filter" { 
+    component "MSIMG_FILTER_M" 
+    component "MSIMG_FILTER_C" 
+  }
+  rectangle "Firewall" { 
+    component "MSIMG_FIREWALL_M" 
+    component "MSIMG_FIREWALL_C" 
+  }
+  rectangle "Folder" { 
+    component "MSIMG_FOLDER_M" 
+    component "MSIMG_FOLDER_C" 
+  }
+  rectangle "Gateway" { 
+    component "MSIMG_GATEWAY_M" 
+    component "MSIMG_GATEWAY_C" 
+  }
+  rectangle "Generic_code" { 
+    component "MSIMG_GENERICCODE_M" 
+    component "MSIMG_GENERICCODE_C" 
+  }
+  rectangle "Healthy" { 
+    component "MSIMG_HEALTHY_M" 
+    component "MSIMG_HEALTHY_C" 
+  }
+  rectangle "Healthy_grey" { 
+    component "MSIMG_HEALTHYGREY_M" 
+    component "MSIMG_HEALTHYGREY_C" 
+  }
+  rectangle "Health_monitoring" { 
+    component "MSIMG_HEALTHMONITORING_M" 
+    component "MSIMG_HEALTHMONITORING_C" 
+  }
+  rectangle "Import_generic" { 
+    component "MSIMG_IMPORTGENERIC_M" 
+    component "MSIMG_IMPORTGENERIC_C" 
+  }
+  rectangle "Internet" { 
+    component "MSIMG_INTERNET_M" 
+    component "MSIMG_INTERNET_C" 
+  }
+  rectangle "Internet_hollow" { 
+    component "MSIMG_INTERNETHOLLOW_M" 
+    component "MSIMG_INTERNETHOLLOW_C" 
+  }
+  rectangle "Keyboard" { 
+    component "MSIMG_KEYBOARD_M" 
+    component "MSIMG_KEYBOARD_C" 
+  }
+  rectangle "Key_permissions" { 
+    component "MSIMG_KEYPERMISSIONS_M" 
+    component "MSIMG_KEYPERMISSIONS_C" 
+  }
+  rectangle "Laptop_computer" { 
+    component "MSIMG_LAPTOPCOMPUTER_M" 
+    component "MSIMG_LAPTOPCOMPUTER_C" 
+  }
+  rectangle "Load_balancer_Generic" { 
+    component "MSIMG_LOADBALANCERGENERIC_M" 
+    component "MSIMG_LOADBALANCERGENERIC_C" 
+  }
+  rectangle "Load_balancer_Generic_white" { 
+    component "MSIMG_LOADBALANCERGENERICWHITE_M" 
+    component "MSIMG_LOADBALANCERGENERICWHITE_C" 
+  }
+  rectangle "Load_Testing" { 
+    component "MSIMG_LOADTESTING_M" 
+    component "MSIMG_LOADTESTING_C" 
+  }
+  rectangle "Lock_protected" { 
+    component "MSIMG_LOCKPROTECTED_M" 
+    component "MSIMG_LOCKPROTECTED_C" 
+  }
+  rectangle "lock_unlocked_accessible" { 
+    component "MSIMG_LOCKUNLOCKEDACCESSIBLE_M" 
+    component "MSIMG_LOCKUNLOCKEDACCESSIBLE_C" 
+  }
+  rectangle "Maintenance" { 
+    component "MSIMG_MAINTENANCE_M" 
+    component "MSIMG_MAINTENANCE_C" 
+  }
+  rectangle "Management_console" { 
+    component "MSIMG_MANAGEMENTCONSOLE_M" 
+    component "MSIMG_MANAGEMENTCONSOLE_C" 
+  }
+  rectangle "Message" { 
+    component "MSIMG_MESSAGE_M" 
+    component "MSIMG_MESSAGE_C" 
+  }
+  rectangle "Monitor" { 
+    component "MSIMG_MONITOR_M" 
+    component "MSIMG_MONITOR_C" 
+  }
+  rectangle "Monitor_running_apps" { 
+    component "MSIMG_MONITORRUNNINGAPPS_M" 
+    component "MSIMG_MONITORRUNNINGAPPS_C" 
+  }
+  rectangle "Mouse" { 
+    component "MSIMG_MOUSE_M" 
+    component "MSIMG_MOUSE_C" 
+  }
+  rectangle "Network_card" { 
+    component "MSIMG_NETWORKCARD_M" 
+    component "MSIMG_NETWORKCARD_C" 
+  }
+  rectangle "Not_allowed" { 
+    component "MSIMG_NOTALLOWED_M" 
+    component "MSIMG_NOTALLOWED_C" 
+  }
+  rectangle "Performance" { 
+    component "MSIMG_PERFORMANCE_M" 
+    component "MSIMG_PERFORMANCE_C" 
+  }
+  rectangle "Performance_monitor" { 
+    component "MSIMG_PERFORMANCEMONITOR_M" 
+    component "MSIMG_PERFORMANCEMONITOR_C" 
+  }
+  rectangle "Phone" { 
+    component "MSIMG_PHONE_M" 
+    component "MSIMG_PHONE_C" 
+  }
+  rectangle "Plug_and_play" { 
+    component "MSIMG_PLUGANDPLAY_M" 
+    component "MSIMG_PLUGANDPLAY_C" 
+  }
+  rectangle "Powershell_script_file" { 
+    component "MSIMG_POWERSHELLSCRIPTFILE_M" 
+    component "MSIMG_POWERSHELLSCRIPTFILE_C" 
+  }
+  rectangle "Protocol_stack" { 
+    component "MSIMG_PROTOCOLSTACK_M" 
+    component "MSIMG_PROTOCOLSTACK_C" 
+  }
+  rectangle "Queue_general" { 
+    component "MSIMG_QUEUEGENERAL_M" 
+    component "MSIMG_QUEUEGENERAL_C" 
+  }
+  rectangle "RMS_connector" { 
+    component "MSIMG_RMSCONNECTOR_M" 
+    component "MSIMG_RMSCONNECTOR_C" 
+  }
+  rectangle "Router" { 
+    component "MSIMG_ROUTER_M" 
+    component "MSIMG_ROUTER_C" 
+  }
+  rectangle "rpd_Remoting_file" { 
+    component "MSIMG_RPDREMOTINGFILE_M" 
+    component "MSIMG_RPDREMOTINGFILE_C" 
+  }
+  rectangle "Script_file" { 
+    component "MSIMG_SCRIPTFILE_M" 
+    component "MSIMG_SCRIPTFILE_C" 
+  }
+  rectangle "Secure_virtual_machine" { 
+    component "MSIMG_SECUREVIRTUALMACHINE_M" 
+    component "MSIMG_SECUREVIRTUALMACHINE_C" 
+  }
+  rectangle "Server_blade" { 
+    component "MSIMG_SERVERBLADE_M" 
+    component "MSIMG_SERVERBLADE_C" 
+  }
+  rectangle "Server_directory" { 
+    component "MSIMG_SERVERDIRECTORY_M" 
+    component "MSIMG_SERVERDIRECTORY_C" 
+  }
+  rectangle "Server_farm" { 
+    component "MSIMG_SERVERFARM_M" 
+    component "MSIMG_SERVERFARM_C" 
+  }
+  rectangle "Server_generic" { 
+    component "MSIMG_SERVERGENERIC_M" 
+    component "MSIMG_SERVERGENERIC_C" 
+  }
+  rectangle "Server_rack" { 
+    component "MSIMG_SERVERRACK_M" 
+    component "MSIMG_SERVERRACK_C" 
+  }
+  rectangle "Settings" { 
+    component "MSIMG_SETTINGS_M" 
+    component "MSIMG_SETTINGS_C" 
+  }
+  rectangle "Shared_folder" { 
+    component "MSIMG_SHAREDFOLDER_M" 
+    component "MSIMG_SHAREDFOLDER_C" 
+  }
+  rectangle "Smartcard" { 
+    component "MSIMG_SMARTCARD_M" 
+    component "MSIMG_SMARTCARD_C" 
+  }
+  rectangle "Startup_task" { 
+    component "MSIMG_STARTUPTASK_M" 
+    component "MSIMG_STARTUPTASK_C" 
+  }
+  rectangle "Storage" { 
+    component "MSIMG_STORAGE_M" 
+    component "MSIMG_STORAGE_C" 
+  }
+  rectangle "stored_procedures" { 
+    component "MSIMG_STOREDPROCEDURES_M" 
+    component "MSIMG_STOREDPROCEDURES_C" 
+  }
+  rectangle "Table" { 
+    component "MSIMG_TABLE_M" 
+    component "MSIMG_TABLE_C" 
+  }
+  rectangle "Tablet" { 
+    component "MSIMG_TABLET_M" 
+    component "MSIMG_TABLET_C" 
+  }
+  rectangle "Tool" { 
+    component "MSIMG_TOOL_M" 
+    component "MSIMG_TOOL_C" 
+  }
+  rectangle "triggers" { 
+    component "MSIMG_TRIGGERS_M" 
+    component "MSIMG_TRIGGERS_C" 
+  }
+  rectangle "Tunnel" { 
+    component "MSIMG_TUNNEL_M" 
+    component "MSIMG_TUNNEL_C" 
+  }
+  rectangle "UDF_Function" { 
+    component "MSIMG_UDFFUNCTION_M" 
+    component "MSIMG_UDFFUNCTION_C" 
+  }
+  rectangle "Unhealthy" { 
+    component "MSIMG_UNHEALTHY_M" 
+    component "MSIMG_UNHEALTHY_C" 
+  }
+  rectangle "USB" { 
+    component "MSIMG_USB_M" 
+    component "MSIMG_USB_C" 
+  }
+  rectangle "User_Enterprise" { 
+    component "MSIMG_USERENTERPRISE_M" 
+    component "MSIMG_USERENTERPRISE_C" 
+  }
+  rectangle "User_permissions" { 
+    component "MSIMG_USERPERMISSIONS_M" 
+    component "MSIMG_USERPERMISSIONS_C" 
+  }
+  rectangle "Video" { 
+    component "MSIMG_VIDEO_M" 
+    component "MSIMG_VIDEO_C" 
+  }
+  rectangle "Virtual_Machine" { 
+    component "MSIMG_VIRTUALMACHINE_M" 
+    component "MSIMG_VIRTUALMACHINE_C" 
+  }
+  rectangle "Web" { 
+    component "MSIMG_WEB_M" 
+    component "MSIMG_WEB_C" 
+  }
+  rectangle "WebSite_generic" { 
+    component "MSIMG_WEBSITEGENERIC_M" 
+    component "MSIMG_WEBSITEGENERIC_C" 
+  }
+  rectangle "Web_server" { 
+    component "MSIMG_WEBSERVER_M" 
+    component "MSIMG_WEBSERVER_C" 
+  }
+  rectangle "Windows_Server" { 
+    component "MSIMG_WINDOWSSERVER_M" 
+    component "MSIMG_WINDOWSSERVER_C" 
+  }
+  rectangle "Wireless_connection" { 
+    component "MSIMG_WIRELESSCONNECTION_M" 
+    component "MSIMG_WIRELESSCONNECTION_C" 
+  }
+  rectangle "Workstation_client" { 
+    component "MSIMG_WORKSTATIONCLIENT_M" 
+    component "MSIMG_WORKSTATIONCLIENT_C" 
+  }
+  rectangle "XML_web_service" { 
+    component "MSIMG_XMLWEBSERVICE_M" 
+    component "MSIMG_XMLWEBSERVICE_C" 
+  }
+} 
+@enduml

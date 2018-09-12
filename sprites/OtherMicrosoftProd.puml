@@ -1,21 +1,21 @@
 @startuml
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Access.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/BI_Product.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Cortana_blue.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Cortana_blue_2.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Exchange.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Exel.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Lync.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Microsoft.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Outlook.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/PowerApps.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/PowerPoint.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Sharepoint.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Skype.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Visio.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Windows.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Word.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Xbox.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/XBox_One.puml@enduml
+!include OtherMicrosoftProd/Access.puml
+!include OtherMicrosoftProd/BI_Product.puml
+!include OtherMicrosoftProd/Cortana_blue.puml
+!include OtherMicrosoftProd/Cortana_blue_2.puml
+!include OtherMicrosoftProd/Excel.puml
+!include OtherMicrosoftProd/Exchange.puml
+!include OtherMicrosoftProd/Exel.puml
+!include OtherMicrosoftProd/Lync.puml
+!include OtherMicrosoftProd/Microsoft.puml
+!include OtherMicrosoftProd/Outlook.puml
+!include OtherMicrosoftProd/PowerApps.puml
+!include OtherMicrosoftProd/PowerPoint.puml
+!include OtherMicrosoftProd/Sharepoint.puml
+!include OtherMicrosoftProd/Skype.puml
+!include OtherMicrosoftProd/Visio.puml
+!include OtherMicrosoftProd/Windows.puml
+!include OtherMicrosoftProd/Word.puml
+!include OtherMicrosoftProd/Xbox.puml
+!include OtherMicrosoftProd/XBox_One.puml
+@enduml

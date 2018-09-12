@@ -1,30 +1,9 @@
 @startuml
 
-skinparam defaultTextAlignment center
+!include "styling.puml"
 
 left to right direction
-
-skinparam monochrome true
-skinparam backgroundColor white
-skinparam linetype polyline
-skinParam packageStyle rectangle
-skinparam packageStereotype {
-    FontSize 0
-}
-skinparam rectangleStereotype {
-    FontSize 0
-}
-
-skinparam component {
-  borderColor Transparent
-  backgroundColor Transparent
-  fontColor Black
-  stereotypeFontColor Transparent
-  shadowColor Transparent
-  shadowing false
-}
-
-hide sterotype
+skinparam defaultTextAlignment center
 
 ' !define MS_SPRITESPATH ../sprites
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites

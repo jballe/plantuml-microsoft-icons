@@ -1,0 +1,436 @@
+@startuml
+!include styling.puml 
+left to right direction
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!include ../sprites/GeneralSymbols.puml
+rectangle "GeneralSymbols" {
+  rectangle "10green" { 
+    component "MSIMG_10GREEN_M" 
+    component "MSIMG_10GREEN_C" 
+  }
+  rectangle "10magenta" { 
+    component "MSIMG_10MAGENTA_M" 
+    component "MSIMG_10MAGENTA_C" 
+  }
+  rectangle "10orange" { 
+    component "MSIMG_10ORANGE_M" 
+    component "MSIMG_10ORANGE_C" 
+  }
+  rectangle "10red" { 
+    component "MSIMG_10RED_M" 
+    component "MSIMG_10RED_C" 
+  }
+  rectangle "11green" { 
+    component "MSIMG_11GREEN_M" 
+    component "MSIMG_11GREEN_C" 
+  }
+  rectangle "11magenta" { 
+    component "MSIMG_11MAGENTA_M" 
+    component "MSIMG_11MAGENTA_C" 
+  }
+  rectangle "11orange" { 
+    component "MSIMG_11ORANGE_M" 
+    component "MSIMG_11ORANGE_C" 
+  }
+  rectangle "11red" { 
+    component "MSIMG_11RED_M" 
+    component "MSIMG_11RED_C" 
+  }
+  rectangle "12green" { 
+    component "MSIMG_12GREEN_M" 
+    component "MSIMG_12GREEN_C" 
+  }
+  rectangle "12magenta" { 
+    component "MSIMG_12MAGENTA_M" 
+    component "MSIMG_12MAGENTA_C" 
+  }
+  rectangle "12orange" { 
+    component "MSIMG_12ORANGE_M" 
+    component "MSIMG_12ORANGE_C" 
+  }
+  rectangle "12red" { 
+    component "MSIMG_12RED_M" 
+    component "MSIMG_12RED_C" 
+  }
+  rectangle "13green" { 
+    component "MSIMG_13GREEN_M" 
+    component "MSIMG_13GREEN_C" 
+  }
+  rectangle "13magenta" { 
+    component "MSIMG_13MAGENTA_M" 
+    component "MSIMG_13MAGENTA_C" 
+  }
+  rectangle "13orange" { 
+    component "MSIMG_13ORANGE_M" 
+    component "MSIMG_13ORANGE_C" 
+  }
+  rectangle "13red" { 
+    component "MSIMG_13RED_M" 
+    component "MSIMG_13RED_C" 
+  }
+  rectangle "14green" { 
+    component "MSIMG_14GREEN_M" 
+    component "MSIMG_14GREEN_C" 
+  }
+  rectangle "14magenta" { 
+    component "MSIMG_14MAGENTA_M" 
+    component "MSIMG_14MAGENTA_C" 
+  }
+  rectangle "14orange" { 
+    component "MSIMG_14ORANGE_M" 
+    component "MSIMG_14ORANGE_C" 
+  }
+  rectangle "14red" { 
+    component "MSIMG_14RED_M" 
+    component "MSIMG_14RED_C" 
+  }
+  rectangle "15green" { 
+    component "MSIMG_15GREEN_M" 
+    component "MSIMG_15GREEN_C" 
+  }
+  rectangle "15magenta" { 
+    component "MSIMG_15MAGENTA_M" 
+    component "MSIMG_15MAGENTA_C" 
+  }
+  rectangle "15orange" { 
+    component "MSIMG_15ORANGE_M" 
+    component "MSIMG_15ORANGE_C" 
+  }
+  rectangle "15red" { 
+    component "MSIMG_15RED_M" 
+    component "MSIMG_15RED_C" 
+  }
+  rectangle "16green" { 
+    component "MSIMG_16GREEN_M" 
+    component "MSIMG_16GREEN_C" 
+  }
+  rectangle "16magenta" { 
+    component "MSIMG_16MAGENTA_M" 
+    component "MSIMG_16MAGENTA_C" 
+  }
+  rectangle "16orange" { 
+    component "MSIMG_16ORANGE_M" 
+    component "MSIMG_16ORANGE_C" 
+  }
+  rectangle "16red" { 
+    component "MSIMG_16RED_M" 
+    component "MSIMG_16RED_C" 
+  }
+  rectangle "17green" { 
+    component "MSIMG_17GREEN_M" 
+    component "MSIMG_17GREEN_C" 
+  }
+  rectangle "17magenta" { 
+    component "MSIMG_17MAGENTA_M" 
+    component "MSIMG_17MAGENTA_C" 
+  }
+  rectangle "17orange" { 
+    component "MSIMG_17ORANGE_M" 
+    component "MSIMG_17ORANGE_C" 
+  }
+  rectangle "17red" { 
+    component "MSIMG_17RED_M" 
+    component "MSIMG_17RED_C" 
+  }
+  rectangle "18green" { 
+    component "MSIMG_18GREEN_M" 
+    component "MSIMG_18GREEN_C" 
+  }
+  rectangle "18magenta" { 
+    component "MSIMG_18MAGENTA_M" 
+    component "MSIMG_18MAGENTA_C" 
+  }
+  rectangle "18orange" { 
+    component "MSIMG_18ORANGE_M" 
+    component "MSIMG_18ORANGE_C" 
+  }
+  rectangle "18red" { 
+    component "MSIMG_18RED_M" 
+    component "MSIMG_18RED_C" 
+  }
+  rectangle "19green" { 
+    component "MSIMG_19GREEN_M" 
+    component "MSIMG_19GREEN_C" 
+  }
+  rectangle "19magenta" { 
+    component "MSIMG_19MAGENTA_M" 
+    component "MSIMG_19MAGENTA_C" 
+  }
+  rectangle "19orange" { 
+    component "MSIMG_19ORANGE_M" 
+    component "MSIMG_19ORANGE_C" 
+  }
+  rectangle "19red" { 
+    component "MSIMG_19RED_M" 
+    component "MSIMG_19RED_C" 
+  }
+  rectangle "1green" { 
+    component "MSIMG_1GREEN_M" 
+    component "MSIMG_1GREEN_C" 
+  }
+  rectangle "1magenta" { 
+    component "MSIMG_1MAGENTA_M" 
+    component "MSIMG_1MAGENTA_C" 
+  }
+  rectangle "1orange" { 
+    component "MSIMG_1ORANGE_M" 
+    component "MSIMG_1ORANGE_C" 
+  }
+  rectangle "1red" { 
+    component "MSIMG_1RED_M" 
+    component "MSIMG_1RED_C" 
+  }
+  rectangle "20green" { 
+    component "MSIMG_20GREEN_M" 
+    component "MSIMG_20GREEN_C" 
+  }
+  rectangle "20magenta" { 
+    component "MSIMG_20MAGENTA_M" 
+    component "MSIMG_20MAGENTA_C" 
+  }
+  rectangle "20orange" { 
+    component "MSIMG_20ORANGE_M" 
+    component "MSIMG_20ORANGE_C" 
+  }
+  rectangle "20red" { 
+    component "MSIMG_20RED_M" 
+    component "MSIMG_20RED_C" 
+  }
+  rectangle "2green" { 
+    component "MSIMG_2GREEN_M" 
+    component "MSIMG_2GREEN_C" 
+  }
+  rectangle "2magenta" { 
+    component "MSIMG_2MAGENTA_M" 
+    component "MSIMG_2MAGENTA_C" 
+  }
+  rectangle "2orange" { 
+    component "MSIMG_2ORANGE_M" 
+    component "MSIMG_2ORANGE_C" 
+  }
+  rectangle "2red" { 
+    component "MSIMG_2RED_M" 
+    component "MSIMG_2RED_C" 
+  }
+  rectangle "3green" { 
+    component "MSIMG_3GREEN_M" 
+    component "MSIMG_3GREEN_C" 
+  }
+  rectangle "3magenta" { 
+    component "MSIMG_3MAGENTA_M" 
+    component "MSIMG_3MAGENTA_C" 
+  }
+  rectangle "3orange" { 
+    component "MSIMG_3ORANGE_M" 
+    component "MSIMG_3ORANGE_C" 
+  }
+  rectangle "3red" { 
+    component "MSIMG_3RED_M" 
+    component "MSIMG_3RED_C" 
+  }
+  rectangle "4green" { 
+    component "MSIMG_4GREEN_M" 
+    component "MSIMG_4GREEN_C" 
+  }
+  rectangle "4magenta" { 
+    component "MSIMG_4MAGENTA_M" 
+    component "MSIMG_4MAGENTA_C" 
+  }
+  rectangle "4orange" { 
+    component "MSIMG_4ORANGE_M" 
+    component "MSIMG_4ORANGE_C" 
+  }
+  rectangle "4red" { 
+    component "MSIMG_4RED_M" 
+    component "MSIMG_4RED_C" 
+  }
+  rectangle "5green" { 
+    component "MSIMG_5GREEN_M" 
+    component "MSIMG_5GREEN_C" 
+  }
+  rectangle "5magenta" { 
+    component "MSIMG_5MAGENTA_M" 
+    component "MSIMG_5MAGENTA_C" 
+  }
+  rectangle "5orange" { 
+    component "MSIMG_5ORANGE_M" 
+    component "MSIMG_5ORANGE_C" 
+  }
+  rectangle "5red" { 
+    component "MSIMG_5RED_M" 
+    component "MSIMG_5RED_C" 
+  }
+  rectangle "6green" { 
+    component "MSIMG_6GREEN_M" 
+    component "MSIMG_6GREEN_C" 
+  }
+  rectangle "6magenta" { 
+    component "MSIMG_6MAGENTA_M" 
+    component "MSIMG_6MAGENTA_C" 
+  }
+  rectangle "6orange" { 
+    component "MSIMG_6ORANGE_M" 
+    component "MSIMG_6ORANGE_C" 
+  }
+  rectangle "6red" { 
+    component "MSIMG_6RED_M" 
+    component "MSIMG_6RED_C" 
+  }
+  rectangle "7green" { 
+    component "MSIMG_7GREEN_M" 
+    component "MSIMG_7GREEN_C" 
+  }
+  rectangle "7magenta" { 
+    component "MSIMG_7MAGENTA_M" 
+    component "MSIMG_7MAGENTA_C" 
+  }
+  rectangle "7orange" { 
+    component "MSIMG_7ORANGE_M" 
+    component "MSIMG_7ORANGE_C" 
+  }
+  rectangle "7red" { 
+    component "MSIMG_7RED_M" 
+    component "MSIMG_7RED_C" 
+  }
+  rectangle "8green" { 
+    component "MSIMG_8GREEN_M" 
+    component "MSIMG_8GREEN_C" 
+  }
+  rectangle "8magenta" { 
+    component "MSIMG_8MAGENTA_M" 
+    component "MSIMG_8MAGENTA_C" 
+  }
+  rectangle "8orange" { 
+    component "MSIMG_8ORANGE_M" 
+    component "MSIMG_8ORANGE_C" 
+  }
+  rectangle "8red" { 
+    component "MSIMG_8RED_M" 
+    component "MSIMG_8RED_C" 
+  }
+  rectangle "9green" { 
+    component "MSIMG_9GREEN_M" 
+    component "MSIMG_9GREEN_C" 
+  }
+  rectangle "9magenta" { 
+    component "MSIMG_9MAGENTA_M" 
+    component "MSIMG_9MAGENTA_C" 
+  }
+  rectangle "9orange" { 
+    component "MSIMG_9ORANGE_M" 
+    component "MSIMG_9ORANGE_C" 
+  }
+  rectangle "9red" { 
+    component "MSIMG_9RED_M" 
+    component "MSIMG_9RED_C" 
+  }
+  rectangle "attachment" { 
+    component "MSIMG_ATTACHMENT_M" 
+    component "MSIMG_ATTACHMENT_C" 
+  }
+  rectangle "Audio" { 
+    component "MSIMG_AUDIO_M" 
+    component "MSIMG_AUDIO_C" 
+  }
+  rectangle "Bug" { 
+    component "MSIMG_BUG_M" 
+    component "MSIMG_BUG_C" 
+  }
+  rectangle "Building" { 
+    component "MSIMG_BUILDING_M" 
+    component "MSIMG_BUILDING_C" 
+  }
+  rectangle "Cable_settop_TV_box" { 
+    component "MSIMG_CABLESETTOPTVBOX_M" 
+    component "MSIMG_CABLESETTOPTVBOX_C" 
+  }
+  rectangle "Calendar" { 
+    component "MSIMG_CALENDAR_M" 
+    component "MSIMG_CALENDAR_C" 
+  }
+  rectangle "Chart" { 
+    component "MSIMG_CHART_M" 
+    component "MSIMG_CHART_C" 
+  }
+  rectangle "Checkmark_success" { 
+    component "MSIMG_CHECKMARKSUCCESS_M" 
+    component "MSIMG_CHECKMARKSUCCESS_C" 
+  }
+  rectangle "Continous_Cycle_Circle" { 
+    component "MSIMG_CONTINOUSCYCLECIRCLE_M" 
+    component "MSIMG_CONTINOUSCYCLECIRCLE_C" 
+  }
+  rectangle "Crossout_failure" { 
+    component "MSIMG_CROSSOUTFAILURE_M" 
+    component "MSIMG_CROSSOUTFAILURE_C" 
+  }
+  rectangle "Cut_and_paste" { 
+    component "MSIMG_CUTANDPASTE_M" 
+    component "MSIMG_CUTANDPASTE_C" 
+  }
+  rectangle "Filter" { 
+    component "MSIMG_FILTER_M" 
+    component "MSIMG_FILTER_C" 
+  }
+  rectangle "Folder" { 
+    component "MSIMG_FOLDER_M" 
+    component "MSIMG_FOLDER_C" 
+  }
+  rectangle "Game_Controller" { 
+    component "MSIMG_GAMECONTROLLER_M" 
+    component "MSIMG_GAMECONTROLLER_C" 
+  }
+  rectangle "Gears" { 
+    component "MSIMG_GEARS_M" 
+    component "MSIMG_GEARS_C" 
+  }
+  rectangle "Graph" { 
+    component "MSIMG_GRAPH_M" 
+    component "MSIMG_GRAPH_C" 
+  }
+  rectangle "Like" { 
+    component "MSIMG_LIKE_M" 
+    component "MSIMG_LIKE_C" 
+  }
+  rectangle "Not_allowed" { 
+    component "MSIMG_NOTALLOWED_M" 
+    component "MSIMG_NOTALLOWED_C" 
+  }
+  rectangle "Pointer_circle" { 
+    component "MSIMG_POINTERCIRCLE_M" 
+    component "MSIMG_POINTERCIRCLE_C" 
+  }
+  rectangle "Slider_bar_horizontal" { 
+    component "MSIMG_SLIDERBARHORIZONTAL_M" 
+    component "MSIMG_SLIDERBARHORIZONTAL_C" 
+  }
+  rectangle "Slider_bar_vertical" { 
+    component "MSIMG_SLIDERBARVERTICAL_M" 
+    component "MSIMG_SLIDERBARVERTICAL_C" 
+  }
+  rectangle "Tasks" { 
+    component "MSIMG_TASKS_M" 
+    component "MSIMG_TASKS_C" 
+  }
+  rectangle "Task_List_or_backlog" { 
+    component "MSIMG_TASKLISTORBACKLOG_M" 
+    component "MSIMG_TASKLISTORBACKLOG_C" 
+  }
+  rectangle "Tunnel" { 
+    component "MSIMG_TUNNEL_M" 
+    component "MSIMG_TUNNEL_C" 
+  }
+  rectangle "USB" { 
+    component "MSIMG_USB_M" 
+    component "MSIMG_USB_C" 
+  }
+  rectangle "User" { 
+    component "MSIMG_USER_M" 
+    component "MSIMG_USER_C" 
+  }
+  rectangle "Video" { 
+    component "MSIMG_VIDEO_M" 
+    component "MSIMG_VIDEO_C" 
+  }
+} 
+@enduml

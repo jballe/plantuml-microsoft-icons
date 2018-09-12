@@ -1,0 +1,900 @@
+@startuml
+!include styling.puml 
+left to right direction
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!include ../sprites/Cloud.puml
+rectangle "Cloud" {
+  rectangle "Accounts_Microsoft_account" { 
+    component "MSIMG_ACCOUNTSMICROSOFTACCOUNT_M" 
+    component "MSIMG_ACCOUNTSMICROSOFTACCOUNT_C" 
+  }
+  rectangle "Accounts_Work_account" { 
+    component "MSIMG_ACCOUNTSWORKACCOUNT_M" 
+    component "MSIMG_ACCOUNTSWORKACCOUNT_C" 
+  }
+  rectangle "Analysis_Service" { 
+    component "MSIMG_ANALYSISSERVICE_M" 
+    component "MSIMG_ANALYSISSERVICE_C" 
+  }
+  rectangle "Azure_Acitve_Directory_Access_Control" { 
+    component "MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_M" 
+    component "MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_C" 
+  }
+  rectangle "Azure_Active_Directory" { 
+    component "MSIMG_AZUREACTIVEDIRECTORY_M" 
+    component "MSIMG_AZUREACTIVEDIRECTORY_C" 
+  }
+  rectangle "Azure_Active_Directory_COLOR" { 
+    component "MSIMG_AZUREACTIVEDIRECTORYCOLOR_M" 
+    component "MSIMG_AZUREACTIVEDIRECTORYCOLOR_C" 
+  }
+  rectangle "Azure_Active_Directory_Health_Monitoring" { 
+    component "MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_M" 
+    component "MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_C" 
+  }
+  rectangle "Azure_Active_Directory_Health_monitoring_COLOR" { 
+    component "MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORINGCOLOR_M" 
+    component "MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORINGCOLOR_C" 
+  }
+  rectangle "Azure_Advisor" { 
+    component "MSIMG_AZUREADVISOR_M" 
+    component "MSIMG_AZUREADVISOR_C" 
+  }
+  rectangle "Azure_alert" { 
+    component "MSIMG_AZUREALERT_M" 
+    component "MSIMG_AZUREALERT_C" 
+  }
+  rectangle "Azure_API_Management" { 
+    component "MSIMG_AZUREAPIMANAGEMENT_M" 
+    component "MSIMG_AZUREAPIMANAGEMENT_C" 
+  }
+  rectangle "Azure_API_Management_COLOR" { 
+    component "MSIMG_AZUREAPIMANAGEMENTCOLOR_M" 
+    component "MSIMG_AZUREAPIMANAGEMENTCOLOR_C" 
+  }
+  rectangle "Azure_Application_Gateway" { 
+    component "MSIMG_AZUREAPPLICATIONGATEWAY_M" 
+    component "MSIMG_AZUREAPPLICATIONGATEWAY_C" 
+  }
+  rectangle "Azure_Application_Gateway_COLOR" { 
+    component "MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_M" 
+    component "MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_C" 
+  }
+  rectangle "Azure_Application_Insights" { 
+    component "MSIMG_AZUREAPPLICATIONINSIGHTS_M" 
+    component "MSIMG_AZUREAPPLICATIONINSIGHTS_C" 
+  }
+  rectangle "Azure_Application_Insights_COLOR" { 
+    component "MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_M" 
+    component "MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_C" 
+  }
+  rectangle "Azure_App_Service" { 
+    component "MSIMG_AZUREAPPSERVICE_M" 
+    component "MSIMG_AZUREAPPSERVICE_C" 
+  }
+  rectangle "Azure_App_Service_Azure_API_Apps" { 
+    component "MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_M" 
+    component "MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_C" 
+  }
+  rectangle "Azure_App_Service_Azure_API_Apps_COLOR" { 
+    component "MSIMG_AZUREAPPSERVICEAZUREAPIAPPSCOLOR_M" 
+    component "MSIMG_AZUREAPPSERVICEAZUREAPIAPPSCOLOR_C" 
+  }
+  rectangle "Azure_App_Service_COLOR" { 
+    component "MSIMG_AZUREAPPSERVICECOLOR_M" 
+    component "MSIMG_AZUREAPPSERVICECOLOR_C" 
+  }
+  rectangle "Azure_App_Service_Mobile_App_COLOR" { 
+    component "MSIMG_AZUREAPPSERVICEMOBILEAPPCOLOR_M" 
+    component "MSIMG_AZUREAPPSERVICEMOBILEAPPCOLOR_C" 
+  }
+  rectangle "Azure_App_Service_Mobile_App_was_Mobile_Services" { 
+    component "MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_M" 
+    component "MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_C" 
+  }
+  rectangle "Azure_App_Service_Web_App_COLOR" { 
+    component "MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_M" 
+    component "MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_C" 
+  }
+  rectangle "Azure_App_Service_Web_App_was_Websites" { 
+    component "MSIMG_AZUREAPPSERVICEWEBAPPWASWEBSITES_M" 
+    component "MSIMG_AZUREAPPSERVICEWEBAPPWASWEBSITES_C" 
+  }
+  rectangle "Azure_App_Service_Worker_Pools" { 
+    component "MSIMG_AZUREAPPSERVICEWORKERPOOLS_M" 
+    component "MSIMG_AZUREAPPSERVICEWORKERPOOLS_C" 
+  }
+  rectangle "Azure_App_Service_Worker_Pools_COLOR" { 
+    component "MSIMG_AZUREAPPSERVICEWORKERPOOLSCOLOR_M" 
+    component "MSIMG_AZUREAPPSERVICEWORKERPOOLSCOLOR_C" 
+  }
+  rectangle "Azure_Automation" { 
+    component "MSIMG_AZUREAUTOMATION_M" 
+    component "MSIMG_AZUREAUTOMATION_C" 
+  }
+  rectangle "Azure_Automation_COLOR" { 
+    component "MSIMG_AZUREAUTOMATIONCOLOR_M" 
+    component "MSIMG_AZUREAUTOMATIONCOLOR_C" 
+  }
+  rectangle "Azure_Automation_Runbooks" { 
+    component "MSIMG_AZUREAUTOMATIONRUNBOOKS_M" 
+    component "MSIMG_AZUREAUTOMATIONRUNBOOKS_C" 
+  }
+  rectangle "Azure_Automation_Runbooks_COLOR" { 
+    component "MSIMG_AZUREAUTOMATIONRUNBOOKSCOLOR_M" 
+    component "MSIMG_AZUREAUTOMATIONRUNBOOKSCOLOR_C" 
+  }
+  rectangle "Azure_Backup" { 
+    component "MSIMG_AZUREBACKUP_M" 
+    component "MSIMG_AZUREBACKUP_C" 
+  }
+  rectangle "Azure_Backup_Backup_Agent" { 
+    component "MSIMG_AZUREBACKUPBACKUPAGENT_M" 
+    component "MSIMG_AZUREBACKUPBACKUPAGENT_C" 
+  }
+  rectangle "Azure_Backup_COLOR" { 
+    component "MSIMG_AZUREBACKUPCOLOR_M" 
+    component "MSIMG_AZUREBACKUPCOLOR_C" 
+  }
+  rectangle "Azure_Backup_Recovery_Vault" { 
+    component "MSIMG_AZUREBACKUPRECOVERYVAULT_M" 
+    component "MSIMG_AZUREBACKUPRECOVERYVAULT_C" 
+  }
+  rectangle "Azure_Batch" { 
+    component "MSIMG_AZUREBATCH_M" 
+    component "MSIMG_AZUREBATCH_C" 
+  }
+  rectangle "Azure_BizTalk_Services" { 
+    component "MSIMG_AZUREBIZTALKSERVICES_M" 
+    component "MSIMG_AZUREBIZTALKSERVICES_C" 
+  }
+  rectangle "Azure_BizTalk_Services_COLOR" { 
+    component "MSIMG_AZUREBIZTALKSERVICESCOLOR_M" 
+    component "MSIMG_AZUREBIZTALKSERVICESCOLOR_C" 
+  }
+  rectangle "Azure_BizTalk_Services_Hybrid_Connections" { 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONS_M" 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONS_C" 
+  }
+  rectangle "Azure_BizTalk_Services_Hybrid_Connections_COLOR" { 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_M" 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_C" 
+  }
+  rectangle "Azure_BizTalk_Services_Hybrid_connection_manager" { 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONMANAGER_M" 
+    component "MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONMANAGER_C" 
+  }
+  rectangle "Azure_Cache_including_Redis" { 
+    component "MSIMG_AZURECACHEINCLUDINGREDIS_M" 
+    component "MSIMG_AZURECACHEINCLUDINGREDIS_C" 
+  }
+  rectangle "Azure_Cache_including_Redis_COLOR" { 
+    component "MSIMG_AZURECACHEINCLUDINGREDISCOLOR_M" 
+    component "MSIMG_AZURECACHEINCLUDINGREDISCOLOR_C" 
+  }
+  rectangle "Azure_Cache_Redis_Product_icon_COLOR" { 
+    component "MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_M" 
+    component "MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_C" 
+  }
+  rectangle "Azure_Cloud_Service" { 
+    component "MSIMG_AZURECLOUDSERVICE_M" 
+    component "MSIMG_AZURECLOUDSERVICE_C" 
+  }
+  rectangle "Azure_Cloud_Services_Web_role" { 
+    component "MSIMG_AZURECLOUDSERVICESWEBROLE_M" 
+    component "MSIMG_AZURECLOUDSERVICESWEBROLE_C" 
+  }
+  rectangle "Azure_Cloud_Services_Web_roles" { 
+    component "MSIMG_AZURECLOUDSERVICESWEBROLES_M" 
+    component "MSIMG_AZURECLOUDSERVICESWEBROLES_C" 
+  }
+  rectangle "Azure_Cloud_Services_Worker_role" { 
+    component "MSIMG_AZURECLOUDSERVICESWORKERROLE_M" 
+    component "MSIMG_AZURECLOUDSERVICESWORKERROLE_C" 
+  }
+  rectangle "Azure_Cloud_Services_Worker_roles" { 
+    component "MSIMG_AZURECLOUDSERVICESWORKERROLES_M" 
+    component "MSIMG_AZURECLOUDSERVICESWORKERROLES_C" 
+  }
+  rectangle "Azure_Cloud_Service_COLOR" { 
+    component "MSIMG_AZURECLOUDSERVICECOLOR_M" 
+    component "MSIMG_AZURECLOUDSERVICECOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_Computer_Vision_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESCOMPUTERVISIONCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESCOMPUTERVISIONCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_emotion_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_luis_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_recommendations_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_Speech_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESSPEECHCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESSPEECHCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_textanalytics_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESTEXTANALYTICSCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESTEXTANALYTICSCOLOR_C" 
+  }
+  rectangle "Azure_Cognative_Services_web_language_model_COLOR" { 
+    component "MSIMG_AZURECOGNATIVESERVICESWEBLANGUAGEMODELCOLOR_M" 
+    component "MSIMG_AZURECOGNATIVESERVICESWEBLANGUAGEMODELCOLOR_C" 
+  }
+  rectangle "Azure_Cognitive_Services" { 
+    component "MSIMG_AZURECOGNITIVESERVICES_M" 
+    component "MSIMG_AZURECOGNITIVESERVICES_C" 
+  }
+  rectangle "Azure_Compute_Autoscaling" { 
+    component "MSIMG_AZURECOMPUTEAUTOSCALING_M" 
+    component "MSIMG_AZURECOMPUTEAUTOSCALING_C" 
+  }
+  rectangle "Azure_Container_Service" { 
+    component "MSIMG_AZURECONTAINERSERVICE_M" 
+    component "MSIMG_AZURECONTAINERSERVICE_C" 
+  }
+  rectangle "Azure_Container_Service_COLOR" { 
+    component "MSIMG_AZURECONTAINERSERVICECOLOR_M" 
+    component "MSIMG_AZURECONTAINERSERVICECOLOR_C" 
+  }
+  rectangle "Azure_Content_Delivery_Network_CDN" { 
+    component "MSIMG_AZURECONTENTDELIVERYNETWORKCDN_M" 
+    component "MSIMG_AZURECONTENTDELIVERYNETWORKCDN_C" 
+  }
+  rectangle "Azure_Content_Delivery_Network_CDN_COLOR" { 
+    component "MSIMG_AZURECONTENTDELIVERYNETWORKCDNCOLOR_M" 
+    component "MSIMG_AZURECONTENTDELIVERYNETWORKCDNCOLOR_C" 
+  }
+  rectangle "Azure_Cortona_Management_Suite" { 
+    component "MSIMG_AZURECORTONAMANAGEMENTSUITE_M" 
+    component "MSIMG_AZURECORTONAMANAGEMENTSUITE_C" 
+  }
+  rectangle "Azure_Database_General_COLOR" { 
+    component "MSIMG_AZUREDATABASEGENERALCOLOR_M" 
+    component "MSIMG_AZUREDATABASEGENERALCOLOR_C" 
+  }
+  rectangle "Azure_DataServices_category_rollup" { 
+    component "MSIMG_AZUREDATASERVICESCATEGORYROLLUP_M" 
+    component "MSIMG_AZUREDATASERVICESCATEGORYROLLUP_C" 
+  }
+  rectangle "Azure_Data_Catalog" { 
+    component "MSIMG_AZUREDATACATALOG_M" 
+    component "MSIMG_AZUREDATACATALOG_C" 
+  }
+  rectangle "Azure_Data_Catalog_COLOR" { 
+    component "MSIMG_AZUREDATACATALOGCOLOR_M" 
+    component "MSIMG_AZUREDATACATALOGCOLOR_C" 
+  }
+  rectangle "Azure_Data_Factory" { 
+    component "MSIMG_AZUREDATAFACTORY_M" 
+    component "MSIMG_AZUREDATAFACTORY_C" 
+  }
+  rectangle "Azure_Data_Factory_COLOR" { 
+    component "MSIMG_AZUREDATAFACTORYCOLOR_M" 
+    component "MSIMG_AZUREDATAFACTORYCOLOR_C" 
+  }
+  rectangle "Azure_Data_Lake" { 
+    component "MSIMG_AZUREDATALAKE_M" 
+    component "MSIMG_AZUREDATALAKE_C" 
+  }
+  rectangle "Azure_Data_Lake_Analytics" { 
+    component "MSIMG_AZUREDATALAKEANALYTICS_M" 
+    component "MSIMG_AZUREDATALAKEANALYTICS_C" 
+  }
+  rectangle "Azure_Data_Lake_Analytics_COLOR" { 
+    component "MSIMG_AZUREDATALAKEANALYTICSCOLOR_M" 
+    component "MSIMG_AZUREDATALAKEANALYTICSCOLOR_C" 
+  }
+  rectangle "Azure_Data_Lake_Store" { 
+    component "MSIMG_AZUREDATALAKESTORE_M" 
+    component "MSIMG_AZUREDATALAKESTORE_C" 
+  }
+  rectangle "Azure_Data_Lake_Store_COLOR" { 
+    component "MSIMG_AZUREDATALAKESTORECOLOR_M" 
+    component "MSIMG_AZUREDATALAKESTORECOLOR_C" 
+  }
+  rectangle "Azure_Data_Warehouse" { 
+    component "MSIMG_AZUREDATAWAREHOUSE_M" 
+    component "MSIMG_AZUREDATAWAREHOUSE_C" 
+  }
+  rectangle "Azure_Data_Warehouse_COLOR" { 
+    component "MSIMG_AZUREDATAWAREHOUSECOLOR_M" 
+    component "MSIMG_AZUREDATAWAREHOUSECOLOR_C" 
+  }
+  rectangle "Azure_DevTest_Labs" { 
+    component "MSIMG_AZUREDEVTESTLABS_M" 
+    component "MSIMG_AZUREDEVTESTLABS_C" 
+  }
+  rectangle "Azure_DevTest_Labs_COLOR" { 
+    component "MSIMG_AZUREDEVTESTLABSCOLOR_M" 
+    component "MSIMG_AZUREDEVTESTLABSCOLOR_C" 
+  }
+  rectangle "Azure_DNS" { 
+    component "MSIMG_AZUREDNS_M" 
+    component "MSIMG_AZUREDNS_C" 
+  }
+  rectangle "Azure_DNS_COLOR" { 
+    component "MSIMG_AZUREDNSCOLOR_M" 
+    component "MSIMG_AZUREDNSCOLOR_C" 
+  }
+  rectangle "Azure_DocumentDB" { 
+    component "MSIMG_AZUREDOCUMENTDB_M" 
+    component "MSIMG_AZUREDOCUMENTDB_C" 
+  }
+  rectangle "Azure_DocumentDB_COLOR" { 
+    component "MSIMG_AZUREDOCUMENTDBCOLOR_M" 
+    component "MSIMG_AZUREDOCUMENTDBCOLOR_C" 
+  }
+  rectangle "Azure_DocumentDB_database" { 
+    component "MSIMG_AZUREDOCUMENTDBDATABASE_M" 
+    component "MSIMG_AZUREDOCUMENTDBDATABASE_C" 
+  }
+  rectangle "Azure_DocumentDB_DocDB_account" { 
+    component "MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_M" 
+    component "MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_C" 
+  }
+  rectangle "Azure_DocumentDB_DocDB_collections_1" { 
+    component "MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_M" 
+    component "MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_C" 
+  }
+  rectangle "Azure_DocumentDB_document_2" { 
+    component "MSIMG_AZUREDOCUMENTDBDOCUMENT2_M" 
+    component "MSIMG_AZUREDOCUMENTDBDOCUMENT2_C" 
+  }
+  rectangle "Azure_Event_Hubs" { 
+    component "MSIMG_AZUREEVENTHUBS_M" 
+    component "MSIMG_AZUREEVENTHUBS_C" 
+  }
+  rectangle "Azure_Event_Hubs_COLOR" { 
+    component "MSIMG_AZUREEVENTHUBSCOLOR_M" 
+    component "MSIMG_AZUREEVENTHUBSCOLOR_C" 
+  }
+  rectangle "Azure_ExpressRoute" { 
+    component "MSIMG_AZUREEXPRESSROUTE_M" 
+    component "MSIMG_AZUREEXPRESSROUTE_C" 
+  }
+  rectangle "Azure_Express_Route_COLOR" { 
+    component "MSIMG_AZUREEXPRESSROUTECOLOR_M" 
+    component "MSIMG_AZUREEXPRESSROUTECOLOR_C" 
+  }
+  rectangle "Azure_Functions" { 
+    component "MSIMG_AZUREFUNCTIONS_M" 
+    component "MSIMG_AZUREFUNCTIONS_C" 
+  }
+  rectangle "Azure_Functions_COLOR" { 
+    component "MSIMG_AZUREFUNCTIONSCOLOR_M" 
+    component "MSIMG_AZUREFUNCTIONSCOLOR_C" 
+  }
+  rectangle "Azure_HDInsight" { 
+    component "MSIMG_AZUREHDINSIGHT_M" 
+    component "MSIMG_AZUREHDINSIGHT_C" 
+  }
+  rectangle "Azure_HDInsight_COLOR" { 
+    component "MSIMG_AZUREHDINSIGHTCOLOR_M" 
+    component "MSIMG_AZUREHDINSIGHTCOLOR_C" 
+  }
+  rectangle "Azure_HockeyApp" { 
+    component "MSIMG_AZUREHOCKEYAPP_M" 
+    component "MSIMG_AZUREHOCKEYAPP_C" 
+  }
+  rectangle "Azure_HockeyApp_COLOR" { 
+    component "MSIMG_AZUREHOCKEYAPPCOLOR_M" 
+    component "MSIMG_AZUREHOCKEYAPPCOLOR_C" 
+  }
+  rectangle "Azure_IoTHub_COLOR" { 
+    component "MSIMG_AZUREIOTHUBCOLOR_M" 
+    component "MSIMG_AZUREIOTHUBCOLOR_C" 
+  }
+  rectangle "Azure_IoT_Hub" { 
+    component "MSIMG_AZUREIOTHUB_M" 
+    component "MSIMG_AZUREIOTHUB_C" 
+  }
+  rectangle "Azure_KeyVault_COLOR" { 
+    component "MSIMG_AZUREKEYVAULTCOLOR_M" 
+    component "MSIMG_AZUREKEYVAULTCOLOR_C" 
+  }
+  rectangle "Azure_Key_Vault" { 
+    component "MSIMG_AZUREKEYVAULT_M" 
+    component "MSIMG_AZUREKEYVAULT_C" 
+  }
+  rectangle "Azure_load_balancer_automatic" { 
+    component "MSIMG_AZURELOADBALANCERAUTOMATIC_M" 
+    component "MSIMG_AZURELOADBALANCERAUTOMATIC_C" 
+  }
+  rectangle "Azure_Load_Balancer_feature" { 
+    component "MSIMG_AZURELOADBALANCERFEATURE_M" 
+    component "MSIMG_AZURELOADBALANCERFEATURE_C" 
+  }
+  rectangle "Azure_Load_Balancer_feature_COLOR" { 
+    component "MSIMG_AZURELOADBALANCERFEATURECOLOR_M" 
+    component "MSIMG_AZURELOADBALANCERFEATURECOLOR_C" 
+  }
+  rectangle "Azure_Machine_Learning" { 
+    component "MSIMG_AZUREMACHINELEARNING_M" 
+    component "MSIMG_AZUREMACHINELEARNING_C" 
+  }
+  rectangle "Azure_Machine_Learning_COLOR" { 
+    component "MSIMG_AZUREMACHINELEARNINGCOLOR_M" 
+    component "MSIMG_AZUREMACHINELEARNINGCOLOR_C" 
+  }
+  rectangle "Azure_Management_Portal" { 
+    component "MSIMG_AZUREMANAGEMENTPORTAL_M" 
+    component "MSIMG_AZUREMANAGEMENTPORTAL_C" 
+  }
+  rectangle "Azure_Management_Portal_COLOR" { 
+    component "MSIMG_AZUREMANAGEMENTPORTALCOLOR_M" 
+    component "MSIMG_AZUREMANAGEMENTPORTALCOLOR_C" 
+  }
+  rectangle "Azure_Media_Services" { 
+    component "MSIMG_AZUREMEDIASERVICES_M" 
+    component "MSIMG_AZUREMEDIASERVICES_C" 
+  }
+  rectangle "Azure_Media_Services_COLOR" { 
+    component "MSIMG_AZUREMEDIASERVICESCOLOR_M" 
+    component "MSIMG_AZUREMEDIASERVICESCOLOR_C" 
+  }
+  rectangle "Azure_Mobile_Engagement" { 
+    component "MSIMG_AZUREMOBILEENGAGEMENT_M" 
+    component "MSIMG_AZUREMOBILEENGAGEMENT_C" 
+  }
+  rectangle "Azure_Mobile_Engagement_COLOR" { 
+    component "MSIMG_AZUREMOBILEENGAGEMENTCOLOR_M" 
+    component "MSIMG_AZUREMOBILEENGAGEMENTCOLOR_C" 
+  }
+  rectangle "Azure_Multi_Factor_Authentication" { 
+    component "MSIMG_AZUREMULTIFACTORAUTHENTICATION_M" 
+    component "MSIMG_AZUREMULTIFACTORAUTHENTICATION_C" 
+  }
+  rectangle "Azure_Multi_Factor_Authentication_COLOR" { 
+    component "MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_M" 
+    component "MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_C" 
+  }
+  rectangle "Azure_MySQL_ClearDB_database" { 
+    component "MSIMG_AZUREMYSQLCLEARDBDATABASE_M" 
+    component "MSIMG_AZUREMYSQLCLEARDBDATABASE_C" 
+  }
+  rectangle "Azure_MySQL_ClearDB_database_COLOR" { 
+    component "MSIMG_AZUREMYSQLCLEARDBDATABASECOLOR_M" 
+    component "MSIMG_AZUREMYSQLCLEARDBDATABASECOLOR_C" 
+  }
+  rectangle "Azure_Notification_Hubs" { 
+    component "MSIMG_AZURENOTIFICATIONHUBS_M" 
+    component "MSIMG_AZURENOTIFICATIONHUBS_C" 
+  }
+  rectangle "Azure_Notification_Hubs_COLOR" { 
+    component "MSIMG_AZURENOTIFICATIONHUBSCOLOR_M" 
+    component "MSIMG_AZURENOTIFICATIONHUBSCOLOR_C" 
+  }
+  rectangle "Azure_RemoteApp" { 
+    component "MSIMG_AZUREREMOTEAPP_M" 
+    component "MSIMG_AZUREREMOTEAPP_C" 
+  }
+  rectangle "Azure_RemoteApp_COLOR" { 
+    component "MSIMG_AZUREREMOTEAPPCOLOR_M" 
+    component "MSIMG_AZUREREMOTEAPPCOLOR_C" 
+  }
+  rectangle "Azure_Rights_Management_RMS" { 
+    component "MSIMG_AZURERIGHTSMANAGEMENTRMS_M" 
+    component "MSIMG_AZURERIGHTSMANAGEMENTRMS_C" 
+  }
+  rectangle "Azure_Scheduler" { 
+    component "MSIMG_AZURESCHEDULER_M" 
+    component "MSIMG_AZURESCHEDULER_C" 
+  }
+  rectangle "Azure_SDK" { 
+    component "MSIMG_AZURESDK_M" 
+    component "MSIMG_AZURESDK_C" 
+  }
+  rectangle "Azure_SDK_COLOR" { 
+    component "MSIMG_AZURESDKCOLOR_M" 
+    component "MSIMG_AZURESDKCOLOR_C" 
+  }
+  rectangle "Azure_Search" { 
+    component "MSIMG_AZURESEARCH_M" 
+    component "MSIMG_AZURESEARCH_C" 
+  }
+  rectangle "Azure_Search_COLOR" { 
+    component "MSIMG_AZURESEARCHCOLOR_M" 
+    component "MSIMG_AZURESEARCHCOLOR_C" 
+  }
+  rectangle "Azure_Security_Center" { 
+    component "MSIMG_AZURESECURITYCENTER_M" 
+    component "MSIMG_AZURESECURITYCENTER_C" 
+  }
+  rectangle "Azure_Security_Center_COLOR" { 
+    component "MSIMG_AZURESECURITYCENTERCOLOR_M" 
+    component "MSIMG_AZURESECURITYCENTERCOLOR_C" 
+  }
+  rectangle "Azure_Service_Bus" { 
+    component "MSIMG_AZURESERVICEBUS_M" 
+    component "MSIMG_AZURESERVICEBUS_C" 
+  }
+  rectangle "Azure_Service_Bus_COLOR" { 
+    component "MSIMG_AZURESERVICEBUSCOLOR_M" 
+    component "MSIMG_AZURESERVICEBUSCOLOR_C" 
+  }
+  rectangle "Azure_Service_Bus_Queues" { 
+    component "MSIMG_AZURESERVICEBUSQUEUES_M" 
+    component "MSIMG_AZURESERVICEBUSQUEUES_C" 
+  }
+  rectangle "Azure_Service_Bus_Queues_COLOR" { 
+    component "MSIMG_AZURESERVICEBUSQUEUESCOLOR_M" 
+    component "MSIMG_AZURESERVICEBUSQUEUESCOLOR_C" 
+  }
+  rectangle "Azure_Service_Bus_Relay" { 
+    component "MSIMG_AZURESERVICEBUSRELAY_M" 
+    component "MSIMG_AZURESERVICEBUSRELAY_C" 
+  }
+  rectangle "Azure_Service_Bus_Topics" { 
+    component "MSIMG_AZURESERVICEBUSTOPICS_M" 
+    component "MSIMG_AZURESERVICEBUSTOPICS_C" 
+  }
+  rectangle "Azure_Service_Bus_Topics_COLOR" { 
+    component "MSIMG_AZURESERVICEBUSTOPICSCOLOR_M" 
+    component "MSIMG_AZURESERVICEBUSTOPICSCOLOR_C" 
+  }
+  rectangle "Azure_Service_Fabric" { 
+    component "MSIMG_AZURESERVICEFABRIC_M" 
+    component "MSIMG_AZURESERVICEFABRIC_C" 
+  }
+  rectangle "Azure_Service_Fabric_COLOR" { 
+    component "MSIMG_AZURESERVICEFABRICCOLOR_M" 
+    component "MSIMG_AZURESERVICEFABRICCOLOR_C" 
+  }
+  rectangle "Azure_Site_Recovery" { 
+    component "MSIMG_AZURESITERECOVERY_M" 
+    component "MSIMG_AZURESITERECOVERY_C" 
+  }
+  rectangle "Azure_Site_Recovery_COLOR" { 
+    component "MSIMG_AZURESITERECOVERYCOLOR_M" 
+    component "MSIMG_AZURESITERECOVERYCOLOR_C" 
+  }
+  rectangle "Azure_SQL_Database" { 
+    component "MSIMG_AZURESQLDATABASE_M" 
+    component "MSIMG_AZURESQLDATABASE_C" 
+  }
+  rectangle "Azure_SQL_Database_generic" { 
+    component "MSIMG_AZURESQLDATABASEGENERIC_M" 
+    component "MSIMG_AZURESQLDATABASEGENERIC_C" 
+  }
+  rectangle "Azure_SQL_Database_generic_COLOR" { 
+    component "MSIMG_AZURESQLDATABASEGENERICCOLOR_M" 
+    component "MSIMG_AZURESQLDATABASEGENERICCOLOR_C" 
+  }
+  rectangle "Azure_SQL_Database_Premium" { 
+    component "MSIMG_AZURESQLDATABASEPREMIUM_M" 
+    component "MSIMG_AZURESQLDATABASEPREMIUM_C" 
+  }
+  rectangle "Azure_SQL_DataSync" { 
+    component "MSIMG_AZURESQLDATASYNC_M" 
+    component "MSIMG_AZURESQLDATASYNC_C" 
+  }
+  rectangle "Azure_SQL_DataWarehouse" { 
+    component "MSIMG_AZURESQLDATAWAREHOUSE_M" 
+    component "MSIMG_AZURESQLDATAWAREHOUSE_C" 
+  }
+  rectangle "Azure_SQL_DataWarehouse_COLOR" { 
+    component "MSIMG_AZURESQLDATAWAREHOUSECOLOR_M" 
+    component "MSIMG_AZURESQLDATAWAREHOUSECOLOR_C" 
+  }
+  rectangle "Azure_SQL_Stretch_Database" { 
+    component "MSIMG_AZURESQLSTRETCHDATABASE_M" 
+    component "MSIMG_AZURESQLSTRETCHDATABASE_C" 
+  }
+  rectangle "Azure_SQL_Stretch_Database_COLOR" { 
+    component "MSIMG_AZURESQLSTRETCHDATABASECOLOR_M" 
+    component "MSIMG_AZURESQLSTRETCHDATABASECOLOR_C" 
+  }
+  rectangle "Azure_Stack" { 
+    component "MSIMG_AZURESTACK_M" 
+    component "MSIMG_AZURESTACK_C" 
+  }
+  rectangle "Azure_Storage" { 
+    component "MSIMG_AZURESTORAGE_M" 
+    component "MSIMG_AZURESTORAGE_C" 
+  }
+  rectangle "Azure_Storage_Blob" { 
+    component "MSIMG_AZURESTORAGEBLOB_M" 
+    component "MSIMG_AZURESTORAGEBLOB_C" 
+  }
+  rectangle "Azure_Storage_Files" { 
+    component "MSIMG_AZURESTORAGEFILES_M" 
+    component "MSIMG_AZURESTORAGEFILES_C" 
+  }
+  rectangle "Azure_Storage_Queue" { 
+    component "MSIMG_AZURESTORAGEQUEUE_M" 
+    component "MSIMG_AZURESTORAGEQUEUE_C" 
+  }
+  rectangle "Azure_Storage_Table" { 
+    component "MSIMG_AZURESTORAGETABLE_M" 
+    component "MSIMG_AZURESTORAGETABLE_C" 
+  }
+  rectangle "Azure_Store" { 
+    component "MSIMG_AZURESTORE_M" 
+    component "MSIMG_AZURESTORE_C" 
+  }
+  rectangle "Azure_Store_Marketplace" { 
+    component "MSIMG_AZURESTOREMARKETPLACE_M" 
+    component "MSIMG_AZURESTOREMARKETPLACE_C" 
+  }
+  rectangle "Azure_Store_Marketplace_COLOR" { 
+    component "MSIMG_AZURESTOREMARKETPLACECOLOR_M" 
+    component "MSIMG_AZURESTOREMARKETPLACECOLOR_C" 
+  }
+  rectangle "Azure_StorSimple" { 
+    component "MSIMG_AZURESTORSIMPLE_M" 
+    component "MSIMG_AZURESTORSIMPLE_C" 
+  }
+  rectangle "Azure_StorSimple_COLOR" { 
+    component "MSIMG_AZURESTORSIMPLECOLOR_M" 
+    component "MSIMG_AZURESTORSIMPLECOLOR_C" 
+  }
+  rectangle "Azure_Stream_Analytics" { 
+    component "MSIMG_AZURESTREAMANALYTICS_M" 
+    component "MSIMG_AZURESTREAMANALYTICS_C" 
+  }
+  rectangle "Azure_Stream_Analytics_COLOR" { 
+    component "MSIMG_AZURESTREAMANALYTICSCOLOR_M" 
+    component "MSIMG_AZURESTREAMANALYTICSCOLOR_C" 
+  }
+  rectangle "Azure_subscription" { 
+    component "MSIMG_AZURESUBSCRIPTION_M" 
+    component "MSIMG_AZURESUBSCRIPTION_C" 
+  }
+  rectangle "Azure_Traffic_Manager" { 
+    component "MSIMG_AZURETRAFFICMANAGER_M" 
+    component "MSIMG_AZURETRAFFICMANAGER_C" 
+  }
+  rectangle "Azure_Traffic_Manager_COLOR" { 
+    component "MSIMG_AZURETRAFFICMANAGERCOLOR_M" 
+    component "MSIMG_AZURETRAFFICMANAGERCOLOR_C" 
+  }
+  rectangle "Azure_Virtual_Machine" { 
+    component "MSIMG_AZUREVIRTUALMACHINE_M" 
+    component "MSIMG_AZUREVIRTUALMACHINE_C" 
+  }
+  rectangle "Azure_Virtual_Machines_Availability_Set" { 
+    component "MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_M" 
+    component "MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_C" 
+  }
+  rectangle "Azure_Virtual_Machines_Availability_Set_COLOR" { 
+    component "MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_M" 
+    component "MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_C" 
+  }
+  rectangle "Azure_Virtual_Machines_Linux_Penguin_shadow_COLOR" { 
+    component "MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_M" 
+    component "MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_C" 
+  }
+  rectangle "Azure_Virtual_Machine_2_COLOR" { 
+    component "MSIMG_AZUREVIRTUALMACHINE2COLOR_M" 
+    component "MSIMG_AZUREVIRTUALMACHINE2COLOR_C" 
+  }
+  rectangle "Azure_Virtual_Machine_COLOR" { 
+    component "MSIMG_AZUREVIRTUALMACHINECOLOR_M" 
+    component "MSIMG_AZUREVIRTUALMACHINECOLOR_C" 
+  }
+  rectangle "Azure_Virtual_Network" { 
+    component "MSIMG_AZUREVIRTUALNETWORK_M" 
+    component "MSIMG_AZUREVIRTUALNETWORK_C" 
+  }
+  rectangle "Azure_Virtual_Network_COLOR" { 
+    component "MSIMG_AZUREVIRTUALNETWORKCOLOR_M" 
+    component "MSIMG_AZUREVIRTUALNETWORKCOLOR_C" 
+  }
+  rectangle "Azure_VM_container" { 
+    component "MSIMG_AZUREVMCONTAINER_M" 
+    component "MSIMG_AZUREVMCONTAINER_C" 
+  }
+  rectangle "Azure_VM_Scale_Set" { 
+    component "MSIMG_AZUREVMSCALESET_M" 
+    component "MSIMG_AZUREVMSCALESET_C" 
+  }
+  rectangle "Azure_VM_Scale_Set_COLOR" { 
+    component "MSIMG_AZUREVMSCALESETCOLOR_M" 
+    component "MSIMG_AZUREVMSCALESETCOLOR_C" 
+  }
+  rectangle "Azure_VM_symbol_only" { 
+    component "MSIMG_AZUREVMSYMBOLONLY_M" 
+    component "MSIMG_AZUREVMSYMBOLONLY_C" 
+  }
+  rectangle "Azure_VPN_Gateway" { 
+    component "MSIMG_AZUREVPNGATEWAY_M" 
+    component "MSIMG_AZUREVPNGATEWAY_C" 
+  }
+  rectangle "Azure_VPN_Gateway_color" { 
+    component "MSIMG_AZUREVPNGATEWAYCOLOR_M" 
+    component "MSIMG_AZUREVPNGATEWAYCOLOR_C" 
+  }
+  rectangle "Azure_WebApp_WebJobs" { 
+    component "MSIMG_AZUREWEBAPPWEBJOBS_M" 
+    component "MSIMG_AZUREWEBAPPWEBJOBS_C" 
+  }
+  rectangle "Azure_WebApp_WebJobs_COLOR" { 
+    component "MSIMG_AZUREWEBAPPWEBJOBSCOLOR_M" 
+    component "MSIMG_AZUREWEBAPPWEBJOBSCOLOR_C" 
+  }
+  rectangle "Bot_Services" { 
+    component "MSIMG_BOTSERVICES_M" 
+    component "MSIMG_BOTSERVICES_C" 
+  }
+  rectangle "Cloud_Office_365" { 
+    component "MSIMG_CLOUDOFFICE365_M" 
+    component "MSIMG_CLOUDOFFICE365_C" 
+  }
+  rectangle "Container_Service" { 
+    component "MSIMG_CONTAINERSERVICE_M" 
+    component "MSIMG_CONTAINERSERVICE_C" 
+  }
+  rectangle "Logic_Apps" { 
+    component "MSIMG_LOGICAPPS_M" 
+    component "MSIMG_LOGICAPPS_C" 
+  }
+  rectangle "Logic_Apps_COLOR" { 
+    component "MSIMG_LOGICAPPSCOLOR_M" 
+    component "MSIMG_LOGICAPPSCOLOR_C" 
+  }
+  rectangle "Microsoft_Azure" { 
+    component "MSIMG_MICROSOFTAZURE_M" 
+    component "MSIMG_MICROSOFTAZURE_C" 
+  }
+  rectangle "Monitor" { 
+    component "MSIMG_MONITOR_M" 
+    component "MSIMG_MONITOR_C" 
+  }
+  rectangle "Network_Security_Group" { 
+    component "MSIMG_NETWORKSECURITYGROUP_M" 
+    component "MSIMG_NETWORKSECURITYGROUP_C" 
+  }
+  rectangle "Network_Security_Group_COLOR" { 
+    component "MSIMG_NETWORKSECURITYGROUPCOLOR_M" 
+    component "MSIMG_NETWORKSECURITYGROUPCOLOR_C" 
+  }
+  rectangle "NewArt_NativeSize" { 
+    component "MSIMG_NEWARTNATIVESIZE_M" 
+    component "MSIMG_NEWARTNATIVESIZE_C" 
+  }
+  rectangle "Office_365" { 
+    component "MSIMG_OFFICE365_M" 
+    component "MSIMG_OFFICE365_C" 
+  }
+  rectangle "Office_365_subscription" { 
+    component "MSIMG_OFFICE365SUBSCRIPTION_M" 
+    component "MSIMG_OFFICE365SUBSCRIPTION_C" 
+  }
+  rectangle "OMS_Log_Analytics" { 
+    component "MSIMG_OMSLOGANALYTICS_M" 
+    component "MSIMG_OMSLOGANALYTICS_C" 
+  }
+  rectangle "Operations_Management_Suite_OMS" { 
+    component "MSIMG_OPERATIONSMANAGEMENTSUITEOMS_M" 
+    component "MSIMG_OPERATIONSMANAGEMENTSUITEOMS_C" 
+  }
+  rectangle "Operations_Management_Suite_OMS_COLOR" { 
+    component "MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_M" 
+    component "MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_C" 
+  }
+  rectangle "OS_image" { 
+    component "MSIMG_OSIMAGE_M" 
+    component "MSIMG_OSIMAGE_C" 
+  }
+  rectangle "Power_BI_Embedded" { 
+    component "MSIMG_POWERBIEMBEDDED_M" 
+    component "MSIMG_POWERBIEMBEDDED_C" 
+  }
+  rectangle "ResourceGroup_COLOR" { 
+    component "MSIMG_RESOURCEGROUPCOLOR_M" 
+    component "MSIMG_RESOURCEGROUPCOLOR_C" 
+  }
+  rectangle "Resource_Group" { 
+    component "MSIMG_RESOURCEGROUP_M" 
+    component "MSIMG_RESOURCEGROUP_C" 
+  }
+  rectangle "Service_Bus" { 
+    component "MSIMG_SERVICEBUS_M" 
+    component "MSIMG_SERVICEBUS_C" 
+  }
+  rectangle "Service_Endpoint" { 
+    component "MSIMG_SERVICEENDPOINT_M" 
+    component "MSIMG_SERVICEENDPOINT_C" 
+  }
+  rectangle "SQL_Database_Pools" { 
+    component "MSIMG_SQLDATABASEPOOLS_M" 
+    component "MSIMG_SQLDATABASEPOOLS_C" 
+  }
+  rectangle "SQL_Elastic_Pools" { 
+    component "MSIMG_SQLELASTICPOOLS_M" 
+    component "MSIMG_SQLELASTICPOOLS_C" 
+  }
+  rectangle "Storage" { 
+    component "MSIMG_STORAGE_M" 
+    component "MSIMG_STORAGE_C" 
+  }
+  rectangle "Unidentified_feature_object" { 
+    component "MSIMG_UNIDENTIFIEDFEATUREOBJECT_M" 
+    component "MSIMG_UNIDENTIFIEDFEATUREOBJECT_C" 
+  }
+  rectangle "Unidentified_feature_object_COLOR" { 
+    component "MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_M" 
+    component "MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_C" 
+  }
+  rectangle "VHD" { 
+    component "MSIMG_VHD_M" 
+    component "MSIMG_VHD_C" 
+  }
+  rectangle "VHD_data_disk" { 
+    component "MSIMG_VHDDATADISK_M" 
+    component "MSIMG_VHDDATADISK_C" 
+  }
+  rectangle "Visual_Studio_Team_Services" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICES_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICES_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Bitbucket_code_source" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Bitbucket_code_source_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCECOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCECOLOR_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_CodePlex_source" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_CodePlex_source_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Dropbox_code_source" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Dropbox_code_source_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCECOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCECOLOR_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_GitHub" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_GitHub_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITHUBCOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITHUBCOLOR_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Git_repository" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORY_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORY_C" 
+  }
+  rectangle "Visual_Studio_Team_Services_Git_repository_COLOR" { 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_M" 
+    component "MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_C" 
+  }
+  rectangle "webhooks" { 
+    component "MSIMG_WEBHOOKS_M" 
+    component "MSIMG_WEBHOOKS_C" 
+  }
+  rectangle "webhooks_COLOR" { 
+    component "MSIMG_WEBHOOKSCOLOR_M" 
+    component "MSIMG_WEBHOOKSCOLOR_C" 
+  }
+  rectangle "webhooks_mono" { 
+    component "MSIMG_WEBHOOKSMONO_M" 
+    component "MSIMG_WEBHOOKSMONO_C" 
+  }
+} 
+@enduml

@@ -176,10 +176,11 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
         const folderPath = path.join(resultDir, name);
         const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml')>0);
         const content = '@startuml\n'
-                      + '!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n'
-                      + files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n')
-                      + '@enduml';
-        fs.writeFileSync(path.join(resultDir, name+'.puml'), content);
+                      //+ '!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n'
+                      //+ files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n')
+                      + files.map(fileName => `!include ${name}/${fileName}`).join('\n')
+                      + '\n@enduml';
+        fs.writeFileSync(path.join(resultDir, name + '.puml'), content);
 
-    })
+    });
 });

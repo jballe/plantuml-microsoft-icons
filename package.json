@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node bld/build.js",
-    "samples": "java -jar artifacts/plantuml.jar samples/azure.puml"
+    "samples": "node bld/make-samples.js"
   },
   "author": "",
   "license": "ISC",

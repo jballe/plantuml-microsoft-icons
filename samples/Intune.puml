@@ -1,0 +1,184 @@
+@startuml
+!include styling.puml 
+left to right direction
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!include ../sprites/Intune.puml
+rectangle "Intune" {
+  rectangle "Account_portal" { 
+    component "MSIMG_ACCOUNTPORTAL_M" 
+    component "MSIMG_ACCOUNTPORTAL_C" 
+  }
+  rectangle "Administration" { 
+    component "MSIMG_ADMINISTRATION_M" 
+    component "MSIMG_ADMINISTRATION_C" 
+  }
+  rectangle "Alerts" { 
+    component "MSIMG_ALERTS_M" 
+    component "MSIMG_ALERTS_C" 
+  }
+  rectangle "Apps" { 
+    component "MSIMG_APPS_M" 
+    component "MSIMG_APPS_C" 
+  }
+  rectangle "Certificate_compliance" { 
+    component "MSIMG_CERTIFICATECOMPLIANCE_M" 
+    component "MSIMG_CERTIFICATECOMPLIANCE_C" 
+  }
+  rectangle "Client_software_deployment_wizard" { 
+    component "MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_M" 
+    component "MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_C" 
+  }
+  rectangle "Company_portal" { 
+    component "MSIMG_COMPANYPORTAL_M" 
+    component "MSIMG_COMPANYPORTAL_C" 
+  }
+  rectangle "Computer_inventory" { 
+    component "MSIMG_COMPUTERINVENTORY_M" 
+    component "MSIMG_COMPUTERINVENTORY_C" 
+  }
+  rectangle "Conditional_access_Exchange" { 
+    component "MSIMG_CONDITIONALACCESSEXCHANGE_M" 
+    component "MSIMG_CONDITIONALACCESSEXCHANGE_C" 
+  }
+  rectangle "Conditional_access_Sharepoint" { 
+    component "MSIMG_CONDITIONALACCESSSHAREPOINT_M" 
+    component "MSIMG_CONDITIONALACCESSSHAREPOINT_C" 
+  }
+  rectangle "Connector" { 
+    component "MSIMG_CONNECTOR_M" 
+    component "MSIMG_CONNECTOR_C" 
+  }
+  rectangle "Dashboard" { 
+    component "MSIMG_DASHBOARD_M" 
+    component "MSIMG_DASHBOARD_C" 
+  }
+  rectangle "Data_migration_wizard" { 
+    component "MSIMG_DATAMIGRATIONWIZARD_M" 
+    component "MSIMG_DATAMIGRATIONWIZARD_C" 
+  }
+  rectangle "Detected_software" { 
+    component "MSIMG_DETECTEDSOFTWARE_M" 
+    component "MSIMG_DETECTEDSOFTWARE_C" 
+  }
+  rectangle "Device_group" { 
+    component "MSIMG_DEVICEGROUP_M" 
+    component "MSIMG_DEVICEGROUP_C" 
+  }
+  rectangle "Device_health" { 
+    component "MSIMG_DEVICEHEALTH_M" 
+    component "MSIMG_DEVICEHEALTH_C" 
+  }
+  rectangle "Device_history" { 
+    component "MSIMG_DEVICEHISTORY_M" 
+    component "MSIMG_DEVICEHISTORY_C" 
+  }
+  rectangle "Device_OS" { 
+    component "MSIMG_DEVICEOS_M" 
+    component "MSIMG_DEVICEOS_C" 
+  }
+  rectangle "End_protection" { 
+    component "MSIMG_ENDPROTECTION_M" 
+    component "MSIMG_ENDPROTECTION_C" 
+  }
+  rectangle "Exchange_connector" { 
+    component "MSIMG_EXCHANGECONNECTOR_M" 
+    component "MSIMG_EXCHANGECONNECTOR_C" 
+  }
+  rectangle "Groups" { 
+    component "MSIMG_GROUPS_M" 
+    component "MSIMG_GROUPS_C" 
+  }
+  rectangle "Hybrid" { 
+    component "MSIMG_HYBRID_M" 
+    component "MSIMG_HYBRID_C" 
+  }
+  rectangle "Intune_certificate_profiles" { 
+    component "MSIMG_INTUNECERTIFICATEPROFILES_M" 
+    component "MSIMG_INTUNECERTIFICATEPROFILES_C" 
+  }
+  rectangle "Intune_email_profiles" { 
+    component "MSIMG_INTUNEEMAILPROFILES_M" 
+    component "MSIMG_INTUNEEMAILPROFILES_C" 
+  }
+  rectangle "Intune_managed_app" { 
+    component "MSIMG_INTUNEMANAGEDAPP_M" 
+    component "MSIMG_INTUNEMANAGEDAPP_C" 
+  }
+  rectangle "Intune_mobile_application_management" { 
+    component "MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_M" 
+    component "MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_C" 
+  }
+  rectangle "Intune_VPN_profiles" { 
+    component "MSIMG_INTUNEVPNPROFILES_M" 
+    component "MSIMG_INTUNEVPNPROFILES_C" 
+  }
+  rectangle "Intune_Wi_Fi_profiles" { 
+    component "MSIMG_INTUNEWIFIPROFILES_M" 
+    component "MSIMG_INTUNEWIFIPROFILES_C" 
+  }
+  rectangle "Inventory_license" { 
+    component "MSIMG_INVENTORYLICENSE_M" 
+    component "MSIMG_INVENTORYLICENSE_C" 
+  }
+  rectangle "Inventory_software" { 
+    component "MSIMG_INVENTORYSOFTWARE_M" 
+    component "MSIMG_INVENTORYSOFTWARE_C" 
+  }
+  rectangle "License_group" { 
+    component "MSIMG_LICENSEGROUP_M" 
+    component "MSIMG_LICENSEGROUP_C" 
+  }
+  rectangle "License_installation" { 
+    component "MSIMG_LICENSEINSTALLATION_M" 
+    component "MSIMG_LICENSEINSTALLATION_C" 
+  }
+  rectangle "Microsoft_Intune" { 
+    component "MSIMG_MICROSOFTINTUNE_M" 
+    component "MSIMG_MICROSOFTINTUNE_C" 
+  }
+  rectangle "Mobile_inventory" { 
+    component "MSIMG_MOBILEINVENTORY_M" 
+    component "MSIMG_MOBILEINVENTORY_C" 
+  }
+  rectangle "Noncompliant_apps" { 
+    component "MSIMG_NONCOMPLIANTAPPS_M" 
+    component "MSIMG_NONCOMPLIANTAPPS_C" 
+  }
+  rectangle "Policy" { 
+    component "MSIMG_POLICY_M" 
+    component "MSIMG_POLICY_C" 
+  }
+  rectangle "Protection" { 
+    component "MSIMG_PROTECTION_M" 
+    component "MSIMG_PROTECTION_C" 
+  }
+  rectangle "Reports" { 
+    component "MSIMG_REPORTS_M" 
+    component "MSIMG_REPORTS_C" 
+  }
+  rectangle "Settings" { 
+    component "MSIMG_SETTINGS_M" 
+    component "MSIMG_SETTINGS_C" 
+  }
+  rectangle "Subscription_portal" { 
+    component "MSIMG_SUBSCRIPTIONPORTAL_M" 
+    component "MSIMG_SUBSCRIPTIONPORTAL_C" 
+  }
+  rectangle "Terms_and_conditions" { 
+    component "MSIMG_TERMSANDCONDITIONS_M" 
+    component "MSIMG_TERMSANDCONDITIONS_C" 
+  }
+  rectangle "Update" { 
+    component "MSIMG_UPDATE_M" 
+    component "MSIMG_UPDATE_C" 
+  }
+  rectangle "User_group" { 
+    component "MSIMG_USERGROUP_M" 
+    component "MSIMG_USERGROUP_C" 
+  }
+  rectangle "User_management" { 
+    component "MSIMG_USERMANAGEMENT_M" 
+    component "MSIMG_USERMANAGEMENT_C" 
+  }
+} 
+@enduml

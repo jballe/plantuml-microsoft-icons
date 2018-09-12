@@ -1,12 +1,12 @@
 @startuml
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
-!includeurl MS_SPRITESPATH/System_Center/Central_administration_site.puml
-!includeurl MS_SPRITESPATH/System_Center/Central_administration_site_SQL.puml
-!includeurl MS_SPRITESPATH/System_Center/Cloud_distribution_point.puml
-!includeurl MS_SPRITESPATH/System_Center/Distribution_point.puml
-!includeurl MS_SPRITESPATH/System_Center/Management_point.puml
-!includeurl MS_SPRITESPATH/System_Center/Primary_site.puml
-!includeurl MS_SPRITESPATH/System_Center/Roles_class_for_multiple_versions.puml
-!includeurl MS_SPRITESPATH/System_Center/Secondary_site.puml
-!includeurl MS_SPRITESPATH/System_Center/Software_update_point.puml
-!includeurl MS_SPRITESPATH/System_Center/System_Center_admin_console.puml@enduml
+!include System_Center/Central_administration_site.puml
+!include System_Center/Central_administration_site_SQL.puml
+!include System_Center/Cloud_distribution_point.puml
+!include System_Center/Distribution_point.puml
+!include System_Center/Management_point.puml
+!include System_Center/Primary_site.puml
+!include System_Center/Roles_class_for_multiple_versions.puml
+!include System_Center/Secondary_site.puml
+!include System_Center/Software_update_point.puml
+!include System_Center/System_Center_admin_console.puml
+@enduml
