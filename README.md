@@ -13,13 +13,12 @@ but created with the [Microsoft icon set](http://aka.ms/CnESymbols)
 For each icon there is defined variables for two images, a grey scale and a color version, but resized to 48x48 pixels.
 
 ```
-database "Active directory in gray \n MSIMG_AZUREACTIVEDIRECTORY_G" as ad
+database "Active directory in black and white \n MSIMG_AZUREACTIVEDIRECTORY_M" as ad
 database "Active directory in color \n MSIMG_AZUREACTIVEDIRECTORY_C" as ad
+database "Active directory in gray \n MSIMG_AZUREACTIVEDIRECTORY_G" as ad
 ```
 
-There is also defined a plantuml native sprite based on the grayscale image, but I don't think I have had much luck with those.
-
-However you can use it like this:
+There is also defined a plantuml native sprite based on the mono image.
 
 ```
 component "<$azureactivedirectory>"
