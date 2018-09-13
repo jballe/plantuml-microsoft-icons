@@ -51,6 +51,6 @@ sprite $9magenta [48x48/16] {
 }
 
 !define MSIMG_9MAGENTA_G <img:../sprites/GeneralSymbols/9magenta_gray.png>
-!define MSIMG_9MAGENTA_M <img:../sprites/GeneralSymbols/9magenta_mono.png>
+!define MSIMG_9MAGENTA_B <img:../sprites/GeneralSymbols/9magenta_mono.png>
 !define MSIMG_9MAGENTA_C <img:../sprites/GeneralSymbols/9magenta.png>
 @enduml

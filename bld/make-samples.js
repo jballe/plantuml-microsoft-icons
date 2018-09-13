@@ -12,7 +12,7 @@ folders.map(name => {
     var icons = files.map(fileName => {
         const basename = path.basename(fileName, '.puml');
         const imgName = "MSIMG_" + basename.replace(/_/g, '').toUpperCase();
-        return  `| ${fileName} ` +
+        return  `| [${fileName}](${fileName}) ` +
                 `| ![${imgName}_C](${basename.toLowerCase()}.png) ` +
                 `| ![${imgName}_M](${basename.toLowerCase()}_mono.png) ` +
                 `| ![${imgName}_G](${basename.toLowerCase()}_gray.png) ` +

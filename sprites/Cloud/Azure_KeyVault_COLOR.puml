@@ -50,7 +50,7 @@ sprite $azurekeyvaultcolor [48x48/16] {
 0000000000000000000389EEEE9830000000000000000000
 }
 
-!define MSIMG_AZUREKEYVAULTCOLOR_G <img:../sprites/Cloud/Azure_KeyVault_COLOR_gray.png>
-!define MSIMG_AZUREKEYVAULTCOLOR_M <img:../sprites/Cloud/Azure_KeyVault_COLOR_mono.png>
-!define MSIMG_AZUREKEYVAULTCOLOR_C <img:../sprites/Cloud/Azure_KeyVault_COLOR.png>
+!define MSIMG_AZUREKEYVAULTCOLOR_G <img:../sprites/Cloud/azure_keyvault_color_gray.png>
+!define MSIMG_AZUREKEYVAULTCOLOR_B <img:../sprites/Cloud/azure_keyvault_color_mono.png>
+!define MSIMG_AZUREKEYVAULTCOLOR_C <img:../sprites/Cloud/azure_keyvault_color.png>
 @enduml

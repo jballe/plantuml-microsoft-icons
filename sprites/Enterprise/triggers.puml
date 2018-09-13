@@ -51,6 +51,6 @@ sprite $triggers [48x48/16] {
 }
 
 !define MSIMG_TRIGGERS_G <img:../sprites/Enterprise/triggers_gray.png>
-!define MSIMG_TRIGGERS_M <img:../sprites/Enterprise/triggers_mono.png>
+!define MSIMG_TRIGGERS_B <img:../sprites/Enterprise/triggers_mono.png>
 !define MSIMG_TRIGGERS_C <img:../sprites/Enterprise/triggers.png>
 @enduml

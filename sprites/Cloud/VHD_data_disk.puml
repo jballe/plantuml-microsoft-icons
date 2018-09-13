@@ -50,7 +50,7 @@ sprite $vhddatadisk [48x48/16] {
 000000000000000000000000000000389EEE958000000000
 }
 
-!define MSIMG_VHDDATADISK_G <img:../sprites/Cloud/VHD_data_disk_gray.png>
-!define MSIMG_VHDDATADISK_M <img:../sprites/Cloud/VHD_data_disk_mono.png>
-!define MSIMG_VHDDATADISK_C <img:../sprites/Cloud/VHD_data_disk.png>
+!define MSIMG_VHDDATADISK_G <img:../sprites/Cloud/vhd_data_disk_gray.png>
+!define MSIMG_VHDDATADISK_B <img:../sprites/Cloud/vhd_data_disk_mono.png>
+!define MSIMG_VHDDATADISK_C <img:../sprites/Cloud/vhd_data_disk.png>
 @enduml

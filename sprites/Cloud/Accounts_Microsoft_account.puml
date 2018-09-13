@@ -50,7 +50,7 @@ EEEEEEEE00000000000000000000000000000000EEEEEEEE
 EEEEEEEE000000000000000000000000000000009EEEEEEE
 }
 
-!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_G <img:../sprites/Cloud/Accounts_Microsoft_account_gray.png>
-!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_M <img:../sprites/Cloud/Accounts_Microsoft_account_mono.png>
-!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_C <img:../sprites/Cloud/Accounts_Microsoft_account.png>
+!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_G <img:../sprites/Cloud/accounts_microsoft_account_gray.png>
+!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_B <img:../sprites/Cloud/accounts_microsoft_account_mono.png>
+!define MSIMG_ACCOUNTSMICROSOFTACCOUNT_C <img:../sprites/Cloud/accounts_microsoft_account.png>
 @enduml

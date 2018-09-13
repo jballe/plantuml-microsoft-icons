@@ -50,7 +50,7 @@ sprite $azuredocumentdbdocdbcollections1 [48x48/16] {
 008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000
 }
 
-!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_G <img:../sprites/Cloud/Azure_DocumentDB_DocDB_collections_1_gray.png>
-!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_M <img:../sprites/Cloud/Azure_DocumentDB_DocDB_collections_1_mono.png>
-!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_C <img:../sprites/Cloud/Azure_DocumentDB_DocDB_collections_1.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_G <img:../sprites/Cloud/azure_documentdb_docdb_collections_1_gray.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_B <img:../sprites/Cloud/azure_documentdb_docdb_collections_1_mono.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBCOLLECTIONS1_C <img:../sprites/Cloud/azure_documentdb_docdb_collections_1.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $rmsconnector [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RMSCONNECTOR_G <img:../sprites/Enterprise/RMS_connector_gray.png>
-!define MSIMG_RMSCONNECTOR_M <img:../sprites/Enterprise/RMS_connector_mono.png>
-!define MSIMG_RMSCONNECTOR_C <img:../sprites/Enterprise/RMS_connector.png>
+!define MSIMG_RMSCONNECTOR_G <img:../sprites/Enterprise/rms_connector_gray.png>
+!define MSIMG_RMSCONNECTOR_B <img:../sprites/Enterprise/rms_connector_mono.png>
+!define MSIMG_RMSCONNECTOR_C <img:../sprites/Enterprise/rms_connector.png>
 @enduml

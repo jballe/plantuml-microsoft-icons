@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE00
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SLIDERBARHORIZONTAL_G <img:../sprites/GeneralSymbols/Slider_bar_horizontal_gray.png>
-!define MSIMG_SLIDERBARHORIZONTAL_M <img:../sprites/GeneralSymbols/Slider_bar_horizontal_mono.png>
-!define MSIMG_SLIDERBARHORIZONTAL_C <img:../sprites/GeneralSymbols/Slider_bar_horizontal.png>
+!define MSIMG_SLIDERBARHORIZONTAL_G <img:../sprites/GeneralSymbols/slider_bar_horizontal_gray.png>
+!define MSIMG_SLIDERBARHORIZONTAL_B <img:../sprites/GeneralSymbols/slider_bar_horizontal_mono.png>
+!define MSIMG_SLIDERBARHORIZONTAL_C <img:../sprites/GeneralSymbols/slider_bar_horizontal.png>
 @enduml

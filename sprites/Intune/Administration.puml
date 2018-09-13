@@ -50,7 +50,7 @@ sprite $administration [48x48/16] {
 00000000000000003EE90000000000000000000000000000
 }
 
-!define MSIMG_ADMINISTRATION_G <img:../sprites/Intune/Administration_gray.png>
-!define MSIMG_ADMINISTRATION_M <img:../sprites/Intune/Administration_mono.png>
-!define MSIMG_ADMINISTRATION_C <img:../sprites/Intune/Administration.png>
+!define MSIMG_ADMINISTRATION_G <img:../sprites/Intune/administration_gray.png>
+!define MSIMG_ADMINISTRATION_B <img:../sprites/Intune/administration_mono.png>
+!define MSIMG_ADMINISTRATION_C <img:../sprites/Intune/administration.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEE8000000000000005EEEEEEEEEEEEE80000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREBACKUPBACKUPAGENT_G <img:../sprites/Cloud/Azure_Backup_Backup_Agent_gray.png>
-!define MSIMG_AZUREBACKUPBACKUPAGENT_M <img:../sprites/Cloud/Azure_Backup_Backup_Agent_mono.png>
-!define MSIMG_AZUREBACKUPBACKUPAGENT_C <img:../sprites/Cloud/Azure_Backup_Backup_Agent.png>
+!define MSIMG_AZUREBACKUPBACKUPAGENT_G <img:../sprites/Cloud/azure_backup_backup_agent_gray.png>
+!define MSIMG_AZUREBACKUPBACKUPAGENT_B <img:../sprites/Cloud/azure_backup_backup_agent_mono.png>
+!define MSIMG_AZUREBACKUPBACKUPAGENT_C <img:../sprites/Cloud/azure_backup_backup_agent.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $databasegeneric [48x48/16] {
 00000000000000000589EEEEEEEE98580000000000000000
 }
 
-!define MSIMG_DATABASEGENERIC_G <img:../sprites/Enterprise/Database_generic_gray.png>
-!define MSIMG_DATABASEGENERIC_M <img:../sprites/Enterprise/Database_generic_mono.png>
-!define MSIMG_DATABASEGENERIC_C <img:../sprites/Enterprise/Database_generic.png>
+!define MSIMG_DATABASEGENERIC_G <img:../sprites/Enterprise/database_generic_gray.png>
+!define MSIMG_DATABASEGENERIC_B <img:../sprites/Enterprise/database_generic_mono.png>
+!define MSIMG_DATABASEGENERIC_C <img:../sprites/Enterprise/database_generic.png>
 @enduml

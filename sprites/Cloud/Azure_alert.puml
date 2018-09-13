@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREALERT_G <img:../sprites/Cloud/Azure_alert_gray.png>
-!define MSIMG_AZUREALERT_M <img:../sprites/Cloud/Azure_alert_mono.png>
-!define MSIMG_AZUREALERT_C <img:../sprites/Cloud/Azure_alert.png>
+!define MSIMG_AZUREALERT_G <img:../sprites/Cloud/azure_alert_gray.png>
+!define MSIMG_AZUREALERT_B <img:../sprites/Cloud/azure_alert_mono.png>
+!define MSIMG_AZUREALERT_C <img:../sprites/Cloud/azure_alert.png>
 @enduml

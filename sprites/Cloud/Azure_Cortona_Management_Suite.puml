@@ -50,7 +50,7 @@ sprite $azurecortonamanagementsuite [48x48/16] {
 000000000000000000000008800000000000000000000000
 }
 
-!define MSIMG_AZURECORTONAMANAGEMENTSUITE_G <img:../sprites/Cloud/Azure_Cortona_Management_Suite_gray.png>
-!define MSIMG_AZURECORTONAMANAGEMENTSUITE_M <img:../sprites/Cloud/Azure_Cortona_Management_Suite_mono.png>
-!define MSIMG_AZURECORTONAMANAGEMENTSUITE_C <img:../sprites/Cloud/Azure_Cortona_Management_Suite.png>
+!define MSIMG_AZURECORTONAMANAGEMENTSUITE_G <img:../sprites/Cloud/azure_cortona_management_suite_gray.png>
+!define MSIMG_AZURECORTONAMANAGEMENTSUITE_B <img:../sprites/Cloud/azure_cortona_management_suite_mono.png>
+!define MSIMG_AZURECORTONAMANAGEMENTSUITE_C <img:../sprites/Cloud/azure_cortona_management_suite.png>
 @enduml

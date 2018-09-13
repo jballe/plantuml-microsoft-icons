@@ -50,7 +50,7 @@ sprite $accountportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_ACCOUNTPORTAL_G <img:../sprites/Intune/Account_portal_gray.png>
-!define MSIMG_ACCOUNTPORTAL_M <img:../sprites/Intune/Account_portal_mono.png>
-!define MSIMG_ACCOUNTPORTAL_C <img:../sprites/Intune/Account_portal.png>
+!define MSIMG_ACCOUNTPORTAL_G <img:../sprites/Intune/account_portal_gray.png>
+!define MSIMG_ACCOUNTPORTAL_B <img:../sprites/Intune/account_portal_mono.png>
+!define MSIMG_ACCOUNTPORTAL_C <img:../sprites/Intune/account_portal.png>
 @enduml

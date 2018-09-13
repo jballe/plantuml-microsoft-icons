@@ -50,7 +50,7 @@ sprite $sqldatawarehouse [48x48/16] {
 0009E9000000000000359EEEEEE9850000000000009E9000
 }
 
-!define MSIMG_SQLDATAWAREHOUSE_G <img:../sprites/Deprecated/SQL_Data_Warehouse_gray.png>
-!define MSIMG_SQLDATAWAREHOUSE_M <img:../sprites/Deprecated/SQL_Data_Warehouse_mono.png>
-!define MSIMG_SQLDATAWAREHOUSE_C <img:../sprites/Deprecated/SQL_Data_Warehouse.png>
+!define MSIMG_SQLDATAWAREHOUSE_G <img:../sprites/Deprecated/sql_data_warehouse_gray.png>
+!define MSIMG_SQLDATAWAREHOUSE_B <img:../sprites/Deprecated/sql_data_warehouse_mono.png>
+!define MSIMG_SQLDATAWAREHOUSE_C <img:../sprites/Deprecated/sql_data_warehouse.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEE9000000000000009E0000000000000000009EE0000
 000000000000000000000000000000059E98000000000000
 }
 
-!define MSIMG_AZUREDATALAKEANALYTICS_G <img:../sprites/Cloud/Azure_Data_Lake_Analytics_gray.png>
-!define MSIMG_AZUREDATALAKEANALYTICS_M <img:../sprites/Cloud/Azure_Data_Lake_Analytics_mono.png>
-!define MSIMG_AZUREDATALAKEANALYTICS_C <img:../sprites/Cloud/Azure_Data_Lake_Analytics.png>
+!define MSIMG_AZUREDATALAKEANALYTICS_G <img:../sprites/Cloud/azure_data_lake_analytics_gray.png>
+!define MSIMG_AZUREDATALAKEANALYTICS_B <img:../sprites/Cloud/azure_data_lake_analytics_mono.png>
+!define MSIMG_AZUREDATALAKEANALYTICS_C <img:../sprites/Cloud/azure_data_lake_analytics.png>
 @enduml

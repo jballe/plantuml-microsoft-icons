@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE8
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SERVICEENDPOINT_G <img:../sprites/Cloud/Service_Endpoint_gray.png>
-!define MSIMG_SERVICEENDPOINT_M <img:../sprites/Cloud/Service_Endpoint_mono.png>
-!define MSIMG_SERVICEENDPOINT_C <img:../sprites/Cloud/Service_Endpoint.png>
+!define MSIMG_SERVICEENDPOINT_G <img:../sprites/Cloud/service_endpoint_gray.png>
+!define MSIMG_SERVICEENDPOINT_B <img:../sprites/Cloud/service_endpoint_mono.png>
+!define MSIMG_SERVICEENDPOINT_C <img:../sprites/Cloud/service_endpoint.png>
 @enduml

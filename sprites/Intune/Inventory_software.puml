@@ -50,7 +50,7 @@ EEEEEEEEEEEE508EEEEEEEEEEEEEEEEEE803EEEEEEEEEEEE
 000000000000000000000035530000000000000000000000
 }
 
-!define MSIMG_INVENTORYSOFTWARE_G <img:../sprites/Intune/Inventory_software_gray.png>
-!define MSIMG_INVENTORYSOFTWARE_M <img:../sprites/Intune/Inventory_software_mono.png>
-!define MSIMG_INVENTORYSOFTWARE_C <img:../sprites/Intune/Inventory_software.png>
+!define MSIMG_INVENTORYSOFTWARE_G <img:../sprites/Intune/inventory_software_gray.png>
+!define MSIMG_INVENTORYSOFTWARE_B <img:../sprites/Intune/inventory_software_mono.png>
+!define MSIMG_INVENTORYSOFTWARE_C <img:../sprites/Intune/inventory_software.png>
 @enduml

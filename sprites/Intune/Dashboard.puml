@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DASHBOARD_G <img:../sprites/Intune/Dashboard_gray.png>
-!define MSIMG_DASHBOARD_M <img:../sprites/Intune/Dashboard_mono.png>
-!define MSIMG_DASHBOARD_C <img:../sprites/Intune/Dashboard.png>
+!define MSIMG_DASHBOARD_G <img:../sprites/Intune/dashboard_gray.png>
+!define MSIMG_DASHBOARD_B <img:../sprites/Intune/dashboard_mono.png>
+!define MSIMG_DASHBOARD_C <img:../sprites/Intune/dashboard.png>
 @enduml

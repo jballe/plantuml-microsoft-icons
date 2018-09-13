@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_PROTOCOLSTACK_G <img:../sprites/Enterprise/Protocol_stack_gray.png>
-!define MSIMG_PROTOCOLSTACK_M <img:../sprites/Enterprise/Protocol_stack_mono.png>
-!define MSIMG_PROTOCOLSTACK_C <img:../sprites/Enterprise/Protocol_stack.png>
+!define MSIMG_PROTOCOLSTACK_G <img:../sprites/Enterprise/protocol_stack_gray.png>
+!define MSIMG_PROTOCOLSTACK_B <img:../sprites/Enterprise/protocol_stack_mono.png>
+!define MSIMG_PROTOCOLSTACK_C <img:../sprites/Enterprise/protocol_stack.png>
 @enduml

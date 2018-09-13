@@ -50,7 +50,7 @@ sprite $azurestorsimplecolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORSIMPLECOLOR_G <img:../sprites/Cloud/Azure_StorSimple_COLOR_gray.png>
-!define MSIMG_AZURESTORSIMPLECOLOR_M <img:../sprites/Cloud/Azure_StorSimple_COLOR_mono.png>
-!define MSIMG_AZURESTORSIMPLECOLOR_C <img:../sprites/Cloud/Azure_StorSimple_COLOR.png>
+!define MSIMG_AZURESTORSIMPLECOLOR_G <img:../sprites/Cloud/azure_storsimple_color_gray.png>
+!define MSIMG_AZURESTORSIMPLECOLOR_B <img:../sprites/Cloud/azure_storsimple_color_mono.png>
+!define MSIMG_AZURESTORSIMPLECOLOR_C <img:../sprites/Cloud/azure_storsimple_color.png>
 @enduml

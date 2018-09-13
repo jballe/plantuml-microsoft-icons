@@ -50,7 +50,7 @@ sprite $azureappservicelogicapp [48x48/16] {
 000000005500000000003555555555555500000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICELOGICAPP_G <img:../sprites/Deprecated/Azure_App_Service_Logic_App_gray.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPP_M <img:../sprites/Deprecated/Azure_App_Service_Logic_App_mono.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPP_C <img:../sprites/Deprecated/Azure_App_Service_Logic_App.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPP_G <img:../sprites/Deprecated/azure_app_service_logic_app_gray.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPP_B <img:../sprites/Deprecated/azure_app_service_logic_app_mono.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPP_C <img:../sprites/Deprecated/azure_app_service_logic_app.png>
 @enduml

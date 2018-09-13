@@ -50,7 +50,7 @@ sprite $azurestore [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORE_G <img:../sprites/Cloud/Azure_Store_gray.png>
-!define MSIMG_AZURESTORE_M <img:../sprites/Cloud/Azure_Store_mono.png>
-!define MSIMG_AZURESTORE_C <img:../sprites/Cloud/Azure_Store.png>
+!define MSIMG_AZURESTORE_G <img:../sprites/Cloud/azure_store_gray.png>
+!define MSIMG_AZURESTORE_B <img:../sprites/Cloud/azure_store_mono.png>
+!define MSIMG_AZURESTORE_C <img:../sprites/Cloud/azure_store.png>
 @enduml

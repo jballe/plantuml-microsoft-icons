@@ -50,7 +50,7 @@ sprite $azureactivedirectorycolor [48x48/16] {
 00000000000000000000008EE80000000000000000000000
 }
 
-!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_G <img:../sprites/Cloud/Azure_Active_Directory_COLOR_gray.png>
-!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_M <img:../sprites/Cloud/Azure_Active_Directory_COLOR_mono.png>
-!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_C <img:../sprites/Cloud/Azure_Active_Directory_COLOR.png>
+!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_G <img:../sprites/Cloud/azure_active_directory_color_gray.png>
+!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_B <img:../sprites/Cloud/azure_active_directory_color_mono.png>
+!define MSIMG_AZUREACTIVEDIRECTORYCOLOR_C <img:../sprites/Cloud/azure_active_directory_color.png>
 @enduml

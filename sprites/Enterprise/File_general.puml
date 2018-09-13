@@ -50,7 +50,7 @@ sprite $filegeneral [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_FILEGENERAL_G <img:../sprites/Enterprise/File_general_gray.png>
-!define MSIMG_FILEGENERAL_M <img:../sprites/Enterprise/File_general_mono.png>
-!define MSIMG_FILEGENERAL_C <img:../sprites/Enterprise/File_general.png>
+!define MSIMG_FILEGENERAL_G <img:../sprites/Enterprise/file_general_gray.png>
+!define MSIMG_FILEGENERAL_B <img:../sprites/Enterprise/file_general_mono.png>
+!define MSIMG_FILEGENERAL_C <img:../sprites/Enterprise/file_general.png>
 @enduml

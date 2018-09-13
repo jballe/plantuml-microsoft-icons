@@ -50,7 +50,7 @@ sprite $subscriptionportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SUBSCRIPTIONPORTAL_G <img:../sprites/Intune/Subscription_portal_gray.png>
-!define MSIMG_SUBSCRIPTIONPORTAL_M <img:../sprites/Intune/Subscription_portal_mono.png>
-!define MSIMG_SUBSCRIPTIONPORTAL_C <img:../sprites/Intune/Subscription_portal.png>
+!define MSIMG_SUBSCRIPTIONPORTAL_G <img:../sprites/Intune/subscription_portal_gray.png>
+!define MSIMG_SUBSCRIPTIONPORTAL_B <img:../sprites/Intune/subscription_portal_mono.png>
+!define MSIMG_SUBSCRIPTIONPORTAL_C <img:../sprites/Intune/subscription_portal.png>
 @enduml

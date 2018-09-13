@@ -50,7 +50,7 @@ EEEE00005EEEEE30000000EEEEEEEEEEEEEEEEEEE500EEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_MONITOR_G <img:../sprites/Cloud/Monitor_gray.png>
-!define MSIMG_MONITOR_M <img:../sprites/Cloud/Monitor_mono.png>
-!define MSIMG_MONITOR_C <img:../sprites/Cloud/Monitor.png>
+!define MSIMG_MONITOR_G <img:../sprites/Cloud/monitor_gray.png>
+!define MSIMG_MONITOR_B <img:../sprites/Cloud/monitor_mono.png>
+!define MSIMG_MONITOR_C <img:../sprites/Cloud/monitor.png>
 @enduml

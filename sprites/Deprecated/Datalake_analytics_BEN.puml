@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEE0000EEEE500EEEE500EEEE500EEEE5
 0000000000085899EE00009EEE5009EEE500EEEE500EEEE5
 }
 
-!define MSIMG_DATALAKEANALYTICSBEN_G <img:../sprites/Deprecated/Datalake_analytics_BEN_gray.png>
-!define MSIMG_DATALAKEANALYTICSBEN_M <img:../sprites/Deprecated/Datalake_analytics_BEN_mono.png>
-!define MSIMG_DATALAKEANALYTICSBEN_C <img:../sprites/Deprecated/Datalake_analytics_BEN.png>
+!define MSIMG_DATALAKEANALYTICSBEN_G <img:../sprites/Deprecated/datalake_analytics_ben_gray.png>
+!define MSIMG_DATALAKEANALYTICSBEN_B <img:../sprites/Deprecated/datalake_analytics_ben_mono.png>
+!define MSIMG_DATALAKEANALYTICSBEN_C <img:../sprites/Deprecated/datalake_analytics_ben.png>
 @enduml

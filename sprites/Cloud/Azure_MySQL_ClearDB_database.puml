@@ -50,7 +50,7 @@ sprite $azuremysqlcleardbdatabase [48x48/16] {
 000000000000000000589EEEEEE985800000000000000000
 }
 
-!define MSIMG_AZUREMYSQLCLEARDBDATABASE_G <img:../sprites/Cloud/Azure_MySQL_ClearDB_database_gray.png>
-!define MSIMG_AZUREMYSQLCLEARDBDATABASE_M <img:../sprites/Cloud/Azure_MySQL_ClearDB_database_mono.png>
-!define MSIMG_AZUREMYSQLCLEARDBDATABASE_C <img:../sprites/Cloud/Azure_MySQL_ClearDB_database.png>
+!define MSIMG_AZUREMYSQLCLEARDBDATABASE_G <img:../sprites/Cloud/azure_mysql_cleardb_database_gray.png>
+!define MSIMG_AZUREMYSQLCLEARDBDATABASE_B <img:../sprites/Cloud/azure_mysql_cleardb_database_mono.png>
+!define MSIMG_AZUREMYSQLCLEARDBDATABASE_C <img:../sprites/Cloud/azure_mysql_cleardb_database.png>
 @enduml

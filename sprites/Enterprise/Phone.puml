@@ -50,7 +50,7 @@ sprite $phone [48x48/16] {
 0000000003EEEEEEEEEEEEEEEEEEEEEEEEEEEE3000000000
 }
 
-!define MSIMG_PHONE_G <img:../sprites/Enterprise/Phone_gray.png>
-!define MSIMG_PHONE_M <img:../sprites/Enterprise/Phone_mono.png>
-!define MSIMG_PHONE_C <img:../sprites/Enterprise/Phone.png>
+!define MSIMG_PHONE_G <img:../sprites/Enterprise/phone_gray.png>
+!define MSIMG_PHONE_B <img:../sprites/Enterprise/phone_mono.png>
+!define MSIMG_PHONE_C <img:../sprites/Enterprise/phone.png>
 @enduml

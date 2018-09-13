@@ -50,7 +50,7 @@ EEE9000000000000009EEEEEEEEEEEEEE00000000005EEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_G <img:../sprites/Cloud/Azure_App_Service_Web_App_COLOR_gray.png>
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_M <img:../sprites/Cloud/Azure_App_Service_Web_App_COLOR_mono.png>
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_C <img:../sprites/Cloud/Azure_App_Service_Web_App_COLOR.png>
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_G <img:../sprites/Cloud/azure_app_service_web_app_color_gray.png>
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_B <img:../sprites/Cloud/azure_app_service_web_app_color_mono.png>
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_C <img:../sprites/Cloud/azure_app_service_web_app_color.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $visualstudioteamservicesbitbucketcodesource [48x48/16] {
 000000000000000000359EEEEEE953000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_G <img:../sprites/Cloud/Visual_Studio_Team_Services_Bitbucket_code_source_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_M <img:../sprites/Cloud/Visual_Studio_Team_Services_Bitbucket_code_source_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_C <img:../sprites/Cloud/Visual_Studio_Team_Services_Bitbucket_code_source.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_G <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_B <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_C <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source.png>
 @enduml

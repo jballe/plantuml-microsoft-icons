@@ -50,7 +50,7 @@ sprite $skype [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SKYPE_G <img:../sprites/OtherMicrosoftProd/Skype_gray.png>
-!define MSIMG_SKYPE_M <img:../sprites/OtherMicrosoftProd/Skype_mono.png>
-!define MSIMG_SKYPE_C <img:../sprites/OtherMicrosoftProd/Skype.png>
+!define MSIMG_SKYPE_G <img:../sprites/OtherMicrosoftProd/skype_gray.png>
+!define MSIMG_SKYPE_B <img:../sprites/OtherMicrosoftProd/skype_mono.png>
+!define MSIMG_SKYPE_C <img:../sprites/OtherMicrosoftProd/skype.png>
 @enduml

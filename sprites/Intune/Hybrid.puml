@@ -50,7 +50,7 @@ EEEEEEEEEEEEEE33E00000000009E0000000000EE9000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_HYBRID_G <img:../sprites/Intune/Hybrid_gray.png>
-!define MSIMG_HYBRID_M <img:../sprites/Intune/Hybrid_mono.png>
-!define MSIMG_HYBRID_C <img:../sprites/Intune/Hybrid.png>
+!define MSIMG_HYBRID_G <img:../sprites/Intune/hybrid_gray.png>
+!define MSIMG_HYBRID_B <img:../sprites/Intune/hybrid_mono.png>
+!define MSIMG_HYBRID_C <img:../sprites/Intune/hybrid.png>
 @enduml

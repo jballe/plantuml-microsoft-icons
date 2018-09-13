@@ -50,7 +50,7 @@ EEEEEEEEEE08EEEEE9000009EEEEE0000588883000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_G <img:../sprites/Intune/Client_software_deployment_wizard_gray.png>
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_M <img:../sprites/Intune/Client_software_deployment_wizard_mono.png>
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_C <img:../sprites/Intune/Client_software_deployment_wizard.png>
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_G <img:../sprites/Intune/client_software_deployment_wizard_gray.png>
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_B <img:../sprites/Intune/client_software_deployment_wizard_mono.png>
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_C <img:../sprites/Intune/client_software_deployment_wizard.png>
 @enduml

@@ -51,6 +51,6 @@ sprite $step1fixed [48x41/16] {
 }
 
 !define MSIMG_STEP1FIXED_G <img:../sprites/Deprecated/step_1_fixed_gray.png>
-!define MSIMG_STEP1FIXED_M <img:../sprites/Deprecated/step_1_fixed_mono.png>
+!define MSIMG_STEP1FIXED_B <img:../sprites/Deprecated/step_1_fixed_mono.png>
 !define MSIMG_STEP1FIXED_C <img:../sprites/Deprecated/step_1_fixed.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $omsservices [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSERVICES_G <img:../sprites/OMS/OMS_Services_gray.png>
-!define MSIMG_OMSSERVICES_M <img:../sprites/OMS/OMS_Services_mono.png>
-!define MSIMG_OMSSERVICES_C <img:../sprites/OMS/OMS_Services.png>
+!define MSIMG_OMSSERVICES_G <img:../sprites/OMS/oms_services_gray.png>
+!define MSIMG_OMSSERVICES_B <img:../sprites/OMS/oms_services_mono.png>
+!define MSIMG_OMSSERVICES_C <img:../sprites/OMS/oms_services.png>
 @enduml

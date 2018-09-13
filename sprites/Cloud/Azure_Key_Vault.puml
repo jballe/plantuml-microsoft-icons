@@ -50,7 +50,7 @@ sprite $azurekeyvault [48x48/16] {
 0000000000000000000389EEEE9830000000000000000000
 }
 
-!define MSIMG_AZUREKEYVAULT_G <img:../sprites/Cloud/Azure_Key_Vault_gray.png>
-!define MSIMG_AZUREKEYVAULT_M <img:../sprites/Cloud/Azure_Key_Vault_mono.png>
-!define MSIMG_AZUREKEYVAULT_C <img:../sprites/Cloud/Azure_Key_Vault.png>
+!define MSIMG_AZUREKEYVAULT_G <img:../sprites/Cloud/azure_key_vault_gray.png>
+!define MSIMG_AZUREKEYVAULT_B <img:../sprites/Cloud/azure_key_vault_mono.png>
+!define MSIMG_AZUREKEYVAULT_C <img:../sprites/Cloud/azure_key_vault.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEE009EEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_G <img:../sprites/Deprecated/Azure_Content_Delivery_Network_CDN_v1_OLD_gray.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_M <img:../sprites/Deprecated/Azure_Content_Delivery_Network_CDN_v1_OLD_mono.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_C <img:../sprites/Deprecated/Azure_Content_Delivery_Network_CDN_v1_OLD.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_G <img:../sprites/Deprecated/azure_content_delivery_network_cdn_v1_old_gray.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_B <img:../sprites/Deprecated/azure_content_delivery_network_cdn_v1_old_mono.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDNV1OLD_C <img:../sprites/Deprecated/azure_content_delivery_network_cdn_v1_old.png>
 @enduml

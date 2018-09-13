@@ -50,7 +50,7 @@ EEEEEEEEEEEE300000000000000000000000000000000000
 0000000000889EEE95800000000000000000000000000000
 }
 
-!define MSIMG_OMSLOGANALYTICS_G <img:../sprites/Cloud/OMS_Log_Analytics_gray.png>
-!define MSIMG_OMSLOGANALYTICS_M <img:../sprites/Cloud/OMS_Log_Analytics_mono.png>
-!define MSIMG_OMSLOGANALYTICS_C <img:../sprites/Cloud/OMS_Log_Analytics.png>
+!define MSIMG_OMSLOGANALYTICS_G <img:../sprites/Cloud/oms_log_analytics_gray.png>
+!define MSIMG_OMSLOGANALYTICS_B <img:../sprites/Cloud/oms_log_analytics_mono.png>
+!define MSIMG_OMSLOGANALYTICS_C <img:../sprites/Cloud/oms_log_analytics.png>
 @enduml

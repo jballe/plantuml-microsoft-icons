@@ -50,7 +50,7 @@ sprite $serverdirectory [48x48/16] {
 000005EEEEEEEEEEEE008EEEEEEEEE8859EEEEEEE9000000
 }
 
-!define MSIMG_SERVERDIRECTORY_G <img:../sprites/Enterprise/Server_directory_gray.png>
-!define MSIMG_SERVERDIRECTORY_M <img:../sprites/Enterprise/Server_directory_mono.png>
-!define MSIMG_SERVERDIRECTORY_C <img:../sprites/Enterprise/Server_directory.png>
+!define MSIMG_SERVERDIRECTORY_G <img:../sprites/Enterprise/server_directory_gray.png>
+!define MSIMG_SERVERDIRECTORY_B <img:../sprites/Enterprise/server_directory_mono.png>
+!define MSIMG_SERVERDIRECTORY_C <img:../sprites/Enterprise/server_directory.png>
 @enduml

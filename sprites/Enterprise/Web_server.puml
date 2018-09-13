@@ -50,7 +50,7 @@ sprite $webserver [48x48/16] {
 00000055555555555555553000038EEE9500000000000000
 }
 
-!define MSIMG_WEBSERVER_G <img:../sprites/Enterprise/Web_server_gray.png>
-!define MSIMG_WEBSERVER_M <img:../sprites/Enterprise/Web_server_mono.png>
-!define MSIMG_WEBSERVER_C <img:../sprites/Enterprise/Web_server.png>
+!define MSIMG_WEBSERVER_G <img:../sprites/Enterprise/web_server_gray.png>
+!define MSIMG_WEBSERVER_B <img:../sprites/Enterprise/web_server_mono.png>
+!define MSIMG_WEBSERVER_C <img:../sprites/Enterprise/web_server.png>
 @enduml

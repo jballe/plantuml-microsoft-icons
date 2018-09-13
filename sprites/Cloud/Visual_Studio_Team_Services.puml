@@ -50,7 +50,7 @@ EEEEEEEEE80000000000008EEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000008980000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICES_G <img:../sprites/Cloud/Visual_Studio_Team_Services_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICES_M <img:../sprites/Cloud/Visual_Studio_Team_Services_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICES_C <img:../sprites/Cloud/Visual_Studio_Team_Services.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICES_G <img:../sprites/Cloud/visual_studio_team_services_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICES_B <img:../sprites/Cloud/visual_studio_team_services_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICES_C <img:../sprites/Cloud/visual_studio_team_services.png>
 @enduml

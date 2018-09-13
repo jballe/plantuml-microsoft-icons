@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLOUD_G <img:../sprites/Enterprise/Cloud_gray.png>
-!define MSIMG_CLOUD_M <img:../sprites/Enterprise/Cloud_mono.png>
-!define MSIMG_CLOUD_C <img:../sprites/Enterprise/Cloud.png>
+!define MSIMG_CLOUD_G <img:../sprites/Enterprise/cloud_gray.png>
+!define MSIMG_CLOUD_B <img:../sprites/Enterprise/cloud_mono.png>
+!define MSIMG_CLOUD_C <img:../sprites/Enterprise/cloud.png>
 @enduml

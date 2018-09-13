@@ -50,7 +50,7 @@ sprite $azuresecuritycentercolor [48x48/16] {
 000000000000000000000003830000000000000000000000
 }
 
-!define MSIMG_AZURESECURITYCENTERCOLOR_G <img:../sprites/Cloud/Azure_Security_Center_COLOR_gray.png>
-!define MSIMG_AZURESECURITYCENTERCOLOR_M <img:../sprites/Cloud/Azure_Security_Center_COLOR_mono.png>
-!define MSIMG_AZURESECURITYCENTERCOLOR_C <img:../sprites/Cloud/Azure_Security_Center_COLOR.png>
+!define MSIMG_AZURESECURITYCENTERCOLOR_G <img:../sprites/Cloud/azure_security_center_color_gray.png>
+!define MSIMG_AZURESECURITYCENTERCOLOR_B <img:../sprites/Cloud/azure_security_center_color_mono.png>
+!define MSIMG_AZURESECURITYCENTERCOLOR_C <img:../sprites/Cloud/azure_security_center_color.png>
 @enduml

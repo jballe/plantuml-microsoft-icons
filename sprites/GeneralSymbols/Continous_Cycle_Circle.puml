@@ -50,7 +50,7 @@ sprite $continouscyclecircle [48x48/16] {
 000000000000000000000080000000000000000000000000
 }
 
-!define MSIMG_CONTINOUSCYCLECIRCLE_G <img:../sprites/GeneralSymbols/Continous_Cycle_Circle_gray.png>
-!define MSIMG_CONTINOUSCYCLECIRCLE_M <img:../sprites/GeneralSymbols/Continous_Cycle_Circle_mono.png>
-!define MSIMG_CONTINOUSCYCLECIRCLE_C <img:../sprites/GeneralSymbols/Continous_Cycle_Circle.png>
+!define MSIMG_CONTINOUSCYCLECIRCLE_G <img:../sprites/GeneralSymbols/continous_cycle_circle_gray.png>
+!define MSIMG_CONTINOUSCYCLECIRCLE_B <img:../sprites/GeneralSymbols/continous_cycle_circle_mono.png>
+!define MSIMG_CONTINOUSCYCLECIRCLE_C <img:../sprites/GeneralSymbols/continous_cycle_circle.png>
 @enduml

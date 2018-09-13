@@ -50,7 +50,7 @@ sprite $datalakeben [48x48/16] {
 000000000000000003589EEEEEE985300000000000000000
 }
 
-!define MSIMG_DATALAKEBEN_G <img:../sprites/Deprecated/Data_Lake_BEN_gray.png>
-!define MSIMG_DATALAKEBEN_M <img:../sprites/Deprecated/Data_Lake_BEN_mono.png>
-!define MSIMG_DATALAKEBEN_C <img:../sprites/Deprecated/Data_Lake_BEN.png>
+!define MSIMG_DATALAKEBEN_G <img:../sprites/Deprecated/data_lake_ben_gray.png>
+!define MSIMG_DATALAKEBEN_B <img:../sprites/Deprecated/data_lake_ben_mono.png>
+!define MSIMG_DATALAKEBEN_C <img:../sprites/Deprecated/data_lake_ben.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azurescheduler [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESCHEDULER_G <img:../sprites/Cloud/Azure_Scheduler_gray.png>
-!define MSIMG_AZURESCHEDULER_M <img:../sprites/Cloud/Azure_Scheduler_mono.png>
-!define MSIMG_AZURESCHEDULER_C <img:../sprites/Cloud/Azure_Scheduler.png>
+!define MSIMG_AZURESCHEDULER_G <img:../sprites/Cloud/azure_scheduler_gray.png>
+!define MSIMG_AZURESCHEDULER_B <img:../sprites/Cloud/azure_scheduler_mono.png>
+!define MSIMG_AZURESCHEDULER_C <img:../sprites/Cloud/azure_scheduler.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500805
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECLOUDSERVICESWORKERROLES_G <img:../sprites/Cloud/Azure_Cloud_Services_Worker_roles_gray.png>
-!define MSIMG_AZURECLOUDSERVICESWORKERROLES_M <img:../sprites/Cloud/Azure_Cloud_Services_Worker_roles_mono.png>
-!define MSIMG_AZURECLOUDSERVICESWORKERROLES_C <img:../sprites/Cloud/Azure_Cloud_Services_Worker_roles.png>
+!define MSIMG_AZURECLOUDSERVICESWORKERROLES_G <img:../sprites/Cloud/azure_cloud_services_worker_roles_gray.png>
+!define MSIMG_AZURECLOUDSERVICESWORKERROLES_B <img:../sprites/Cloud/azure_cloud_services_worker_roles_mono.png>
+!define MSIMG_AZURECLOUDSERVICESWORKERROLES_C <img:../sprites/Cloud/azure_cloud_services_worker_roles.png>
 @enduml

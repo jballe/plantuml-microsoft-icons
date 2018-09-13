@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000035900000000000000000000
 }
 
-!define MSIMG_EXEL_G <img:../sprites/OtherMicrosoftProd/Exel_gray.png>
-!define MSIMG_EXEL_M <img:../sprites/OtherMicrosoftProd/Exel_mono.png>
-!define MSIMG_EXEL_C <img:../sprites/OtherMicrosoftProd/Exel.png>
+!define MSIMG_EXEL_G <img:../sprites/OtherMicrosoftProd/exel_gray.png>
+!define MSIMG_EXEL_B <img:../sprites/OtherMicrosoftProd/exel_mono.png>
+!define MSIMG_EXEL_C <img:../sprites/OtherMicrosoftProd/exel.png>
 @enduml

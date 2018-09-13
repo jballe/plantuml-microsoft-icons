@@ -50,7 +50,7 @@ sprite $vhd [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_VHD_G <img:../sprites/Cloud/VHD_gray.png>
-!define MSIMG_VHD_M <img:../sprites/Cloud/VHD_mono.png>
-!define MSIMG_VHD_C <img:../sprites/Cloud/VHD.png>
+!define MSIMG_VHD_G <img:../sprites/Cloud/vhd_gray.png>
+!define MSIMG_VHD_B <img:../sprites/Cloud/vhd_mono.png>
+!define MSIMG_VHD_C <img:../sprites/Cloud/vhd.png>
 @enduml

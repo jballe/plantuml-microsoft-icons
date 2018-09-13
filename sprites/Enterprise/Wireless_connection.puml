@@ -50,7 +50,7 @@ sprite $wirelessconnection [48x48/16] {
 000000000000000000000000000000005000000000000000
 }
 
-!define MSIMG_WIRELESSCONNECTION_G <img:../sprites/Enterprise/Wireless_connection_gray.png>
-!define MSIMG_WIRELESSCONNECTION_M <img:../sprites/Enterprise/Wireless_connection_mono.png>
-!define MSIMG_WIRELESSCONNECTION_C <img:../sprites/Enterprise/Wireless_connection.png>
+!define MSIMG_WIRELESSCONNECTION_G <img:../sprites/Enterprise/wireless_connection_gray.png>
+!define MSIMG_WIRELESSCONNECTION_B <img:../sprites/Enterprise/wireless_connection_mono.png>
+!define MSIMG_WIRELESSCONNECTION_C <img:../sprites/Enterprise/wireless_connection.png>
 @enduml

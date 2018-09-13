@@ -50,7 +50,7 @@ sprite $azureacitvedirectoryaccesscontrol [48x48/16] {
 000000000000000000000008300000000000000000000000
 }
 
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_G <img:../sprites/Cloud/Azure_Acitve_Directory_Access_Control_gray.png>
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_M <img:../sprites/Cloud/Azure_Acitve_Directory_Access_Control_mono.png>
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_C <img:../sprites/Cloud/Azure_Acitve_Directory_Access_Control.png>
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_G <img:../sprites/Cloud/azure_acitve_directory_access_control_gray.png>
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_B <img:../sprites/Cloud/azure_acitve_directory_access_control_mono.png>
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_C <img:../sprites/Cloud/azure_acitve_directory_access_control.png>
 @enduml

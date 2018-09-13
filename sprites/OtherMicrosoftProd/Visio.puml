@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE80000000000000000000
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_VISIO_G <img:../sprites/OtherMicrosoftProd/Visio_gray.png>
-!define MSIMG_VISIO_M <img:../sprites/OtherMicrosoftProd/Visio_mono.png>
-!define MSIMG_VISIO_C <img:../sprites/OtherMicrosoftProd/Visio.png>
+!define MSIMG_VISIO_G <img:../sprites/OtherMicrosoftProd/visio_gray.png>
+!define MSIMG_VISIO_B <img:../sprites/OtherMicrosoftProd/visio_mono.png>
+!define MSIMG_VISIO_C <img:../sprites/OtherMicrosoftProd/visio.png>
 @enduml

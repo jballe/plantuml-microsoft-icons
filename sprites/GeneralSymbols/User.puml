@@ -50,7 +50,7 @@ sprite $user [48x48/16] {
 09EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE90
 }
 
-!define MSIMG_USER_G <img:../sprites/GeneralSymbols/User_gray.png>
-!define MSIMG_USER_M <img:../sprites/GeneralSymbols/User_mono.png>
-!define MSIMG_USER_C <img:../sprites/GeneralSymbols/User.png>
+!define MSIMG_USER_G <img:../sprites/GeneralSymbols/user_gray.png>
+!define MSIMG_USER_B <img:../sprites/GeneralSymbols/user_mono.png>
+!define MSIMG_USER_C <img:../sprites/GeneralSymbols/user.png>
 @enduml

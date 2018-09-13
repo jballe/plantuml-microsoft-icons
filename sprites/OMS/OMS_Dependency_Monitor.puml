@@ -50,7 +50,7 @@ sprite $omsdependencymonitor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSDEPENDENCYMONITOR_G <img:../sprites/OMS/OMS_Dependency_Monitor_gray.png>
-!define MSIMG_OMSDEPENDENCYMONITOR_M <img:../sprites/OMS/OMS_Dependency_Monitor_mono.png>
-!define MSIMG_OMSDEPENDENCYMONITOR_C <img:../sprites/OMS/OMS_Dependency_Monitor.png>
+!define MSIMG_OMSDEPENDENCYMONITOR_G <img:../sprites/OMS/oms_dependency_monitor_gray.png>
+!define MSIMG_OMSDEPENDENCYMONITOR_B <img:../sprites/OMS/oms_dependency_monitor_mono.png>
+!define MSIMG_OMSDEPENDENCYMONITOR_C <img:../sprites/OMS/oms_dependency_monitor.png>
 @enduml

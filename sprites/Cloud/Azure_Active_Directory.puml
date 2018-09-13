@@ -50,7 +50,7 @@ sprite $azureactivedirectory [48x48/16] {
 000000000000000000000008300000000000000000000000
 }
 
-!define MSIMG_AZUREACTIVEDIRECTORY_G <img:../sprites/Cloud/Azure_Active_Directory_gray.png>
-!define MSIMG_AZUREACTIVEDIRECTORY_M <img:../sprites/Cloud/Azure_Active_Directory_mono.png>
-!define MSIMG_AZUREACTIVEDIRECTORY_C <img:../sprites/Cloud/Azure_Active_Directory.png>
+!define MSIMG_AZUREACTIVEDIRECTORY_G <img:../sprites/Cloud/azure_active_directory_gray.png>
+!define MSIMG_AZUREACTIVEDIRECTORY_B <img:../sprites/Cloud/azure_active_directory_mono.png>
+!define MSIMG_AZUREACTIVEDIRECTORY_C <img:../sprites/Cloud/azure_active_directory.png>
 @enduml

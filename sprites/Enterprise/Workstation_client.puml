@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEE000EEEEEE98888889EEEEEEE0000000
 EEEEEEEEEEEEEEEEE008EEEE9800000000039EEEE0000000
 }
 
-!define MSIMG_WORKSTATIONCLIENT_G <img:../sprites/Enterprise/Workstation_client_gray.png>
-!define MSIMG_WORKSTATIONCLIENT_M <img:../sprites/Enterprise/Workstation_client_mono.png>
-!define MSIMG_WORKSTATIONCLIENT_C <img:../sprites/Enterprise/Workstation_client.png>
+!define MSIMG_WORKSTATIONCLIENT_G <img:../sprites/Enterprise/workstation_client_gray.png>
+!define MSIMG_WORKSTATIONCLIENT_B <img:../sprites/Enterprise/workstation_client_mono.png>
+!define MSIMG_WORKSTATIONCLIENT_C <img:../sprites/Enterprise/workstation_client.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $noncompliantapps [48x48/16] {
 000000000000000000000000000000005930000000000000
 }
 
-!define MSIMG_NONCOMPLIANTAPPS_G <img:../sprites/Intune/Noncompliant_apps_gray.png>
-!define MSIMG_NONCOMPLIANTAPPS_M <img:../sprites/Intune/Noncompliant_apps_mono.png>
-!define MSIMG_NONCOMPLIANTAPPS_C <img:../sprites/Intune/Noncompliant_apps.png>
+!define MSIMG_NONCOMPLIANTAPPS_G <img:../sprites/Intune/noncompliant_apps_gray.png>
+!define MSIMG_NONCOMPLIANTAPPS_B <img:../sprites/Intune/noncompliant_apps_mono.png>
+!define MSIMG_NONCOMPLIANTAPPS_C <img:../sprites/Intune/noncompliant_apps.png>
 @enduml

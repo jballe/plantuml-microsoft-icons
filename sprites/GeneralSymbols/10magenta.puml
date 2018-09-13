@@ -51,6 +51,6 @@ sprite $10magenta [48x48/16] {
 }
 
 !define MSIMG_10MAGENTA_G <img:../sprites/GeneralSymbols/10magenta_gray.png>
-!define MSIMG_10MAGENTA_M <img:../sprites/GeneralSymbols/10magenta_mono.png>
+!define MSIMG_10MAGENTA_B <img:../sprites/GeneralSymbols/10magenta_mono.png>
 !define MSIMG_10MAGENTA_C <img:../sprites/GeneralSymbols/10magenta.png>
 @enduml

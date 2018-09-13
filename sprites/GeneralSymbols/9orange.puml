@@ -51,6 +51,6 @@ sprite $9orange [48x48/16] {
 }
 
 !define MSIMG_9ORANGE_G <img:../sprites/GeneralSymbols/9orange_gray.png>
-!define MSIMG_9ORANGE_M <img:../sprites/GeneralSymbols/9orange_mono.png>
+!define MSIMG_9ORANGE_B <img:../sprites/GeneralSymbols/9orange_mono.png>
 !define MSIMG_9ORANGE_C <img:../sprites/GeneralSymbols/9orange.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $domaincontroller [48x48/16] {
 0000003EEEEEEEEE9003EEEEEEEEEEEEEEEEEEEEE8000000
 }
 
-!define MSIMG_DOMAINCONTROLLER_G <img:../sprites/Enterprise/Domain_controller_gray.png>
-!define MSIMG_DOMAINCONTROLLER_M <img:../sprites/Enterprise/Domain_controller_mono.png>
-!define MSIMG_DOMAINCONTROLLER_C <img:../sprites/Enterprise/Domain_controller.png>
+!define MSIMG_DOMAINCONTROLLER_G <img:../sprites/Enterprise/domain_controller_gray.png>
+!define MSIMG_DOMAINCONTROLLER_B <img:../sprites/Enterprise/domain_controller_mono.png>
+!define MSIMG_DOMAINCONTROLLER_C <img:../sprites/Enterprise/domain_controller.png>
 @enduml

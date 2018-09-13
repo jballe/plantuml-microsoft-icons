@@ -50,7 +50,7 @@ sprite $clientapplication [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLIENTAPPLICATION_G <img:../sprites/Enterprise/Client_application_gray.png>
-!define MSIMG_CLIENTAPPLICATION_M <img:../sprites/Enterprise/Client_application_mono.png>
-!define MSIMG_CLIENTAPPLICATION_C <img:../sprites/Enterprise/Client_application.png>
+!define MSIMG_CLIENTAPPLICATION_G <img:../sprites/Enterprise/client_application_gray.png>
+!define MSIMG_CLIENTAPPLICATION_B <img:../sprites/Enterprise/client_application_mono.png>
+!define MSIMG_CLIENTAPPLICATION_C <img:../sprites/Enterprise/client_application.png>
 @enduml

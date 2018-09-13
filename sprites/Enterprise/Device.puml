@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DEVICE_G <img:../sprites/Enterprise/Device_gray.png>
-!define MSIMG_DEVICE_M <img:../sprites/Enterprise/Device_mono.png>
-!define MSIMG_DEVICE_C <img:../sprites/Enterprise/Device.png>
+!define MSIMG_DEVICE_G <img:../sprites/Enterprise/device_gray.png>
+!define MSIMG_DEVICE_B <img:../sprites/Enterprise/device_mono.png>
+!define MSIMG_DEVICE_C <img:../sprites/Enterprise/device.png>
 @enduml

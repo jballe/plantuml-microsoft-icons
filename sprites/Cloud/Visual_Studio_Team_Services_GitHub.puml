@@ -50,7 +50,7 @@ EE8000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE5000000EE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_G <img:../sprites/Cloud/Visual_Studio_Team_Services_GitHub_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_M <img:../sprites/Cloud/Visual_Studio_Team_Services_GitHub_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_C <img:../sprites/Cloud/Visual_Studio_Team_Services_GitHub.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_G <img:../sprites/Cloud/visual_studio_team_services_github_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_B <img:../sprites/Cloud/visual_studio_team_services_github_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITHUB_C <img:../sprites/Cloud/visual_studio_team_services_github.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azurestoremarketplace [48x48/16] {
 000000000000000000000000000008355899E90000000000
 }
 
-!define MSIMG_AZURESTOREMARKETPLACE_G <img:../sprites/Cloud/Azure_Store_Marketplace_gray.png>
-!define MSIMG_AZURESTOREMARKETPLACE_M <img:../sprites/Cloud/Azure_Store_Marketplace_mono.png>
-!define MSIMG_AZURESTOREMARKETPLACE_C <img:../sprites/Cloud/Azure_Store_Marketplace.png>
+!define MSIMG_AZURESTOREMARKETPLACE_G <img:../sprites/Cloud/azure_store_marketplace_gray.png>
+!define MSIMG_AZURESTOREMARKETPLACE_B <img:../sprites/Cloud/azure_store_marketplace_mono.png>
+!define MSIMG_AZURESTOREMARKETPLACE_C <img:../sprites/Cloud/azure_store_marketplace.png>
 @enduml

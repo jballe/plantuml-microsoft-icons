@@ -50,7 +50,7 @@ E00000000000000000000000000000000000000000038000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_QUEUEGENERAL_G <img:../sprites/Enterprise/Queue_general_gray.png>
-!define MSIMG_QUEUEGENERAL_M <img:../sprites/Enterprise/Queue_general_mono.png>
-!define MSIMG_QUEUEGENERAL_C <img:../sprites/Enterprise/Queue_general.png>
+!define MSIMG_QUEUEGENERAL_G <img:../sprites/Enterprise/queue_general_gray.png>
+!define MSIMG_QUEUEGENERAL_B <img:../sprites/Enterprise/queue_general_mono.png>
+!define MSIMG_QUEUEGENERAL_C <img:../sprites/Enterprise/queue_general.png>
 @enduml

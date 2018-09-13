@@ -50,7 +50,7 @@ EEEEEEEEEEEEE0000000000000000000000EEEEEEEEEEEEE
 00000000000000008E000000000000E80000000000000000
 }
 
-!define MSIMG_SETTINGS_G <img:../sprites/Enterprise/Settings_gray.png>
-!define MSIMG_SETTINGS_M <img:../sprites/Enterprise/Settings_mono.png>
-!define MSIMG_SETTINGS_C <img:../sprites/Enterprise/Settings.png>
+!define MSIMG_SETTINGS_G <img:../sprites/Enterprise/settings_gray.png>
+!define MSIMG_SETTINGS_B <img:../sprites/Enterprise/settings_mono.png>
+!define MSIMG_SETTINGS_C <img:../sprites/Enterprise/settings.png>
 @enduml

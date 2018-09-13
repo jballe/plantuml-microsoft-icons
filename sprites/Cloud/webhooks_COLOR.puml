@@ -51,6 +51,6 @@ EEEE5009EEEEEEEE305EEEEEEEEEEEEEEEEEEEEE9005EEEE
 }
 
 !define MSIMG_WEBHOOKSCOLOR_G <img:../sprites/Cloud/webhooks_color_gray.png>
-!define MSIMG_WEBHOOKSCOLOR_M <img:../sprites/Cloud/webhooks_color_mono.png>
+!define MSIMG_WEBHOOKSCOLOR_B <img:../sprites/Cloud/webhooks_color_mono.png>
 !define MSIMG_WEBHOOKSCOLOR_C <img:../sprites/Cloud/webhooks_color.png>
 @enduml

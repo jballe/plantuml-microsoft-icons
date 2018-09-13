@@ -51,6 +51,6 @@ sprite $5red [48x48/16] {
 }
 
 !define MSIMG_5RED_G <img:../sprites/GeneralSymbols/5red_gray.png>
-!define MSIMG_5RED_M <img:../sprites/GeneralSymbols/5red_mono.png>
+!define MSIMG_5RED_B <img:../sprites/GeneralSymbols/5red_mono.png>
 !define MSIMG_5RED_C <img:../sprites/GeneralSymbols/5red.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEE9888888888888888888888888888888888888
 9EEEEEEEEE98888888888888888888888888888888888885
 }
 
-!define MSIMG_AZUREDATAFACTORYCOLOR_G <img:../sprites/Cloud/Azure_Data_Factory_COLOR_gray.png>
-!define MSIMG_AZUREDATAFACTORYCOLOR_M <img:../sprites/Cloud/Azure_Data_Factory_COLOR_mono.png>
-!define MSIMG_AZUREDATAFACTORYCOLOR_C <img:../sprites/Cloud/Azure_Data_Factory_COLOR.png>
+!define MSIMG_AZUREDATAFACTORYCOLOR_G <img:../sprites/Cloud/azure_data_factory_color_gray.png>
+!define MSIMG_AZUREDATAFACTORYCOLOR_B <img:../sprites/Cloud/azure_data_factory_color_mono.png>
+!define MSIMG_AZUREDATAFACTORYCOLOR_C <img:../sprites/Cloud/azure_data_factory_color.png>
 @enduml

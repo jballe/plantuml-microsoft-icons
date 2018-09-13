@@ -50,7 +50,7 @@ sprite $azurestoremarketplacecolor [48x48/16] {
 000000000000000000000000000000083355895000000000
 }
 
-!define MSIMG_AZURESTOREMARKETPLACECOLOR_G <img:../sprites/Cloud/Azure_Store_Marketplace_COLOR_gray.png>
-!define MSIMG_AZURESTOREMARKETPLACECOLOR_M <img:../sprites/Cloud/Azure_Store_Marketplace_COLOR_mono.png>
-!define MSIMG_AZURESTOREMARKETPLACECOLOR_C <img:../sprites/Cloud/Azure_Store_Marketplace_COLOR.png>
+!define MSIMG_AZURESTOREMARKETPLACECOLOR_G <img:../sprites/Cloud/azure_store_marketplace_color_gray.png>
+!define MSIMG_AZURESTOREMARKETPLACECOLOR_B <img:../sprites/Cloud/azure_store_marketplace_color_mono.png>
+!define MSIMG_AZURESTOREMARKETPLACECOLOR_C <img:../sprites/Cloud/azure_store_marketplace_color.png>
 @enduml

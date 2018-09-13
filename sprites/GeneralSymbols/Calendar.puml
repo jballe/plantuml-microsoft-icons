@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CALENDAR_G <img:../sprites/GeneralSymbols/Calendar_gray.png>
-!define MSIMG_CALENDAR_M <img:../sprites/GeneralSymbols/Calendar_mono.png>
-!define MSIMG_CALENDAR_C <img:../sprites/GeneralSymbols/Calendar.png>
+!define MSIMG_CALENDAR_G <img:../sprites/GeneralSymbols/calendar_gray.png>
+!define MSIMG_CALENDAR_B <img:../sprites/GeneralSymbols/calendar_mono.png>
+!define MSIMG_CALENDAR_C <img:../sprites/GeneralSymbols/calendar.png>
 @enduml

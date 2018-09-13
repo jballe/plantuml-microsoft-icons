@@ -50,7 +50,7 @@ sprite $companyportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_COMPANYPORTAL_G <img:../sprites/Intune/Company_portal_gray.png>
-!define MSIMG_COMPANYPORTAL_M <img:../sprites/Intune/Company_portal_mono.png>
-!define MSIMG_COMPANYPORTAL_C <img:../sprites/Intune/Company_portal.png>
+!define MSIMG_COMPANYPORTAL_G <img:../sprites/Intune/company_portal_gray.png>
+!define MSIMG_COMPANYPORTAL_B <img:../sprites/Intune/company_portal_mono.png>
+!define MSIMG_COMPANYPORTAL_C <img:../sprites/Intune/company_portal.png>
 @enduml

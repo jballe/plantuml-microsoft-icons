@@ -50,7 +50,7 @@ EEE9000000009EEEEEEE300000005EEEEEEEEEEEEE900000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TOOL_G <img:../sprites/Enterprise/Tool_gray.png>
-!define MSIMG_TOOL_M <img:../sprites/Enterprise/Tool_mono.png>
-!define MSIMG_TOOL_C <img:../sprites/Enterprise/Tool.png>
+!define MSIMG_TOOL_G <img:../sprites/Enterprise/tool_gray.png>
+!define MSIMG_TOOL_B <img:../sprites/Enterprise/tool_mono.png>
+!define MSIMG_TOOL_C <img:../sprites/Enterprise/tool.png>
 @enduml

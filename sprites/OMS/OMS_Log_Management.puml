@@ -50,7 +50,7 @@ sprite $omslogmanagement [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSLOGMANAGEMENT_G <img:../sprites/OMS/OMS_Log_Management_gray.png>
-!define MSIMG_OMSLOGMANAGEMENT_M <img:../sprites/OMS/OMS_Log_Management_mono.png>
-!define MSIMG_OMSLOGMANAGEMENT_C <img:../sprites/OMS/OMS_Log_Management.png>
+!define MSIMG_OMSLOGMANAGEMENT_G <img:../sprites/OMS/oms_log_management_gray.png>
+!define MSIMG_OMSLOGMANAGEMENT_B <img:../sprites/OMS/oms_log_management_mono.png>
+!define MSIMG_OMSLOGMANAGEMENT_C <img:../sprites/OMS/oms_log_management.png>
 @enduml

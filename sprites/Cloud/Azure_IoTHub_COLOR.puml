@@ -50,7 +50,7 @@ EEEEEEEEEEEEE50000000000000000000000000000000000
 8EEEEEEEEEEEE30000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREIOTHUBCOLOR_G <img:../sprites/Cloud/Azure_IoTHub_COLOR_gray.png>
-!define MSIMG_AZUREIOTHUBCOLOR_M <img:../sprites/Cloud/Azure_IoTHub_COLOR_mono.png>
-!define MSIMG_AZUREIOTHUBCOLOR_C <img:../sprites/Cloud/Azure_IoTHub_COLOR.png>
+!define MSIMG_AZUREIOTHUBCOLOR_G <img:../sprites/Cloud/azure_iothub_color_gray.png>
+!define MSIMG_AZUREIOTHUBCOLOR_B <img:../sprites/Cloud/azure_iothub_color_mono.png>
+!define MSIMG_AZUREIOTHUBCOLOR_C <img:../sprites/Cloud/azure_iothub_color.png>
 @enduml

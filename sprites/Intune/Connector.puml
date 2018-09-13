@@ -50,7 +50,7 @@ sprite $connector [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONNECTOR_G <img:../sprites/Intune/Connector_gray.png>
-!define MSIMG_CONNECTOR_M <img:../sprites/Intune/Connector_mono.png>
-!define MSIMG_CONNECTOR_C <img:../sprites/Intune/Connector.png>
+!define MSIMG_CONNECTOR_G <img:../sprites/Intune/connector_gray.png>
+!define MSIMG_CONNECTOR_B <img:../sprites/Intune/connector_mono.png>
+!define MSIMG_CONNECTOR_C <img:../sprites/Intune/connector.png>
 @enduml

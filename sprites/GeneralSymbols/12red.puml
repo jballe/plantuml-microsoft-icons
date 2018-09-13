@@ -51,6 +51,6 @@ sprite $12red [48x48/16] {
 }
 
 !define MSIMG_12RED_G <img:../sprites/GeneralSymbols/12red_gray.png>
-!define MSIMG_12RED_M <img:../sprites/GeneralSymbols/12red_mono.png>
+!define MSIMG_12RED_B <img:../sprites/GeneralSymbols/12red_mono.png>
 !define MSIMG_12RED_C <img:../sprites/GeneralSymbols/12red.png>
 @enduml

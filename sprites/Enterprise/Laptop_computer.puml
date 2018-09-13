@@ -50,7 +50,7 @@ sprite $laptopcomputer [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LAPTOPCOMPUTER_G <img:../sprites/Enterprise/Laptop_computer_gray.png>
-!define MSIMG_LAPTOPCOMPUTER_M <img:../sprites/Enterprise/Laptop_computer_mono.png>
-!define MSIMG_LAPTOPCOMPUTER_C <img:../sprites/Enterprise/Laptop_computer.png>
+!define MSIMG_LAPTOPCOMPUTER_G <img:../sprites/Enterprise/laptop_computer_gray.png>
+!define MSIMG_LAPTOPCOMPUTER_B <img:../sprites/Enterprise/laptop_computer_mono.png>
+!define MSIMG_LAPTOPCOMPUTER_C <img:../sprites/Enterprise/laptop_computer.png>
 @enduml

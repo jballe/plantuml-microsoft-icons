@@ -50,7 +50,7 @@ sprite $runbooks2color [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RUNBOOKS2COLOR_G <img:../sprites/Deprecated/RunBooks2_color_gray.png>
-!define MSIMG_RUNBOOKS2COLOR_M <img:../sprites/Deprecated/RunBooks2_color_mono.png>
-!define MSIMG_RUNBOOKS2COLOR_C <img:../sprites/Deprecated/RunBooks2_color.png>
+!define MSIMG_RUNBOOKS2COLOR_G <img:../sprites/Deprecated/runbooks2_color_gray.png>
+!define MSIMG_RUNBOOKS2COLOR_B <img:../sprites/Deprecated/runbooks2_color_mono.png>
+!define MSIMG_RUNBOOKS2COLOR_C <img:../sprites/Deprecated/runbooks2_color.png>
 @enduml

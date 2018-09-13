@@ -50,7 +50,7 @@ sprite $azurevirtualmachineslinuxpenguinshadowcolor [48x48/16] {
 00000000008589EEE98500000000589EEEE9850000000000
 }
 
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_G <img:../sprites/Cloud/Azure_Virtual_Machines_Linux_Penguin_shadow_COLOR_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_M <img:../sprites/Cloud/Azure_Virtual_Machines_Linux_Penguin_shadow_COLOR_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_C <img:../sprites/Cloud/Azure_Virtual_Machines_Linux_Penguin_shadow_COLOR.png>
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_G <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_B <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_C <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color.png>
 @enduml

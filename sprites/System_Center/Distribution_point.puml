@@ -50,7 +50,7 @@ sprite $distributionpoint [48x48/16] {
 000000000000000005EEEEEEEEEEEEEEEEEEEEEEEEEE9000
 }
 
-!define MSIMG_DISTRIBUTIONPOINT_G <img:../sprites/System_Center/Distribution_point_gray.png>
-!define MSIMG_DISTRIBUTIONPOINT_M <img:../sprites/System_Center/Distribution_point_mono.png>
-!define MSIMG_DISTRIBUTIONPOINT_C <img:../sprites/System_Center/Distribution_point.png>
+!define MSIMG_DISTRIBUTIONPOINT_G <img:../sprites/System_Center/distribution_point_gray.png>
+!define MSIMG_DISTRIBUTIONPOINT_B <img:../sprites/System_Center/distribution_point_mono.png>
+!define MSIMG_DISTRIBUTIONPOINT_C <img:../sprites/System_Center/distribution_point.png>
 @enduml

@@ -51,6 +51,6 @@ sprite $13green [48x48/16] {
 }
 
 !define MSIMG_13GREEN_G <img:../sprites/GeneralSymbols/13green_gray.png>
-!define MSIMG_13GREEN_M <img:../sprites/GeneralSymbols/13green_mono.png>
+!define MSIMG_13GREEN_B <img:../sprites/GeneralSymbols/13green_mono.png>
 !define MSIMG_13GREEN_C <img:../sprites/GeneralSymbols/13green.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $omsalerts [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSALERTS_G <img:../sprites/OMS/OMS_alerts_gray.png>
-!define MSIMG_OMSALERTS_M <img:../sprites/OMS/OMS_alerts_mono.png>
-!define MSIMG_OMSALERTS_C <img:../sprites/OMS/OMS_alerts.png>
+!define MSIMG_OMSALERTS_G <img:../sprites/OMS/oms_alerts_gray.png>
+!define MSIMG_OMSALERTS_B <img:../sprites/OMS/oms_alerts_mono.png>
+!define MSIMG_OMSALERTS_C <img:../sprites/OMS/oms_alerts.png>
 @enduml

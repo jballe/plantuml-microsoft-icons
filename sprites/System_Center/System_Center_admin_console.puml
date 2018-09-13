@@ -50,7 +50,7 @@ EEE999999999999999999999999980000003558000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SYSTEMCENTERADMINCONSOLE_G <img:../sprites/System_Center/System_Center_admin_console_gray.png>
-!define MSIMG_SYSTEMCENTERADMINCONSOLE_M <img:../sprites/System_Center/System_Center_admin_console_mono.png>
-!define MSIMG_SYSTEMCENTERADMINCONSOLE_C <img:../sprites/System_Center/System_Center_admin_console.png>
+!define MSIMG_SYSTEMCENTERADMINCONSOLE_G <img:../sprites/System_Center/system_center_admin_console_gray.png>
+!define MSIMG_SYSTEMCENTERADMINCONSOLE_B <img:../sprites/System_Center/system_center_admin_console_mono.png>
+!define MSIMG_SYSTEMCENTERADMINCONSOLE_C <img:../sprites/System_Center/system_center_admin_console.png>
 @enduml

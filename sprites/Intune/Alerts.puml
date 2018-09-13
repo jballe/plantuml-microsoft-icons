@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEE90000009EEEEEEEEEEEEEEEEEEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_ALERTS_G <img:../sprites/Intune/Alerts_gray.png>
-!define MSIMG_ALERTS_M <img:../sprites/Intune/Alerts_mono.png>
-!define MSIMG_ALERTS_C <img:../sprites/Intune/Alerts.png>
+!define MSIMG_ALERTS_G <img:../sprites/Intune/alerts_gray.png>
+!define MSIMG_ALERTS_B <img:../sprites/Intune/alerts_mono.png>
+!define MSIMG_ALERTS_C <img:../sprites/Intune/alerts.png>
 @enduml

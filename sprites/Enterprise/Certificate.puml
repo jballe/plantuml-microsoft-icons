@@ -50,7 +50,7 @@ EE30000000000000000005E5000EE80000000009E5000E90
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CERTIFICATE_G <img:../sprites/Enterprise/Certificate_gray.png>
-!define MSIMG_CERTIFICATE_M <img:../sprites/Enterprise/Certificate_mono.png>
-!define MSIMG_CERTIFICATE_C <img:../sprites/Enterprise/Certificate.png>
+!define MSIMG_CERTIFICATE_G <img:../sprites/Enterprise/certificate_gray.png>
+!define MSIMG_CERTIFICATE_B <img:../sprites/Enterprise/certificate_mono.png>
+!define MSIMG_CERTIFICATE_C <img:../sprites/Enterprise/certificate.png>
 @enduml

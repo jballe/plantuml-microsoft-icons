@@ -50,7 +50,7 @@ EEE00EEE00EE905EE5000000EEE00EEE0000000000000000
 0000000000EE80000008EE80000000000000000000000000
 }
 
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_G <img:../sprites/Cloud/Operations_Management_Suite_OMS_gray.png>
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_M <img:../sprites/Cloud/Operations_Management_Suite_OMS_mono.png>
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_C <img:../sprites/Cloud/Operations_Management_Suite_OMS.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_G <img:../sprites/Cloud/operations_management_suite_oms_gray.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_B <img:../sprites/Cloud/operations_management_suite_oms_mono.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMS_C <img:../sprites/Cloud/operations_management_suite_oms.png>
 @enduml

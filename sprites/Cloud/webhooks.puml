@@ -51,6 +51,6 @@ EEEE5009EEEEEEEE505EEEEEEEEEEEEEEEEEEEEE9003EEEE
 }
 
 !define MSIMG_WEBHOOKS_G <img:../sprites/Cloud/webhooks_gray.png>
-!define MSIMG_WEBHOOKS_M <img:../sprites/Cloud/webhooks_mono.png>
+!define MSIMG_WEBHOOKS_B <img:../sprites/Cloud/webhooks_mono.png>
 !define MSIMG_WEBHOOKS_C <img:../sprites/Cloud/webhooks.png>
 @enduml

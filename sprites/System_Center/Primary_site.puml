@@ -50,7 +50,7 @@ sprite $primarysite [48x48/16] {
 000000000000000000000000000858999998530000000000
 }
 
-!define MSIMG_PRIMARYSITE_G <img:../sprites/System_Center/Primary_site_gray.png>
-!define MSIMG_PRIMARYSITE_M <img:../sprites/System_Center/Primary_site_mono.png>
-!define MSIMG_PRIMARYSITE_C <img:../sprites/System_Center/Primary_site.png>
+!define MSIMG_PRIMARYSITE_G <img:../sprites/System_Center/primary_site_gray.png>
+!define MSIMG_PRIMARYSITE_B <img:../sprites/System_Center/primary_site_mono.png>
+!define MSIMG_PRIMARYSITE_C <img:../sprites/System_Center/primary_site.png>
 @enduml

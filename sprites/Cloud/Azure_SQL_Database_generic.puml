@@ -50,7 +50,7 @@ sprite $azuresqldatabasegeneric [48x48/16] {
 000000000000000003589EEEEEE985300000000000000000
 }
 
-!define MSIMG_AZURESQLDATABASEGENERIC_G <img:../sprites/Cloud/Azure_SQL_Database_generic_gray.png>
-!define MSIMG_AZURESQLDATABASEGENERIC_M <img:../sprites/Cloud/Azure_SQL_Database_generic_mono.png>
-!define MSIMG_AZURESQLDATABASEGENERIC_C <img:../sprites/Cloud/Azure_SQL_Database_generic.png>
+!define MSIMG_AZURESQLDATABASEGENERIC_G <img:../sprites/Cloud/azure_sql_database_generic_gray.png>
+!define MSIMG_AZURESQLDATABASEGENERIC_B <img:../sprites/Cloud/azure_sql_database_generic_mono.png>
+!define MSIMG_AZURESQLDATABASEGENERIC_C <img:../sprites/Cloud/azure_sql_database_generic.png>
 @enduml

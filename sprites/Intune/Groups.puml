@@ -50,7 +50,7 @@ EEEEEEEEEEEE503EEEEEEEEEEEEEEEEEEEEEE50000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GROUPS_G <img:../sprites/Intune/Groups_gray.png>
-!define MSIMG_GROUPS_M <img:../sprites/Intune/Groups_mono.png>
-!define MSIMG_GROUPS_C <img:../sprites/Intune/Groups.png>
+!define MSIMG_GROUPS_G <img:../sprites/Intune/groups_gray.png>
+!define MSIMG_GROUPS_B <img:../sprites/Intune/groups_mono.png>
+!define MSIMG_GROUPS_C <img:../sprites/Intune/groups.png>
 @enduml

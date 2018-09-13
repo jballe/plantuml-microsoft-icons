@@ -50,7 +50,7 @@ sprite $azuretrafficmanager [48x48/16] {
 000000000000009EEEEEEEEEEEEEEE500000000000000000
 }
 
-!define MSIMG_AZURETRAFFICMANAGER_G <img:../sprites/Cloud/Azure_Traffic_Manager_gray.png>
-!define MSIMG_AZURETRAFFICMANAGER_M <img:../sprites/Cloud/Azure_Traffic_Manager_mono.png>
-!define MSIMG_AZURETRAFFICMANAGER_C <img:../sprites/Cloud/Azure_Traffic_Manager.png>
+!define MSIMG_AZURETRAFFICMANAGER_G <img:../sprites/Cloud/azure_traffic_manager_gray.png>
+!define MSIMG_AZURETRAFFICMANAGER_B <img:../sprites/Cloud/azure_traffic_manager_mono.png>
+!define MSIMG_AZURETRAFFICMANAGER_C <img:../sprites/Cloud/azure_traffic_manager.png>
 @enduml

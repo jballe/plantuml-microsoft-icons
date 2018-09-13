@@ -50,7 +50,7 @@ sprite $startuptask [48x48/16] {
 000088EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE880000
 }
 
-!define MSIMG_STARTUPTASK_G <img:../sprites/Enterprise/Startup_task_gray.png>
-!define MSIMG_STARTUPTASK_M <img:../sprites/Enterprise/Startup_task_mono.png>
-!define MSIMG_STARTUPTASK_C <img:../sprites/Enterprise/Startup_task.png>
+!define MSIMG_STARTUPTASK_G <img:../sprites/Enterprise/startup_task_gray.png>
+!define MSIMG_STARTUPTASK_B <img:../sprites/Enterprise/startup_task_mono.png>
+!define MSIMG_STARTUPTASK_C <img:../sprites/Enterprise/startup_task.png>
 @enduml

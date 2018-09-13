@@ -50,7 +50,7 @@ EEEEEEE5000EEEEEEEEEEE8000EEEEEEEEEEE9000EEEEEEE
 000000000000000000008850009500000000000000000000
 }
 
-!define MSIMG_BUG_G <img:../sprites/GeneralSymbols/Bug_gray.png>
-!define MSIMG_BUG_M <img:../sprites/GeneralSymbols/Bug_mono.png>
-!define MSIMG_BUG_C <img:../sprites/GeneralSymbols/Bug.png>
+!define MSIMG_BUG_G <img:../sprites/GeneralSymbols/bug_gray.png>
+!define MSIMG_BUG_B <img:../sprites/GeneralSymbols/bug_mono.png>
+!define MSIMG_BUG_C <img:../sprites/GeneralSymbols/bug.png>
 @enduml

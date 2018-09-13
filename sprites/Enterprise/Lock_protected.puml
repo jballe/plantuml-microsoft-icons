@@ -50,7 +50,7 @@ sprite $lockprotected [48x48/16] {
 00000009EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE90000000
 }
 
-!define MSIMG_LOCKPROTECTED_G <img:../sprites/Enterprise/Lock_protected_gray.png>
-!define MSIMG_LOCKPROTECTED_M <img:../sprites/Enterprise/Lock_protected_mono.png>
-!define MSIMG_LOCKPROTECTED_C <img:../sprites/Enterprise/Lock_protected.png>
+!define MSIMG_LOCKPROTECTED_G <img:../sprites/Enterprise/lock_protected_gray.png>
+!define MSIMG_LOCKPROTECTED_B <img:../sprites/Enterprise/lock_protected_mono.png>
+!define MSIMG_LOCKPROTECTED_C <img:../sprites/Enterprise/lock_protected.png>
 @enduml

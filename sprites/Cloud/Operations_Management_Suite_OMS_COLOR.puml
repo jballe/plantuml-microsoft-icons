@@ -50,7 +50,7 @@ sprite $operationsmanagementsuiteomscolor [48x48/16] {
 000000000088000000008800000000000000000000000000
 }
 
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_G <img:../sprites/Cloud/Operations_Management_Suite_OMS_COLOR_gray.png>
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_M <img:../sprites/Cloud/Operations_Management_Suite_OMS_COLOR_mono.png>
-!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_C <img:../sprites/Cloud/Operations_Management_Suite_OMS_COLOR.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_G <img:../sprites/Cloud/operations_management_suite_oms_color_gray.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_B <img:../sprites/Cloud/operations_management_suite_oms_color_mono.png>
+!define MSIMG_OPERATIONSMANAGEMENTSUITEOMSCOLOR_C <img:../sprites/Cloud/operations_management_suite_oms_color.png>
 @enduml

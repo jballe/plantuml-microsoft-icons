@@ -76,7 +76,7 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
         const relPath = file.substr(symbolsDir.length);
         let folderName = relPath.split(path.sep)[1].replace('CnE_', '');
         const origFileName = path.basename(file, '.png');
-        let fileName = origFileName.replace(/[^A-Za-z0-9\s\-\_]/ig, '');
+        let fileName = origFileName.toLowerCase().replace(/[^a-z0-9\s\-\_]/ig, '');
         fileName = fileName.replace(/[\s\-\_]+copy/ig, '');
         fileName = fileName.replace(/[\s\-\_]+/g, '_');
 
@@ -88,12 +88,12 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
         const size = 48;
 
         // Copy image
-        const originalCopiedPath = path.join(targetFolder, fileName.toLowerCase() + '_orig.png');
-        const imagePath = path.join(targetFolder, fileName.toLowerCase() + '.png');
-        const grayPath =  path.join(targetFolder, fileName.toLowerCase() + '_gray.png');
-        const monoPath =  path.join(targetFolder, fileName.toLowerCase() + '_mono.png');
+        const originalCopiedPath = path.join(targetFolder, fileName + '_orig.png');
+        const imagePath = path.join(targetFolder, fileName + '.png');
+        const grayPath =  path.join(targetFolder, fileName + '_gray.png');
+        const monoPath =  path.join(targetFolder, fileName + '_mono.png');
 
-        if(!fs.existsSync) {
+        if(!fs.existsSync(originalCopiedPath)) {
             fs.writeFileSync(originalCopiedPath, fs.readFileSync(file));
         }
 
@@ -156,7 +156,7 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
                 const localVarName = fileName.replace(/_/g, '').toLowerCase();
                 const content = `@startuml\nsprite \$${localVarName} [${format}/16] {\n${sprite}\n}\n\n`
                     +  `!define ${imgName}_G <img:../sprites/${folderName}/${fileName}_gray.png>\n`
-                    +  `!define ${imgName}_M <img:../sprites/${folderName}/${fileName}_mono.png>\n`
+                    +  `!define ${imgName}_B <img:../sprites/${folderName}/${fileName}_mono.png>\n`
                     +  `!define ${imgName}_C <img:../sprites/${folderName}/${fileName}.png>\n`
                     // + `!define ${entityName}(_alias) ENTITY(rectangle,black,${localVarName},_alias,${stereoName})\n`
                     // + `!define ${entityName}(_alias, _label) ENTITY(rectangle,black,${localVarName},_label, _alias,${stereoName})\n`
@@ -172,15 +172,16 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
     });
 }).then(() => {
     const folders = fs.readdirSync(resultDir).filter(name => fs.statSync(path.join(resultDir, name)).isDirectory());
+    const allFileName = '_all.puml';
     folders.map(name => {
         const folderPath = path.join(resultDir, name);
-        const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml')>0);
-        const content = '@startuml\n'
-                      //+ '!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n'
-                      //+ files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n')
-                      + files.map(fileName => `!include ${name}/${fileName}`).join('\n')
-                      + '\n@enduml';
-        fs.writeFileSync(path.join(resultDir, name + '.puml'), content);
+        const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml')>0 && file !== allFileName);
+        const content = '@startuml\n' +
+                        '!ifdef MS_SPRITESPATH\n!else\n!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n!endif\n\n' +
+                        files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n') +
+                        //files.map(fileName => `!include ${name}/${fileName}`).join('\n') +
+                        '\n@enduml';
+        fs.writeFileSync(path.join(resultDir, name, allFileName), content);
 
     });
 });

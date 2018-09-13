@@ -50,7 +50,7 @@ EEEEEEEEE0833EEEEEEE000000059E9300000000000000EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_ANALYSISSERVICE_G <img:../sprites/Cloud/Analysis_Service_gray.png>
-!define MSIMG_ANALYSISSERVICE_M <img:../sprites/Cloud/Analysis_Service_mono.png>
-!define MSIMG_ANALYSISSERVICE_C <img:../sprites/Cloud/Analysis_Service.png>
+!define MSIMG_ANALYSISSERVICE_G <img:../sprites/Cloud/analysis_service_gray.png>
+!define MSIMG_ANALYSISSERVICE_B <img:../sprites/Cloud/analysis_service_mono.png>
+!define MSIMG_ANALYSISSERVICE_C <img:../sprites/Cloud/analysis_service.png>
 @enduml

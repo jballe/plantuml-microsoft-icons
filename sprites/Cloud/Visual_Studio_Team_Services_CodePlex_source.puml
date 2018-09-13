@@ -50,7 +50,7 @@ EEEEEEEEEEEE0000000000000000000000000009EEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_G <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_M <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_C <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_G <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_B <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_C <img:../sprites/Cloud/visual_studio_team_services_codeplex_source.png>
 @enduml

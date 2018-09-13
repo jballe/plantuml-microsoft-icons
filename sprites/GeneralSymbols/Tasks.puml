@@ -50,7 +50,7 @@ sprite $tasks [48x48/16] {
 00000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50000000
 }
 
-!define MSIMG_TASKS_G <img:../sprites/GeneralSymbols/Tasks_gray.png>
-!define MSIMG_TASKS_M <img:../sprites/GeneralSymbols/Tasks_mono.png>
-!define MSIMG_TASKS_C <img:../sprites/GeneralSymbols/Tasks.png>
+!define MSIMG_TASKS_G <img:../sprites/GeneralSymbols/tasks_gray.png>
+!define MSIMG_TASKS_B <img:../sprites/GeneralSymbols/tasks_mono.png>
+!define MSIMG_TASKS_C <img:../sprites/GeneralSymbols/tasks.png>
 @enduml

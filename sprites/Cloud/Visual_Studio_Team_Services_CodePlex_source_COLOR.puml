@@ -50,7 +50,7 @@ EEEEEEEEEEEE000000000000000000000000000833333333
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_G <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source_COLOR_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_M <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source_COLOR_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_C <img:../sprites/Cloud/Visual_Studio_Team_Services_CodePlex_source_COLOR.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_G <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_color_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_B <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_color_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCECOLOR_C <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_color.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE000000000000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_EXCHANGE_G <img:../sprites/OtherMicrosoftProd/Exchange_gray.png>
-!define MSIMG_EXCHANGE_M <img:../sprites/OtherMicrosoftProd/Exchange_mono.png>
-!define MSIMG_EXCHANGE_C <img:../sprites/OtherMicrosoftProd/Exchange.png>
+!define MSIMG_EXCHANGE_G <img:../sprites/OtherMicrosoftProd/exchange_gray.png>
+!define MSIMG_EXCHANGE_B <img:../sprites/OtherMicrosoftProd/exchange_mono.png>
+!define MSIMG_EXCHANGE_C <img:../sprites/OtherMicrosoftProd/exchange.png>
 @enduml

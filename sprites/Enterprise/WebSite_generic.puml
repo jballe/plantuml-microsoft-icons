@@ -50,7 +50,7 @@ sprite $websitegeneric [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_WEBSITEGENERIC_G <img:../sprites/Enterprise/WebSite_generic_gray.png>
-!define MSIMG_WEBSITEGENERIC_M <img:../sprites/Enterprise/WebSite_generic_mono.png>
-!define MSIMG_WEBSITEGENERIC_C <img:../sprites/Enterprise/WebSite_generic.png>
+!define MSIMG_WEBSITEGENERIC_G <img:../sprites/Enterprise/website_generic_gray.png>
+!define MSIMG_WEBSITEGENERIC_B <img:../sprites/Enterprise/website_generic_mono.png>
+!define MSIMG_WEBSITEGENERIC_C <img:../sprites/Enterprise/website_generic.png>
 @enduml

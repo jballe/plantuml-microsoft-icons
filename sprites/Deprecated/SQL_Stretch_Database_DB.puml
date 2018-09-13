@@ -50,7 +50,7 @@ sprite $sqlstretchdatabasedb [48x48/16] {
 00000000000000035899EEEEEEEE99855800000000000000
 }
 
-!define MSIMG_SQLSTRETCHDATABASEDB_G <img:../sprites/Deprecated/SQL_Stretch_Database_DB_gray.png>
-!define MSIMG_SQLSTRETCHDATABASEDB_M <img:../sprites/Deprecated/SQL_Stretch_Database_DB_mono.png>
-!define MSIMG_SQLSTRETCHDATABASEDB_C <img:../sprites/Deprecated/SQL_Stretch_Database_DB.png>
+!define MSIMG_SQLSTRETCHDATABASEDB_G <img:../sprites/Deprecated/sql_stretch_database_db_gray.png>
+!define MSIMG_SQLSTRETCHDATABASEDB_B <img:../sprites/Deprecated/sql_stretch_database_db_mono.png>
+!define MSIMG_SQLSTRETCHDATABASEDB_C <img:../sprites/Deprecated/sql_stretch_database_db.png>
 @enduml

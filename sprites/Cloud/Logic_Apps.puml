@@ -50,7 +50,7 @@ EEE9000000000009EEEE9500059EEEEE8000000000009EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LOGICAPPS_G <img:../sprites/Cloud/Logic_Apps_gray.png>
-!define MSIMG_LOGICAPPS_M <img:../sprites/Cloud/Logic_Apps_mono.png>
-!define MSIMG_LOGICAPPS_C <img:../sprites/Cloud/Logic_Apps.png>
+!define MSIMG_LOGICAPPS_G <img:../sprites/Cloud/logic_apps_gray.png>
+!define MSIMG_LOGICAPPS_B <img:../sprites/Cloud/logic_apps_mono.png>
+!define MSIMG_LOGICAPPS_C <img:../sprites/Cloud/logic_apps.png>
 @enduml

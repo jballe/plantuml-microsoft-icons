@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_FOLDER_G <img:../sprites/GeneralSymbols/Folder_gray.png>
-!define MSIMG_FOLDER_M <img:../sprites/GeneralSymbols/Folder_mono.png>
-!define MSIMG_FOLDER_C <img:../sprites/GeneralSymbols/Folder.png>
+!define MSIMG_FOLDER_G <img:../sprites/GeneralSymbols/folder_gray.png>
+!define MSIMG_FOLDER_B <img:../sprites/GeneralSymbols/folder_mono.png>
+!define MSIMG_FOLDER_C <img:../sprites/GeneralSymbols/folder.png>
 @enduml

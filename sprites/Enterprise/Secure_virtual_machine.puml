@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE005EEEEEEEEEEEEEEEEE0
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SECUREVIRTUALMACHINE_G <img:../sprites/Enterprise/Secure_virtual_machine_gray.png>
-!define MSIMG_SECUREVIRTUALMACHINE_M <img:../sprites/Enterprise/Secure_virtual_machine_mono.png>
-!define MSIMG_SECUREVIRTUALMACHINE_C <img:../sprites/Enterprise/Secure_virtual_machine.png>
+!define MSIMG_SECUREVIRTUALMACHINE_G <img:../sprites/Enterprise/secure_virtual_machine_gray.png>
+!define MSIMG_SECUREVIRTUALMACHINE_B <img:../sprites/Enterprise/secure_virtual_machine_mono.png>
+!define MSIMG_SECUREVIRTUALMACHINE_C <img:../sprites/Enterprise/secure_virtual_machine.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $servicepackage [48x48/16] {
 000000000000000000000050050000000000000000000000
 }
 
-!define MSIMG_SERVICEPACKAGE_G <img:../sprites/Deprecated/Service_package_gray.png>
-!define MSIMG_SERVICEPACKAGE_M <img:../sprites/Deprecated/Service_package_mono.png>
-!define MSIMG_SERVICEPACKAGE_C <img:../sprites/Deprecated/Service_package.png>
+!define MSIMG_SERVICEPACKAGE_G <img:../sprites/Deprecated/service_package_gray.png>
+!define MSIMG_SERVICEPACKAGE_B <img:../sprites/Deprecated/service_package_mono.png>
+!define MSIMG_SERVICEPACKAGE_C <img:../sprites/Deprecated/service_package.png>
 @enduml

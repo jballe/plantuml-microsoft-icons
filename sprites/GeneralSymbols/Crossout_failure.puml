@@ -50,7 +50,7 @@ sprite $crossoutfailure [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CROSSOUTFAILURE_G <img:../sprites/GeneralSymbols/Crossout_failure_gray.png>
-!define MSIMG_CROSSOUTFAILURE_M <img:../sprites/GeneralSymbols/Crossout_failure_mono.png>
-!define MSIMG_CROSSOUTFAILURE_C <img:../sprites/GeneralSymbols/Crossout_failure.png>
+!define MSIMG_CROSSOUTFAILURE_G <img:../sprites/GeneralSymbols/crossout_failure_gray.png>
+!define MSIMG_CROSSOUTFAILURE_B <img:../sprites/GeneralSymbols/crossout_failure_mono.png>
+!define MSIMG_CROSSOUTFAILURE_C <img:../sprites/GeneralSymbols/crossout_failure.png>
 @enduml

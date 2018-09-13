@@ -50,7 +50,7 @@ sprite $audio [48x48/16] {
 000000000000000000000000000580000000000000000000
 }
 
-!define MSIMG_AUDIO_G <img:../sprites/GeneralSymbols/Audio_gray.png>
-!define MSIMG_AUDIO_M <img:../sprites/GeneralSymbols/Audio_mono.png>
-!define MSIMG_AUDIO_C <img:../sprites/GeneralSymbols/Audio.png>
+!define MSIMG_AUDIO_G <img:../sprites/GeneralSymbols/audio_gray.png>
+!define MSIMG_AUDIO_B <img:../sprites/GeneralSymbols/audio_mono.png>
+!define MSIMG_AUDIO_C <img:../sprites/GeneralSymbols/audio.png>
 @enduml

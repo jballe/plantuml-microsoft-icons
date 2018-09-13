@@ -50,7 +50,7 @@ sprite $sharedfolder [48x48/16] {
 00000000000000000005EEEEEEEE50000000000000000000
 }
 
-!define MSIMG_SHAREDFOLDER_G <img:../sprites/Enterprise/Shared_folder_gray.png>
-!define MSIMG_SHAREDFOLDER_M <img:../sprites/Enterprise/Shared_folder_mono.png>
-!define MSIMG_SHAREDFOLDER_C <img:../sprites/Enterprise/Shared_folder.png>
+!define MSIMG_SHAREDFOLDER_G <img:../sprites/Enterprise/shared_folder_gray.png>
+!define MSIMG_SHAREDFOLDER_B <img:../sprites/Enterprise/shared_folder_mono.png>
+!define MSIMG_SHAREDFOLDER_C <img:../sprites/Enterprise/shared_folder.png>
 @enduml

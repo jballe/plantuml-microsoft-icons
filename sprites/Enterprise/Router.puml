@@ -50,7 +50,7 @@ sprite $router [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_ROUTER_G <img:../sprites/Enterprise/Router_gray.png>
-!define MSIMG_ROUTER_M <img:../sprites/Enterprise/Router_mono.png>
-!define MSIMG_ROUTER_C <img:../sprites/Enterprise/Router.png>
+!define MSIMG_ROUTER_G <img:../sprites/Enterprise/router_gray.png>
+!define MSIMG_ROUTER_B <img:../sprites/Enterprise/router_mono.png>
+!define MSIMG_ROUTER_C <img:../sprites/Enterprise/router.png>
 @enduml

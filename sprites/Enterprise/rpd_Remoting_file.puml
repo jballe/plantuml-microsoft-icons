@@ -50,7 +50,7 @@ sprite $rpdremotingfile [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RPDREMOTINGFILE_G <img:../sprites/Enterprise/rpd_Remoting_file_gray.png>
-!define MSIMG_RPDREMOTINGFILE_M <img:../sprites/Enterprise/rpd_Remoting_file_mono.png>
-!define MSIMG_RPDREMOTINGFILE_C <img:../sprites/Enterprise/rpd_Remoting_file.png>
+!define MSIMG_RPDREMOTINGFILE_G <img:../sprites/Enterprise/rpd_remoting_file_gray.png>
+!define MSIMG_RPDREMOTINGFILE_B <img:../sprites/Enterprise/rpd_remoting_file_mono.png>
+!define MSIMG_RPDREMOTINGFILE_C <img:../sprites/Enterprise/rpd_remoting_file.png>
 @enduml

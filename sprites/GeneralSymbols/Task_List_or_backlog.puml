@@ -50,7 +50,7 @@ sprite $tasklistorbacklog [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TASKLISTORBACKLOG_G <img:../sprites/GeneralSymbols/Task_List_or_backlog_gray.png>
-!define MSIMG_TASKLISTORBACKLOG_M <img:../sprites/GeneralSymbols/Task_List_or_backlog_mono.png>
-!define MSIMG_TASKLISTORBACKLOG_C <img:../sprites/GeneralSymbols/Task_List_or_backlog.png>
+!define MSIMG_TASKLISTORBACKLOG_G <img:../sprites/GeneralSymbols/task_list_or_backlog_gray.png>
+!define MSIMG_TASKLISTORBACKLOG_B <img:../sprites/GeneralSymbols/task_list_or_backlog_mono.png>
+!define MSIMG_TASKLISTORBACKLOG_C <img:../sprites/GeneralSymbols/task_list_or_backlog.png>
 @enduml

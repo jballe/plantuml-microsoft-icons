@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_G <img:../sprites/Cloud/Azure_Cloud_Services_Web_role_gray.png>
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_M <img:../sprites/Cloud/Azure_Cloud_Services_Web_role_mono.png>
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_C <img:../sprites/Cloud/Azure_Cloud_Services_Web_role.png>
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_G <img:../sprites/Cloud/azure_cloud_services_web_role_gray.png>
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_B <img:../sprites/Cloud/azure_cloud_services_web_role_mono.png>
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_C <img:../sprites/Cloud/azure_cloud_services_web_role.png>
 @enduml

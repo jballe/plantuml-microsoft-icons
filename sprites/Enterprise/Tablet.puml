@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEE999999EEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TABLET_G <img:../sprites/Enterprise/Tablet_gray.png>
-!define MSIMG_TABLET_M <img:../sprites/Enterprise/Tablet_mono.png>
-!define MSIMG_TABLET_C <img:../sprites/Enterprise/Tablet.png>
+!define MSIMG_TABLET_G <img:../sprites/Enterprise/tablet_gray.png>
+!define MSIMG_TABLET_B <img:../sprites/Enterprise/tablet_mono.png>
+!define MSIMG_TABLET_C <img:../sprites/Enterprise/tablet.png>
 @enduml

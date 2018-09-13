@@ -50,7 +50,7 @@ sprite $omscapacity [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSCAPACITY_G <img:../sprites/OMS/OMS_Capacity_gray.png>
-!define MSIMG_OMSCAPACITY_M <img:../sprites/OMS/OMS_Capacity_mono.png>
-!define MSIMG_OMSCAPACITY_C <img:../sprites/OMS/OMS_Capacity.png>
+!define MSIMG_OMSCAPACITY_G <img:../sprites/OMS/oms_capacity_gray.png>
+!define MSIMG_OMSCAPACITY_B <img:../sprites/OMS/oms_capacity_mono.png>
+!define MSIMG_OMSCAPACITY_C <img:../sprites/OMS/oms_capacity.png>
 @enduml

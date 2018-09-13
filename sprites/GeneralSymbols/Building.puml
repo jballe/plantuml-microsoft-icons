@@ -50,7 +50,7 @@ sprite $building [48x48/16] {
 0000000009EEEEEEEEEEEEEE805EEEEEEEEEEE9000000000
 }
 
-!define MSIMG_BUILDING_G <img:../sprites/GeneralSymbols/Building_gray.png>
-!define MSIMG_BUILDING_M <img:../sprites/GeneralSymbols/Building_mono.png>
-!define MSIMG_BUILDING_C <img:../sprites/GeneralSymbols/Building.png>
+!define MSIMG_BUILDING_G <img:../sprites/GeneralSymbols/building_gray.png>
+!define MSIMG_BUILDING_B <img:../sprites/GeneralSymbols/building_mono.png>
+!define MSIMG_BUILDING_C <img:../sprites/GeneralSymbols/building.png>
 @enduml

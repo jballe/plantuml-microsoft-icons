@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVMSYMBOLONLY_G <img:../sprites/Cloud/Azure_VM_symbol_only_gray.png>
-!define MSIMG_AZUREVMSYMBOLONLY_M <img:../sprites/Cloud/Azure_VM_symbol_only_mono.png>
-!define MSIMG_AZUREVMSYMBOLONLY_C <img:../sprites/Cloud/Azure_VM_symbol_only.png>
+!define MSIMG_AZUREVMSYMBOLONLY_G <img:../sprites/Cloud/azure_vm_symbol_only_gray.png>
+!define MSIMG_AZUREVMSYMBOLONLY_B <img:../sprites/Cloud/azure_vm_symbol_only_mono.png>
+!define MSIMG_AZUREVMSYMBOLONLY_C <img:../sprites/Cloud/azure_vm_symbol_only.png>
 @enduml

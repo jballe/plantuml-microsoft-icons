@@ -50,7 +50,7 @@ sprite $applicationblank [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_APPLICATIONBLANK_G <img:../sprites/Enterprise/Application_blank_gray.png>
-!define MSIMG_APPLICATIONBLANK_M <img:../sprites/Enterprise/Application_blank_mono.png>
-!define MSIMG_APPLICATIONBLANK_C <img:../sprites/Enterprise/Application_blank.png>
+!define MSIMG_APPLICATIONBLANK_G <img:../sprites/Enterprise/application_blank_gray.png>
+!define MSIMG_APPLICATIONBLANK_B <img:../sprites/Enterprise/application_blank_mono.png>
+!define MSIMG_APPLICATIONBLANK_C <img:../sprites/Enterprise/application_blank.png>
 @enduml

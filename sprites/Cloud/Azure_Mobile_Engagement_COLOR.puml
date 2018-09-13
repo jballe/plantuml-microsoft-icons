@@ -50,7 +50,7 @@ sprite $azuremobileengagementcolor [48x48/16] {
 00000000059999EEEEEEEEEEEEEEEEEEEEEEEE9000000000
 }
 
-!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_G <img:../sprites/Cloud/Azure_Mobile_Engagement_COLOR_gray.png>
-!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_M <img:../sprites/Cloud/Azure_Mobile_Engagement_COLOR_mono.png>
-!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_C <img:../sprites/Cloud/Azure_Mobile_Engagement_COLOR.png>
+!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_G <img:../sprites/Cloud/azure_mobile_engagement_color_gray.png>
+!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_B <img:../sprites/Cloud/azure_mobile_engagement_color_mono.png>
+!define MSIMG_AZUREMOBILEENGAGEMENTCOLOR_C <img:../sprites/Cloud/azure_mobile_engagement_color.png>
 @enduml

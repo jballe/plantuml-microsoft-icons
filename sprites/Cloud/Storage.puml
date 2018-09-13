@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_STORAGE_G <img:../sprites/Cloud/Storage_gray.png>
-!define MSIMG_STORAGE_M <img:../sprites/Cloud/Storage_mono.png>
-!define MSIMG_STORAGE_C <img:../sprites/Cloud/Storage.png>
+!define MSIMG_STORAGE_G <img:../sprites/Cloud/storage_gray.png>
+!define MSIMG_STORAGE_B <img:../sprites/Cloud/storage_mono.png>
+!define MSIMG_STORAGE_C <img:../sprites/Cloud/storage.png>
 @enduml

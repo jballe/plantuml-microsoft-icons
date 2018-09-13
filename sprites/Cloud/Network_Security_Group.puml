@@ -50,7 +50,7 @@ sprite $networksecuritygroup [48x48/16] {
 000000000000000000000008800000000000000000000000
 }
 
-!define MSIMG_NETWORKSECURITYGROUP_G <img:../sprites/Cloud/Network_Security_Group_gray.png>
-!define MSIMG_NETWORKSECURITYGROUP_M <img:../sprites/Cloud/Network_Security_Group_mono.png>
-!define MSIMG_NETWORKSECURITYGROUP_C <img:../sprites/Cloud/Network_Security_Group.png>
+!define MSIMG_NETWORKSECURITYGROUP_G <img:../sprites/Cloud/network_security_group_gray.png>
+!define MSIMG_NETWORKSECURITYGROUP_B <img:../sprites/Cloud/network_security_group_mono.png>
+!define MSIMG_NETWORKSECURITYGROUP_C <img:../sprites/Cloud/network_security_group.png>
 @enduml

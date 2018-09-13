@@ -50,7 +50,7 @@ sprite $azurestoragequeue [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGEQUEUE_G <img:../sprites/Cloud/Azure_Storage_Queue_gray.png>
-!define MSIMG_AZURESTORAGEQUEUE_M <img:../sprites/Cloud/Azure_Storage_Queue_mono.png>
-!define MSIMG_AZURESTORAGEQUEUE_C <img:../sprites/Cloud/Azure_Storage_Queue.png>
+!define MSIMG_AZURESTORAGEQUEUE_G <img:../sprites/Cloud/azure_storage_queue_gray.png>
+!define MSIMG_AZURESTORAGEQUEUE_B <img:../sprites/Cloud/azure_storage_queue_mono.png>
+!define MSIMG_AZURESTORAGEQUEUE_C <img:../sprites/Cloud/azure_storage_queue.png>
 @enduml

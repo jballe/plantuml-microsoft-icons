@@ -50,7 +50,7 @@ sprite $video [48x48/16] {
 8E900005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500008E8
 }
 
-!define MSIMG_VIDEO_G <img:../sprites/GeneralSymbols/Video_gray.png>
-!define MSIMG_VIDEO_M <img:../sprites/GeneralSymbols/Video_mono.png>
-!define MSIMG_VIDEO_C <img:../sprites/GeneralSymbols/Video.png>
+!define MSIMG_VIDEO_G <img:../sprites/GeneralSymbols/video_gray.png>
+!define MSIMG_VIDEO_B <img:../sprites/GeneralSymbols/video_mono.png>
+!define MSIMG_VIDEO_C <img:../sprites/GeneralSymbols/video.png>
 @enduml

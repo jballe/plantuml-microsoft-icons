@@ -50,7 +50,7 @@ sprite $azureappserviceazureapiapps [48x48/16] {
 0000000000000000859EEE98800000000000000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_G <img:../sprites/Cloud/Azure_App_Service_Azure_API_Apps_gray.png>
-!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_M <img:../sprites/Cloud/Azure_App_Service_Azure_API_Apps_mono.png>
-!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_C <img:../sprites/Cloud/Azure_App_Service_Azure_API_Apps.png>
+!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_G <img:../sprites/Cloud/azure_app_service_azure_api_apps_gray.png>
+!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_B <img:../sprites/Cloud/azure_app_service_azure_api_apps_mono.png>
+!define MSIMG_AZUREAPPSERVICEAZUREAPIAPPS_C <img:../sprites/Cloud/azure_app_service_azure_api_apps.png>
 @enduml

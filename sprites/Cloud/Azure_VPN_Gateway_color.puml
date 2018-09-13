@@ -50,7 +50,7 @@ sprite $azurevpngatewaycolor [48x48/16] {
 00000599999999EEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_AZUREVPNGATEWAYCOLOR_G <img:../sprites/Cloud/Azure_VPN_Gateway_color_gray.png>
-!define MSIMG_AZUREVPNGATEWAYCOLOR_M <img:../sprites/Cloud/Azure_VPN_Gateway_color_mono.png>
-!define MSIMG_AZUREVPNGATEWAYCOLOR_C <img:../sprites/Cloud/Azure_VPN_Gateway_color.png>
+!define MSIMG_AZUREVPNGATEWAYCOLOR_G <img:../sprites/Cloud/azure_vpn_gateway_color_gray.png>
+!define MSIMG_AZUREVPNGATEWAYCOLOR_B <img:../sprites/Cloud/azure_vpn_gateway_color_mono.png>
+!define MSIMG_AZUREVPNGATEWAYCOLOR_C <img:../sprites/Cloud/azure_vpn_gateway_color.png>
 @enduml

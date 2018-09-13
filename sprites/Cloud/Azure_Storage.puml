@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE0
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGE_G <img:../sprites/Cloud/Azure_Storage_gray.png>
-!define MSIMG_AZURESTORAGE_M <img:../sprites/Cloud/Azure_Storage_mono.png>
-!define MSIMG_AZURESTORAGE_C <img:../sprites/Cloud/Azure_Storage.png>
+!define MSIMG_AZURESTORAGE_G <img:../sprites/Cloud/azure_storage_gray.png>
+!define MSIMG_AZURESTORAGE_B <img:../sprites/Cloud/azure_storage_mono.png>
+!define MSIMG_AZURESTORAGE_C <img:../sprites/Cloud/azure_storage.png>
 @enduml

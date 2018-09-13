@@ -50,7 +50,7 @@ sprite $networksecuritygroupcolor [48x48/16] {
 000000000000000000000003300000000000000000000000
 }
 
-!define MSIMG_NETWORKSECURITYGROUPCOLOR_G <img:../sprites/Cloud/Network_Security_Group_COLOR_gray.png>
-!define MSIMG_NETWORKSECURITYGROUPCOLOR_M <img:../sprites/Cloud/Network_Security_Group_COLOR_mono.png>
-!define MSIMG_NETWORKSECURITYGROUPCOLOR_C <img:../sprites/Cloud/Network_Security_Group_COLOR.png>
+!define MSIMG_NETWORKSECURITYGROUPCOLOR_G <img:../sprites/Cloud/network_security_group_color_gray.png>
+!define MSIMG_NETWORKSECURITYGROUPCOLOR_B <img:../sprites/Cloud/network_security_group_color_mono.png>
+!define MSIMG_NETWORKSECURITYGROUPCOLOR_C <img:../sprites/Cloud/network_security_group_color.png>
 @enduml

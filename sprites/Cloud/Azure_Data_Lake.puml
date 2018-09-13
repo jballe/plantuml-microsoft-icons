@@ -50,7 +50,7 @@ sprite $azuredatalake [48x48/16] {
 000000000000000009300000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATALAKE_G <img:../sprites/Cloud/Azure_Data_Lake_gray.png>
-!define MSIMG_AZUREDATALAKE_M <img:../sprites/Cloud/Azure_Data_Lake_mono.png>
-!define MSIMG_AZUREDATALAKE_C <img:../sprites/Cloud/Azure_Data_Lake.png>
+!define MSIMG_AZUREDATALAKE_G <img:../sprites/Cloud/azure_data_lake_gray.png>
+!define MSIMG_AZUREDATALAKE_B <img:../sprites/Cloud/azure_data_lake_mono.png>
+!define MSIMG_AZUREDATALAKE_C <img:../sprites/Cloud/azure_data_lake.png>
 @enduml

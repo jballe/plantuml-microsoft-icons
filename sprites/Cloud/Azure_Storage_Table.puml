@@ -50,7 +50,7 @@ sprite $azurestoragetable [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGETABLE_G <img:../sprites/Cloud/Azure_Storage_Table_gray.png>
-!define MSIMG_AZURESTORAGETABLE_M <img:../sprites/Cloud/Azure_Storage_Table_mono.png>
-!define MSIMG_AZURESTORAGETABLE_C <img:../sprites/Cloud/Azure_Storage_Table.png>
+!define MSIMG_AZURESTORAGETABLE_G <img:../sprites/Cloud/azure_storage_table_gray.png>
+!define MSIMG_AZURESTORAGETABLE_B <img:../sprites/Cloud/azure_storage_table_mono.png>
+!define MSIMG_AZURESTORAGETABLE_C <img:../sprites/Cloud/azure_storage_table.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE8500000
 000000000000000000000000035800000000000000000000
 }
 
-!define MSIMG_ACCESS_G <img:../sprites/OtherMicrosoftProd/Access_gray.png>
-!define MSIMG_ACCESS_M <img:../sprites/OtherMicrosoftProd/Access_mono.png>
-!define MSIMG_ACCESS_C <img:../sprites/OtherMicrosoftProd/Access.png>
+!define MSIMG_ACCESS_G <img:../sprites/OtherMicrosoftProd/access_gray.png>
+!define MSIMG_ACCESS_B <img:../sprites/OtherMicrosoftProd/access_mono.png>
+!define MSIMG_ACCESS_C <img:../sprites/OtherMicrosoftProd/access.png>
 @enduml

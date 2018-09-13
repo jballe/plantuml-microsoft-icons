@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE98
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_USB_G <img:../sprites/Enterprise/USB_gray.png>
-!define MSIMG_USB_M <img:../sprites/Enterprise/USB_mono.png>
-!define MSIMG_USB_C <img:../sprites/Enterprise/USB.png>
+!define MSIMG_USB_G <img:../sprites/Enterprise/usb_gray.png>
+!define MSIMG_USB_B <img:../sprites/Enterprise/usb_mono.png>
+!define MSIMG_USB_C <img:../sprites/Enterprise/usb.png>
 @enduml

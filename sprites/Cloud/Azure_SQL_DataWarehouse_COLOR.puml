@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_G <img:../sprites/Cloud/Azure_SQL_DataWarehouse_COLOR_gray.png>
-!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_M <img:../sprites/Cloud/Azure_SQL_DataWarehouse_COLOR_mono.png>
-!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_C <img:../sprites/Cloud/Azure_SQL_DataWarehouse_COLOR.png>
+!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_G <img:../sprites/Cloud/azure_sql_datawarehouse_color_gray.png>
+!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_B <img:../sprites/Cloud/azure_sql_datawarehouse_color_mono.png>
+!define MSIMG_AZURESQLDATAWAREHOUSECOLOR_C <img:../sprites/Cloud/azure_sql_datawarehouse_color.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEE80000000EEEEEEE00000003EEEE90000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GEARS_G <img:../sprites/GeneralSymbols/Gears_gray.png>
-!define MSIMG_GEARS_M <img:../sprites/GeneralSymbols/Gears_mono.png>
-!define MSIMG_GEARS_C <img:../sprites/GeneralSymbols/Gears.png>
+!define MSIMG_GEARS_G <img:../sprites/GeneralSymbols/gears_gray.png>
+!define MSIMG_GEARS_B <img:../sprites/GeneralSymbols/gears_mono.png>
+!define MSIMG_GEARS_C <img:../sprites/GeneralSymbols/gears.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azureappservicelogicappcolor [48x48/16] {
 000000008000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_G <img:../sprites/Deprecated/Azure_App_Service_Logic_App_COLOR_gray.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_M <img:../sprites/Deprecated/Azure_App_Service_Logic_App_COLOR_mono.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_C <img:../sprites/Deprecated/Azure_App_Service_Logic_App_COLOR.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_G <img:../sprites/Deprecated/azure_app_service_logic_app_color_gray.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_B <img:../sprites/Deprecated/azure_app_service_logic_app_color_mono.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPPCOLOR_C <img:../sprites/Deprecated/azure_app_service_logic_app_color.png>
 @enduml

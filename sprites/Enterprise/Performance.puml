@@ -50,7 +50,7 @@ EEEE0000EEEEEEEEEEE0000000000EEEEEEEEEEE0000EEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_PERFORMANCE_G <img:../sprites/Enterprise/Performance_gray.png>
-!define MSIMG_PERFORMANCE_M <img:../sprites/Enterprise/Performance_mono.png>
-!define MSIMG_PERFORMANCE_C <img:../sprites/Enterprise/Performance.png>
+!define MSIMG_PERFORMANCE_G <img:../sprites/Enterprise/performance_gray.png>
+!define MSIMG_PERFORMANCE_B <img:../sprites/Enterprise/performance_mono.png>
+!define MSIMG_PERFORMANCE_C <img:../sprites/Enterprise/performance.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREBACKUP_G <img:../sprites/Cloud/Azure_Backup_gray.png>
-!define MSIMG_AZUREBACKUP_M <img:../sprites/Cloud/Azure_Backup_mono.png>
-!define MSIMG_AZUREBACKUP_C <img:../sprites/Cloud/Azure_Backup.png>
+!define MSIMG_AZUREBACKUP_G <img:../sprites/Cloud/azure_backup_gray.png>
+!define MSIMG_AZUREBACKUP_B <img:../sprites/Cloud/azure_backup_mono.png>
+!define MSIMG_AZUREBACKUP_C <img:../sprites/Cloud/azure_backup.png>
 @enduml

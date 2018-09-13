@@ -50,7 +50,7 @@ sprite $termsandconditions [48x48/16] {
 0000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000
 }
 
-!define MSIMG_TERMSANDCONDITIONS_G <img:../sprites/Intune/Terms_and_conditions_gray.png>
-!define MSIMG_TERMSANDCONDITIONS_M <img:../sprites/Intune/Terms_and_conditions_mono.png>
-!define MSIMG_TERMSANDCONDITIONS_C <img:../sprites/Intune/Terms_and_conditions.png>
+!define MSIMG_TERMSANDCONDITIONS_G <img:../sprites/Intune/terms_and_conditions_gray.png>
+!define MSIMG_TERMSANDCONDITIONS_B <img:../sprites/Intune/terms_and_conditions_mono.png>
+!define MSIMG_TERMSANDCONDITIONS_C <img:../sprites/Intune/terms_and_conditions.png>
 @enduml

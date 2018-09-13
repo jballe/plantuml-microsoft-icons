@@ -51,6 +51,6 @@ sprite $codefile [48x48/16] {
 }
 
 !define MSIMG_CODEFILE_G <img:../sprites/Enterprise/code_file_gray.png>
-!define MSIMG_CODEFILE_M <img:../sprites/Enterprise/code_file_mono.png>
+!define MSIMG_CODEFILE_B <img:../sprites/Enterprise/code_file_mono.png>
 !define MSIMG_CODEFILE_C <img:../sprites/Enterprise/code_file.png>
 @enduml

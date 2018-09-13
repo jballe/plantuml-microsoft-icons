@@ -50,7 +50,7 @@ sprite $azuresdk [48x48/16] {
 000050000000008550085580005003300000003530000000
 }
 
-!define MSIMG_AZURESDK_G <img:../sprites/Cloud/Azure_SDK_gray.png>
-!define MSIMG_AZURESDK_M <img:../sprites/Cloud/Azure_SDK_mono.png>
-!define MSIMG_AZURESDK_C <img:../sprites/Cloud/Azure_SDK.png>
+!define MSIMG_AZURESDK_G <img:../sprites/Cloud/azure_sdk_gray.png>
+!define MSIMG_AZURESDK_B <img:../sprites/Cloud/azure_sdk_mono.png>
+!define MSIMG_AZURESDK_C <img:../sprites/Cloud/azure_sdk.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $centraladministrationsitesql [48x48/16] {
 000000000000000000000000000359EEEEE9850000000000
 }
 
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_G <img:../sprites/System_Center/Central_administration_site_SQL_gray.png>
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_M <img:../sprites/System_Center/Central_administration_site_SQL_mono.png>
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_C <img:../sprites/System_Center/Central_administration_site_SQL.png>
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_G <img:../sprites/System_Center/central_administration_site_sql_gray.png>
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_B <img:../sprites/System_Center/central_administration_site_sql_mono.png>
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_C <img:../sprites/System_Center/central_administration_site_sql.png>
 @enduml

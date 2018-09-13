@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 9EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9
 }
 
-!define MSIMG_AZURESERVICEBUSRELAY_G <img:../sprites/Cloud/Azure_Service_Bus_Relay_gray.png>
-!define MSIMG_AZURESERVICEBUSRELAY_M <img:../sprites/Cloud/Azure_Service_Bus_Relay_mono.png>
-!define MSIMG_AZURESERVICEBUSRELAY_C <img:../sprites/Cloud/Azure_Service_Bus_Relay.png>
+!define MSIMG_AZURESERVICEBUSRELAY_G <img:../sprites/Cloud/azure_service_bus_relay_gray.png>
+!define MSIMG_AZURESERVICEBUSRELAY_B <img:../sprites/Cloud/azure_service_bus_relay_mono.png>
+!define MSIMG_AZURESERVICEBUSRELAY_C <img:../sprites/Cloud/azure_service_bus_relay.png>
 @enduml

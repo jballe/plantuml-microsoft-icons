@@ -50,7 +50,7 @@ sprite $deviceos [48x48/16] {
 05EEEEEEEEEEEEEEEE500000000000000000000000000000
 }
 
-!define MSIMG_DEVICEOS_G <img:../sprites/Intune/Device_OS_gray.png>
-!define MSIMG_DEVICEOS_M <img:../sprites/Intune/Device_OS_mono.png>
-!define MSIMG_DEVICEOS_C <img:../sprites/Intune/Device_OS.png>
+!define MSIMG_DEVICEOS_G <img:../sprites/Intune/device_os_gray.png>
+!define MSIMG_DEVICEOS_B <img:../sprites/Intune/device_os_mono.png>
+!define MSIMG_DEVICEOS_C <img:../sprites/Intune/device_os.png>
 @enduml

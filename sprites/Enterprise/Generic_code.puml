@@ -50,7 +50,7 @@ sprite $genericcode [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_GENERICCODE_G <img:../sprites/Enterprise/Generic_code_gray.png>
-!define MSIMG_GENERICCODE_M <img:../sprites/Enterprise/Generic_code_mono.png>
-!define MSIMG_GENERICCODE_C <img:../sprites/Enterprise/Generic_code.png>
+!define MSIMG_GENERICCODE_G <img:../sprites/Enterprise/generic_code_gray.png>
+!define MSIMG_GENERICCODE_B <img:../sprites/Enterprise/generic_code_mono.png>
+!define MSIMG_GENERICCODE_C <img:../sprites/Enterprise/generic_code.png>
 @enduml

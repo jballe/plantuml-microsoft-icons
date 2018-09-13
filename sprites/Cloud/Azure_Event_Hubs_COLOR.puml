@@ -50,7 +50,7 @@ sprite $azureeventhubscolor [48x48/16] {
 09EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE90
 }
 
-!define MSIMG_AZUREEVENTHUBSCOLOR_G <img:../sprites/Cloud/Azure_Event_Hubs_COLOR_gray.png>
-!define MSIMG_AZUREEVENTHUBSCOLOR_M <img:../sprites/Cloud/Azure_Event_Hubs_COLOR_mono.png>
-!define MSIMG_AZUREEVENTHUBSCOLOR_C <img:../sprites/Cloud/Azure_Event_Hubs_COLOR.png>
+!define MSIMG_AZUREEVENTHUBSCOLOR_G <img:../sprites/Cloud/azure_event_hubs_color_gray.png>
+!define MSIMG_AZUREEVENTHUBSCOLOR_B <img:../sprites/Cloud/azure_event_hubs_color_mono.png>
+!define MSIMG_AZUREEVENTHUBSCOLOR_C <img:../sprites/Cloud/azure_event_hubs_color.png>
 @enduml

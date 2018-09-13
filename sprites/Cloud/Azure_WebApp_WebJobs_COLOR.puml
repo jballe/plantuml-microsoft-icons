@@ -50,7 +50,7 @@ sprite $azurewebappwebjobscolor [48x48/16] {
 00000000000000E8000000000000000008EE800000000000
 }
 
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_G <img:../sprites/Cloud/Azure_WebApp_WebJobs_COLOR_gray.png>
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_M <img:../sprites/Cloud/Azure_WebApp_WebJobs_COLOR_mono.png>
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_C <img:../sprites/Cloud/Azure_WebApp_WebJobs_COLOR.png>
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_G <img:../sprites/Cloud/azure_webapp_webjobs_color_gray.png>
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_B <img:../sprites/Cloud/azure_webapp_webjobs_color_mono.png>
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_C <img:../sprites/Cloud/azure_webapp_webjobs_color.png>
 @enduml

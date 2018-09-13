@@ -50,7 +50,7 @@ EEEEEE90000000008EEEEEEEEEEEEEE30000000009EEEEEE
 00000000000000000000008EE80000000000000000000000
 }
 
-!define MSIMG_SQLDATABASEPOOLS_G <img:../sprites/Cloud/SQL_Database_Pools_gray.png>
-!define MSIMG_SQLDATABASEPOOLS_M <img:../sprites/Cloud/SQL_Database_Pools_mono.png>
-!define MSIMG_SQLDATABASEPOOLS_C <img:../sprites/Cloud/SQL_Database_Pools.png>
+!define MSIMG_SQLDATABASEPOOLS_G <img:../sprites/Cloud/sql_database_pools_gray.png>
+!define MSIMG_SQLDATABASEPOOLS_B <img:../sprites/Cloud/sql_database_pools_mono.png>
+!define MSIMG_SQLDATABASEPOOLS_C <img:../sprites/Cloud/sql_database_pools.png>
 @enduml

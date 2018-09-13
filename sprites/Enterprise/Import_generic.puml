@@ -50,7 +50,7 @@ sprite $importgeneric [48x48/16] {
 000000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000000
 }
 
-!define MSIMG_IMPORTGENERIC_G <img:../sprites/Enterprise/Import_generic_gray.png>
-!define MSIMG_IMPORTGENERIC_M <img:../sprites/Enterprise/Import_generic_mono.png>
-!define MSIMG_IMPORTGENERIC_C <img:../sprites/Enterprise/Import_generic.png>
+!define MSIMG_IMPORTGENERIC_G <img:../sprites/Enterprise/import_generic_gray.png>
+!define MSIMG_IMPORTGENERIC_B <img:../sprites/Enterprise/import_generic_mono.png>
+!define MSIMG_IMPORTGENERIC_C <img:../sprites/Enterprise/import_generic.png>
 @enduml

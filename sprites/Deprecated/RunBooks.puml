@@ -50,7 +50,7 @@ sprite $runbooks [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RUNBOOKS_G <img:../sprites/Deprecated/RunBooks_gray.png>
-!define MSIMG_RUNBOOKS_M <img:../sprites/Deprecated/RunBooks_mono.png>
-!define MSIMG_RUNBOOKS_C <img:../sprites/Deprecated/RunBooks.png>
+!define MSIMG_RUNBOOKS_G <img:../sprites/Deprecated/runbooks_gray.png>
+!define MSIMG_RUNBOOKS_B <img:../sprites/Deprecated/runbooks_mono.png>
+!define MSIMG_RUNBOOKS_C <img:../sprites/Deprecated/runbooks.png>
 @enduml

@@ -50,7 +50,7 @@ E9000000000000000008E000000E8000000000000000008E
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREPACK_G <img:../sprites/Enterprise/Azure_pack_gray.png>
-!define MSIMG_AZUREPACK_M <img:../sprites/Enterprise/Azure_pack_mono.png>
-!define MSIMG_AZUREPACK_C <img:../sprites/Enterprise/Azure_pack.png>
+!define MSIMG_AZUREPACK_G <img:../sprites/Enterprise/azure_pack_gray.png>
+!define MSIMG_AZUREPACK_B <img:../sprites/Enterprise/azure_pack_mono.png>
+!define MSIMG_AZUREPACK_C <img:../sprites/Enterprise/azure_pack.png>
 @enduml

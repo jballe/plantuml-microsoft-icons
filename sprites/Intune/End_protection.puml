@@ -50,7 +50,7 @@ sprite $endprotection [48x48/16] {
 000000000000000000000009900000000000000000000000
 }
 
-!define MSIMG_ENDPROTECTION_G <img:../sprites/Intune/End_protection_gray.png>
-!define MSIMG_ENDPROTECTION_M <img:../sprites/Intune/End_protection_mono.png>
-!define MSIMG_ENDPROTECTION_C <img:../sprites/Intune/End_protection.png>
+!define MSIMG_ENDPROTECTION_G <img:../sprites/Intune/end_protection_gray.png>
+!define MSIMG_ENDPROTECTION_B <img:../sprites/Intune/end_protection_mono.png>
+!define MSIMG_ENDPROTECTION_C <img:../sprites/Intune/end_protection.png>
 @enduml

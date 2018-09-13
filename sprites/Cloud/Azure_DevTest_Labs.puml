@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEE8005EEEEEEEEEE3008EEEEEEE900
 000000000000039999999999999999999999999999998000
 }
 
-!define MSIMG_AZUREDEVTESTLABS_G <img:../sprites/Cloud/Azure_DevTest_Labs_gray.png>
-!define MSIMG_AZUREDEVTESTLABS_M <img:../sprites/Cloud/Azure_DevTest_Labs_mono.png>
-!define MSIMG_AZUREDEVTESTLABS_C <img:../sprites/Cloud/Azure_DevTest_Labs.png>
+!define MSIMG_AZUREDEVTESTLABS_G <img:../sprites/Cloud/azure_devtest_labs_gray.png>
+!define MSIMG_AZUREDEVTESTLABS_B <img:../sprites/Cloud/azure_devtest_labs_mono.png>
+!define MSIMG_AZUREDEVTESTLABS_C <img:../sprites/Cloud/azure_devtest_labs.png>
 @enduml

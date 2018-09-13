@@ -50,7 +50,7 @@ EEEE88500000000000000550000000000000000005850000
 000000000000000000000000000000059E98000000000000
 }
 
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_G <img:../sprites/Cloud/Azure_Data_Lake_Analytics_COLOR_gray.png>
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_M <img:../sprites/Cloud/Azure_Data_Lake_Analytics_COLOR_mono.png>
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_C <img:../sprites/Cloud/Azure_Data_Lake_Analytics_COLOR.png>
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_G <img:../sprites/Cloud/azure_data_lake_analytics_color_gray.png>
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_B <img:../sprites/Cloud/azure_data_lake_analytics_color_mono.png>
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_C <img:../sprites/Cloud/azure_data_lake_analytics_color.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azurecontainerservicecolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTAINERSERVICECOLOR_G <img:../sprites/Cloud/Azure_Container_Service_COLOR_gray.png>
-!define MSIMG_AZURECONTAINERSERVICECOLOR_M <img:../sprites/Cloud/Azure_Container_Service_COLOR_mono.png>
-!define MSIMG_AZURECONTAINERSERVICECOLOR_C <img:../sprites/Cloud/Azure_Container_Service_COLOR.png>
+!define MSIMG_AZURECONTAINERSERVICECOLOR_G <img:../sprites/Cloud/azure_container_service_color_gray.png>
+!define MSIMG_AZURECONTAINERSERVICECOLOR_B <img:../sprites/Cloud/azure_container_service_color_mono.png>
+!define MSIMG_AZURECONTAINERSERVICECOLOR_C <img:../sprites/Cloud/azure_container_service_color.png>
 @enduml

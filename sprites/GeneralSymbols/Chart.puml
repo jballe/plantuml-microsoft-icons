@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CHART_G <img:../sprites/GeneralSymbols/Chart_gray.png>
-!define MSIMG_CHART_M <img:../sprites/GeneralSymbols/Chart_mono.png>
-!define MSIMG_CHART_C <img:../sprites/GeneralSymbols/Chart.png>
+!define MSIMG_CHART_G <img:../sprites/GeneralSymbols/chart_gray.png>
+!define MSIMG_CHART_B <img:../sprites/GeneralSymbols/chart_mono.png>
+!define MSIMG_CHART_C <img:../sprites/GeneralSymbols/chart.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 333333333333333333333333333333333333333333333333
 }
 
-!define MSIMG_GRAPH_G <img:../sprites/GeneralSymbols/Graph_gray.png>
-!define MSIMG_GRAPH_M <img:../sprites/GeneralSymbols/Graph_mono.png>
-!define MSIMG_GRAPH_C <img:../sprites/GeneralSymbols/Graph.png>
+!define MSIMG_GRAPH_G <img:../sprites/GeneralSymbols/graph_gray.png>
+!define MSIMG_GRAPH_B <img:../sprites/GeneralSymbols/graph_mono.png>
+!define MSIMG_GRAPH_C <img:../sprites/GeneralSymbols/graph.png>
 @enduml

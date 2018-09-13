@@ -50,7 +50,7 @@ sprite $intunecertificateprofiles [48x48/16] {
 000000000000000000000000000008000000000000000000
 }
 
-!define MSIMG_INTUNECERTIFICATEPROFILES_G <img:../sprites/Intune/Intune_certificate_profiles_gray.png>
-!define MSIMG_INTUNECERTIFICATEPROFILES_M <img:../sprites/Intune/Intune_certificate_profiles_mono.png>
-!define MSIMG_INTUNECERTIFICATEPROFILES_C <img:../sprites/Intune/Intune_certificate_profiles.png>
+!define MSIMG_INTUNECERTIFICATEPROFILES_G <img:../sprites/Intune/intune_certificate_profiles_gray.png>
+!define MSIMG_INTUNECERTIFICATEPROFILES_B <img:../sprites/Intune/intune_certificate_profiles_mono.png>
+!define MSIMG_INTUNECERTIFICATEPROFILES_C <img:../sprites/Intune/intune_certificate_profiles.png>
 @enduml

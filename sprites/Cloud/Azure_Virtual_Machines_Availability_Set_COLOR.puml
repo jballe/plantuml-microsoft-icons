@@ -50,7 +50,7 @@ sprite $azurevirtualmachinesavailabilitysetcolor [48x48/16] {
 005555550008555558000555555000855555300055555500
 }
 
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_G <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set_COLOR_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_M <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set_COLOR_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_C <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set_COLOR.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_G <img:../sprites/Cloud/azure_virtual_machines_availability_set_color_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_B <img:../sprites/Cloud/azure_virtual_machines_availability_set_color_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSETCOLOR_C <img:../sprites/Cloud/azure_virtual_machines_availability_set_color.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $checkmarksuccess [48x48/16] {
 000000000000000000085000000000000000000000000000
 }
 
-!define MSIMG_CHECKMARKSUCCESS_G <img:../sprites/GeneralSymbols/Checkmark_success_gray.png>
-!define MSIMG_CHECKMARKSUCCESS_M <img:../sprites/GeneralSymbols/Checkmark_success_mono.png>
-!define MSIMG_CHECKMARKSUCCESS_C <img:../sprites/GeneralSymbols/Checkmark_success.png>
+!define MSIMG_CHECKMARKSUCCESS_G <img:../sprites/GeneralSymbols/checkmark_success_gray.png>
+!define MSIMG_CHECKMARKSUCCESS_B <img:../sprites/GeneralSymbols/checkmark_success_mono.png>
+!define MSIMG_CHECKMARKSUCCESS_C <img:../sprites/GeneralSymbols/checkmark_success.png>
 @enduml

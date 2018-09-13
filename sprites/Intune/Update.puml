@@ -50,7 +50,7 @@ E800000000009EEEEEEEEEEEEEEEEEEEEEE3000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_UPDATE_G <img:../sprites/Intune/Update_gray.png>
-!define MSIMG_UPDATE_M <img:../sprites/Intune/Update_mono.png>
-!define MSIMG_UPDATE_C <img:../sprites/Intune/Update.png>
+!define MSIMG_UPDATE_G <img:../sprites/Intune/update_gray.png>
+!define MSIMG_UPDATE_B <img:../sprites/Intune/update_mono.png>
+!define MSIMG_UPDATE_C <img:../sprites/Intune/update.png>
 @enduml

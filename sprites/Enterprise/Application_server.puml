@@ -50,7 +50,7 @@ sprite $applicationserver [48x48/16] {
 0000EEEEEEEEEEE003333333333333333333333800000000
 }
 
-!define MSIMG_APPLICATIONSERVER_G <img:../sprites/Enterprise/Application_server_gray.png>
-!define MSIMG_APPLICATIONSERVER_M <img:../sprites/Enterprise/Application_server_mono.png>
-!define MSIMG_APPLICATIONSERVER_C <img:../sprites/Enterprise/Application_server.png>
+!define MSIMG_APPLICATIONSERVER_G <img:../sprites/Enterprise/application_server_gray.png>
+!define MSIMG_APPLICATIONSERVER_B <img:../sprites/Enterprise/application_server_mono.png>
+!define MSIMG_APPLICATIONSERVER_C <img:../sprites/Enterprise/application_server.png>
 @enduml

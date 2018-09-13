@@ -50,7 +50,7 @@ sprite $azuresecuritycenter [48x48/16] {
 000000000000000000000008800000000000000000000000
 }
 
-!define MSIMG_AZURESECURITYCENTER_G <img:../sprites/Cloud/Azure_Security_Center_gray.png>
-!define MSIMG_AZURESECURITYCENTER_M <img:../sprites/Cloud/Azure_Security_Center_mono.png>
-!define MSIMG_AZURESECURITYCENTER_C <img:../sprites/Cloud/Azure_Security_Center.png>
+!define MSIMG_AZURESECURITYCENTER_G <img:../sprites/Cloud/azure_security_center_gray.png>
+!define MSIMG_AZURESECURITYCENTER_B <img:../sprites/Cloud/azure_security_center_mono.png>
+!define MSIMG_AZURESECURITYCENTER_C <img:../sprites/Cloud/azure_security_center.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $servicebusold [48x48/16] {
 000000000000000000500000000000000000000000000000
 }
 
-!define MSIMG_SERVICEBUSOLD_G <img:../sprites/Deprecated/Service_Bus_old_gray.png>
-!define MSIMG_SERVICEBUSOLD_M <img:../sprites/Deprecated/Service_Bus_old_mono.png>
-!define MSIMG_SERVICEBUSOLD_C <img:../sprites/Deprecated/Service_Bus_old.png>
+!define MSIMG_SERVICEBUSOLD_G <img:../sprites/Deprecated/service_bus_old_gray.png>
+!define MSIMG_SERVICEBUSOLD_B <img:../sprites/Deprecated/service_bus_old_mono.png>
+!define MSIMG_SERVICEBUSOLD_C <img:../sprites/Deprecated/service_bus_old.png>
 @enduml

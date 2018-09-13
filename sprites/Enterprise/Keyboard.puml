@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_KEYBOARD_G <img:../sprites/Enterprise/Keyboard_gray.png>
-!define MSIMG_KEYBOARD_M <img:../sprites/Enterprise/Keyboard_mono.png>
-!define MSIMG_KEYBOARD_C <img:../sprites/Enterprise/Keyboard.png>
+!define MSIMG_KEYBOARD_G <img:../sprites/Enterprise/keyboard_gray.png>
+!define MSIMG_KEYBOARD_B <img:../sprites/Enterprise/keyboard_mono.png>
+!define MSIMG_KEYBOARD_C <img:../sprites/Enterprise/keyboard.png>
 @enduml

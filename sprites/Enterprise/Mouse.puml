@@ -50,7 +50,7 @@ sprite $mouse [48x48/16] {
 000000000000000000058EEEEEE950000000000000000000
 }
 
-!define MSIMG_MOUSE_G <img:../sprites/Enterprise/Mouse_gray.png>
-!define MSIMG_MOUSE_M <img:../sprites/Enterprise/Mouse_mono.png>
-!define MSIMG_MOUSE_C <img:../sprites/Enterprise/Mouse.png>
+!define MSIMG_MOUSE_G <img:../sprites/Enterprise/mouse_gray.png>
+!define MSIMG_MOUSE_B <img:../sprites/Enterprise/mouse_mono.png>
+!define MSIMG_MOUSE_C <img:../sprites/Enterprise/mouse.png>
 @enduml

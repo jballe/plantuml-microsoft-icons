@@ -50,7 +50,7 @@ EEEEEEEEEEEEE9000009EEEEEEEEEEEEEEEEEEEEEEEEEEE3
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONNECTORS_G <img:../sprites/Enterprise/Connectors_gray.png>
-!define MSIMG_CONNECTORS_M <img:../sprites/Enterprise/Connectors_mono.png>
-!define MSIMG_CONNECTORS_C <img:../sprites/Enterprise/Connectors.png>
+!define MSIMG_CONNECTORS_G <img:../sprites/Enterprise/connectors_gray.png>
+!define MSIMG_CONNECTORS_B <img:../sprites/Enterprise/connectors_mono.png>
+!define MSIMG_CONNECTORS_C <img:../sprites/Enterprise/connectors.png>
 @enduml

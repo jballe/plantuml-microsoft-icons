@@ -50,7 +50,7 @@ sprite $azuremachinelearning [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_AZUREMACHINELEARNING_G <img:../sprites/Deprecated/Azure_Machine_Learning_gray.png>
-!define MSIMG_AZUREMACHINELEARNING_M <img:../sprites/Deprecated/Azure_Machine_Learning_mono.png>
-!define MSIMG_AZUREMACHINELEARNING_C <img:../sprites/Deprecated/Azure_Machine_Learning.png>
+!define MSIMG_AZUREMACHINELEARNING_G <img:../sprites/Deprecated/azure_machine_learning_gray.png>
+!define MSIMG_AZUREMACHINELEARNING_B <img:../sprites/Deprecated/azure_machine_learning_mono.png>
+!define MSIMG_AZUREMACHINELEARNING_C <img:../sprites/Deprecated/azure_machine_learning.png>
 @enduml

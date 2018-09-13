@@ -51,6 +51,6 @@ sprite $19green [48x48/16] {
 }
 
 !define MSIMG_19GREEN_G <img:../sprites/GeneralSymbols/19green_gray.png>
-!define MSIMG_19GREEN_M <img:../sprites/GeneralSymbols/19green_mono.png>
+!define MSIMG_19GREEN_B <img:../sprites/GeneralSymbols/19green_mono.png>
 !define MSIMG_19GREEN_C <img:../sprites/GeneralSymbols/19green.png>
 @enduml

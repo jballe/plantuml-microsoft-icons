@@ -50,7 +50,7 @@ EE95000000000000000000000000000000000000000059EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_COMPUTE_G <img:../sprites/Deprecated/Compute_gray.png>
-!define MSIMG_COMPUTE_M <img:../sprites/Deprecated/Compute_mono.png>
-!define MSIMG_COMPUTE_C <img:../sprites/Deprecated/Compute.png>
+!define MSIMG_COMPUTE_G <img:../sprites/Deprecated/compute_gray.png>
+!define MSIMG_COMPUTE_B <img:../sprites/Deprecated/compute_mono.png>
+!define MSIMG_COMPUTE_C <img:../sprites/Deprecated/compute.png>
 @enduml

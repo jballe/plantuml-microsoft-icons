@@ -50,7 +50,7 @@ sprite $webhook [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_WEBHOOK_G <img:../sprites/Deprecated/WebHook_gray.png>
-!define MSIMG_WEBHOOK_M <img:../sprites/Deprecated/WebHook_mono.png>
-!define MSIMG_WEBHOOK_C <img:../sprites/Deprecated/WebHook.png>
+!define MSIMG_WEBHOOK_G <img:../sprites/Deprecated/webhook_gray.png>
+!define MSIMG_WEBHOOK_B <img:../sprites/Deprecated/webhook_mono.png>
+!define MSIMG_WEBHOOK_C <img:../sprites/Deprecated/webhook.png>
 @enduml

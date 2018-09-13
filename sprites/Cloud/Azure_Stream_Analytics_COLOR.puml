@@ -50,7 +50,7 @@ sprite $azurestreamanalyticscolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_G <img:../sprites/Cloud/Azure_Stream_Analytics_COLOR_gray.png>
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_M <img:../sprites/Cloud/Azure_Stream_Analytics_COLOR_mono.png>
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_C <img:../sprites/Cloud/Azure_Stream_Analytics_COLOR.png>
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_G <img:../sprites/Cloud/azure_stream_analytics_color_gray.png>
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_B <img:../sprites/Cloud/azure_stream_analytics_color_mono.png>
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_C <img:../sprites/Cloud/azure_stream_analytics_color.png>
 @enduml

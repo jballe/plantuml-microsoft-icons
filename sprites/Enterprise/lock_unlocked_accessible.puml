@@ -51,6 +51,6 @@ sprite $lockunlockedaccessible [48x48/16] {
 }
 
 !define MSIMG_LOCKUNLOCKEDACCESSIBLE_G <img:../sprites/Enterprise/lock_unlocked_accessible_gray.png>
-!define MSIMG_LOCKUNLOCKEDACCESSIBLE_M <img:../sprites/Enterprise/lock_unlocked_accessible_mono.png>
+!define MSIMG_LOCKUNLOCKEDACCESSIBLE_B <img:../sprites/Enterprise/lock_unlocked_accessible_mono.png>
 !define MSIMG_LOCKUNLOCKEDACCESSIBLE_C <img:../sprites/Enterprise/lock_unlocked_accessible.png>
 @enduml

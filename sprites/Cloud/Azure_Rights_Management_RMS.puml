@@ -50,7 +50,7 @@ sprite $azurerightsmanagementrms [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_G <img:../sprites/Cloud/Azure_Rights_Management_RMS_gray.png>
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_M <img:../sprites/Cloud/Azure_Rights_Management_RMS_mono.png>
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_C <img:../sprites/Cloud/Azure_Rights_Management_RMS.png>
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_G <img:../sprites/Cloud/azure_rights_management_rms_gray.png>
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_B <img:../sprites/Cloud/azure_rights_management_rms_mono.png>
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_C <img:../sprites/Cloud/azure_rights_management_rms.png>
 @enduml

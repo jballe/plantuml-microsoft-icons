@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_APPLICATIONGENERIC_G <img:../sprites/Deprecated/Application_generic_gray.png>
-!define MSIMG_APPLICATIONGENERIC_M <img:../sprites/Deprecated/Application_generic_mono.png>
-!define MSIMG_APPLICATIONGENERIC_C <img:../sprites/Deprecated/Application_generic.png>
+!define MSIMG_APPLICATIONGENERIC_G <img:../sprites/Deprecated/application_generic_gray.png>
+!define MSIMG_APPLICATIONGENERIC_B <img:../sprites/Deprecated/application_generic_mono.png>
+!define MSIMG_APPLICATIONGENERIC_C <img:../sprites/Deprecated/application_generic.png>
 @enduml

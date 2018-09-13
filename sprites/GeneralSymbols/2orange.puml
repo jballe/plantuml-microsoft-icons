@@ -51,6 +51,6 @@ sprite $2orange [48x48/16] {
 }
 
 !define MSIMG_2ORANGE_G <img:../sprites/GeneralSymbols/2orange_gray.png>
-!define MSIMG_2ORANGE_M <img:../sprites/GeneralSymbols/2orange_mono.png>
+!define MSIMG_2ORANGE_B <img:../sprites/GeneralSymbols/2orange_mono.png>
 !define MSIMG_2ORANGE_C <img:../sprites/GeneralSymbols/2orange.png>
 @enduml

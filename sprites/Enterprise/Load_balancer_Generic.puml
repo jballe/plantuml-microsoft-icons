@@ -50,7 +50,7 @@ sprite $loadbalancergeneric [48x48/16] {
 000000000000000000000005000000000000000000000000
 }
 
-!define MSIMG_LOADBALANCERGENERIC_G <img:../sprites/Enterprise/Load_balancer_Generic_gray.png>
-!define MSIMG_LOADBALANCERGENERIC_M <img:../sprites/Enterprise/Load_balancer_Generic_mono.png>
-!define MSIMG_LOADBALANCERGENERIC_C <img:../sprites/Enterprise/Load_balancer_Generic.png>
+!define MSIMG_LOADBALANCERGENERIC_G <img:../sprites/Enterprise/load_balancer_generic_gray.png>
+!define MSIMG_LOADBALANCERGENERIC_B <img:../sprites/Enterprise/load_balancer_generic_mono.png>
+!define MSIMG_LOADBALANCERGENERIC_C <img:../sprites/Enterprise/load_balancer_generic.png>
 @enduml

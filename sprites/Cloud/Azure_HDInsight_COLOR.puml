@@ -50,7 +50,7 @@ sprite $azurehdinsightcolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREHDINSIGHTCOLOR_G <img:../sprites/Cloud/Azure_HDInsight_COLOR_gray.png>
-!define MSIMG_AZUREHDINSIGHTCOLOR_M <img:../sprites/Cloud/Azure_HDInsight_COLOR_mono.png>
-!define MSIMG_AZUREHDINSIGHTCOLOR_C <img:../sprites/Cloud/Azure_HDInsight_COLOR.png>
+!define MSIMG_AZUREHDINSIGHTCOLOR_G <img:../sprites/Cloud/azure_hdinsight_color_gray.png>
+!define MSIMG_AZUREHDINSIGHTCOLOR_B <img:../sprites/Cloud/azure_hdinsight_color_mono.png>
+!define MSIMG_AZUREHDINSIGHTCOLOR_C <img:../sprites/Cloud/azure_hdinsight_color.png>
 @enduml

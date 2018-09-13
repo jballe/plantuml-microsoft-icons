@@ -50,7 +50,7 @@ sprite $azurecognativeservicesrecommendationscolor [48x48/16] {
 588888888888888888888888888888888888888888888885
 }
 
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_G <img:../sprites/Cloud/Azure_Cognative_Services_recommendations_COLOR_gray.png>
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_M <img:../sprites/Cloud/Azure_Cognative_Services_recommendations_COLOR_mono.png>
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_C <img:../sprites/Cloud/Azure_Cognative_Services_recommendations_COLOR.png>
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_G <img:../sprites/Cloud/azure_cognative_services_recommendations_color_gray.png>
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_B <img:../sprites/Cloud/azure_cognative_services_recommendations_color_mono.png>
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_C <img:../sprites/Cloud/azure_cognative_services_recommendations_color.png>
 @enduml

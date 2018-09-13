@@ -50,7 +50,7 @@ sprite $keypermissions [48x48/16] {
 0000000000000000000008EE800000000000000000000000
 }
 
-!define MSIMG_KEYPERMISSIONS_G <img:../sprites/Enterprise/Key_permissions_gray.png>
-!define MSIMG_KEYPERMISSIONS_M <img:../sprites/Enterprise/Key_permissions_mono.png>
-!define MSIMG_KEYPERMISSIONS_C <img:../sprites/Enterprise/Key_permissions.png>
+!define MSIMG_KEYPERMISSIONS_G <img:../sprites/Enterprise/key_permissions_gray.png>
+!define MSIMG_KEYPERMISSIONS_B <img:../sprites/Enterprise/key_permissions_mono.png>
+!define MSIMG_KEYPERMISSIONS_C <img:../sprites/Enterprise/key_permissions.png>
 @enduml

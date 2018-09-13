@@ -50,7 +50,7 @@ sprite $omstrackchanges [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSTRACKCHANGES_G <img:../sprites/OMS/OMS_Track_Changes_gray.png>
-!define MSIMG_OMSTRACKCHANGES_M <img:../sprites/OMS/OMS_Track_Changes_mono.png>
-!define MSIMG_OMSTRACKCHANGES_C <img:../sprites/OMS/OMS_Track_Changes.png>
+!define MSIMG_OMSTRACKCHANGES_G <img:../sprites/OMS/oms_track_changes_gray.png>
+!define MSIMG_OMSTRACKCHANGES_B <img:../sprites/OMS/oms_track_changes_mono.png>
+!define MSIMG_OMSTRACKCHANGES_C <img:../sprites/OMS/oms_track_changes.png>
 @enduml

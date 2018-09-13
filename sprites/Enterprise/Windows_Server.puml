@@ -50,7 +50,7 @@ sprite $windowsserver [48x48/16] {
 000000555555555555555800000000000000008589300000
 }
 
-!define MSIMG_WINDOWSSERVER_G <img:../sprites/Enterprise/Windows_Server_gray.png>
-!define MSIMG_WINDOWSSERVER_M <img:../sprites/Enterprise/Windows_Server_mono.png>
-!define MSIMG_WINDOWSSERVER_C <img:../sprites/Enterprise/Windows_Server.png>
+!define MSIMG_WINDOWSSERVER_G <img:../sprites/Enterprise/windows_server_gray.png>
+!define MSIMG_WINDOWSSERVER_B <img:../sprites/Enterprise/windows_server_mono.png>
+!define MSIMG_WINDOWSSERVER_C <img:../sprites/Enterprise/windows_server.png>
 @enduml

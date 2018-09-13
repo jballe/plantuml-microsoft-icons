@@ -50,7 +50,7 @@ EEEEEEEEEEE80000000000000000000000008EEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GAMECONTROLLER_G <img:../sprites/GeneralSymbols/Game_Controller_gray.png>
-!define MSIMG_GAMECONTROLLER_M <img:../sprites/GeneralSymbols/Game_Controller_mono.png>
-!define MSIMG_GAMECONTROLLER_C <img:../sprites/GeneralSymbols/Game_Controller.png>
+!define MSIMG_GAMECONTROLLER_G <img:../sprites/GeneralSymbols/game_controller_gray.png>
+!define MSIMG_GAMECONTROLLER_B <img:../sprites/GeneralSymbols/game_controller_mono.png>
+!define MSIMG_GAMECONTROLLER_C <img:../sprites/GeneralSymbols/game_controller.png>
 @enduml

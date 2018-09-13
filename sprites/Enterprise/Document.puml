@@ -50,7 +50,7 @@ sprite $document [48x48/16] {
 00000EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE00000
 }
 
-!define MSIMG_DOCUMENT_G <img:../sprites/Enterprise/Document_gray.png>
-!define MSIMG_DOCUMENT_M <img:../sprites/Enterprise/Document_mono.png>
-!define MSIMG_DOCUMENT_C <img:../sprites/Enterprise/Document.png>
+!define MSIMG_DOCUMENT_G <img:../sprites/Enterprise/document_gray.png>
+!define MSIMG_DOCUMENT_B <img:../sprites/Enterprise/document_mono.png>
+!define MSIMG_DOCUMENT_C <img:../sprites/Enterprise/document.png>
 @enduml

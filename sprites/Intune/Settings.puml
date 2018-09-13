@@ -50,7 +50,7 @@ sprite $settings [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SETTINGS_G <img:../sprites/Intune/Settings_gray.png>
-!define MSIMG_SETTINGS_M <img:../sprites/Intune/Settings_mono.png>
-!define MSIMG_SETTINGS_C <img:../sprites/Intune/Settings.png>
+!define MSIMG_SETTINGS_G <img:../sprites/Intune/settings_gray.png>
+!define MSIMG_SETTINGS_B <img:../sprites/Intune/settings_mono.png>
+!define MSIMG_SETTINGS_C <img:../sprites/Intune/settings.png>
 @enduml

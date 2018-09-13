@@ -50,7 +50,7 @@ EEEEEEEEEEEEE500000EEEEEEEEE800000EEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_UNHEALTHY_G <img:../sprites/Enterprise/Unhealthy_gray.png>
-!define MSIMG_UNHEALTHY_M <img:../sprites/Enterprise/Unhealthy_mono.png>
-!define MSIMG_UNHEALTHY_C <img:../sprites/Enterprise/Unhealthy.png>
+!define MSIMG_UNHEALTHY_G <img:../sprites/Enterprise/unhealthy_gray.png>
+!define MSIMG_UNHEALTHY_B <img:../sprites/Enterprise/unhealthy_mono.png>
+!define MSIMG_UNHEALTHY_C <img:../sprites/Enterprise/unhealthy.png>
 @enduml

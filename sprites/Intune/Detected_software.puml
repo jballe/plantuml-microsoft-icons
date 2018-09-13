@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DETECTEDSOFTWARE_G <img:../sprites/Intune/Detected_software_gray.png>
-!define MSIMG_DETECTEDSOFTWARE_M <img:../sprites/Intune/Detected_software_mono.png>
-!define MSIMG_DETECTEDSOFTWARE_C <img:../sprites/Intune/Detected_software.png>
+!define MSIMG_DETECTEDSOFTWARE_G <img:../sprites/Intune/detected_software_gray.png>
+!define MSIMG_DETECTEDSOFTWARE_B <img:../sprites/Intune/detected_software_mono.png>
+!define MSIMG_DETECTEDSOFTWARE_C <img:../sprites/Intune/detected_software.png>
 @enduml

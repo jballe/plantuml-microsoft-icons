@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 }
 
-!define MSIMG_TABLE_G <img:../sprites/Enterprise/Table_gray.png>
-!define MSIMG_TABLE_M <img:../sprites/Enterprise/Table_mono.png>
-!define MSIMG_TABLE_C <img:../sprites/Enterprise/Table.png>
+!define MSIMG_TABLE_G <img:../sprites/Enterprise/table_gray.png>
+!define MSIMG_TABLE_B <img:../sprites/Enterprise/table_mono.png>
+!define MSIMG_TABLE_C <img:../sprites/Enterprise/table.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEE000000000000008EEEEEE800000000000000EEEEEE
 00000000000000000000005EE50000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_G <img:../sprites/Deprecated/Azure_Application_Gateway_v1_OLD_gray.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_M <img:../sprites/Deprecated/Azure_Application_Gateway_v1_OLD_mono.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_C <img:../sprites/Deprecated/Azure_Application_Gateway_v1_OLD.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_G <img:../sprites/Deprecated/azure_application_gateway_v1_old_gray.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_B <img:../sprites/Deprecated/azure_application_gateway_v1_old_mono.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYV1OLD_C <img:../sprites/Deprecated/azure_application_gateway_v1_old.png>
 @enduml

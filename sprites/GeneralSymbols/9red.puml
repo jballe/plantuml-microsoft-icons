@@ -51,6 +51,6 @@ sprite $9red [48x48/16] {
 }
 
 !define MSIMG_9RED_G <img:../sprites/GeneralSymbols/9red_gray.png>
-!define MSIMG_9RED_M <img:../sprites/GeneralSymbols/9red_mono.png>
+!define MSIMG_9RED_B <img:../sprites/GeneralSymbols/9red_mono.png>
 !define MSIMG_9RED_C <img:../sprites/GeneralSymbols/9red.png>
 @enduml

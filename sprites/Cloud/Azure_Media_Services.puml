@@ -50,7 +50,7 @@ sprite $azuremediaservices [48x48/16] {
 000000000000000000000005900000000000000000000000
 }
 
-!define MSIMG_AZUREMEDIASERVICES_G <img:../sprites/Cloud/Azure_Media_Services_gray.png>
-!define MSIMG_AZUREMEDIASERVICES_M <img:../sprites/Cloud/Azure_Media_Services_mono.png>
-!define MSIMG_AZUREMEDIASERVICES_C <img:../sprites/Cloud/Azure_Media_Services.png>
+!define MSIMG_AZUREMEDIASERVICES_G <img:../sprites/Cloud/azure_media_services_gray.png>
+!define MSIMG_AZUREMEDIASERVICES_B <img:../sprites/Cloud/azure_media_services_mono.png>
+!define MSIMG_AZUREMEDIASERVICES_C <img:../sprites/Cloud/azure_media_services.png>
 @enduml

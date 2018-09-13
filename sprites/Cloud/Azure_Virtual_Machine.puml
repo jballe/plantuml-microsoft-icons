@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEE35E595595EEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVIRTUALMACHINE_G <img:../sprites/Cloud/Azure_Virtual_Machine_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINE_M <img:../sprites/Cloud/Azure_Virtual_Machine_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINE_C <img:../sprites/Cloud/Azure_Virtual_Machine.png>
+!define MSIMG_AZUREVIRTUALMACHINE_G <img:../sprites/Cloud/azure_virtual_machine_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINE_B <img:../sprites/Cloud/azure_virtual_machine_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINE_C <img:../sprites/Cloud/azure_virtual_machine.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $omssystemupdate [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSYSTEMUPDATE_G <img:../sprites/OMS/OMS_System_update_gray.png>
-!define MSIMG_OMSSYSTEMUPDATE_M <img:../sprites/OMS/OMS_System_update_mono.png>
-!define MSIMG_OMSSYSTEMUPDATE_C <img:../sprites/OMS/OMS_System_update.png>
+!define MSIMG_OMSSYSTEMUPDATE_G <img:../sprites/OMS/oms_system_update_gray.png>
+!define MSIMG_OMSSYSTEMUPDATE_B <img:../sprites/OMS/oms_system_update_mono.png>
+!define MSIMG_OMSSYSTEMUPDATE_C <img:../sprites/OMS/oms_system_update.png>
 @enduml

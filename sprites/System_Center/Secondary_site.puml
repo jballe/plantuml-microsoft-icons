@@ -50,7 +50,7 @@ sprite $secondarysite [48x48/16] {
 000059999999999800EEEEEEEEEEEEEEEEEEEEEEEEE50000
 }
 
-!define MSIMG_SECONDARYSITE_G <img:../sprites/System_Center/Secondary_site_gray.png>
-!define MSIMG_SECONDARYSITE_M <img:../sprites/System_Center/Secondary_site_mono.png>
-!define MSIMG_SECONDARYSITE_C <img:../sprites/System_Center/Secondary_site.png>
+!define MSIMG_SECONDARYSITE_G <img:../sprites/System_Center/secondary_site_gray.png>
+!define MSIMG_SECONDARYSITE_B <img:../sprites/System_Center/secondary_site_mono.png>
+!define MSIMG_SECONDARYSITE_C <img:../sprites/System_Center/secondary_site.png>
 @enduml

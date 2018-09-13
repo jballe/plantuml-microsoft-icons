@@ -50,7 +50,7 @@ sprite $cloudoffice365 [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLOUDOFFICE365_G <img:../sprites/Cloud/Cloud_Office_365_gray.png>
-!define MSIMG_CLOUDOFFICE365_M <img:../sprites/Cloud/Cloud_Office_365_mono.png>
-!define MSIMG_CLOUDOFFICE365_C <img:../sprites/Cloud/Cloud_Office_365.png>
+!define MSIMG_CLOUDOFFICE365_G <img:../sprites/Cloud/cloud_office_365_gray.png>
+!define MSIMG_CLOUDOFFICE365_B <img:../sprites/Cloud/cloud_office_365_mono.png>
+!define MSIMG_CLOUDOFFICE365_C <img:../sprites/Cloud/cloud_office_365.png>
 @enduml

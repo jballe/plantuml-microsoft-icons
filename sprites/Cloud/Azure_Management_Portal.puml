@@ -50,7 +50,7 @@ sprite $azuremanagementportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREMANAGEMENTPORTAL_G <img:../sprites/Cloud/Azure_Management_Portal_gray.png>
-!define MSIMG_AZUREMANAGEMENTPORTAL_M <img:../sprites/Cloud/Azure_Management_Portal_mono.png>
-!define MSIMG_AZUREMANAGEMENTPORTAL_C <img:../sprites/Cloud/Azure_Management_Portal.png>
+!define MSIMG_AZUREMANAGEMENTPORTAL_G <img:../sprites/Cloud/azure_management_portal_gray.png>
+!define MSIMG_AZUREMANAGEMENTPORTAL_B <img:../sprites/Cloud/azure_management_portal_mono.png>
+!define MSIMG_AZUREMANAGEMENTPORTAL_C <img:../sprites/Cloud/azure_management_portal.png>
 @enduml

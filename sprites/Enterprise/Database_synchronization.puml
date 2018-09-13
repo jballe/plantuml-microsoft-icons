@@ -50,7 +50,7 @@ sprite $databasesynchronization [48x48/16] {
 000005EEEEEEEEEEEEEEEEE8000059EEE950000000000000
 }
 
-!define MSIMG_DATABASESYNCHRONIZATION_G <img:../sprites/Enterprise/Database_synchronization_gray.png>
-!define MSIMG_DATABASESYNCHRONIZATION_M <img:../sprites/Enterprise/Database_synchronization_mono.png>
-!define MSIMG_DATABASESYNCHRONIZATION_C <img:../sprites/Enterprise/Database_synchronization.png>
+!define MSIMG_DATABASESYNCHRONIZATION_G <img:../sprites/Enterprise/database_synchronization_gray.png>
+!define MSIMG_DATABASESYNCHRONIZATION_B <img:../sprites/Enterprise/database_synchronization_mono.png>
+!define MSIMG_DATABASESYNCHRONIZATION_C <img:../sprites/Enterprise/database_synchronization.png>
 @enduml

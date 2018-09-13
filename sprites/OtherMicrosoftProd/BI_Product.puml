@@ -50,7 +50,7 @@ sprite $biproduct [48x48/16] {
 00000000000000000000000000008E980000000000000000
 }
 
-!define MSIMG_BIPRODUCT_G <img:../sprites/OtherMicrosoftProd/BI_Product_gray.png>
-!define MSIMG_BIPRODUCT_M <img:../sprites/OtherMicrosoftProd/BI_Product_mono.png>
-!define MSIMG_BIPRODUCT_C <img:../sprites/OtherMicrosoftProd/BI_Product.png>
+!define MSIMG_BIPRODUCT_G <img:../sprites/OtherMicrosoftProd/bi_product_gray.png>
+!define MSIMG_BIPRODUCT_B <img:../sprites/OtherMicrosoftProd/bi_product_mono.png>
+!define MSIMG_BIPRODUCT_C <img:../sprites/OtherMicrosoftProd/bi_product.png>
 @enduml

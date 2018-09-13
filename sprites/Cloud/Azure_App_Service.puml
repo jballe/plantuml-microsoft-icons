@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEE5005EEEEEEEEEEEEEEEEEEEEEE
 9EEEEEEEEEEEEEEEEEEEEE5005EEEEEEEEEEEEEEEEEEEEE9
 }
 
-!define MSIMG_AZUREAPPSERVICE_G <img:../sprites/Cloud/Azure_App_Service_gray.png>
-!define MSIMG_AZUREAPPSERVICE_M <img:../sprites/Cloud/Azure_App_Service_mono.png>
-!define MSIMG_AZUREAPPSERVICE_C <img:../sprites/Cloud/Azure_App_Service.png>
+!define MSIMG_AZUREAPPSERVICE_G <img:../sprites/Cloud/azure_app_service_gray.png>
+!define MSIMG_AZUREAPPSERVICE_B <img:../sprites/Cloud/azure_app_service_mono.png>
+!define MSIMG_AZUREAPPSERVICE_C <img:../sprites/Cloud/azure_app_service.png>
 @enduml

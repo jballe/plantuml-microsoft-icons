@@ -50,7 +50,7 @@ sprite $hdinsightold [48x48/16] {
 0000000000085599EEEEEE98530000000000000000000000
 }
 
-!define MSIMG_HDINSIGHTOLD_G <img:../sprites/Deprecated/HDInsight_old_gray.png>
-!define MSIMG_HDINSIGHTOLD_M <img:../sprites/Deprecated/HDInsight_old_mono.png>
-!define MSIMG_HDINSIGHTOLD_C <img:../sprites/Deprecated/HDInsight_old.png>
+!define MSIMG_HDINSIGHTOLD_G <img:../sprites/Deprecated/hdinsight_old_gray.png>
+!define MSIMG_HDINSIGHTOLD_B <img:../sprites/Deprecated/hdinsight_old_mono.png>
+!define MSIMG_HDINSIGHTOLD_C <img:../sprites/Deprecated/hdinsight_old.png>
 @enduml

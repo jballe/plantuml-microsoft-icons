@@ -50,7 +50,7 @@ EEEEEEEEEEEEEE908EEEEEEEEEEEEEE809EEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SERVERFARM_G <img:../sprites/Enterprise/Server_farm_gray.png>
-!define MSIMG_SERVERFARM_M <img:../sprites/Enterprise/Server_farm_mono.png>
-!define MSIMG_SERVERFARM_C <img:../sprites/Enterprise/Server_farm.png>
+!define MSIMG_SERVERFARM_G <img:../sprites/Enterprise/server_farm_gray.png>
+!define MSIMG_SERVERFARM_B <img:../sprites/Enterprise/server_farm_mono.png>
+!define MSIMG_SERVERFARM_C <img:../sprites/Enterprise/server_farm.png>
 @enduml

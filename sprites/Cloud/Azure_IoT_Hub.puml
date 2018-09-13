@@ -50,7 +50,7 @@ sprite $azureiothub [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREIOTHUB_G <img:../sprites/Cloud/Azure_IoT_Hub_gray.png>
-!define MSIMG_AZUREIOTHUB_M <img:../sprites/Cloud/Azure_IoT_Hub_mono.png>
-!define MSIMG_AZUREIOTHUB_C <img:../sprites/Cloud/Azure_IoT_Hub.png>
+!define MSIMG_AZUREIOTHUB_G <img:../sprites/Cloud/azure_iot_hub_gray.png>
+!define MSIMG_AZUREIOTHUB_B <img:../sprites/Cloud/azure_iot_hub_mono.png>
+!define MSIMG_AZUREIOTHUB_C <img:../sprites/Cloud/azure_iot_hub.png>
 @enduml

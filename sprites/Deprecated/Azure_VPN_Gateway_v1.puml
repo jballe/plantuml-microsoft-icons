@@ -50,7 +50,7 @@ sprite $azurevpngatewayv1 [48x48/16] {
 00000000000000000003EEEEEEEE30000000000000000000
 }
 
-!define MSIMG_AZUREVPNGATEWAYV1_G <img:../sprites/Deprecated/Azure_VPN_Gateway_v1_gray.png>
-!define MSIMG_AZUREVPNGATEWAYV1_M <img:../sprites/Deprecated/Azure_VPN_Gateway_v1_mono.png>
-!define MSIMG_AZUREVPNGATEWAYV1_C <img:../sprites/Deprecated/Azure_VPN_Gateway_v1.png>
+!define MSIMG_AZUREVPNGATEWAYV1_G <img:../sprites/Deprecated/azure_vpn_gateway_v1_gray.png>
+!define MSIMG_AZUREVPNGATEWAYV1_B <img:../sprites/Deprecated/azure_vpn_gateway_v1_mono.png>
+!define MSIMG_AZUREVPNGATEWAYV1_C <img:../sprites/Deprecated/azure_vpn_gateway_v1.png>
 @enduml

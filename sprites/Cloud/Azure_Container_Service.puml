@@ -50,7 +50,7 @@ sprite $azurecontainerservice [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTAINERSERVICE_G <img:../sprites/Cloud/Azure_Container_Service_gray.png>
-!define MSIMG_AZURECONTAINERSERVICE_M <img:../sprites/Cloud/Azure_Container_Service_mono.png>
-!define MSIMG_AZURECONTAINERSERVICE_C <img:../sprites/Cloud/Azure_Container_Service.png>
+!define MSIMG_AZURECONTAINERSERVICE_G <img:../sprites/Cloud/azure_container_service_gray.png>
+!define MSIMG_AZURECONTAINERSERVICE_B <img:../sprites/Cloud/azure_container_service_mono.png>
+!define MSIMG_AZURECONTAINERSERVICE_C <img:../sprites/Cloud/azure_container_service.png>
 @enduml

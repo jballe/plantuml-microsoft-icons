@@ -50,7 +50,7 @@ sprite $azureactivedirectoryhealthmonitoring [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_G <img:../sprites/Cloud/Azure_Active_Directory_Health_Monitoring_gray.png>
-!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_M <img:../sprites/Cloud/Azure_Active_Directory_Health_Monitoring_mono.png>
-!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_C <img:../sprites/Cloud/Azure_Active_Directory_Health_Monitoring.png>
+!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_G <img:../sprites/Cloud/azure_active_directory_health_monitoring_gray.png>
+!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_B <img:../sprites/Cloud/azure_active_directory_health_monitoring_mono.png>
+!define MSIMG_AZUREACTIVEDIRECTORYHEALTHMONITORING_C <img:../sprites/Cloud/azure_active_directory_health_monitoring.png>
 @enduml

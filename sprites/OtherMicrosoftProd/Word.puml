@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE0000000000000000009E
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_WORD_G <img:../sprites/OtherMicrosoftProd/Word_gray.png>
-!define MSIMG_WORD_M <img:../sprites/OtherMicrosoftProd/Word_mono.png>
-!define MSIMG_WORD_C <img:../sprites/OtherMicrosoftProd/Word.png>
+!define MSIMG_WORD_G <img:../sprites/OtherMicrosoftProd/word_gray.png>
+!define MSIMG_WORD_B <img:../sprites/OtherMicrosoftProd/word_mono.png>
+!define MSIMG_WORD_C <img:../sprites/OtherMicrosoftProd/word.png>
 @enduml

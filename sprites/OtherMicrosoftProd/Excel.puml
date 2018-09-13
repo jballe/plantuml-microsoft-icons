@@ -50,7 +50,7 @@ sprite $excel [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_EXCEL_G <img:../sprites/OtherMicrosoftProd/Excel_gray.png>
-!define MSIMG_EXCEL_M <img:../sprites/OtherMicrosoftProd/Excel_mono.png>
-!define MSIMG_EXCEL_C <img:../sprites/OtherMicrosoftProd/Excel.png>
+!define MSIMG_EXCEL_G <img:../sprites/OtherMicrosoftProd/excel_gray.png>
+!define MSIMG_EXCEL_B <img:../sprites/OtherMicrosoftProd/excel_mono.png>
+!define MSIMG_EXCEL_C <img:../sprites/OtherMicrosoftProd/excel.png>
 @enduml

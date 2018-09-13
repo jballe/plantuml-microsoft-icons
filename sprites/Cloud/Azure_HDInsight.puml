@@ -50,7 +50,7 @@ E9000EEEEE08EEEEEEEEEEE05EEEEEEEEEEEEEEE8EEEEEE5
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREHDINSIGHT_G <img:../sprites/Cloud/Azure_HDInsight_gray.png>
-!define MSIMG_AZUREHDINSIGHT_M <img:../sprites/Cloud/Azure_HDInsight_mono.png>
-!define MSIMG_AZUREHDINSIGHT_C <img:../sprites/Cloud/Azure_HDInsight.png>
+!define MSIMG_AZUREHDINSIGHT_G <img:../sprites/Cloud/azure_hdinsight_gray.png>
+!define MSIMG_AZUREHDINSIGHT_B <img:../sprites/Cloud/azure_hdinsight_mono.png>
+!define MSIMG_AZUREHDINSIGHT_C <img:../sprites/Cloud/azure_hdinsight.png>
 @enduml

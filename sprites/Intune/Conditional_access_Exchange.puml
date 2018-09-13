@@ -50,7 +50,7 @@ sprite $conditionalaccessexchange [48x48/16] {
 000000000000000000000000000000003580000000000000
 }
 
-!define MSIMG_CONDITIONALACCESSEXCHANGE_G <img:../sprites/Intune/Conditional_access_Exchange_gray.png>
-!define MSIMG_CONDITIONALACCESSEXCHANGE_M <img:../sprites/Intune/Conditional_access_Exchange_mono.png>
-!define MSIMG_CONDITIONALACCESSEXCHANGE_C <img:../sprites/Intune/Conditional_access_Exchange.png>
+!define MSIMG_CONDITIONALACCESSEXCHANGE_G <img:../sprites/Intune/conditional_access_exchange_gray.png>
+!define MSIMG_CONDITIONALACCESSEXCHANGE_B <img:../sprites/Intune/conditional_access_exchange_mono.png>
+!define MSIMG_CONDITIONALACCESSEXCHANGE_C <img:../sprites/Intune/conditional_access_exchange.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_FILTER_G <img:../sprites/Enterprise/Filter_gray.png>
-!define MSIMG_FILTER_M <img:../sprites/Enterprise/Filter_mono.png>
-!define MSIMG_FILTER_C <img:../sprites/Enterprise/Filter.png>
+!define MSIMG_FILTER_G <img:../sprites/Enterprise/filter_gray.png>
+!define MSIMG_FILTER_B <img:../sprites/Enterprise/filter_mono.png>
+!define MSIMG_FILTER_C <img:../sprites/Enterprise/filter.png>
 @enduml

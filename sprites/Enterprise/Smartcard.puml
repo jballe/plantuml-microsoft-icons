@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SMARTCARD_G <img:../sprites/Enterprise/Smartcard_gray.png>
-!define MSIMG_SMARTCARD_M <img:../sprites/Enterprise/Smartcard_mono.png>
-!define MSIMG_SMARTCARD_C <img:../sprites/Enterprise/Smartcard.png>
+!define MSIMG_SMARTCARD_G <img:../sprites/Enterprise/smartcard_gray.png>
+!define MSIMG_SMARTCARD_B <img:../sprites/Enterprise/smartcard_mono.png>
+!define MSIMG_SMARTCARD_C <img:../sprites/Enterprise/smartcard.png>
 @enduml

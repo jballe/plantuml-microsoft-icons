@@ -50,7 +50,7 @@ sprite $omsserverwithchanges [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSERVERWITHCHANGES_G <img:../sprites/OMS/OMS_Server_with_changes_gray.png>
-!define MSIMG_OMSSERVERWITHCHANGES_M <img:../sprites/OMS/OMS_Server_with_changes_mono.png>
-!define MSIMG_OMSSERVERWITHCHANGES_C <img:../sprites/OMS/OMS_Server_with_changes.png>
+!define MSIMG_OMSSERVERWITHCHANGES_G <img:../sprites/OMS/oms_server_with_changes_gray.png>
+!define MSIMG_OMSSERVERWITHCHANGES_B <img:../sprites/OMS/oms_server_with_changes_mono.png>
+!define MSIMG_OMSSERVERWITHCHANGES_C <img:../sprites/OMS/oms_server_with_changes.png>
 @enduml

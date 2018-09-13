@@ -50,7 +50,7 @@ sprite $azuresqldatasync [48x48/16] {
 00000000000000008589EEEEEEEE98580000000000000000
 }
 
-!define MSIMG_AZURESQLDATASYNC_G <img:../sprites/Cloud/Azure_SQL_DataSync_gray.png>
-!define MSIMG_AZURESQLDATASYNC_M <img:../sprites/Cloud/Azure_SQL_DataSync_mono.png>
-!define MSIMG_AZURESQLDATASYNC_C <img:../sprites/Cloud/Azure_SQL_DataSync.png>
+!define MSIMG_AZURESQLDATASYNC_G <img:../sprites/Cloud/azure_sql_datasync_gray.png>
+!define MSIMG_AZURESQLDATASYNC_B <img:../sprites/Cloud/azure_sql_datasync_mono.png>
+!define MSIMG_AZURESQLDATASYNC_C <img:../sprites/Cloud/azure_sql_datasync.png>
 @enduml

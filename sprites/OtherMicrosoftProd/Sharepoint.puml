@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE9338E9000000000000000
 000000000000000000000000003800000000000000000000
 }
 
-!define MSIMG_SHAREPOINT_G <img:../sprites/OtherMicrosoftProd/Sharepoint_gray.png>
-!define MSIMG_SHAREPOINT_M <img:../sprites/OtherMicrosoftProd/Sharepoint_mono.png>
-!define MSIMG_SHAREPOINT_C <img:../sprites/OtherMicrosoftProd/Sharepoint.png>
+!define MSIMG_SHAREPOINT_G <img:../sprites/OtherMicrosoftProd/sharepoint_gray.png>
+!define MSIMG_SHAREPOINT_B <img:../sprites/OtherMicrosoftProd/sharepoint_mono.png>
+!define MSIMG_SHAREPOINT_C <img:../sprites/OtherMicrosoftProd/sharepoint.png>
 @enduml

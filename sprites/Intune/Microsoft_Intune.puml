@@ -50,7 +50,7 @@ sprite $microsoftintune [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MICROSOFTINTUNE_G <img:../sprites/Intune/Microsoft_Intune_gray.png>
-!define MSIMG_MICROSOFTINTUNE_M <img:../sprites/Intune/Microsoft_Intune_mono.png>
-!define MSIMG_MICROSOFTINTUNE_C <img:../sprites/Intune/Microsoft_Intune.png>
+!define MSIMG_MICROSOFTINTUNE_G <img:../sprites/Intune/microsoft_intune_gray.png>
+!define MSIMG_MICROSOFTINTUNE_B <img:../sprites/Intune/microsoft_intune_mono.png>
+!define MSIMG_MICROSOFTINTUNE_C <img:../sprites/Intune/microsoft_intune.png>
 @enduml

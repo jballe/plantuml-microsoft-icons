@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_USERMANAGEMENT_G <img:../sprites/Intune/User_management_gray.png>
-!define MSIMG_USERMANAGEMENT_M <img:../sprites/Intune/User_management_mono.png>
-!define MSIMG_USERMANAGEMENT_C <img:../sprites/Intune/User_management.png>
+!define MSIMG_USERMANAGEMENT_G <img:../sprites/Intune/user_management_gray.png>
+!define MSIMG_USERMANAGEMENT_B <img:../sprites/Intune/user_management_mono.png>
+!define MSIMG_USERMANAGEMENT_C <img:../sprites/Intune/user_management.png>
 @enduml

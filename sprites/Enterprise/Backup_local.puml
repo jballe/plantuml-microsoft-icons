@@ -50,7 +50,7 @@ sprite $backuplocal [48x48/16] {
 8EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE3
 }
 
-!define MSIMG_BACKUPLOCAL_G <img:../sprites/Enterprise/Backup_local_gray.png>
-!define MSIMG_BACKUPLOCAL_M <img:../sprites/Enterprise/Backup_local_mono.png>
-!define MSIMG_BACKUPLOCAL_C <img:../sprites/Enterprise/Backup_local.png>
+!define MSIMG_BACKUPLOCAL_G <img:../sprites/Enterprise/backup_local_gray.png>
+!define MSIMG_BACKUPLOCAL_B <img:../sprites/Enterprise/backup_local_mono.png>
+!define MSIMG_BACKUPLOCAL_C <img:../sprites/Enterprise/backup_local.png>
 @enduml

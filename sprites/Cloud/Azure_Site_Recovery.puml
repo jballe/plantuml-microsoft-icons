@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESITERECOVERY_G <img:../sprites/Cloud/Azure_Site_Recovery_gray.png>
-!define MSIMG_AZURESITERECOVERY_M <img:../sprites/Cloud/Azure_Site_Recovery_mono.png>
-!define MSIMG_AZURESITERECOVERY_C <img:../sprites/Cloud/Azure_Site_Recovery.png>
+!define MSIMG_AZURESITERECOVERY_G <img:../sprites/Cloud/azure_site_recovery_gray.png>
+!define MSIMG_AZURESITERECOVERY_B <img:../sprites/Cloud/azure_site_recovery_mono.png>
+!define MSIMG_AZURESITERECOVERY_C <img:../sprites/Cloud/azure_site_recovery.png>
 @enduml

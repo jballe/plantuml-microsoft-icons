@@ -50,7 +50,7 @@ sprite $azuremultifactorauthentication [48x48/16] {
 0000000000000000008EE853000000000000000000000000
 }
 
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_G <img:../sprites/Cloud/Azure_Multi_Factor_Authentication_gray.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_M <img:../sprites/Cloud/Azure_Multi_Factor_Authentication_mono.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_C <img:../sprites/Cloud/Azure_Multi_Factor_Authentication.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_G <img:../sprites/Cloud/azure_multi_factor_authentication_gray.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_B <img:../sprites/Cloud/azure_multi_factor_authentication_mono.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_C <img:../sprites/Cloud/azure_multi_factor_authentication.png>
 @enduml

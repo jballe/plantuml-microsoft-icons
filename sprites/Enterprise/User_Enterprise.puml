@@ -50,7 +50,7 @@ sprite $userenterprise [48x48/16] {
 09EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80
 }
 
-!define MSIMG_USERENTERPRISE_G <img:../sprites/Enterprise/User_Enterprise_gray.png>
-!define MSIMG_USERENTERPRISE_M <img:../sprites/Enterprise/User_Enterprise_mono.png>
-!define MSIMG_USERENTERPRISE_C <img:../sprites/Enterprise/User_Enterprise.png>
+!define MSIMG_USERENTERPRISE_G <img:../sprites/Enterprise/user_enterprise_gray.png>
+!define MSIMG_USERENTERPRISE_B <img:../sprites/Enterprise/user_enterprise_mono.png>
+!define MSIMG_USERENTERPRISE_C <img:../sprites/Enterprise/user_enterprise.png>
 @enduml

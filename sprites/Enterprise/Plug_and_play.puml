@@ -50,7 +50,7 @@ sprite $plugandplay [48x48/16] {
 000005000000000000000000000000000000000000000000
 }
 
-!define MSIMG_PLUGANDPLAY_G <img:../sprites/Enterprise/Plug_and_play_gray.png>
-!define MSIMG_PLUGANDPLAY_M <img:../sprites/Enterprise/Plug_and_play_mono.png>
-!define MSIMG_PLUGANDPLAY_C <img:../sprites/Enterprise/Plug_and_play.png>
+!define MSIMG_PLUGANDPLAY_G <img:../sprites/Enterprise/plug_and_play_gray.png>
+!define MSIMG_PLUGANDPLAY_B <img:../sprites/Enterprise/plug_and_play_mono.png>
+!define MSIMG_PLUGANDPLAY_C <img:../sprites/Enterprise/plug_and_play.png>
 @enduml

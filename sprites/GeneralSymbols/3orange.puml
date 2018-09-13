@@ -51,6 +51,6 @@ sprite $3orange [48x48/16] {
 }
 
 !define MSIMG_3ORANGE_G <img:../sprites/GeneralSymbols/3orange_gray.png>
-!define MSIMG_3ORANGE_M <img:../sprites/GeneralSymbols/3orange_mono.png>
+!define MSIMG_3ORANGE_B <img:../sprites/GeneralSymbols/3orange_mono.png>
 !define MSIMG_3ORANGE_C <img:../sprites/GeneralSymbols/3orange.png>
 @enduml

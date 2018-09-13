@@ -50,7 +50,7 @@ sprite $omsdashboard [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSDASHBOARD_G <img:../sprites/OMS/OMS_Dashboard_gray.png>
-!define MSIMG_OMSDASHBOARD_M <img:../sprites/OMS/OMS_Dashboard_mono.png>
-!define MSIMG_OMSDASHBOARD_C <img:../sprites/OMS/OMS_Dashboard.png>
+!define MSIMG_OMSDASHBOARD_G <img:../sprites/OMS/oms_dashboard_gray.png>
+!define MSIMG_OMSDASHBOARD_B <img:../sprites/OMS/oms_dashboard_mono.png>
+!define MSIMG_OMSDASHBOARD_C <img:../sprites/OMS/oms_dashboard.png>
 @enduml

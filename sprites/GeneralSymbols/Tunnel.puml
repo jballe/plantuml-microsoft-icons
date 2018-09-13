@@ -50,7 +50,7 @@ EEEEEE909EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TUNNEL_G <img:../sprites/GeneralSymbols/Tunnel_gray.png>
-!define MSIMG_TUNNEL_M <img:../sprites/GeneralSymbols/Tunnel_mono.png>
-!define MSIMG_TUNNEL_C <img:../sprites/GeneralSymbols/Tunnel.png>
+!define MSIMG_TUNNEL_G <img:../sprites/GeneralSymbols/tunnel_gray.png>
+!define MSIMG_TUNNEL_B <img:../sprites/GeneralSymbols/tunnel_mono.png>
+!define MSIMG_TUNNEL_C <img:../sprites/GeneralSymbols/tunnel.png>
 @enduml

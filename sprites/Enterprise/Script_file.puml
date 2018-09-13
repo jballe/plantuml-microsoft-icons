@@ -50,7 +50,7 @@ sprite $scriptfile [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_SCRIPTFILE_G <img:../sprites/Enterprise/Script_file_gray.png>
-!define MSIMG_SCRIPTFILE_M <img:../sprites/Enterprise/Script_file_mono.png>
-!define MSIMG_SCRIPTFILE_C <img:../sprites/Enterprise/Script_file.png>
+!define MSIMG_SCRIPTFILE_G <img:../sprites/Enterprise/script_file_gray.png>
+!define MSIMG_SCRIPTFILE_B <img:../sprites/Enterprise/script_file_mono.png>
+!define MSIMG_SCRIPTFILE_C <img:../sprites/Enterprise/script_file.png>
 @enduml

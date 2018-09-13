@@ -50,7 +50,7 @@ sprite $azuredatabasegeneralcolor [48x48/16] {
 000000000000000085599EEE885553800000000000000000
 }
 
-!define MSIMG_AZUREDATABASEGENERALCOLOR_G <img:../sprites/Cloud/Azure_Database_General_COLOR_gray.png>
-!define MSIMG_AZUREDATABASEGENERALCOLOR_M <img:../sprites/Cloud/Azure_Database_General_COLOR_mono.png>
-!define MSIMG_AZUREDATABASEGENERALCOLOR_C <img:../sprites/Cloud/Azure_Database_General_COLOR.png>
+!define MSIMG_AZUREDATABASEGENERALCOLOR_G <img:../sprites/Cloud/azure_database_general_color_gray.png>
+!define MSIMG_AZUREDATABASEGENERALCOLOR_B <img:../sprites/Cloud/azure_database_general_color_mono.png>
+!define MSIMG_AZUREDATABASEGENERALCOLOR_C <img:../sprites/Cloud/azure_database_general_color.png>
 @enduml

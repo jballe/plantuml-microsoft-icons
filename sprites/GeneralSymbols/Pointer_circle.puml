@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 0000000000000000000589EEEEEEEEEEEEEEEEEEEEEEEEEE
 }
 
-!define MSIMG_POINTERCIRCLE_G <img:../sprites/GeneralSymbols/Pointer_circle_gray.png>
-!define MSIMG_POINTERCIRCLE_M <img:../sprites/GeneralSymbols/Pointer_circle_mono.png>
-!define MSIMG_POINTERCIRCLE_C <img:../sprites/GeneralSymbols/Pointer_circle.png>
+!define MSIMG_POINTERCIRCLE_G <img:../sprites/GeneralSymbols/pointer_circle_gray.png>
+!define MSIMG_POINTERCIRCLE_B <img:../sprites/GeneralSymbols/pointer_circle_mono.png>
+!define MSIMG_POINTERCIRCLE_C <img:../sprites/GeneralSymbols/pointer_circle.png>
 @enduml

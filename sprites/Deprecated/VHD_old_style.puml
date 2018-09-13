@@ -50,7 +50,7 @@ sprite $vhdoldstyle [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_VHDOLDSTYLE_G <img:../sprites/Deprecated/VHD_old_style_gray.png>
-!define MSIMG_VHDOLDSTYLE_M <img:../sprites/Deprecated/VHD_old_style_mono.png>
-!define MSIMG_VHDOLDSTYLE_C <img:../sprites/Deprecated/VHD_old_style.png>
+!define MSIMG_VHDOLDSTYLE_G <img:../sprites/Deprecated/vhd_old_style_gray.png>
+!define MSIMG_VHDOLDSTYLE_B <img:../sprites/Deprecated/vhd_old_style_mono.png>
+!define MSIMG_VHDOLDSTYLE_C <img:../sprites/Deprecated/vhd_old_style.png>
 @enduml

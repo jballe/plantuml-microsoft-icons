@@ -50,7 +50,7 @@ EEE80000000003EEEEEEEEEEEEEEEEE00000000000005EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREFUNCTIONS_G <img:../sprites/Cloud/Azure_Functions_gray.png>
-!define MSIMG_AZUREFUNCTIONS_M <img:../sprites/Cloud/Azure_Functions_mono.png>
-!define MSIMG_AZUREFUNCTIONS_C <img:../sprites/Cloud/Azure_Functions.png>
+!define MSIMG_AZUREFUNCTIONS_G <img:../sprites/Cloud/azure_functions_gray.png>
+!define MSIMG_AZUREFUNCTIONS_B <img:../sprites/Cloud/azure_functions_mono.png>
+!define MSIMG_AZUREFUNCTIONS_C <img:../sprites/Cloud/azure_functions.png>
 @enduml

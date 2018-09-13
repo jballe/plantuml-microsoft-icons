@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEE0000EEEEEEEEEEEEEEEEEEEEEEEE
 0000000000000000000000009EEEEEEEEEEEEEEEEEEEEEEE
 }
 
-!define MSIMG_APPS_G <img:../sprites/Intune/Apps_gray.png>
-!define MSIMG_APPS_M <img:../sprites/Intune/Apps_mono.png>
-!define MSIMG_APPS_C <img:../sprites/Intune/Apps.png>
+!define MSIMG_APPS_G <img:../sprites/Intune/apps_gray.png>
+!define MSIMG_APPS_B <img:../sprites/Intune/apps_mono.png>
+!define MSIMG_APPS_C <img:../sprites/Intune/apps.png>
 @enduml

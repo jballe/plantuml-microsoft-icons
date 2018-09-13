@@ -50,7 +50,7 @@ EEEEEEEE0008EEEEE5000EEEEEE0005EEEEE8000EEEEEEEE
 089EEEE90005EEEEE5000EEEEEE0005EEEEE80009EEEE980
 }
 
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_G <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_M <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_C <img:../sprites/Cloud/Azure_Virtual_Machines_Availability_Set.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_G <img:../sprites/Cloud/azure_virtual_machines_availability_set_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_B <img:../sprites/Cloud/azure_virtual_machines_availability_set_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_C <img:../sprites/Cloud/azure_virtual_machines_availability_set.png>
 @enduml

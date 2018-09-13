@@ -50,7 +50,7 @@ sprite $azurebiztalkserviceshybridconnectionscolor [48x48/16] {
 000000000000000000008588858000000000000000000000
 }
 
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_G <img:../sprites/Cloud/Azure_BizTalk_Services_Hybrid_Connections_COLOR_gray.png>
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_M <img:../sprites/Cloud/Azure_BizTalk_Services_Hybrid_Connections_COLOR_mono.png>
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_C <img:../sprites/Cloud/Azure_BizTalk_Services_Hybrid_Connections_COLOR.png>
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_G <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color_gray.png>
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_B <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color_mono.png>
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_C <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color.png>
 @enduml

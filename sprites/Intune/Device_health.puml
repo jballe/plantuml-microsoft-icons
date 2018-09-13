@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEE8888EEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DEVICEHEALTH_G <img:../sprites/Intune/Device_health_gray.png>
-!define MSIMG_DEVICEHEALTH_M <img:../sprites/Intune/Device_health_mono.png>
-!define MSIMG_DEVICEHEALTH_C <img:../sprites/Intune/Device_health.png>
+!define MSIMG_DEVICEHEALTH_G <img:../sprites/Intune/device_health_gray.png>
+!define MSIMG_DEVICEHEALTH_B <img:../sprites/Intune/device_health_mono.png>
+!define MSIMG_DEVICEHEALTH_C <img:../sprites/Intune/device_health.png>
 @enduml

@@ -51,6 +51,6 @@ sprite $2red [48x48/16] {
 }
 
 !define MSIMG_2RED_G <img:../sprites/GeneralSymbols/2red_gray.png>
-!define MSIMG_2RED_M <img:../sprites/GeneralSymbols/2red_mono.png>
+!define MSIMG_2RED_B <img:../sprites/GeneralSymbols/2red_mono.png>
 !define MSIMG_2RED_C <img:../sprites/GeneralSymbols/2red.png>
 @enduml

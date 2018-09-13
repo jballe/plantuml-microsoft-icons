@@ -50,7 +50,7 @@ EE50000000000089EEEEEEEEEEEEEEEEEEEEEEEEEEEEE500
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MICROSOFTAZURE_G <img:../sprites/Cloud/Microsoft_Azure_gray.png>
-!define MSIMG_MICROSOFTAZURE_M <img:../sprites/Cloud/Microsoft_Azure_mono.png>
-!define MSIMG_MICROSOFTAZURE_C <img:../sprites/Cloud/Microsoft_Azure.png>
+!define MSIMG_MICROSOFTAZURE_G <img:../sprites/Cloud/microsoft_azure_gray.png>
+!define MSIMG_MICROSOFTAZURE_B <img:../sprites/Cloud/microsoft_azure_mono.png>
+!define MSIMG_MICROSOFTAZURE_C <img:../sprites/Cloud/microsoft_azure.png>
 @enduml

@@ -50,7 +50,7 @@ EEE000000009EE00008EE800008EE80000EE900000000EEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_AZUREBOT_G <img:../sprites/Deprecated/Azure_Bot_gray.png>
-!define MSIMG_AZUREBOT_M <img:../sprites/Deprecated/Azure_Bot_mono.png>
-!define MSIMG_AZUREBOT_C <img:../sprites/Deprecated/Azure_Bot.png>
+!define MSIMG_AZUREBOT_G <img:../sprites/Deprecated/azure_bot_gray.png>
+!define MSIMG_AZUREBOT_B <img:../sprites/Deprecated/azure_bot_mono.png>
+!define MSIMG_AZUREBOT_C <img:../sprites/Deprecated/azure_bot.png>
 @enduml

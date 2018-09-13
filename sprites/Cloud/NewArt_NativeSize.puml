@@ -45,7 +45,7 @@ sprite $newartnativesize [43x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_NEWARTNATIVESIZE_G <img:../sprites/Cloud/NewArt_NativeSize_gray.png>
-!define MSIMG_NEWARTNATIVESIZE_M <img:../sprites/Cloud/NewArt_NativeSize_mono.png>
-!define MSIMG_NEWARTNATIVESIZE_C <img:../sprites/Cloud/NewArt_NativeSize.png>
+!define MSIMG_NEWARTNATIVESIZE_G <img:../sprites/Cloud/newart_nativesize_gray.png>
+!define MSIMG_NEWARTNATIVESIZE_B <img:../sprites/Cloud/newart_nativesize_mono.png>
+!define MSIMG_NEWARTNATIVESIZE_C <img:../sprites/Cloud/newart_nativesize.png>
 @enduml

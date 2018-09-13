@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INTERNET_G <img:../sprites/Enterprise/Internet_gray.png>
-!define MSIMG_INTERNET_M <img:../sprites/Enterprise/Internet_mono.png>
-!define MSIMG_INTERNET_C <img:../sprites/Enterprise/Internet.png>
+!define MSIMG_INTERNET_G <img:../sprites/Enterprise/internet_gray.png>
+!define MSIMG_INTERNET_B <img:../sprites/Enterprise/internet_mono.png>
+!define MSIMG_INTERNET_C <img:../sprites/Enterprise/internet.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEE50EEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_FIREWALL_G <img:../sprites/Enterprise/Firewall_gray.png>
-!define MSIMG_FIREWALL_M <img:../sprites/Enterprise/Firewall_mono.png>
-!define MSIMG_FIREWALL_C <img:../sprites/Enterprise/Firewall.png>
+!define MSIMG_FIREWALL_G <img:../sprites/Enterprise/firewall_gray.png>
+!define MSIMG_FIREWALL_B <img:../sprites/Enterprise/firewall_mono.png>
+!define MSIMG_FIREWALL_C <img:../sprites/Enterprise/firewall.png>
 @enduml

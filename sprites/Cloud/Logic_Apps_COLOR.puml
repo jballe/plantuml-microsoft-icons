@@ -50,7 +50,7 @@ sprite $logicappscolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LOGICAPPSCOLOR_G <img:../sprites/Cloud/Logic_Apps_COLOR_gray.png>
-!define MSIMG_LOGICAPPSCOLOR_M <img:../sprites/Cloud/Logic_Apps_COLOR_mono.png>
-!define MSIMG_LOGICAPPSCOLOR_C <img:../sprites/Cloud/Logic_Apps_COLOR.png>
+!define MSIMG_LOGICAPPSCOLOR_G <img:../sprites/Cloud/logic_apps_color_gray.png>
+!define MSIMG_LOGICAPPSCOLOR_B <img:../sprites/Cloud/logic_apps_color_mono.png>
+!define MSIMG_LOGICAPPSCOLOR_C <img:../sprites/Cloud/logic_apps_color.png>
 @enduml

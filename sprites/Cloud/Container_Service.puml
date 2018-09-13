@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEE009EEE9300000359EEEEE59EE03EE00EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONTAINERSERVICE_G <img:../sprites/Cloud/Container_Service_gray.png>
-!define MSIMG_CONTAINERSERVICE_M <img:../sprites/Cloud/Container_Service_mono.png>
-!define MSIMG_CONTAINERSERVICE_C <img:../sprites/Cloud/Container_Service.png>
+!define MSIMG_CONTAINERSERVICE_G <img:../sprites/Cloud/container_service_gray.png>
+!define MSIMG_CONTAINERSERVICE_B <img:../sprites/Cloud/container_service_mono.png>
+!define MSIMG_CONTAINERSERVICE_C <img:../sprites/Cloud/container_service.png>
 @enduml

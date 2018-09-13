@@ -50,7 +50,7 @@ EEEEEEE9EEEE99EEEE8EE00EEE3000EEE508EEEEEEEEEEE9
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INVENTORYLICENSE_G <img:../sprites/Intune/Inventory_license_gray.png>
-!define MSIMG_INVENTORYLICENSE_M <img:../sprites/Intune/Inventory_license_mono.png>
-!define MSIMG_INVENTORYLICENSE_C <img:../sprites/Intune/Inventory_license.png>
+!define MSIMG_INVENTORYLICENSE_G <img:../sprites/Intune/inventory_license_gray.png>
+!define MSIMG_INVENTORYLICENSE_B <img:../sprites/Intune/inventory_license_mono.png>
+!define MSIMG_INVENTORYLICENSE_C <img:../sprites/Intune/inventory_license.png>
 @enduml

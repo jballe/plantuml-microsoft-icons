@@ -50,7 +50,7 @@ sprite $monitorrunningapps [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MONITORRUNNINGAPPS_G <img:../sprites/Enterprise/Monitor_running_apps_gray.png>
-!define MSIMG_MONITORRUNNINGAPPS_M <img:../sprites/Enterprise/Monitor_running_apps_mono.png>
-!define MSIMG_MONITORRUNNINGAPPS_C <img:../sprites/Enterprise/Monitor_running_apps.png>
+!define MSIMG_MONITORRUNNINGAPPS_G <img:../sprites/Enterprise/monitor_running_apps_gray.png>
+!define MSIMG_MONITORRUNNINGAPPS_B <img:../sprites/Enterprise/monitor_running_apps_mono.png>
+!define MSIMG_MONITORRUNNINGAPPS_C <img:../sprites/Enterprise/monitor_running_apps.png>
 @enduml

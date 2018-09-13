@@ -51,6 +51,6 @@ sprite $11orange [48x48/16] {
 }
 
 !define MSIMG_11ORANGE_G <img:../sprites/GeneralSymbols/11orange_gray.png>
-!define MSIMG_11ORANGE_M <img:../sprites/GeneralSymbols/11orange_mono.png>
+!define MSIMG_11ORANGE_B <img:../sprites/GeneralSymbols/11orange_mono.png>
 !define MSIMG_11ORANGE_C <img:../sprites/GeneralSymbols/11orange.png>
 @enduml

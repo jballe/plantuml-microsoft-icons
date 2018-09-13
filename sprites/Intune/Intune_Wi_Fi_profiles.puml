@@ -50,7 +50,7 @@ sprite $intunewifiprofiles [48x48/16] {
 0000000000000000000000008EEEEE500000000000000000
 }
 
-!define MSIMG_INTUNEWIFIPROFILES_G <img:../sprites/Intune/Intune_Wi_Fi_profiles_gray.png>
-!define MSIMG_INTUNEWIFIPROFILES_M <img:../sprites/Intune/Intune_Wi_Fi_profiles_mono.png>
-!define MSIMG_INTUNEWIFIPROFILES_C <img:../sprites/Intune/Intune_Wi_Fi_profiles.png>
+!define MSIMG_INTUNEWIFIPROFILES_G <img:../sprites/Intune/intune_wi_fi_profiles_gray.png>
+!define MSIMG_INTUNEWIFIPROFILES_B <img:../sprites/Intune/intune_wi_fi_profiles_mono.png>
+!define MSIMG_INTUNEWIFIPROFILES_C <img:../sprites/Intune/intune_wi_fi_profiles.png>
 @enduml

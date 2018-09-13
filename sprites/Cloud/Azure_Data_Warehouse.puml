@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATAWAREHOUSE_G <img:../sprites/Cloud/Azure_Data_Warehouse_gray.png>
-!define MSIMG_AZUREDATAWAREHOUSE_M <img:../sprites/Cloud/Azure_Data_Warehouse_mono.png>
-!define MSIMG_AZUREDATAWAREHOUSE_C <img:../sprites/Cloud/Azure_Data_Warehouse.png>
+!define MSIMG_AZUREDATAWAREHOUSE_G <img:../sprites/Cloud/azure_data_warehouse_gray.png>
+!define MSIMG_AZUREDATAWAREHOUSE_B <img:../sprites/Cloud/azure_data_warehouse_mono.png>
+!define MSIMG_AZUREDATAWAREHOUSE_C <img:../sprites/Cloud/azure_data_warehouse.png>
 @enduml

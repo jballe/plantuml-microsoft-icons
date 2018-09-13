@@ -50,7 +50,7 @@ sprite $azuremanagementportalcolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_G <img:../sprites/Cloud/Azure_Management_Portal_COLOR_gray.png>
-!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_M <img:../sprites/Cloud/Azure_Management_Portal_COLOR_mono.png>
-!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_C <img:../sprites/Cloud/Azure_Management_Portal_COLOR.png>
+!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_G <img:../sprites/Cloud/azure_management_portal_color_gray.png>
+!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_B <img:../sprites/Cloud/azure_management_portal_color_mono.png>
+!define MSIMG_AZUREMANAGEMENTPORTALCOLOR_C <img:../sprites/Cloud/azure_management_portal_color.png>
 @enduml

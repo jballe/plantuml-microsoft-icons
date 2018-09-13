@@ -51,6 +51,6 @@ sprite $3red [48x48/16] {
 }
 
 !define MSIMG_3RED_G <img:../sprites/GeneralSymbols/3red_gray.png>
-!define MSIMG_3RED_M <img:../sprites/GeneralSymbols/3red_mono.png>
+!define MSIMG_3RED_B <img:../sprites/GeneralSymbols/3red_mono.png>
 !define MSIMG_3RED_C <img:../sprites/GeneralSymbols/3red.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $udffunction [48x48/16] {
 0000000000039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80000
 }
 
-!define MSIMG_UDFFUNCTION_G <img:../sprites/Enterprise/UDF_Function_gray.png>
-!define MSIMG_UDFFUNCTION_M <img:../sprites/Enterprise/UDF_Function_mono.png>
-!define MSIMG_UDFFUNCTION_C <img:../sprites/Enterprise/UDF_Function.png>
+!define MSIMG_UDFFUNCTION_G <img:../sprites/Enterprise/udf_function_gray.png>
+!define MSIMG_UDFFUNCTION_B <img:../sprites/Enterprise/udf_function_mono.png>
+!define MSIMG_UDFFUNCTION_C <img:../sprites/Enterprise/udf_function.png>
 @enduml

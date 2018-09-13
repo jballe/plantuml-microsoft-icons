@@ -50,7 +50,7 @@ sprite $azuredocumentdbdocdbaccount [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_G <img:../sprites/Cloud/Azure_DocumentDB_DocDB_account_gray.png>
-!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_M <img:../sprites/Cloud/Azure_DocumentDB_DocDB_account_mono.png>
-!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_C <img:../sprites/Cloud/Azure_DocumentDB_DocDB_account.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_G <img:../sprites/Cloud/azure_documentdb_docdb_account_gray.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_B <img:../sprites/Cloud/azure_documentdb_docdb_account_mono.png>
+!define MSIMG_AZUREDOCUMENTDBDOCDBACCOUNT_C <img:../sprites/Cloud/azure_documentdb_docdb_account.png>
 @enduml

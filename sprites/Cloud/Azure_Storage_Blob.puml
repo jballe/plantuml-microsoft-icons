@@ -50,7 +50,7 @@ sprite $azurestorageblob [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGEBLOB_G <img:../sprites/Cloud/Azure_Storage_Blob_gray.png>
-!define MSIMG_AZURESTORAGEBLOB_M <img:../sprites/Cloud/Azure_Storage_Blob_mono.png>
-!define MSIMG_AZURESTORAGEBLOB_C <img:../sprites/Cloud/Azure_Storage_Blob.png>
+!define MSIMG_AZURESTORAGEBLOB_G <img:../sprites/Cloud/azure_storage_blob_gray.png>
+!define MSIMG_AZURESTORAGEBLOB_B <img:../sprites/Cloud/azure_storage_blob_mono.png>
+!define MSIMG_AZURESTORAGEBLOB_C <img:../sprites/Cloud/azure_storage_blob.png>
 @enduml

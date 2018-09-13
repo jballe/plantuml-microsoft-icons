@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEE580859EEEEEE958085EEEEEEEEEEEEEEE
 0039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9300
 }
 
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_G <img:../sprites/Cloud/Azure_Backup_Recovery_Vault_gray.png>
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_M <img:../sprites/Cloud/Azure_Backup_Recovery_Vault_mono.png>
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_C <img:../sprites/Cloud/Azure_Backup_Recovery_Vault.png>
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_G <img:../sprites/Cloud/azure_backup_recovery_vault_gray.png>
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_B <img:../sprites/Cloud/azure_backup_recovery_vault_mono.png>
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_C <img:../sprites/Cloud/azure_backup_recovery_vault.png>
 @enduml

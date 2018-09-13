@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_G <img:../sprites/Cloud/Azure_Cache_Redis_Product_icon_COLOR_gray.png>
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_M <img:../sprites/Cloud/Azure_Cache_Redis_Product_icon_COLOR_mono.png>
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_C <img:../sprites/Cloud/Azure_Cache_Redis_Product_icon_COLOR.png>
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_G <img:../sprites/Cloud/azure_cache_redis_product_icon_color_gray.png>
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_B <img:../sprites/Cloud/azure_cache_redis_product_icon_color_mono.png>
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_C <img:../sprites/Cloud/azure_cache_redis_product_icon_color.png>
 @enduml

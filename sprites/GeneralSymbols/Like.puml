@@ -50,7 +50,7 @@ EEEEEEEEE000039EEEEEEEEEEEEEEEEEEEEEEEE000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LIKE_G <img:../sprites/GeneralSymbols/Like_gray.png>
-!define MSIMG_LIKE_M <img:../sprites/GeneralSymbols/Like_mono.png>
-!define MSIMG_LIKE_C <img:../sprites/GeneralSymbols/Like.png>
+!define MSIMG_LIKE_G <img:../sprites/GeneralSymbols/like_gray.png>
+!define MSIMG_LIKE_B <img:../sprites/GeneralSymbols/like_mono.png>
+!define MSIMG_LIKE_C <img:../sprites/GeneralSymbols/like.png>
 @enduml

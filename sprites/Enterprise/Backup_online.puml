@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEE58EEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_BACKUPONLINE_G <img:../sprites/Enterprise/Backup_online_gray.png>
-!define MSIMG_BACKUPONLINE_M <img:../sprites/Enterprise/Backup_online_mono.png>
-!define MSIMG_BACKUPONLINE_C <img:../sprites/Enterprise/Backup_online.png>
+!define MSIMG_BACKUPONLINE_G <img:../sprites/Enterprise/backup_online_gray.png>
+!define MSIMG_BACKUPONLINE_B <img:../sprites/Enterprise/backup_online_mono.png>
+!define MSIMG_BACKUPONLINE_C <img:../sprites/Enterprise/backup_online.png>
 @enduml

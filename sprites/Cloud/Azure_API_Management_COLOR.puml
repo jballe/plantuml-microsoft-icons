@@ -50,7 +50,7 @@ sprite $azureapimanagementcolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREAPIMANAGEMENTCOLOR_G <img:../sprites/Cloud/Azure_API_Management_COLOR_gray.png>
-!define MSIMG_AZUREAPIMANAGEMENTCOLOR_M <img:../sprites/Cloud/Azure_API_Management_COLOR_mono.png>
-!define MSIMG_AZUREAPIMANAGEMENTCOLOR_C <img:../sprites/Cloud/Azure_API_Management_COLOR.png>
+!define MSIMG_AZUREAPIMANAGEMENTCOLOR_G <img:../sprites/Cloud/azure_api_management_color_gray.png>
+!define MSIMG_AZUREAPIMANAGEMENTCOLOR_B <img:../sprites/Cloud/azure_api_management_color_mono.png>
+!define MSIMG_AZUREAPIMANAGEMENTCOLOR_C <img:../sprites/Cloud/azure_api_management_color.png>
 @enduml

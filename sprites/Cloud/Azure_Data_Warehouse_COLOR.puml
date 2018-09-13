@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_G <img:../sprites/Cloud/Azure_Data_Warehouse_COLOR_gray.png>
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_M <img:../sprites/Cloud/Azure_Data_Warehouse_COLOR_mono.png>
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_C <img:../sprites/Cloud/Azure_Data_Warehouse_COLOR.png>
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_G <img:../sprites/Cloud/azure_data_warehouse_color_gray.png>
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_B <img:../sprites/Cloud/azure_data_warehouse_color_mono.png>
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_C <img:../sprites/Cloud/azure_data_warehouse_color.png>
 @enduml

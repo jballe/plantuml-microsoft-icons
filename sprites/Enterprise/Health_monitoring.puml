@@ -50,7 +50,7 @@ EEEEEEEEEEEEEE800008EEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_HEALTHMONITORING_G <img:../sprites/Enterprise/Health_monitoring_gray.png>
-!define MSIMG_HEALTHMONITORING_M <img:../sprites/Enterprise/Health_monitoring_mono.png>
-!define MSIMG_HEALTHMONITORING_C <img:../sprites/Enterprise/Health_monitoring.png>
+!define MSIMG_HEALTHMONITORING_G <img:../sprites/Enterprise/health_monitoring_gray.png>
+!define MSIMG_HEALTHMONITORING_B <img:../sprites/Enterprise/health_monitoring_mono.png>
+!define MSIMG_HEALTHMONITORING_C <img:../sprites/Enterprise/health_monitoring.png>
 @enduml

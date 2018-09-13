@@ -50,7 +50,7 @@ sprite $azurecacheincludingrediscolor [48x48/16] {
 000000000000355558553338000008589EE9998530000000
 }
 
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_G <img:../sprites/Cloud/Azure_Cache_including_Redis_COLOR_gray.png>
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_M <img:../sprites/Cloud/Azure_Cache_including_Redis_COLOR_mono.png>
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_C <img:../sprites/Cloud/Azure_Cache_including_Redis_COLOR.png>
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_G <img:../sprites/Cloud/azure_cache_including_redis_color_gray.png>
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_B <img:../sprites/Cloud/azure_cache_including_redis_color_mono.png>
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_C <img:../sprites/Cloud/azure_cache_including_redis_color.png>
 @enduml

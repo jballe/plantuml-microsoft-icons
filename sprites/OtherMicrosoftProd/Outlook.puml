@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000858900000000000000000000
 }
 
-!define MSIMG_OUTLOOK_G <img:../sprites/OtherMicrosoftProd/Outlook_gray.png>
-!define MSIMG_OUTLOOK_M <img:../sprites/OtherMicrosoftProd/Outlook_mono.png>
-!define MSIMG_OUTLOOK_C <img:../sprites/OtherMicrosoftProd/Outlook.png>
+!define MSIMG_OUTLOOK_G <img:../sprites/OtherMicrosoftProd/outlook_gray.png>
+!define MSIMG_OUTLOOK_B <img:../sprites/OtherMicrosoftProd/outlook_mono.png>
+!define MSIMG_OUTLOOK_C <img:../sprites/OtherMicrosoftProd/outlook.png>
 @enduml

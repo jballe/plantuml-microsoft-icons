@@ -50,7 +50,7 @@ sprite $clusterserver [48x48/16] {
 000000000000000EEEEEEEEEEEEEEEEEE000000000000000
 }
 
-!define MSIMG_CLUSTERSERVER_G <img:../sprites/Enterprise/Cluster_server_gray.png>
-!define MSIMG_CLUSTERSERVER_M <img:../sprites/Enterprise/Cluster_server_mono.png>
-!define MSIMG_CLUSTERSERVER_C <img:../sprites/Enterprise/Cluster_server.png>
+!define MSIMG_CLUSTERSERVER_G <img:../sprites/Enterprise/cluster_server_gray.png>
+!define MSIMG_CLUSTERSERVER_B <img:../sprites/Enterprise/cluster_server_mono.png>
+!define MSIMG_CLUSTERSERVER_C <img:../sprites/Enterprise/cluster_server.png>
 @enduml

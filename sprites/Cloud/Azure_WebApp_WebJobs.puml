@@ -50,7 +50,7 @@ sprite $azurewebappwebjobs [48x48/16] {
 000000000000000000000950059000000000000000000000
 }
 
-!define MSIMG_AZUREWEBAPPWEBJOBS_G <img:../sprites/Cloud/Azure_WebApp_WebJobs_gray.png>
-!define MSIMG_AZUREWEBAPPWEBJOBS_M <img:../sprites/Cloud/Azure_WebApp_WebJobs_mono.png>
-!define MSIMG_AZUREWEBAPPWEBJOBS_C <img:../sprites/Cloud/Azure_WebApp_WebJobs.png>
+!define MSIMG_AZUREWEBAPPWEBJOBS_G <img:../sprites/Cloud/azure_webapp_webjobs_gray.png>
+!define MSIMG_AZUREWEBAPPWEBJOBS_B <img:../sprites/Cloud/azure_webapp_webjobs_mono.png>
+!define MSIMG_AZUREWEBAPPWEBJOBS_C <img:../sprites/Cloud/azure_webapp_webjobs.png>
 @enduml

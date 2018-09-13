@@ -50,7 +50,7 @@ sprite $directaccessfeature [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DIRECTACCESSFEATURE_G <img:../sprites/Enterprise/Direct_Access_feature_gray.png>
-!define MSIMG_DIRECTACCESSFEATURE_M <img:../sprites/Enterprise/Direct_Access_feature_mono.png>
-!define MSIMG_DIRECTACCESSFEATURE_C <img:../sprites/Enterprise/Direct_Access_feature.png>
+!define MSIMG_DIRECTACCESSFEATURE_G <img:../sprites/Enterprise/direct_access_feature_gray.png>
+!define MSIMG_DIRECTACCESSFEATURE_B <img:../sprites/Enterprise/direct_access_feature_mono.png>
+!define MSIMG_DIRECTACCESSFEATURE_C <img:../sprites/Enterprise/direct_access_feature.png>
 @enduml

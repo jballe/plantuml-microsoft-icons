@@ -51,6 +51,6 @@ sprite $14magenta [48x48/16] {
 }
 
 !define MSIMG_14MAGENTA_G <img:../sprites/GeneralSymbols/14magenta_gray.png>
-!define MSIMG_14MAGENTA_M <img:../sprites/GeneralSymbols/14magenta_mono.png>
+!define MSIMG_14MAGENTA_B <img:../sprites/GeneralSymbols/14magenta_mono.png>
 !define MSIMG_14MAGENTA_C <img:../sprites/GeneralSymbols/14magenta.png>
 @enduml

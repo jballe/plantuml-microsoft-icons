@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MESSAGE_G <img:../sprites/Enterprise/Message_gray.png>
-!define MSIMG_MESSAGE_M <img:../sprites/Enterprise/Message_mono.png>
-!define MSIMG_MESSAGE_C <img:../sprites/Enterprise/Message.png>
+!define MSIMG_MESSAGE_G <img:../sprites/Enterprise/message_gray.png>
+!define MSIMG_MESSAGE_B <img:../sprites/Enterprise/message_mono.png>
+!define MSIMG_MESSAGE_C <img:../sprites/Enterprise/message.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $conditionalaccesssharepoint [48x48/16] {
 000000000000000000000000000000008585000000000000
 }
 
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_G <img:../sprites/Intune/Conditional_access_Sharepoint_gray.png>
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_M <img:../sprites/Intune/Conditional_access_Sharepoint_mono.png>
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_C <img:../sprites/Intune/Conditional_access_Sharepoint.png>
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_G <img:../sprites/Intune/conditional_access_sharepoint_gray.png>
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_B <img:../sprites/Intune/conditional_access_sharepoint_mono.png>
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_C <img:../sprites/Intune/conditional_access_sharepoint.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE000000000000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LYNC_G <img:../sprites/OtherMicrosoftProd/Lync_gray.png>
-!define MSIMG_LYNC_M <img:../sprites/OtherMicrosoftProd/Lync_mono.png>
-!define MSIMG_LYNC_C <img:../sprites/OtherMicrosoftProd/Lync.png>
+!define MSIMG_LYNC_G <img:../sprites/OtherMicrosoftProd/lync_gray.png>
+!define MSIMG_LYNC_B <img:../sprites/OtherMicrosoftProd/lync_mono.png>
+!define MSIMG_LYNC_C <img:../sprites/OtherMicrosoftProd/lync.png>
 @enduml

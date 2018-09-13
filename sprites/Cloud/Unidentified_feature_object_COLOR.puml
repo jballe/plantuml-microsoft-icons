@@ -50,7 +50,7 @@ sprite $unidentifiedfeatureobjectcolor [48x48/16] {
 000000000000000000008888800000000000000000000000
 }
 
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_G <img:../sprites/Cloud/Unidentified_feature_object_COLOR_gray.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_M <img:../sprites/Cloud/Unidentified_feature_object_COLOR_mono.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_C <img:../sprites/Cloud/Unidentified_feature_object_COLOR.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_G <img:../sprites/Cloud/unidentified_feature_object_color_gray.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_B <img:../sprites/Cloud/unidentified_feature_object_color_mono.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECTCOLOR_C <img:../sprites/Cloud/unidentified_feature_object_color.png>
 @enduml

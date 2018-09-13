@@ -50,7 +50,7 @@ EEEEEEE9EEEE8EEEE5EEEE8EEEE500EEE5000EEEE0009EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LICENSEINSTALLATION_G <img:../sprites/Intune/License_installation_gray.png>
-!define MSIMG_LICENSEINSTALLATION_M <img:../sprites/Intune/License_installation_mono.png>
-!define MSIMG_LICENSEINSTALLATION_C <img:../sprites/Intune/License_installation.png>
+!define MSIMG_LICENSEINSTALLATION_G <img:../sprites/Intune/license_installation_gray.png>
+!define MSIMG_LICENSEINSTALLATION_B <img:../sprites/Intune/license_installation_mono.png>
+!define MSIMG_LICENSEINSTALLATION_C <img:../sprites/Intune/license_installation.png>
 @enduml

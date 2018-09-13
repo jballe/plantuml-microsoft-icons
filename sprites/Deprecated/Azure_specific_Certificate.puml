@@ -50,7 +50,7 @@ EE30000000000000000005E5000EE80000000009E5000E90
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESPECIFICCERTIFICATE_G <img:../sprites/Deprecated/Azure_specific_Certificate_gray.png>
-!define MSIMG_AZURESPECIFICCERTIFICATE_M <img:../sprites/Deprecated/Azure_specific_Certificate_mono.png>
-!define MSIMG_AZURESPECIFICCERTIFICATE_C <img:../sprites/Deprecated/Azure_specific_Certificate.png>
+!define MSIMG_AZURESPECIFICCERTIFICATE_G <img:../sprites/Deprecated/azure_specific_certificate_gray.png>
+!define MSIMG_AZURESPECIFICCERTIFICATE_B <img:../sprites/Deprecated/azure_specific_certificate_mono.png>
+!define MSIMG_AZURESPECIFICCERTIFICATE_C <img:../sprites/Deprecated/azure_specific_certificate.png>
 @enduml

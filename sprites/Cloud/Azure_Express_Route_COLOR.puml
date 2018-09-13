@@ -50,7 +50,7 @@ sprite $azureexpressroutecolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREEXPRESSROUTECOLOR_G <img:../sprites/Cloud/Azure_Express_Route_COLOR_gray.png>
-!define MSIMG_AZUREEXPRESSROUTECOLOR_M <img:../sprites/Cloud/Azure_Express_Route_COLOR_mono.png>
-!define MSIMG_AZUREEXPRESSROUTECOLOR_C <img:../sprites/Cloud/Azure_Express_Route_COLOR.png>
+!define MSIMG_AZUREEXPRESSROUTECOLOR_G <img:../sprites/Cloud/azure_express_route_color_gray.png>
+!define MSIMG_AZUREEXPRESSROUTECOLOR_B <img:../sprites/Cloud/azure_express_route_color_mono.png>
+!define MSIMG_AZUREEXPRESSROUTECOLOR_C <img:../sprites/Cloud/azure_express_route_color.png>
 @enduml

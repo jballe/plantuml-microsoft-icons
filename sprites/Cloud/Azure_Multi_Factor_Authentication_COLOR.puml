@@ -50,7 +50,7 @@ sprite $azuremultifactorauthenticationcolor [48x48/16] {
 0000000000000000008E9858000000000000000000000000
 }
 
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_G <img:../sprites/Cloud/Azure_Multi_Factor_Authentication_COLOR_gray.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_M <img:../sprites/Cloud/Azure_Multi_Factor_Authentication_COLOR_mono.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_C <img:../sprites/Cloud/Azure_Multi_Factor_Authentication_COLOR.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_G <img:../sprites/Cloud/azure_multi_factor_authentication_color_gray.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_B <img:../sprites/Cloud/azure_multi_factor_authentication_color_mono.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATIONCOLOR_C <img:../sprites/Cloud/azure_multi_factor_authentication_color.png>
 @enduml

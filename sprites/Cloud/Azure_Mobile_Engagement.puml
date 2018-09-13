@@ -50,7 +50,7 @@ sprite $azuremobileengagement [48x48/16] {
 00000000003EEEEEEEEEEEEEEEEEEEEEEEEE900000000000
 }
 
-!define MSIMG_AZUREMOBILEENGAGEMENT_G <img:../sprites/Cloud/Azure_Mobile_Engagement_gray.png>
-!define MSIMG_AZUREMOBILEENGAGEMENT_M <img:../sprites/Cloud/Azure_Mobile_Engagement_mono.png>
-!define MSIMG_AZUREMOBILEENGAGEMENT_C <img:../sprites/Cloud/Azure_Mobile_Engagement.png>
+!define MSIMG_AZUREMOBILEENGAGEMENT_G <img:../sprites/Cloud/azure_mobile_engagement_gray.png>
+!define MSIMG_AZUREMOBILEENGAGEMENT_B <img:../sprites/Cloud/azure_mobile_engagement_mono.png>
+!define MSIMG_AZUREMOBILEENGAGEMENT_C <img:../sprites/Cloud/azure_mobile_engagement.png>
 @enduml

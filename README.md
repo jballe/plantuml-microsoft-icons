@@ -15,7 +15,7 @@ See the [samples](samples/README.md)
 For each icon there is defined variables for two images, a grey scale and a color version, but resized to 48x48 pixels.
 
 ```
-database "Active directory in black and white \n MSIMG_AZUREACTIVEDIRECTORY_M" as ad
+database "Active directory in black and white \n MSIMG_AZUREACTIVEDIRECTORY_B" as ad
 database "Active directory in color \n MSIMG_AZUREACTIVEDIRECTORY_C" as ad
 database "Active directory in gray \n MSIMG_AZUREACTIVEDIRECTORY_G" as ad
 ```

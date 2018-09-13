@@ -50,7 +50,7 @@ sprite $azureservicefabriccolor [48x48/16] {
 000000000008333800000000000000008555500000000000
 }
 
-!define MSIMG_AZURESERVICEFABRICCOLOR_G <img:../sprites/Cloud/Azure_Service_Fabric_COLOR_gray.png>
-!define MSIMG_AZURESERVICEFABRICCOLOR_M <img:../sprites/Cloud/Azure_Service_Fabric_COLOR_mono.png>
-!define MSIMG_AZURESERVICEFABRICCOLOR_C <img:../sprites/Cloud/Azure_Service_Fabric_COLOR.png>
+!define MSIMG_AZURESERVICEFABRICCOLOR_G <img:../sprites/Cloud/azure_service_fabric_color_gray.png>
+!define MSIMG_AZURESERVICEFABRICCOLOR_B <img:../sprites/Cloud/azure_service_fabric_color_mono.png>
+!define MSIMG_AZURESERVICEFABRICCOLOR_C <img:../sprites/Cloud/azure_service_fabric_color.png>
 @enduml

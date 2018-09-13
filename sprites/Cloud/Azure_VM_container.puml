@@ -50,7 +50,7 @@ EE95005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVMCONTAINER_G <img:../sprites/Cloud/Azure_VM_container_gray.png>
-!define MSIMG_AZUREVMCONTAINER_M <img:../sprites/Cloud/Azure_VM_container_mono.png>
-!define MSIMG_AZUREVMCONTAINER_C <img:../sprites/Cloud/Azure_VM_container.png>
+!define MSIMG_AZUREVMCONTAINER_G <img:../sprites/Cloud/azure_vm_container_gray.png>
+!define MSIMG_AZUREVMCONTAINER_B <img:../sprites/Cloud/azure_vm_container_mono.png>
+!define MSIMG_AZUREVMCONTAINER_C <img:../sprites/Cloud/azure_vm_container.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEE35EEEEEEEEEEEEEEEEEEEEEEEE90
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESQLSTRETCHDATABASE_G <img:../sprites/Cloud/Azure_SQL_Stretch_Database_gray.png>
-!define MSIMG_AZURESQLSTRETCHDATABASE_M <img:../sprites/Cloud/Azure_SQL_Stretch_Database_mono.png>
-!define MSIMG_AZURESQLSTRETCHDATABASE_C <img:../sprites/Cloud/Azure_SQL_Stretch_Database.png>
+!define MSIMG_AZURESQLSTRETCHDATABASE_G <img:../sprites/Cloud/azure_sql_stretch_database_gray.png>
+!define MSIMG_AZURESQLSTRETCHDATABASE_B <img:../sprites/Cloud/azure_sql_stretch_database_mono.png>
+!define MSIMG_AZURESQLSTRETCHDATABASE_C <img:../sprites/Cloud/azure_sql_stretch_database.png>
 @enduml

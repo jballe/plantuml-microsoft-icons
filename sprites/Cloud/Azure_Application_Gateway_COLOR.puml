@@ -50,7 +50,7 @@ sprite $azureapplicationgatewaycolor [48x48/16] {
 00000000000000000000005EE50000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_G <img:../sprites/Cloud/Azure_Application_Gateway_COLOR_gray.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_M <img:../sprites/Cloud/Azure_Application_Gateway_COLOR_mono.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_C <img:../sprites/Cloud/Azure_Application_Gateway_COLOR.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_G <img:../sprites/Cloud/azure_application_gateway_color_gray.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_B <img:../sprites/Cloud/azure_application_gateway_color_mono.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_C <img:../sprites/Cloud/azure_application_gateway_color.png>
 @enduml

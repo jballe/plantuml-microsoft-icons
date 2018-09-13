@@ -50,7 +50,7 @@ EEEEE80000000000000003EEEEEEE30000000000008EEEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_NOTALLOWED_G <img:../sprites/GeneralSymbols/Not_allowed_gray.png>
-!define MSIMG_NOTALLOWED_M <img:../sprites/GeneralSymbols/Not_allowed_mono.png>
-!define MSIMG_NOTALLOWED_C <img:../sprites/GeneralSymbols/Not_allowed.png>
+!define MSIMG_NOTALLOWED_G <img:../sprites/GeneralSymbols/not_allowed_gray.png>
+!define MSIMG_NOTALLOWED_B <img:../sprites/GeneralSymbols/not_allowed_mono.png>
+!define MSIMG_NOTALLOWED_C <img:../sprites/GeneralSymbols/not_allowed.png>
 @enduml

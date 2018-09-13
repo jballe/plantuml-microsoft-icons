@@ -50,7 +50,7 @@ sprite $enterprisebuilding [48x48/16] {
 0000000009EEEEEEEEEEEEEE805EEEEEEEEEEE9000000000
 }
 
-!define MSIMG_ENTERPRISEBUILDING_G <img:../sprites/Enterprise/Enterprise_Building_gray.png>
-!define MSIMG_ENTERPRISEBUILDING_M <img:../sprites/Enterprise/Enterprise_Building_mono.png>
-!define MSIMG_ENTERPRISEBUILDING_C <img:../sprites/Enterprise/Enterprise_Building.png>
+!define MSIMG_ENTERPRISEBUILDING_G <img:../sprites/Enterprise/enterprise_building_gray.png>
+!define MSIMG_ENTERPRISEBUILDING_B <img:../sprites/Enterprise/enterprise_building_mono.png>
+!define MSIMG_ENTERPRISEBUILDING_C <img:../sprites/Enterprise/enterprise_building.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azurecognativeservicesluiscolor [48x48/16] {
 588888888888888888888888888888888888888888888885
 }
 
-!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_G <img:../sprites/Cloud/Azure_Cognative_Services_luis_COLOR_gray.png>
-!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_M <img:../sprites/Cloud/Azure_Cognative_Services_luis_COLOR_mono.png>
-!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_C <img:../sprites/Cloud/Azure_Cognative_Services_luis_COLOR.png>
+!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_G <img:../sprites/Cloud/azure_cognative_services_luis_color_gray.png>
+!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_B <img:../sprites/Cloud/azure_cognative_services_luis_color_mono.png>
+!define MSIMG_AZURECOGNATIVESERVICESLUISCOLOR_C <img:../sprites/Cloud/azure_cognative_services_luis_color.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEE08EE9000008EEEE50005EEEEE30EEEEE508EEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECOGNITIVESERVICES_G <img:../sprites/Cloud/Azure_Cognitive_Services_gray.png>
-!define MSIMG_AZURECOGNITIVESERVICES_M <img:../sprites/Cloud/Azure_Cognitive_Services_mono.png>
-!define MSIMG_AZURECOGNITIVESERVICES_C <img:../sprites/Cloud/Azure_Cognitive_Services.png>
+!define MSIMG_AZURECOGNITIVESERVICES_G <img:../sprites/Cloud/azure_cognitive_services_gray.png>
+!define MSIMG_AZURECOGNITIVESERVICES_B <img:../sprites/Cloud/azure_cognitive_services_mono.png>
+!define MSIMG_AZURECOGNITIVESERVICES_C <img:../sprites/Cloud/azure_cognitive_services.png>
 @enduml

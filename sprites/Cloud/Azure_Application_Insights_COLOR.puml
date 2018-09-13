@@ -50,7 +50,7 @@ sprite $azureapplicationinsightscolor [48x48/16] {
 000000000000000000000055550000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_G <img:../sprites/Cloud/Azure_Application_Insights_COLOR_gray.png>
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_M <img:../sprites/Cloud/Azure_Application_Insights_COLOR_mono.png>
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_C <img:../sprites/Cloud/Azure_Application_Insights_COLOR.png>
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_G <img:../sprites/Cloud/azure_application_insights_color_gray.png>
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_B <img:../sprites/Cloud/azure_application_insights_color_mono.png>
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_C <img:../sprites/Cloud/azure_application_insights_color.png>
 @enduml

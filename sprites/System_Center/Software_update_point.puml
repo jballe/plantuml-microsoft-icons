@@ -50,7 +50,7 @@ EEEEEEEEEEE903EEEEEEEEEEEEEEEEEEEEEE5005EEE00000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SOFTWAREUPDATEPOINT_G <img:../sprites/System_Center/Software_update_point_gray.png>
-!define MSIMG_SOFTWAREUPDATEPOINT_M <img:../sprites/System_Center/Software_update_point_mono.png>
-!define MSIMG_SOFTWAREUPDATEPOINT_C <img:../sprites/System_Center/Software_update_point.png>
+!define MSIMG_SOFTWAREUPDATEPOINT_G <img:../sprites/System_Center/software_update_point_gray.png>
+!define MSIMG_SOFTWAREUPDATEPOINT_B <img:../sprites/System_Center/software_update_point_mono.png>
+!define MSIMG_SOFTWAREUPDATEPOINT_C <img:../sprites/System_Center/software_update_point.png>
 @enduml

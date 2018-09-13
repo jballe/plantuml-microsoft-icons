@@ -50,7 +50,7 @@ sprite $azurevirtualnetwork [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVIRTUALNETWORK_G <img:../sprites/Cloud/Azure_Virtual_Network_gray.png>
-!define MSIMG_AZUREVIRTUALNETWORK_M <img:../sprites/Cloud/Azure_Virtual_Network_mono.png>
-!define MSIMG_AZUREVIRTUALNETWORK_C <img:../sprites/Cloud/Azure_Virtual_Network.png>
+!define MSIMG_AZUREVIRTUALNETWORK_G <img:../sprites/Cloud/azure_virtual_network_gray.png>
+!define MSIMG_AZUREVIRTUALNETWORK_B <img:../sprites/Cloud/azure_virtual_network_mono.png>
+!define MSIMG_AZUREVIRTUALNETWORK_C <img:../sprites/Cloud/azure_virtual_network.png>
 @enduml

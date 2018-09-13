@@ -50,7 +50,7 @@ sprite $azuredocumentdb [48x48/16] {
 000000000000000003589EEEEEE995300000000000000000
 }
 
-!define MSIMG_AZUREDOCUMENTDB_G <img:../sprites/Cloud/Azure_DocumentDB_gray.png>
-!define MSIMG_AZUREDOCUMENTDB_M <img:../sprites/Cloud/Azure_DocumentDB_mono.png>
-!define MSIMG_AZUREDOCUMENTDB_C <img:../sprites/Cloud/Azure_DocumentDB.png>
+!define MSIMG_AZUREDOCUMENTDB_G <img:../sprites/Cloud/azure_documentdb_gray.png>
+!define MSIMG_AZUREDOCUMENTDB_B <img:../sprites/Cloud/azure_documentdb_mono.png>
+!define MSIMG_AZUREDOCUMENTDB_C <img:../sprites/Cloud/azure_documentdb.png>
 @enduml

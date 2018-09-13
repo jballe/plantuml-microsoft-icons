@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEE900085EEEEEEEEEEEEEEEEE0000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESUBSCRIPTION_G <img:../sprites/Cloud/Azure_subscription_gray.png>
-!define MSIMG_AZURESUBSCRIPTION_M <img:../sprites/Cloud/Azure_subscription_mono.png>
-!define MSIMG_AZURESUBSCRIPTION_C <img:../sprites/Cloud/Azure_subscription.png>
+!define MSIMG_AZURESUBSCRIPTION_G <img:../sprites/Cloud/azure_subscription_gray.png>
+!define MSIMG_AZURESUBSCRIPTION_B <img:../sprites/Cloud/azure_subscription_mono.png>
+!define MSIMG_AZURESUBSCRIPTION_C <img:../sprites/Cloud/azure_subscription.png>
 @enduml

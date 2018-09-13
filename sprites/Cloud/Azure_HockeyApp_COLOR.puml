@@ -50,7 +50,7 @@ EEEEEEE5000000000000000000000000000000005EEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREHOCKEYAPPCOLOR_G <img:../sprites/Cloud/Azure_HockeyApp_COLOR_gray.png>
-!define MSIMG_AZUREHOCKEYAPPCOLOR_M <img:../sprites/Cloud/Azure_HockeyApp_COLOR_mono.png>
-!define MSIMG_AZUREHOCKEYAPPCOLOR_C <img:../sprites/Cloud/Azure_HockeyApp_COLOR.png>
+!define MSIMG_AZUREHOCKEYAPPCOLOR_G <img:../sprites/Cloud/azure_hockeyapp_color_gray.png>
+!define MSIMG_AZUREHOCKEYAPPCOLOR_B <img:../sprites/Cloud/azure_hockeyapp_color_mono.png>
+!define MSIMG_AZUREHOCKEYAPPCOLOR_C <img:../sprites/Cloud/azure_hockeyapp_color.png>
 @enduml

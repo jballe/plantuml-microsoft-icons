@@ -50,7 +50,7 @@ sprite $cortanablue2 [48x48/16] {
 000000000000000000000888888000000000000000000000
 }
 
-!define MSIMG_CORTANABLUE2_G <img:../sprites/OtherMicrosoftProd/Cortana_blue_2_gray.png>
-!define MSIMG_CORTANABLUE2_M <img:../sprites/OtherMicrosoftProd/Cortana_blue_2_mono.png>
-!define MSIMG_CORTANABLUE2_C <img:../sprites/OtherMicrosoftProd/Cortana_blue_2.png>
+!define MSIMG_CORTANABLUE2_G <img:../sprites/OtherMicrosoftProd/cortana_blue_2_gray.png>
+!define MSIMG_CORTANABLUE2_B <img:../sprites/OtherMicrosoftProd/cortana_blue_2_mono.png>
+!define MSIMG_CORTANABLUE2_C <img:../sprites/OtherMicrosoftProd/cortana_blue_2.png>
 @enduml

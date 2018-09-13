@@ -50,7 +50,7 @@ EE5000000000000038EEEEEEEEEEEEEEEEEEEEEEEEEE9000
 0005EE9500000000000000000008EE93000000000E500000
 }
 
-!define MSIMG_AZURESDKCOLOR_G <img:../sprites/Cloud/Azure_SDK_COLOR_gray.png>
-!define MSIMG_AZURESDKCOLOR_M <img:../sprites/Cloud/Azure_SDK_COLOR_mono.png>
-!define MSIMG_AZURESDKCOLOR_C <img:../sprites/Cloud/Azure_SDK_COLOR.png>
+!define MSIMG_AZURESDKCOLOR_G <img:../sprites/Cloud/azure_sdk_color_gray.png>
+!define MSIMG_AZURESDKCOLOR_B <img:../sprites/Cloud/azure_sdk_color_mono.png>
+!define MSIMG_AZURESDKCOLOR_C <img:../sprites/Cloud/azure_sdk_color.png>
 @enduml

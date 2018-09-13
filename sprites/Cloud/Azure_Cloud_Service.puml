@@ -50,7 +50,7 @@ EEEEEEEEEEE300005EEE900008EEEE9EEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECLOUDSERVICE_G <img:../sprites/Cloud/Azure_Cloud_Service_gray.png>
-!define MSIMG_AZURECLOUDSERVICE_M <img:../sprites/Cloud/Azure_Cloud_Service_mono.png>
-!define MSIMG_AZURECLOUDSERVICE_C <img:../sprites/Cloud/Azure_Cloud_Service.png>
+!define MSIMG_AZURECLOUDSERVICE_G <img:../sprites/Cloud/azure_cloud_service_gray.png>
+!define MSIMG_AZURECLOUDSERVICE_B <img:../sprites/Cloud/azure_cloud_service_mono.png>
+!define MSIMG_AZURECLOUDSERVICE_C <img:../sprites/Cloud/azure_cloud_service.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEE305EEEEEEEEEEEEEEEEEEEEEEEEEEEEE30000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_G <img:../sprites/Cloud/Azure_Content_Delivery_Network_CDN_gray.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_M <img:../sprites/Cloud/Azure_Content_Delivery_Network_CDN_mono.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_C <img:../sprites/Cloud/Azure_Content_Delivery_Network_CDN.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_G <img:../sprites/Cloud/azure_content_delivery_network_cdn_gray.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_B <img:../sprites/Cloud/azure_content_delivery_network_cdn_mono.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_C <img:../sprites/Cloud/azure_content_delivery_network_cdn.png>
 @enduml

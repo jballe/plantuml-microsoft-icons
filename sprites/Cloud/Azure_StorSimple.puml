@@ -50,7 +50,7 @@ EEEEEEEEEEEEEE80000000003EEEEEEEEEEEEEEEEEEEEE00
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORSIMPLE_G <img:../sprites/Cloud/Azure_StorSimple_gray.png>
-!define MSIMG_AZURESTORSIMPLE_M <img:../sprites/Cloud/Azure_StorSimple_mono.png>
-!define MSIMG_AZURESTORSIMPLE_C <img:../sprites/Cloud/Azure_StorSimple.png>
+!define MSIMG_AZURESTORSIMPLE_G <img:../sprites/Cloud/azure_storsimple_gray.png>
+!define MSIMG_AZURESTORSIMPLE_B <img:../sprites/Cloud/azure_storsimple_mono.png>
+!define MSIMG_AZURESTORSIMPLE_C <img:../sprites/Cloud/azure_storsimple.png>
 @enduml

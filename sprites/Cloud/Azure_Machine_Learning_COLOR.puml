@@ -50,7 +50,7 @@ sprite $azuremachinelearningcolor [48x48/16] {
 0035555555555589EEEEEEEEEEEEEEEEEEEEEEEEEEEE9500
 }
 
-!define MSIMG_AZUREMACHINELEARNINGCOLOR_G <img:../sprites/Cloud/Azure_Machine_Learning_COLOR_gray.png>
-!define MSIMG_AZUREMACHINELEARNINGCOLOR_M <img:../sprites/Cloud/Azure_Machine_Learning_COLOR_mono.png>
-!define MSIMG_AZUREMACHINELEARNINGCOLOR_C <img:../sprites/Cloud/Azure_Machine_Learning_COLOR.png>
+!define MSIMG_AZUREMACHINELEARNINGCOLOR_G <img:../sprites/Cloud/azure_machine_learning_color_gray.png>
+!define MSIMG_AZUREMACHINELEARNINGCOLOR_B <img:../sprites/Cloud/azure_machine_learning_color_mono.png>
+!define MSIMG_AZUREMACHINELEARNINGCOLOR_C <img:../sprites/Cloud/azure_machine_learning_color.png>
 @enduml

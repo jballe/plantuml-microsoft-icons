@@ -50,7 +50,7 @@ sprite $omslogsearch [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSLOGSEARCH_G <img:../sprites/OMS/OMS_Log_Search_gray.png>
-!define MSIMG_OMSLOGSEARCH_M <img:../sprites/OMS/OMS_Log_Search_mono.png>
-!define MSIMG_OMSLOGSEARCH_C <img:../sprites/OMS/OMS_Log_Search.png>
+!define MSIMG_OMSLOGSEARCH_G <img:../sprites/OMS/oms_log_search_gray.png>
+!define MSIMG_OMSLOGSEARCH_B <img:../sprites/OMS/oms_log_search_mono.png>
+!define MSIMG_OMSLOGSEARCH_C <img:../sprites/OMS/oms_log_search.png>
 @enduml

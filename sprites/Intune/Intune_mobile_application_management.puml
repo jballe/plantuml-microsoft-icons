@@ -50,7 +50,7 @@ sprite $intunemobileapplicationmanagement [48x48/16] {
 05EEEEEEEEEEEEEEEE500000000000000000000000000000
 }
 
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_G <img:../sprites/Intune/Intune_mobile_application_management_gray.png>
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_M <img:../sprites/Intune/Intune_mobile_application_management_mono.png>
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_C <img:../sprites/Intune/Intune_mobile_application_management.png>
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_G <img:../sprites/Intune/intune_mobile_application_management_gray.png>
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_B <img:../sprites/Intune/intune_mobile_application_management_mono.png>
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_C <img:../sprites/Intune/intune_mobile_application_management.png>
 @enduml

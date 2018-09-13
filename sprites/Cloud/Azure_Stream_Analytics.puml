@@ -50,7 +50,7 @@ sprite $azurestreamanalytics [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTREAMANALYTICS_G <img:../sprites/Cloud/Azure_Stream_Analytics_gray.png>
-!define MSIMG_AZURESTREAMANALYTICS_M <img:../sprites/Cloud/Azure_Stream_Analytics_mono.png>
-!define MSIMG_AZURESTREAMANALYTICS_C <img:../sprites/Cloud/Azure_Stream_Analytics.png>
+!define MSIMG_AZURESTREAMANALYTICS_G <img:../sprites/Cloud/azure_stream_analytics_gray.png>
+!define MSIMG_AZURESTREAMANALYTICS_B <img:../sprites/Cloud/azure_stream_analytics_mono.png>
+!define MSIMG_AZURESTREAMANALYTICS_C <img:../sprites/Cloud/azure_stream_analytics.png>
 @enduml

@@ -51,6 +51,6 @@ sprite $storedprocedures [48x48/16] {
 }
 
 !define MSIMG_STOREDPROCEDURES_G <img:../sprites/Enterprise/stored_procedures_gray.png>
-!define MSIMG_STOREDPROCEDURES_M <img:../sprites/Enterprise/stored_procedures_mono.png>
+!define MSIMG_STOREDPROCEDURES_B <img:../sprites/Enterprise/stored_procedures_mono.png>
 !define MSIMG_STOREDPROCEDURES_C <img:../sprites/Enterprise/stored_procedures.png>
 @enduml

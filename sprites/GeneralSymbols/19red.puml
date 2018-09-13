@@ -51,6 +51,6 @@ sprite $19red [48x48/16] {
 }
 
 !define MSIMG_19RED_G <img:../sprites/GeneralSymbols/19red_gray.png>
-!define MSIMG_19RED_M <img:../sprites/GeneralSymbols/19red_mono.png>
+!define MSIMG_19RED_B <img:../sprites/GeneralSymbols/19red_mono.png>
 !define MSIMG_19RED_C <img:../sprites/GeneralSymbols/19red.png>
 @enduml

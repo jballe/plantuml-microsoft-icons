@@ -50,7 +50,7 @@ sprite $loadtesting [48x48/16] {
 000000000009EE50000000000000000009EE500000000000
 }
 
-!define MSIMG_LOADTESTING_G <img:../sprites/Enterprise/Load_Testing_gray.png>
-!define MSIMG_LOADTESTING_M <img:../sprites/Enterprise/Load_Testing_mono.png>
-!define MSIMG_LOADTESTING_C <img:../sprites/Enterprise/Load_Testing.png>
+!define MSIMG_LOADTESTING_G <img:../sprites/Enterprise/load_testing_gray.png>
+!define MSIMG_LOADTESTING_B <img:../sprites/Enterprise/load_testing_mono.png>
+!define MSIMG_LOADTESTING_C <img:../sprites/Enterprise/load_testing.png>
 @enduml

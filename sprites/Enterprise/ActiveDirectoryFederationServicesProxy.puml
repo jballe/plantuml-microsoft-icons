@@ -50,7 +50,7 @@ sprite $activedirectoryfederationservicesproxy [48x48/16] {
 00000EEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 }
 
-!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_G <img:../sprites/Enterprise/ActiveDirectoryFederationServicesProxy_gray.png>
-!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_M <img:../sprites/Enterprise/ActiveDirectoryFederationServicesProxy_mono.png>
-!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_C <img:../sprites/Enterprise/ActiveDirectoryFederationServicesProxy.png>
+!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_G <img:../sprites/Enterprise/activedirectoryfederationservicesproxy_gray.png>
+!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_B <img:../sprites/Enterprise/activedirectoryfederationservicesproxy_mono.png>
+!define MSIMG_ACTIVEDIRECTORYFEDERATIONSERVICESPROXY_C <img:../sprites/Enterprise/activedirectoryfederationservicesproxy.png>
 @enduml

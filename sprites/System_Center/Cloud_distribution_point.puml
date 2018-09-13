@@ -50,7 +50,7 @@ sprite $clouddistributionpoint [48x48/16] {
 00000000000000005EEEEEEEEEEEEEEEEEEEEEEEEEE90000
 }
 
-!define MSIMG_CLOUDDISTRIBUTIONPOINT_G <img:../sprites/System_Center/Cloud_distribution_point_gray.png>
-!define MSIMG_CLOUDDISTRIBUTIONPOINT_M <img:../sprites/System_Center/Cloud_distribution_point_mono.png>
-!define MSIMG_CLOUDDISTRIBUTIONPOINT_C <img:../sprites/System_Center/Cloud_distribution_point.png>
+!define MSIMG_CLOUDDISTRIBUTIONPOINT_G <img:../sprites/System_Center/cloud_distribution_point_gray.png>
+!define MSIMG_CLOUDDISTRIBUTIONPOINT_B <img:../sprites/System_Center/cloud_distribution_point_mono.png>
+!define MSIMG_CLOUDDISTRIBUTIONPOINT_C <img:../sprites/System_Center/cloud_distribution_point.png>
 @enduml

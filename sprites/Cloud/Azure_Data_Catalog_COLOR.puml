@@ -50,7 +50,7 @@ sprite $azuredatacatalogcolor [48x48/16] {
 000000000000000000000000000000855555338000000000
 }
 
-!define MSIMG_AZUREDATACATALOGCOLOR_G <img:../sprites/Cloud/Azure_Data_Catalog_COLOR_gray.png>
-!define MSIMG_AZUREDATACATALOGCOLOR_M <img:../sprites/Cloud/Azure_Data_Catalog_COLOR_mono.png>
-!define MSIMG_AZUREDATACATALOGCOLOR_C <img:../sprites/Cloud/Azure_Data_Catalog_COLOR.png>
+!define MSIMG_AZUREDATACATALOGCOLOR_G <img:../sprites/Cloud/azure_data_catalog_color_gray.png>
+!define MSIMG_AZUREDATACATALOGCOLOR_B <img:../sprites/Cloud/azure_data_catalog_color_mono.png>
+!define MSIMG_AZUREDATACATALOGCOLOR_C <img:../sprites/Cloud/azure_data_catalog_color.png>
 @enduml

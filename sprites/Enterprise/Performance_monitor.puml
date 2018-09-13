@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_PERFORMANCEMONITOR_G <img:../sprites/Enterprise/Performance_monitor_gray.png>
-!define MSIMG_PERFORMANCEMONITOR_M <img:../sprites/Enterprise/Performance_monitor_mono.png>
-!define MSIMG_PERFORMANCEMONITOR_C <img:../sprites/Enterprise/Performance_monitor.png>
+!define MSIMG_PERFORMANCEMONITOR_G <img:../sprites/Enterprise/performance_monitor_gray.png>
+!define MSIMG_PERFORMANCEMONITOR_B <img:../sprites/Enterprise/performance_monitor_mono.png>
+!define MSIMG_PERFORMANCEMONITOR_C <img:../sprites/Enterprise/performance_monitor.png>
 @enduml

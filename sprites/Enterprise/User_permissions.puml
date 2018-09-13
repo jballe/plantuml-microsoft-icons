@@ -50,7 +50,7 @@ sprite $userpermissions [48x48/16] {
 08EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80
 }
 
-!define MSIMG_USERPERMISSIONS_G <img:../sprites/Enterprise/User_permissions_gray.png>
-!define MSIMG_USERPERMISSIONS_M <img:../sprites/Enterprise/User_permissions_mono.png>
-!define MSIMG_USERPERMISSIONS_C <img:../sprites/Enterprise/User_permissions.png>
+!define MSIMG_USERPERMISSIONS_G <img:../sprites/Enterprise/user_permissions_gray.png>
+!define MSIMG_USERPERMISSIONS_B <img:../sprites/Enterprise/user_permissions_mono.png>
+!define MSIMG_USERPERMISSIONS_C <img:../sprites/Enterprise/user_permissions.png>
 @enduml

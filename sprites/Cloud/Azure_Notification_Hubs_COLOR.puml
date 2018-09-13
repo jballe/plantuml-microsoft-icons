@@ -50,7 +50,7 @@ sprite $azurenotificationhubscolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_G <img:../sprites/Cloud/Azure_Notification_Hubs_COLOR_gray.png>
-!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_M <img:../sprites/Cloud/Azure_Notification_Hubs_COLOR_mono.png>
-!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_C <img:../sprites/Cloud/Azure_Notification_Hubs_COLOR.png>
+!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_G <img:../sprites/Cloud/azure_notification_hubs_color_gray.png>
+!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_B <img:../sprites/Cloud/azure_notification_hubs_color_mono.png>
+!define MSIMG_AZURENOTIFICATIONHUBSCOLOR_C <img:../sprites/Cloud/azure_notification_hubs_color.png>
 @enduml

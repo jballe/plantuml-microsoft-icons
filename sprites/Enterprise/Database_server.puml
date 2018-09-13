@@ -50,7 +50,7 @@ sprite $databaseserver [48x48/16] {
 0000009EEEEEEEEEEEEEEE800000389EEEE9580000000000
 }
 
-!define MSIMG_DATABASESERVER_G <img:../sprites/Enterprise/Database_server_gray.png>
-!define MSIMG_DATABASESERVER_M <img:../sprites/Enterprise/Database_server_mono.png>
-!define MSIMG_DATABASESERVER_C <img:../sprites/Enterprise/Database_server.png>
+!define MSIMG_DATABASESERVER_G <img:../sprites/Enterprise/database_server_gray.png>
+!define MSIMG_DATABASESERVER_B <img:../sprites/Enterprise/database_server_mono.png>
+!define MSIMG_DATABASESERVER_C <img:../sprites/Enterprise/database_server.png>
 @enduml

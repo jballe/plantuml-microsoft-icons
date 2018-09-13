@@ -50,7 +50,7 @@ EEEEE300005EEEE800000005888855588885000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREAUTOMATIONCOLOR_G <img:../sprites/Cloud/Azure_Automation_COLOR_gray.png>
-!define MSIMG_AZUREAUTOMATIONCOLOR_M <img:../sprites/Cloud/Azure_Automation_COLOR_mono.png>
-!define MSIMG_AZUREAUTOMATIONCOLOR_C <img:../sprites/Cloud/Azure_Automation_COLOR.png>
+!define MSIMG_AZUREAUTOMATIONCOLOR_G <img:../sprites/Cloud/azure_automation_color_gray.png>
+!define MSIMG_AZUREAUTOMATIONCOLOR_B <img:../sprites/Cloud/azure_automation_color_mono.png>
+!define MSIMG_AZUREAUTOMATIONCOLOR_C <img:../sprites/Cloud/azure_automation_color.png>
 @enduml

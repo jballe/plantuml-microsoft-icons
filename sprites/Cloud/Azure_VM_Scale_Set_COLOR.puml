@@ -50,7 +50,7 @@ sprite $azurevmscalesetcolor [48x48/16] {
 000000000000000000555555555555555555555558000000
 }
 
-!define MSIMG_AZUREVMSCALESETCOLOR_G <img:../sprites/Cloud/Azure_VM_Scale_Set_COLOR_gray.png>
-!define MSIMG_AZUREVMSCALESETCOLOR_M <img:../sprites/Cloud/Azure_VM_Scale_Set_COLOR_mono.png>
-!define MSIMG_AZUREVMSCALESETCOLOR_C <img:../sprites/Cloud/Azure_VM_Scale_Set_COLOR.png>
+!define MSIMG_AZUREVMSCALESETCOLOR_G <img:../sprites/Cloud/azure_vm_scale_set_color_gray.png>
+!define MSIMG_AZUREVMSCALESETCOLOR_B <img:../sprites/Cloud/azure_vm_scale_set_color_mono.png>
+!define MSIMG_AZUREVMSCALESETCOLOR_C <img:../sprites/Cloud/azure_vm_scale_set_color.png>
 @enduml

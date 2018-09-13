@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_VIRTUALMACHINE_G <img:../sprites/Enterprise/Virtual_Machine_gray.png>
-!define MSIMG_VIRTUALMACHINE_M <img:../sprites/Enterprise/Virtual_Machine_mono.png>
-!define MSIMG_VIRTUALMACHINE_C <img:../sprites/Enterprise/Virtual_Machine.png>
+!define MSIMG_VIRTUALMACHINE_G <img:../sprites/Enterprise/virtual_machine_gray.png>
+!define MSIMG_VIRTUALMACHINE_B <img:../sprites/Enterprise/virtual_machine_mono.png>
+!define MSIMG_VIRTUALMACHINE_C <img:../sprites/Enterprise/virtual_machine.png>
 @enduml

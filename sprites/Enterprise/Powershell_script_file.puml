@@ -50,7 +50,7 @@ sprite $powershellscriptfile [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_POWERSHELLSCRIPTFILE_G <img:../sprites/Enterprise/Powershell_script_file_gray.png>
-!define MSIMG_POWERSHELLSCRIPTFILE_M <img:../sprites/Enterprise/Powershell_script_file_mono.png>
-!define MSIMG_POWERSHELLSCRIPTFILE_C <img:../sprites/Enterprise/Powershell_script_file.png>
+!define MSIMG_POWERSHELLSCRIPTFILE_G <img:../sprites/Enterprise/powershell_script_file_gray.png>
+!define MSIMG_POWERSHELLSCRIPTFILE_B <img:../sprites/Enterprise/powershell_script_file_mono.png>
+!define MSIMG_POWERSHELLSCRIPTFILE_C <img:../sprites/Enterprise/powershell_script_file.png>
 @enduml

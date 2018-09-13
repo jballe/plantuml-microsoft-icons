@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEE8000088980000000000950000000
 EEEEEEEEEEEEEEEEEEEEE505995000000000009500000000
 }
 
-!define MSIMG_OSIMAGE_G <img:../sprites/Deprecated/OS_image_gray.png>
-!define MSIMG_OSIMAGE_M <img:../sprites/Deprecated/OS_image_mono.png>
-!define MSIMG_OSIMAGE_C <img:../sprites/Deprecated/OS_image.png>
+!define MSIMG_OSIMAGE_G <img:../sprites/Deprecated/os_image_gray.png>
+!define MSIMG_OSIMAGE_B <img:../sprites/Deprecated/os_image_mono.png>
+!define MSIMG_OSIMAGE_C <img:../sprites/Deprecated/os_image.png>
 @enduml

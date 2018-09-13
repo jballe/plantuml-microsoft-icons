@@ -50,7 +50,7 @@ EEEEE980000000000008EEEEEEEE800000000000089EEEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_GATEWAY_G <img:../sprites/Enterprise/Gateway_gray.png>
-!define MSIMG_GATEWAY_M <img:../sprites/Enterprise/Gateway_mono.png>
-!define MSIMG_GATEWAY_C <img:../sprites/Enterprise/Gateway.png>
+!define MSIMG_GATEWAY_G <img:../sprites/Enterprise/gateway_gray.png>
+!define MSIMG_GATEWAY_B <img:../sprites/Enterprise/gateway_mono.png>
+!define MSIMG_GATEWAY_C <img:../sprites/Enterprise/gateway.png>
 @enduml

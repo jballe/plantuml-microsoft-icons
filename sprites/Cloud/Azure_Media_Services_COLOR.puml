@@ -50,7 +50,7 @@ sprite $azuremediaservicescolor [48x48/16] {
 000000000000000000000005500000000000000000000000
 }
 
-!define MSIMG_AZUREMEDIASERVICESCOLOR_G <img:../sprites/Cloud/Azure_Media_Services_COLOR_gray.png>
-!define MSIMG_AZUREMEDIASERVICESCOLOR_M <img:../sprites/Cloud/Azure_Media_Services_COLOR_mono.png>
-!define MSIMG_AZUREMEDIASERVICESCOLOR_C <img:../sprites/Cloud/Azure_Media_Services_COLOR.png>
+!define MSIMG_AZUREMEDIASERVICESCOLOR_G <img:../sprites/Cloud/azure_media_services_color_gray.png>
+!define MSIMG_AZUREMEDIASERVICESCOLOR_B <img:../sprites/Cloud/azure_media_services_color_mono.png>
+!define MSIMG_AZUREMEDIASERVICESCOLOR_C <img:../sprites/Cloud/azure_media_services_color.png>
 @enduml

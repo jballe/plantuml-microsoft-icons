@@ -50,7 +50,7 @@ sprite $cablesettoptvbox [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CABLESETTOPTVBOX_G <img:../sprites/GeneralSymbols/Cable_settop_TV_box_gray.png>
-!define MSIMG_CABLESETTOPTVBOX_M <img:../sprites/GeneralSymbols/Cable_settop_TV_box_mono.png>
-!define MSIMG_CABLESETTOPTVBOX_C <img:../sprites/GeneralSymbols/Cable_settop_TV_box.png>
+!define MSIMG_CABLESETTOPTVBOX_G <img:../sprites/GeneralSymbols/cable_settop_tv_box_gray.png>
+!define MSIMG_CABLESETTOPTVBOX_B <img:../sprites/GeneralSymbols/cable_settop_tv_box_mono.png>
+!define MSIMG_CABLESETTOPTVBOX_C <img:../sprites/GeneralSymbols/cable_settop_tv_box.png>
 @enduml

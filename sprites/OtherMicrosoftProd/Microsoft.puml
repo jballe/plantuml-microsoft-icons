@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEE90035555555555555555555555
 999999999999999999999950003888888888888888888838
 }
 
-!define MSIMG_MICROSOFT_G <img:../sprites/OtherMicrosoftProd/Microsoft_gray.png>
-!define MSIMG_MICROSOFT_M <img:../sprites/OtherMicrosoftProd/Microsoft_mono.png>
-!define MSIMG_MICROSOFT_C <img:../sprites/OtherMicrosoftProd/Microsoft.png>
+!define MSIMG_MICROSOFT_G <img:../sprites/OtherMicrosoftProd/microsoft_gray.png>
+!define MSIMG_MICROSOFT_B <img:../sprites/OtherMicrosoftProd/microsoft_mono.png>
+!define MSIMG_MICROSOFT_C <img:../sprites/OtherMicrosoftProd/microsoft.png>
 @enduml

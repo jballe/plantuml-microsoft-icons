@@ -50,7 +50,7 @@ sprite $sliderbarvertical [48x48/16] {
 0000000000000000000E5000000000899800000000000000
 }
 
-!define MSIMG_SLIDERBARVERTICAL_G <img:../sprites/GeneralSymbols/Slider_bar_vertical_gray.png>
-!define MSIMG_SLIDERBARVERTICAL_M <img:../sprites/GeneralSymbols/Slider_bar_vertical_mono.png>
-!define MSIMG_SLIDERBARVERTICAL_C <img:../sprites/GeneralSymbols/Slider_bar_vertical.png>
+!define MSIMG_SLIDERBARVERTICAL_G <img:../sprites/GeneralSymbols/slider_bar_vertical_gray.png>
+!define MSIMG_SLIDERBARVERTICAL_B <img:../sprites/GeneralSymbols/slider_bar_vertical_mono.png>
+!define MSIMG_SLIDERBARVERTICAL_C <img:../sprites/GeneralSymbols/slider_bar_vertical.png>
 @enduml

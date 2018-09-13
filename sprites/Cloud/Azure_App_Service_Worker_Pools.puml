@@ -50,7 +50,7 @@ EEEEE50009EE50009EEEEEEEEEEEEEEE8000EEE0000EEEEE
 00000000000000000000005EE50000000000000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_G <img:../sprites/Cloud/Azure_App_Service_Worker_Pools_gray.png>
-!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_M <img:../sprites/Cloud/Azure_App_Service_Worker_Pools_mono.png>
-!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_C <img:../sprites/Cloud/Azure_App_Service_Worker_Pools.png>
+!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_G <img:../sprites/Cloud/azure_app_service_worker_pools_gray.png>
+!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_B <img:../sprites/Cloud/azure_app_service_worker_pools_mono.png>
+!define MSIMG_AZUREAPPSERVICEWORKERPOOLS_C <img:../sprites/Cloud/azure_app_service_worker_pools.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEE90000000000000000000000000000009EEEEEEEE
 000000000000000000000000000000800000000000000000
 }
 
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_G <img:../sprites/Deprecated/Azure_Notification_Hubs_Notification_topic_gray.png>
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_M <img:../sprites/Deprecated/Azure_Notification_Hubs_Notification_topic_mono.png>
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_C <img:../sprites/Deprecated/Azure_Notification_Hubs_Notification_topic.png>
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_G <img:../sprites/Deprecated/azure_notification_hubs_notification_topic_gray.png>
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_B <img:../sprites/Deprecated/azure_notification_hubs_notification_topic_mono.png>
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_C <img:../sprites/Deprecated/azure_notification_hubs_notification_topic.png>
 @enduml

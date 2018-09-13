@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 }
 
-!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_G <img:../sprites/Cloud/Azure_Service_Bus_Topics_COLOR_gray.png>
-!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_M <img:../sprites/Cloud/Azure_Service_Bus_Topics_COLOR_mono.png>
-!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_C <img:../sprites/Cloud/Azure_Service_Bus_Topics_COLOR.png>
+!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_G <img:../sprites/Cloud/azure_service_bus_topics_color_gray.png>
+!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_B <img:../sprites/Cloud/azure_service_bus_topics_color_mono.png>
+!define MSIMG_AZURESERVICEBUSTOPICSCOLOR_C <img:../sprites/Cloud/azure_service_bus_topics_color.png>
 @enduml

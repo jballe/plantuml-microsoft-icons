@@ -50,7 +50,7 @@ sprite $azurecognativeservicesemotioncolor [48x48/16] {
 588888888888888888888888888888888888888888888885
 }
 
-!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_G <img:../sprites/Cloud/Azure_Cognative_Services_emotion_COLOR_gray.png>
-!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_M <img:../sprites/Cloud/Azure_Cognative_Services_emotion_COLOR_mono.png>
-!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_C <img:../sprites/Cloud/Azure_Cognative_Services_emotion_COLOR.png>
+!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_G <img:../sprites/Cloud/azure_cognative_services_emotion_color_gray.png>
+!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_B <img:../sprites/Cloud/azure_cognative_services_emotion_color_mono.png>
+!define MSIMG_AZURECOGNATIVESERVICESEMOTIONCOLOR_C <img:../sprites/Cloud/azure_cognative_services_emotion_color.png>
 @enduml

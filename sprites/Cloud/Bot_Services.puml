@@ -50,7 +50,7 @@ EEEEEEEEEE000EEEE00009EEEEE00009EEE000EEEEEEEEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_BOTSERVICES_G <img:../sprites/Cloud/Bot_Services_gray.png>
-!define MSIMG_BOTSERVICES_M <img:../sprites/Cloud/Bot_Services_mono.png>
-!define MSIMG_BOTSERVICES_C <img:../sprites/Cloud/Bot_Services.png>
+!define MSIMG_BOTSERVICES_G <img:../sprites/Cloud/bot_services_gray.png>
+!define MSIMG_BOTSERVICES_B <img:../sprites/Cloud/bot_services_mono.png>
+!define MSIMG_BOTSERVICES_C <img:../sprites/Cloud/bot_services.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE0000000000000000000E
 000000000000000000000000035900000000000000000000
 }
 
-!define MSIMG_POWERAPPS_G <img:../sprites/OtherMicrosoftProd/PowerApps_gray.png>
-!define MSIMG_POWERAPPS_M <img:../sprites/OtherMicrosoftProd/PowerApps_mono.png>
-!define MSIMG_POWERAPPS_C <img:../sprites/OtherMicrosoftProd/PowerApps.png>
+!define MSIMG_POWERAPPS_G <img:../sprites/OtherMicrosoftProd/powerapps_gray.png>
+!define MSIMG_POWERAPPS_B <img:../sprites/OtherMicrosoftProd/powerapps_mono.png>
+!define MSIMG_POWERAPPS_C <img:../sprites/OtherMicrosoftProd/powerapps.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $intuneemailprofiles [48x48/16] {
 0000000000000000000008EEEEEEEEEEEEEEEEEEEEEEEEE3
 }
 
-!define MSIMG_INTUNEEMAILPROFILES_G <img:../sprites/Intune/Intune_email_profiles_gray.png>
-!define MSIMG_INTUNEEMAILPROFILES_M <img:../sprites/Intune/Intune_email_profiles_mono.png>
-!define MSIMG_INTUNEEMAILPROFILES_C <img:../sprites/Intune/Intune_email_profiles.png>
+!define MSIMG_INTUNEEMAILPROFILES_G <img:../sprites/Intune/intune_email_profiles_gray.png>
+!define MSIMG_INTUNEEMAILPROFILES_B <img:../sprites/Intune/intune_email_profiles_mono.png>
+!define MSIMG_INTUNEEMAILPROFILES_C <img:../sprites/Intune/intune_email_profiles.png>
 @enduml

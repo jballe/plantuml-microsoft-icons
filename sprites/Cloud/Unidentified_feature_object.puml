@@ -50,7 +50,7 @@ sprite $unidentifiedfeatureobject [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_G <img:../sprites/Cloud/Unidentified_feature_object_gray.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_M <img:../sprites/Cloud/Unidentified_feature_object_mono.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_C <img:../sprites/Cloud/Unidentified_feature_object.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_G <img:../sprites/Cloud/unidentified_feature_object_gray.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_B <img:../sprites/Cloud/unidentified_feature_object_mono.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_C <img:../sprites/Cloud/unidentified_feature_object.png>
 @enduml

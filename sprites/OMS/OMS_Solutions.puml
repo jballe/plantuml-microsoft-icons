@@ -50,7 +50,7 @@ sprite $omssolutions [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSOLUTIONS_G <img:../sprites/OMS/OMS_Solutions_gray.png>
-!define MSIMG_OMSSOLUTIONS_M <img:../sprites/OMS/OMS_Solutions_mono.png>
-!define MSIMG_OMSSOLUTIONS_C <img:../sprites/OMS/OMS_Solutions.png>
+!define MSIMG_OMSSOLUTIONS_G <img:../sprites/OMS/oms_solutions_gray.png>
+!define MSIMG_OMSSOLUTIONS_B <img:../sprites/OMS/oms_solutions_mono.png>
+!define MSIMG_OMSSOLUTIONS_C <img:../sprites/OMS/oms_solutions.png>
 @enduml

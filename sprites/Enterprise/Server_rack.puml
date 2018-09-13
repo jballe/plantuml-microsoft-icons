@@ -50,7 +50,7 @@ sprite $serverrack [48x48/16] {
 05EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50
 }
 
-!define MSIMG_SERVERRACK_G <img:../sprites/Enterprise/Server_rack_gray.png>
-!define MSIMG_SERVERRACK_M <img:../sprites/Enterprise/Server_rack_mono.png>
-!define MSIMG_SERVERRACK_C <img:../sprites/Enterprise/Server_rack.png>
+!define MSIMG_SERVERRACK_G <img:../sprites/Enterprise/server_rack_gray.png>
+!define MSIMG_SERVERRACK_B <img:../sprites/Enterprise/server_rack_mono.png>
+!define MSIMG_SERVERRACK_C <img:../sprites/Enterprise/server_rack.png>
 @enduml

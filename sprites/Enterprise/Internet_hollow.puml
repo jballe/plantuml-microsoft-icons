@@ -50,7 +50,7 @@ E0000000000000000000000000000000000000000000000E
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INTERNETHOLLOW_G <img:../sprites/Enterprise/Internet_hollow_gray.png>
-!define MSIMG_INTERNETHOLLOW_M <img:../sprites/Enterprise/Internet_hollow_mono.png>
-!define MSIMG_INTERNETHOLLOW_C <img:../sprites/Enterprise/Internet_hollow.png>
+!define MSIMG_INTERNETHOLLOW_G <img:../sprites/Enterprise/internet_hollow_gray.png>
+!define MSIMG_INTERNETHOLLOW_B <img:../sprites/Enterprise/internet_hollow_mono.png>
+!define MSIMG_INTERNETHOLLOW_C <img:../sprites/Enterprise/internet_hollow.png>
 @enduml

@@ -50,7 +50,7 @@ sprite $azuredevtestlabscolor [48x48/16] {
 000000000000000000000008888888888888888888800000
 }
 
-!define MSIMG_AZUREDEVTESTLABSCOLOR_G <img:../sprites/Cloud/Azure_DevTest_Labs_COLOR_gray.png>
-!define MSIMG_AZUREDEVTESTLABSCOLOR_M <img:../sprites/Cloud/Azure_DevTest_Labs_COLOR_mono.png>
-!define MSIMG_AZUREDEVTESTLABSCOLOR_C <img:../sprites/Cloud/Azure_DevTest_Labs_COLOR.png>
+!define MSIMG_AZUREDEVTESTLABSCOLOR_G <img:../sprites/Cloud/azure_devtest_labs_color_gray.png>
+!define MSIMG_AZUREDEVTESTLABSCOLOR_B <img:../sprites/Cloud/azure_devtest_labs_color_mono.png>
+!define MSIMG_AZUREDEVTESTLABSCOLOR_C <img:../sprites/Cloud/azure_devtest_labs_color.png>
 @enduml

@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_POWERPOINT_G <img:../sprites/OtherMicrosoftProd/PowerPoint_gray.png>
-!define MSIMG_POWERPOINT_M <img:../sprites/OtherMicrosoftProd/PowerPoint_mono.png>
-!define MSIMG_POWERPOINT_C <img:../sprites/OtherMicrosoftProd/PowerPoint.png>
+!define MSIMG_POWERPOINT_G <img:../sprites/OtherMicrosoftProd/powerpoint_gray.png>
+!define MSIMG_POWERPOINT_B <img:../sprites/OtherMicrosoftProd/powerpoint_mono.png>
+!define MSIMG_POWERPOINT_C <img:../sprites/OtherMicrosoftProd/powerpoint.png>
 @enduml

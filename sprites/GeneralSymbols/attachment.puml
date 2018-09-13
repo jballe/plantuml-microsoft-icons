@@ -51,6 +51,6 @@ sprite $attachment [48x48/16] {
 }
 
 !define MSIMG_ATTACHMENT_G <img:../sprites/GeneralSymbols/attachment_gray.png>
-!define MSIMG_ATTACHMENT_M <img:../sprites/GeneralSymbols/attachment_mono.png>
+!define MSIMG_ATTACHMENT_B <img:../sprites/GeneralSymbols/attachment_mono.png>
 !define MSIMG_ATTACHMENT_C <img:../sprites/GeneralSymbols/attachment.png>
 @enduml

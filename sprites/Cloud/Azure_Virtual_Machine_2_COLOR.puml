@@ -50,7 +50,7 @@ sprite $azurevirtualmachine2color [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVIRTUALMACHINE2COLOR_G <img:../sprites/Cloud/Azure_Virtual_Machine_2_COLOR_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINE2COLOR_M <img:../sprites/Cloud/Azure_Virtual_Machine_2_COLOR_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINE2COLOR_C <img:../sprites/Cloud/Azure_Virtual_Machine_2_COLOR.png>
+!define MSIMG_AZUREVIRTUALMACHINE2COLOR_G <img:../sprites/Cloud/azure_virtual_machine_2_color_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINE2COLOR_B <img:../sprites/Cloud/azure_virtual_machine_2_color_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINE2COLOR_C <img:../sprites/Cloud/azure_virtual_machine_2_color.png>
 @enduml

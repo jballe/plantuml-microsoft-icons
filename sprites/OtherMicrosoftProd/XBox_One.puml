@@ -50,7 +50,7 @@ sprite $xboxone [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_XBOXONE_G <img:../sprites/OtherMicrosoftProd/XBox_One_gray.png>
-!define MSIMG_XBOXONE_M <img:../sprites/OtherMicrosoftProd/XBox_One_mono.png>
-!define MSIMG_XBOXONE_C <img:../sprites/OtherMicrosoftProd/XBox_One.png>
+!define MSIMG_XBOXONE_G <img:../sprites/OtherMicrosoftProd/xbox_one_gray.png>
+!define MSIMG_XBOXONE_B <img:../sprites/OtherMicrosoftProd/xbox_one_mono.png>
+!define MSIMG_XBOXONE_C <img:../sprites/OtherMicrosoftProd/xbox_one.png>
 @enduml

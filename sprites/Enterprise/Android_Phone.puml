@@ -50,7 +50,7 @@ sprite $androidphone [48x48/16] {
 00000000009EEEEEEEEEEEEEEEEEEEEEEEEEE90000000000
 }
 
-!define MSIMG_ANDROIDPHONE_G <img:../sprites/Enterprise/Android_Phone_gray.png>
-!define MSIMG_ANDROIDPHONE_M <img:../sprites/Enterprise/Android_Phone_mono.png>
-!define MSIMG_ANDROIDPHONE_C <img:../sprites/Enterprise/Android_Phone.png>
+!define MSIMG_ANDROIDPHONE_G <img:../sprites/Enterprise/android_phone_gray.png>
+!define MSIMG_ANDROIDPHONE_B <img:../sprites/Enterprise/android_phone_mono.png>
+!define MSIMG_ANDROIDPHONE_C <img:../sprites/Enterprise/android_phone.png>
 @enduml

@@ -50,7 +50,7 @@ EEE539EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SERVERBLADE_G <img:../sprites/Enterprise/Server_blade_gray.png>
-!define MSIMG_SERVERBLADE_M <img:../sprites/Enterprise/Server_blade_mono.png>
-!define MSIMG_SERVERBLADE_C <img:../sprites/Enterprise/Server_blade.png>
+!define MSIMG_SERVERBLADE_G <img:../sprites/Enterprise/server_blade_gray.png>
+!define MSIMG_SERVERBLADE_B <img:../sprites/Enterprise/server_blade_mono.png>
+!define MSIMG_SERVERBLADE_C <img:../sprites/Enterprise/server_blade.png>
 @enduml

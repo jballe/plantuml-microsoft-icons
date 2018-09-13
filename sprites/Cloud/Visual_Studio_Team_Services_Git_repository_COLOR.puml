@@ -50,7 +50,7 @@ EEEEEEEEEEEEEEEEEEEEEEE000EEEE50000000EEEEEEEEEE
 00000000000000000000005EE30000000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_G <img:../sprites/Cloud/Visual_Studio_Team_Services_Git_repository_COLOR_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_M <img:../sprites/Cloud/Visual_Studio_Team_Services_Git_repository_COLOR_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_C <img:../sprites/Cloud/Visual_Studio_Team_Services_Git_repository_COLOR.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_G <img:../sprites/Cloud/visual_studio_team_services_git_repository_color_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_B <img:../sprites/Cloud/visual_studio_team_services_git_repository_color_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESGITREPOSITORYCOLOR_C <img:../sprites/Cloud/visual_studio_team_services_git_repository_color.png>
 @enduml
