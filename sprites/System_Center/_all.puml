@@ -1,8 +1,0 @@
-@startuml
-!ifdef MS_SPRITESPATH
-!else
-!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
-!endif
-
-
-@enduml
