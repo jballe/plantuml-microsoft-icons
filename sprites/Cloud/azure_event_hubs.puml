@@ -50,7 +50,12 @@ sprite $azureeventhubs [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREEVENTHUBS_G <img:../sprites/Cloud/azure_event_hubs_gray.png>
-!define MSIMG_AZUREEVENTHUBS_B <img:../sprites/Cloud/azure_event_hubs_mono.png>
-!define MSIMG_AZUREEVENTHUBS_C <img:../sprites/Cloud/azure_event_hubs.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREEVENTHUBS_G <img:MS_SPRITESPATH/Cloud/azure_event_hubs_gray.png>
+!define MSIMG_AZUREEVENTHUBS_B <img:MS_SPRITESPATH/Cloud/azure_event_hubs_mono.png>
+!define MSIMG_AZUREEVENTHUBS_C <img:MS_SPRITESPATH/Cloud/azure_event_hubs.png>
 @enduml

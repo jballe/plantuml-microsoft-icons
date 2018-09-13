@@ -50,7 +50,12 @@ EE8000009EEE509EEEEEEEEE90009EEEEEEE5005E5000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OFFICE365SUBSCRIPTION_G <img:../sprites/Cloud/office_365_subscription_gray.png>
-!define MSIMG_OFFICE365SUBSCRIPTION_B <img:../sprites/Cloud/office_365_subscription_mono.png>
-!define MSIMG_OFFICE365SUBSCRIPTION_C <img:../sprites/Cloud/office_365_subscription.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OFFICE365SUBSCRIPTION_G <img:MS_SPRITESPATH/Cloud/office_365_subscription_gray.png>
+!define MSIMG_OFFICE365SUBSCRIPTION_B <img:MS_SPRITESPATH/Cloud/office_365_subscription_mono.png>
+!define MSIMG_OFFICE365SUBSCRIPTION_C <img:MS_SPRITESPATH/Cloud/office_365_subscription.png>
 @enduml

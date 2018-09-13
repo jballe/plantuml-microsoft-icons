@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE05EEEEEEEE30000000000
 0088EEEEEEEEEEEEEEEEEEEEEEEE3005E950000000000000
 }
 
-!define MSIMG_POLICY_G <img:../sprites/Intune/policy_gray.png>
-!define MSIMG_POLICY_B <img:../sprites/Intune/policy_mono.png>
-!define MSIMG_POLICY_C <img:../sprites/Intune/policy.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_POLICY_G <img:MS_SPRITESPATH/Intune/policy_gray.png>
+!define MSIMG_POLICY_B <img:MS_SPRITESPATH/Intune/policy_mono.png>
+!define MSIMG_POLICY_C <img:MS_SPRITESPATH/Intune/policy.png>
 @enduml

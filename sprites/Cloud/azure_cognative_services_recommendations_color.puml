@@ -50,7 +50,12 @@ sprite $azurecognativeservicesrecommendationscolor [48x48/16] {
 588888888888888888888888888888888888888888888885
 }
 
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_G <img:../sprites/Cloud/azure_cognative_services_recommendations_color_gray.png>
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_B <img:../sprites/Cloud/azure_cognative_services_recommendations_color_mono.png>
-!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_C <img:../sprites/Cloud/azure_cognative_services_recommendations_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_cognative_services_recommendations_color_gray.png>
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_cognative_services_recommendations_color_mono.png>
+!define MSIMG_AZURECOGNATIVESERVICESRECOMMENDATIONSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_cognative_services_recommendations_color.png>
 @enduml

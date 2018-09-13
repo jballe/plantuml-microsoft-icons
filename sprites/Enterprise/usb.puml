@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE98
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_USB_G <img:../sprites/Enterprise/usb_gray.png>
-!define MSIMG_USB_B <img:../sprites/Enterprise/usb_mono.png>
-!define MSIMG_USB_C <img:../sprites/Enterprise/usb.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_USB_G <img:MS_SPRITESPATH/Enterprise/usb_gray.png>
+!define MSIMG_USB_B <img:MS_SPRITESPATH/Enterprise/usb_mono.png>
+!define MSIMG_USB_C <img:MS_SPRITESPATH/Enterprise/usb.png>
 @enduml

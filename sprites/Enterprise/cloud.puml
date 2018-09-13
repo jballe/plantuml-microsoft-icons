@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLOUD_G <img:../sprites/Enterprise/cloud_gray.png>
-!define MSIMG_CLOUD_B <img:../sprites/Enterprise/cloud_mono.png>
-!define MSIMG_CLOUD_C <img:../sprites/Enterprise/cloud.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CLOUD_G <img:MS_SPRITESPATH/Enterprise/cloud_gray.png>
+!define MSIMG_CLOUD_B <img:MS_SPRITESPATH/Enterprise/cloud_mono.png>
+!define MSIMG_CLOUD_C <img:MS_SPRITESPATH/Enterprise/cloud.png>
 @enduml

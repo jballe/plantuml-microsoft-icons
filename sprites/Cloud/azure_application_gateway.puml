@@ -50,7 +50,12 @@ EEEEEEEEEE88EEE00000890000E800000EEE80EEEEEEEEEE
 00000000000000000000005EE50000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONGATEWAY_G <img:../sprites/Cloud/azure_application_gateway_gray.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAY_B <img:../sprites/Cloud/azure_application_gateway_mono.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAY_C <img:../sprites/Cloud/azure_application_gateway.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPLICATIONGATEWAY_G <img:MS_SPRITESPATH/Cloud/azure_application_gateway_gray.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAY_B <img:MS_SPRITESPATH/Cloud/azure_application_gateway_mono.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAY_C <img:MS_SPRITESPATH/Cloud/azure_application_gateway.png>
 @enduml

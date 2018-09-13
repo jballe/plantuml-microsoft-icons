@@ -50,7 +50,12 @@ sprite $7green [48x48/16] {
 00000000000000000008599EEE9580000000000000000000
 }
 
-!define MSIMG_7GREEN_G <img:../sprites/GeneralSymbols/7green_gray.png>
-!define MSIMG_7GREEN_B <img:../sprites/GeneralSymbols/7green_mono.png>
-!define MSIMG_7GREEN_C <img:../sprites/GeneralSymbols/7green.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_7GREEN_G <img:MS_SPRITESPATH/GeneralSymbols/7green_gray.png>
+!define MSIMG_7GREEN_B <img:MS_SPRITESPATH/GeneralSymbols/7green_mono.png>
+!define MSIMG_7GREEN_C <img:MS_SPRITESPATH/GeneralSymbols/7green.png>
 @enduml

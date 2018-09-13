@@ -50,7 +50,12 @@ sprite $endprotection [48x48/16] {
 000000000000000000000009900000000000000000000000
 }
 
-!define MSIMG_ENDPROTECTION_G <img:../sprites/Intune/end_protection_gray.png>
-!define MSIMG_ENDPROTECTION_B <img:../sprites/Intune/end_protection_mono.png>
-!define MSIMG_ENDPROTECTION_C <img:../sprites/Intune/end_protection.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ENDPROTECTION_G <img:MS_SPRITESPATH/Intune/end_protection_gray.png>
+!define MSIMG_ENDPROTECTION_B <img:MS_SPRITESPATH/Intune/end_protection_mono.png>
+!define MSIMG_ENDPROTECTION_C <img:MS_SPRITESPATH/Intune/end_protection.png>
 @enduml

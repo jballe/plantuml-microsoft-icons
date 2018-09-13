@@ -50,7 +50,12 @@ sprite $crossoutfailure [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CROSSOUTFAILURE_G <img:../sprites/GeneralSymbols/crossout_failure_gray.png>
-!define MSIMG_CROSSOUTFAILURE_B <img:../sprites/GeneralSymbols/crossout_failure_mono.png>
-!define MSIMG_CROSSOUTFAILURE_C <img:../sprites/GeneralSymbols/crossout_failure.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CROSSOUTFAILURE_G <img:MS_SPRITESPATH/GeneralSymbols/crossout_failure_gray.png>
+!define MSIMG_CROSSOUTFAILURE_B <img:MS_SPRITESPATH/GeneralSymbols/crossout_failure_mono.png>
+!define MSIMG_CROSSOUTFAILURE_C <img:MS_SPRITESPATH/GeneralSymbols/crossout_failure.png>
 @enduml

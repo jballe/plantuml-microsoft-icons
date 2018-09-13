@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_FILTER_G <img:../sprites/Enterprise/filter_gray.png>
-!define MSIMG_FILTER_B <img:../sprites/Enterprise/filter_mono.png>
-!define MSIMG_FILTER_C <img:../sprites/Enterprise/filter.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_FILTER_G <img:MS_SPRITESPATH/Enterprise/filter_gray.png>
+!define MSIMG_FILTER_B <img:MS_SPRITESPATH/Enterprise/filter_mono.png>
+!define MSIMG_FILTER_C <img:MS_SPRITESPATH/Enterprise/filter.png>
 @enduml

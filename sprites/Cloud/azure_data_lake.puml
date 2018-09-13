@@ -50,7 +50,12 @@ sprite $azuredatalake [48x48/16] {
 000000000000000009300000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATALAKE_G <img:../sprites/Cloud/azure_data_lake_gray.png>
-!define MSIMG_AZUREDATALAKE_B <img:../sprites/Cloud/azure_data_lake_mono.png>
-!define MSIMG_AZUREDATALAKE_C <img:../sprites/Cloud/azure_data_lake.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATALAKE_G <img:MS_SPRITESPATH/Cloud/azure_data_lake_gray.png>
+!define MSIMG_AZUREDATALAKE_B <img:MS_SPRITESPATH/Cloud/azure_data_lake_mono.png>
+!define MSIMG_AZUREDATALAKE_C <img:MS_SPRITESPATH/Cloud/azure_data_lake.png>
 @enduml

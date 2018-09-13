@@ -50,7 +50,12 @@ EEEEEEEEE000039EEEEEEEEEEEEEEEEEEEEEEEE000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LIKE_G <img:../sprites/GeneralSymbols/like_gray.png>
-!define MSIMG_LIKE_B <img:../sprites/GeneralSymbols/like_mono.png>
-!define MSIMG_LIKE_C <img:../sprites/GeneralSymbols/like.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LIKE_G <img:MS_SPRITESPATH/GeneralSymbols/like_gray.png>
+!define MSIMG_LIKE_B <img:MS_SPRITESPATH/GeneralSymbols/like_mono.png>
+!define MSIMG_LIKE_C <img:MS_SPRITESPATH/GeneralSymbols/like.png>
 @enduml

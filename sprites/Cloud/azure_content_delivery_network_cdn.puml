@@ -50,7 +50,12 @@ EEEEEEEEEEE305EEEEEEEEEEEEEEEEEEEEEEEEEEEEE30000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_G <img:../sprites/Cloud/azure_content_delivery_network_cdn_gray.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_B <img:../sprites/Cloud/azure_content_delivery_network_cdn_mono.png>
-!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_C <img:../sprites/Cloud/azure_content_delivery_network_cdn.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_G <img:MS_SPRITESPATH/Cloud/azure_content_delivery_network_cdn_gray.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_B <img:MS_SPRITESPATH/Cloud/azure_content_delivery_network_cdn_mono.png>
+!define MSIMG_AZURECONTENTDELIVERYNETWORKCDN_C <img:MS_SPRITESPATH/Cloud/azure_content_delivery_network_cdn.png>
 @enduml

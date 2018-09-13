@@ -50,7 +50,12 @@ sprite $azuremultifactorauthentication [48x48/16] {
 0000000000000000008EE853000000000000000000000000
 }
 
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_G <img:../sprites/Cloud/azure_multi_factor_authentication_gray.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_B <img:../sprites/Cloud/azure_multi_factor_authentication_mono.png>
-!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_C <img:../sprites/Cloud/azure_multi_factor_authentication.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_G <img:MS_SPRITESPATH/Cloud/azure_multi_factor_authentication_gray.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_B <img:MS_SPRITESPATH/Cloud/azure_multi_factor_authentication_mono.png>
+!define MSIMG_AZUREMULTIFACTORAUTHENTICATION_C <img:MS_SPRITESPATH/Cloud/azure_multi_factor_authentication.png>
 @enduml

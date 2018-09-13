@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE8500000
 000000000000000000000000035800000000000000000000
 }
 
-!define MSIMG_ACCESS_G <img:../sprites/OtherMicrosoftProd/access_gray.png>
-!define MSIMG_ACCESS_B <img:../sprites/OtherMicrosoftProd/access_mono.png>
-!define MSIMG_ACCESS_C <img:../sprites/OtherMicrosoftProd/access.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ACCESS_G <img:MS_SPRITESPATH/OtherMicrosoftProd/access_gray.png>
+!define MSIMG_ACCESS_B <img:MS_SPRITESPATH/OtherMicrosoftProd/access_mono.png>
+!define MSIMG_ACCESS_C <img:MS_SPRITESPATH/OtherMicrosoftProd/access.png>
 @enduml

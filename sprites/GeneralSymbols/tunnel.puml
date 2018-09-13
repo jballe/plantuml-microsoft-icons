@@ -50,7 +50,12 @@ EEEEEE909EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TUNNEL_G <img:../sprites/GeneralSymbols/tunnel_gray.png>
-!define MSIMG_TUNNEL_B <img:../sprites/GeneralSymbols/tunnel_mono.png>
-!define MSIMG_TUNNEL_C <img:../sprites/GeneralSymbols/tunnel.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TUNNEL_G <img:MS_SPRITESPATH/GeneralSymbols/tunnel_gray.png>
+!define MSIMG_TUNNEL_B <img:MS_SPRITESPATH/GeneralSymbols/tunnel_mono.png>
+!define MSIMG_TUNNEL_C <img:MS_SPRITESPATH/GeneralSymbols/tunnel.png>
 @enduml

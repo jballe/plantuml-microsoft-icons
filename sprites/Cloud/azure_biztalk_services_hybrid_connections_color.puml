@@ -50,7 +50,12 @@ sprite $azurebiztalkserviceshybridconnectionscolor [48x48/16] {
 000000000000000000008588858000000000000000000000
 }
 
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_G <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color_gray.png>
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_B <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color_mono.png>
-!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_C <img:../sprites/Cloud/azure_biztalk_services_hybrid_connections_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_biztalk_services_hybrid_connections_color_gray.png>
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_biztalk_services_hybrid_connections_color_mono.png>
+!define MSIMG_AZUREBIZTALKSERVICESHYBRIDCONNECTIONSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_biztalk_services_hybrid_connections_color.png>
 @enduml

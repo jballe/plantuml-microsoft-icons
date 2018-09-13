@@ -50,7 +50,12 @@ sprite $azurevmscaleset [48x48/16] {
 000000000000000000EEEEEEEEEEEEEEEEEEEEEEE8000000
 }
 
-!define MSIMG_AZUREVMSCALESET_G <img:../sprites/Cloud/azure_vm_scale_set_gray.png>
-!define MSIMG_AZUREVMSCALESET_B <img:../sprites/Cloud/azure_vm_scale_set_mono.png>
-!define MSIMG_AZUREVMSCALESET_C <img:../sprites/Cloud/azure_vm_scale_set.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVMSCALESET_G <img:MS_SPRITESPATH/Cloud/azure_vm_scale_set_gray.png>
+!define MSIMG_AZUREVMSCALESET_B <img:MS_SPRITESPATH/Cloud/azure_vm_scale_set_mono.png>
+!define MSIMG_AZUREVMSCALESET_C <img:MS_SPRITESPATH/Cloud/azure_vm_scale_set.png>
 @enduml

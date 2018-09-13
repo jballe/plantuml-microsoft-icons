@@ -50,7 +50,12 @@ EEEEEEEEEEEEE50EEEEEEEEEEEEEEEEE905EEEEEEEEEEEEE
 000000000000000399999999999999990000000000000000
 }
 
-!define MSIMG_EXCHANGECONNECTOR_G <img:../sprites/Intune/exchange_connector_gray.png>
-!define MSIMG_EXCHANGECONNECTOR_B <img:../sprites/Intune/exchange_connector_mono.png>
-!define MSIMG_EXCHANGECONNECTOR_C <img:../sprites/Intune/exchange_connector.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_EXCHANGECONNECTOR_G <img:MS_SPRITESPATH/Intune/exchange_connector_gray.png>
+!define MSIMG_EXCHANGECONNECTOR_B <img:MS_SPRITESPATH/Intune/exchange_connector_mono.png>
+!define MSIMG_EXCHANGECONNECTOR_C <img:MS_SPRITESPATH/Intune/exchange_connector.png>
 @enduml

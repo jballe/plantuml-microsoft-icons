@@ -50,7 +50,12 @@ sprite $adfs [48x48/16] {
 00000EEEEEE3005999999999999999999999999999500000
 }
 
-!define MSIMG_ADFS_G <img:../sprites/Enterprise/ad_fs_gray.png>
-!define MSIMG_ADFS_B <img:../sprites/Enterprise/ad_fs_mono.png>
-!define MSIMG_ADFS_C <img:../sprites/Enterprise/ad_fs.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ADFS_G <img:MS_SPRITESPATH/Enterprise/ad_fs_gray.png>
+!define MSIMG_ADFS_B <img:MS_SPRITESPATH/Enterprise/ad_fs_mono.png>
+!define MSIMG_ADFS_C <img:MS_SPRITESPATH/Enterprise/ad_fs.png>
 @enduml

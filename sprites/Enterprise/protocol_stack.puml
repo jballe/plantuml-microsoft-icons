@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_PROTOCOLSTACK_G <img:../sprites/Enterprise/protocol_stack_gray.png>
-!define MSIMG_PROTOCOLSTACK_B <img:../sprites/Enterprise/protocol_stack_mono.png>
-!define MSIMG_PROTOCOLSTACK_C <img:../sprites/Enterprise/protocol_stack.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_PROTOCOLSTACK_G <img:MS_SPRITESPATH/Enterprise/protocol_stack_gray.png>
+!define MSIMG_PROTOCOLSTACK_B <img:MS_SPRITESPATH/Enterprise/protocol_stack_mono.png>
+!define MSIMG_PROTOCOLSTACK_C <img:MS_SPRITESPATH/Enterprise/protocol_stack.png>
 @enduml

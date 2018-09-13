@@ -50,7 +50,12 @@ EEEE0000EEEEEEEEEEE0000000000EEEEEEEEEEE0000EEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_PERFORMANCE_G <img:../sprites/Enterprise/performance_gray.png>
-!define MSIMG_PERFORMANCE_B <img:../sprites/Enterprise/performance_mono.png>
-!define MSIMG_PERFORMANCE_C <img:../sprites/Enterprise/performance.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_PERFORMANCE_G <img:MS_SPRITESPATH/Enterprise/performance_gray.png>
+!define MSIMG_PERFORMANCE_B <img:MS_SPRITESPATH/Enterprise/performance_mono.png>
+!define MSIMG_PERFORMANCE_C <img:MS_SPRITESPATH/Enterprise/performance.png>
 @enduml

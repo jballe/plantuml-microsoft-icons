@@ -50,7 +50,12 @@ sprite $tasks [48x48/16] {
 00000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50000000
 }
 
-!define MSIMG_TASKS_G <img:../sprites/GeneralSymbols/tasks_gray.png>
-!define MSIMG_TASKS_B <img:../sprites/GeneralSymbols/tasks_mono.png>
-!define MSIMG_TASKS_C <img:../sprites/GeneralSymbols/tasks.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TASKS_G <img:MS_SPRITESPATH/GeneralSymbols/tasks_gray.png>
+!define MSIMG_TASKS_B <img:MS_SPRITESPATH/GeneralSymbols/tasks_mono.png>
+!define MSIMG_TASKS_C <img:MS_SPRITESPATH/GeneralSymbols/tasks.png>
 @enduml

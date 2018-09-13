@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 0000000000000000000589EEEEEEEEEEEEEEEEEEEEEEEEEE
 }
 
-!define MSIMG_POINTERCIRCLE_G <img:../sprites/GeneralSymbols/pointer_circle_gray.png>
-!define MSIMG_POINTERCIRCLE_B <img:../sprites/GeneralSymbols/pointer_circle_mono.png>
-!define MSIMG_POINTERCIRCLE_C <img:../sprites/GeneralSymbols/pointer_circle.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_POINTERCIRCLE_G <img:MS_SPRITESPATH/GeneralSymbols/pointer_circle_gray.png>
+!define MSIMG_POINTERCIRCLE_B <img:MS_SPRITESPATH/GeneralSymbols/pointer_circle_mono.png>
+!define MSIMG_POINTERCIRCLE_C <img:MS_SPRITESPATH/GeneralSymbols/pointer_circle.png>
 @enduml

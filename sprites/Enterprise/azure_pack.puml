@@ -50,7 +50,12 @@ E9000000000000000008E000000E8000000000000000008E
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREPACK_G <img:../sprites/Enterprise/azure_pack_gray.png>
-!define MSIMG_AZUREPACK_B <img:../sprites/Enterprise/azure_pack_mono.png>
-!define MSIMG_AZUREPACK_C <img:../sprites/Enterprise/azure_pack.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREPACK_G <img:MS_SPRITESPATH/Enterprise/azure_pack_gray.png>
+!define MSIMG_AZUREPACK_B <img:MS_SPRITESPATH/Enterprise/azure_pack_mono.png>
+!define MSIMG_AZUREPACK_C <img:MS_SPRITESPATH/Enterprise/azure_pack.png>
 @enduml

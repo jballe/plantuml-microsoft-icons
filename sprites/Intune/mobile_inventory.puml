@@ -50,7 +50,12 @@ sprite $mobileinventory [48x48/16] {
 000000000000000000005EEEEEEEEEEEEEEEEEEEEEE80000
 }
 
-!define MSIMG_MOBILEINVENTORY_G <img:../sprites/Intune/mobile_inventory_gray.png>
-!define MSIMG_MOBILEINVENTORY_B <img:../sprites/Intune/mobile_inventory_mono.png>
-!define MSIMG_MOBILEINVENTORY_C <img:../sprites/Intune/mobile_inventory.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MOBILEINVENTORY_G <img:MS_SPRITESPATH/Intune/mobile_inventory_gray.png>
+!define MSIMG_MOBILEINVENTORY_B <img:MS_SPRITESPATH/Intune/mobile_inventory_mono.png>
+!define MSIMG_MOBILEINVENTORY_C <img:MS_SPRITESPATH/Intune/mobile_inventory.png>
 @enduml

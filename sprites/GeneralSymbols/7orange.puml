@@ -50,7 +50,12 @@ sprite $7orange [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_7ORANGE_G <img:../sprites/GeneralSymbols/7orange_gray.png>
-!define MSIMG_7ORANGE_B <img:../sprites/GeneralSymbols/7orange_mono.png>
-!define MSIMG_7ORANGE_C <img:../sprites/GeneralSymbols/7orange.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_7ORANGE_G <img:MS_SPRITESPATH/GeneralSymbols/7orange_gray.png>
+!define MSIMG_7ORANGE_B <img:MS_SPRITESPATH/GeneralSymbols/7orange_mono.png>
+!define MSIMG_7ORANGE_C <img:MS_SPRITESPATH/GeneralSymbols/7orange.png>
 @enduml

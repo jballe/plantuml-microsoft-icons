@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE8
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SERVICEENDPOINT_G <img:../sprites/Cloud/service_endpoint_gray.png>
-!define MSIMG_SERVICEENDPOINT_B <img:../sprites/Cloud/service_endpoint_mono.png>
-!define MSIMG_SERVICEENDPOINT_C <img:../sprites/Cloud/service_endpoint.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVICEENDPOINT_G <img:MS_SPRITESPATH/Cloud/service_endpoint_gray.png>
+!define MSIMG_SERVICEENDPOINT_B <img:MS_SPRITESPATH/Cloud/service_endpoint_mono.png>
+!define MSIMG_SERVICEENDPOINT_C <img:MS_SPRITESPATH/Cloud/service_endpoint.png>
 @enduml

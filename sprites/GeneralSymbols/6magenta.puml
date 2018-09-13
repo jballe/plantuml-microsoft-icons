@@ -50,7 +50,12 @@ sprite $6magenta [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_6MAGENTA_G <img:../sprites/GeneralSymbols/6magenta_gray.png>
-!define MSIMG_6MAGENTA_B <img:../sprites/GeneralSymbols/6magenta_mono.png>
-!define MSIMG_6MAGENTA_C <img:../sprites/GeneralSymbols/6magenta.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_6MAGENTA_G <img:MS_SPRITESPATH/GeneralSymbols/6magenta_gray.png>
+!define MSIMG_6MAGENTA_B <img:MS_SPRITESPATH/GeneralSymbols/6magenta_mono.png>
+!define MSIMG_6MAGENTA_C <img:MS_SPRITESPATH/GeneralSymbols/6magenta.png>
 @enduml

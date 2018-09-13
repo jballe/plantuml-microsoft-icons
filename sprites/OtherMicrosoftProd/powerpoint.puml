@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_POWERPOINT_G <img:../sprites/OtherMicrosoftProd/powerpoint_gray.png>
-!define MSIMG_POWERPOINT_B <img:../sprites/OtherMicrosoftProd/powerpoint_mono.png>
-!define MSIMG_POWERPOINT_C <img:../sprites/OtherMicrosoftProd/powerpoint.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_POWERPOINT_G <img:MS_SPRITESPATH/OtherMicrosoftProd/powerpoint_gray.png>
+!define MSIMG_POWERPOINT_B <img:MS_SPRITESPATH/OtherMicrosoftProd/powerpoint_mono.png>
+!define MSIMG_POWERPOINT_C <img:MS_SPRITESPATH/OtherMicrosoftProd/powerpoint.png>
 @enduml

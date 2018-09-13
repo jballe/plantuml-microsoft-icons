@@ -50,7 +50,12 @@ sprite $devicehistory [48x48/16] {
 0000000000000000000000003EEEEEEEEEEEEEEEEEE50000
 }
 
-!define MSIMG_DEVICEHISTORY_G <img:../sprites/Intune/device_history_gray.png>
-!define MSIMG_DEVICEHISTORY_B <img:../sprites/Intune/device_history_mono.png>
-!define MSIMG_DEVICEHISTORY_C <img:../sprites/Intune/device_history.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DEVICEHISTORY_G <img:MS_SPRITESPATH/Intune/device_history_gray.png>
+!define MSIMG_DEVICEHISTORY_B <img:MS_SPRITESPATH/Intune/device_history_mono.png>
+!define MSIMG_DEVICEHISTORY_C <img:MS_SPRITESPATH/Intune/device_history.png>
 @enduml

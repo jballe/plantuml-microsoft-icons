@@ -50,7 +50,12 @@ sprite $azuresqldatasync [48x48/16] {
 00000000000000008589EEEEEEEE98580000000000000000
 }
 
-!define MSIMG_AZURESQLDATASYNC_G <img:../sprites/Cloud/azure_sql_datasync_gray.png>
-!define MSIMG_AZURESQLDATASYNC_B <img:../sprites/Cloud/azure_sql_datasync_mono.png>
-!define MSIMG_AZURESQLDATASYNC_C <img:../sprites/Cloud/azure_sql_datasync.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESQLDATASYNC_G <img:MS_SPRITESPATH/Cloud/azure_sql_datasync_gray.png>
+!define MSIMG_AZURESQLDATASYNC_B <img:MS_SPRITESPATH/Cloud/azure_sql_datasync_mono.png>
+!define MSIMG_AZURESQLDATASYNC_C <img:MS_SPRITESPATH/Cloud/azure_sql_datasync.png>
 @enduml

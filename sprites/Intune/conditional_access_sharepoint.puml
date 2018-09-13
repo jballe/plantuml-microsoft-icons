@@ -50,7 +50,12 @@ sprite $conditionalaccesssharepoint [48x48/16] {
 000000000000000000000000000000008585000000000000
 }
 
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_G <img:../sprites/Intune/conditional_access_sharepoint_gray.png>
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_B <img:../sprites/Intune/conditional_access_sharepoint_mono.png>
-!define MSIMG_CONDITIONALACCESSSHAREPOINT_C <img:../sprites/Intune/conditional_access_sharepoint.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_G <img:MS_SPRITESPATH/Intune/conditional_access_sharepoint_gray.png>
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_B <img:MS_SPRITESPATH/Intune/conditional_access_sharepoint_mono.png>
+!define MSIMG_CONDITIONALACCESSSHAREPOINT_C <img:MS_SPRITESPATH/Intune/conditional_access_sharepoint.png>
 @enduml

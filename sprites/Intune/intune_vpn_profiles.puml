@@ -50,7 +50,12 @@ sprite $intunevpnprofiles [48x48/16] {
 00000000000000000000000005EEEEEEEEEEEEEEEEE50000
 }
 
-!define MSIMG_INTUNEVPNPROFILES_G <img:../sprites/Intune/intune_vpn_profiles_gray.png>
-!define MSIMG_INTUNEVPNPROFILES_B <img:../sprites/Intune/intune_vpn_profiles_mono.png>
-!define MSIMG_INTUNEVPNPROFILES_C <img:../sprites/Intune/intune_vpn_profiles.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTUNEVPNPROFILES_G <img:MS_SPRITESPATH/Intune/intune_vpn_profiles_gray.png>
+!define MSIMG_INTUNEVPNPROFILES_B <img:MS_SPRITESPATH/Intune/intune_vpn_profiles_mono.png>
+!define MSIMG_INTUNEVPNPROFILES_C <img:MS_SPRITESPATH/Intune/intune_vpn_profiles.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_G <img:../sprites/Cloud/azure_data_warehouse_color_gray.png>
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_B <img:../sprites/Cloud/azure_data_warehouse_color_mono.png>
-!define MSIMG_AZUREDATAWAREHOUSECOLOR_C <img:../sprites/Cloud/azure_data_warehouse_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_G <img:MS_SPRITESPATH/Cloud/azure_data_warehouse_color_gray.png>
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_B <img:MS_SPRITESPATH/Cloud/azure_data_warehouse_color_mono.png>
+!define MSIMG_AZUREDATAWAREHOUSECOLOR_C <img:MS_SPRITESPATH/Cloud/azure_data_warehouse_color.png>
 @enduml

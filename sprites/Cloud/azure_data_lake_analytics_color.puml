@@ -50,7 +50,12 @@ EEEE88500000000000000550000000000000000005850000
 000000000000000000000000000000059E98000000000000
 }
 
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_G <img:../sprites/Cloud/azure_data_lake_analytics_color_gray.png>
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_B <img:../sprites/Cloud/azure_data_lake_analytics_color_mono.png>
-!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_C <img:../sprites/Cloud/azure_data_lake_analytics_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics_color_gray.png>
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics_color_mono.png>
+!define MSIMG_AZUREDATALAKEANALYTICSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics_color.png>
 @enduml

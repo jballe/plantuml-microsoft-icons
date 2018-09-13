@@ -50,7 +50,12 @@ sprite $azuresqldatabasepremium [48x48/16] {
 000000000000000003589EEEEEE985800000000000000000
 }
 
-!define MSIMG_AZURESQLDATABASEPREMIUM_G <img:../sprites/Cloud/azure_sql_database_premium_gray.png>
-!define MSIMG_AZURESQLDATABASEPREMIUM_B <img:../sprites/Cloud/azure_sql_database_premium_mono.png>
-!define MSIMG_AZURESQLDATABASEPREMIUM_C <img:../sprites/Cloud/azure_sql_database_premium.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESQLDATABASEPREMIUM_G <img:MS_SPRITESPATH/Cloud/azure_sql_database_premium_gray.png>
+!define MSIMG_AZURESQLDATABASEPREMIUM_B <img:MS_SPRITESPATH/Cloud/azure_sql_database_premium_mono.png>
+!define MSIMG_AZURESQLDATABASEPREMIUM_C <img:MS_SPRITESPATH/Cloud/azure_sql_database_premium.png>
 @enduml

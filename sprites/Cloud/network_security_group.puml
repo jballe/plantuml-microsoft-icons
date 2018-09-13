@@ -50,7 +50,12 @@ sprite $networksecuritygroup [48x48/16] {
 000000000000000000000008800000000000000000000000
 }
 
-!define MSIMG_NETWORKSECURITYGROUP_G <img:../sprites/Cloud/network_security_group_gray.png>
-!define MSIMG_NETWORKSECURITYGROUP_B <img:../sprites/Cloud/network_security_group_mono.png>
-!define MSIMG_NETWORKSECURITYGROUP_C <img:../sprites/Cloud/network_security_group.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_NETWORKSECURITYGROUP_G <img:MS_SPRITESPATH/Cloud/network_security_group_gray.png>
+!define MSIMG_NETWORKSECURITYGROUP_B <img:MS_SPRITESPATH/Cloud/network_security_group_mono.png>
+!define MSIMG_NETWORKSECURITYGROUP_C <img:MS_SPRITESPATH/Cloud/network_security_group.png>
 @enduml

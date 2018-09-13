@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DASHBOARD_G <img:../sprites/Intune/dashboard_gray.png>
-!define MSIMG_DASHBOARD_B <img:../sprites/Intune/dashboard_mono.png>
-!define MSIMG_DASHBOARD_C <img:../sprites/Intune/dashboard.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DASHBOARD_G <img:MS_SPRITESPATH/Intune/dashboard_gray.png>
+!define MSIMG_DASHBOARD_B <img:MS_SPRITESPATH/Intune/dashboard_mono.png>
+!define MSIMG_DASHBOARD_C <img:MS_SPRITESPATH/Intune/dashboard.png>
 @enduml

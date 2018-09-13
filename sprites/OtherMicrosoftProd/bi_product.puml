@@ -50,7 +50,12 @@ sprite $biproduct [48x48/16] {
 00000000000000000000000000008E980000000000000000
 }
 
-!define MSIMG_BIPRODUCT_G <img:../sprites/OtherMicrosoftProd/bi_product_gray.png>
-!define MSIMG_BIPRODUCT_B <img:../sprites/OtherMicrosoftProd/bi_product_mono.png>
-!define MSIMG_BIPRODUCT_C <img:../sprites/OtherMicrosoftProd/bi_product.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_BIPRODUCT_G <img:MS_SPRITESPATH/OtherMicrosoftProd/bi_product_gray.png>
+!define MSIMG_BIPRODUCT_B <img:MS_SPRITESPATH/OtherMicrosoftProd/bi_product_mono.png>
+!define MSIMG_BIPRODUCT_C <img:MS_SPRITESPATH/OtherMicrosoftProd/bi_product.png>
 @enduml

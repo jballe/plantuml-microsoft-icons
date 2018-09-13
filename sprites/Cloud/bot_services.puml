@@ -50,7 +50,12 @@ EEEEEEEEEE000EEEE00009EEEEE00009EEE000EEEEEEEEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_BOTSERVICES_G <img:../sprites/Cloud/bot_services_gray.png>
-!define MSIMG_BOTSERVICES_B <img:../sprites/Cloud/bot_services_mono.png>
-!define MSIMG_BOTSERVICES_C <img:../sprites/Cloud/bot_services.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_BOTSERVICES_G <img:MS_SPRITESPATH/Cloud/bot_services_gray.png>
+!define MSIMG_BOTSERVICES_B <img:MS_SPRITESPATH/Cloud/bot_services_mono.png>
+!define MSIMG_BOTSERVICES_C <img:MS_SPRITESPATH/Cloud/bot_services.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $azurecacheincludingrediscolor [48x48/16] {
 000000000000355558553338000008589EE9998530000000
 }
 
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_G <img:../sprites/Cloud/azure_cache_including_redis_color_gray.png>
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_B <img:../sprites/Cloud/azure_cache_including_redis_color_mono.png>
-!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_C <img:../sprites/Cloud/azure_cache_including_redis_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_cache_including_redis_color_gray.png>
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_cache_including_redis_color_mono.png>
+!define MSIMG_AZURECACHEINCLUDINGREDISCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_cache_including_redis_color.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $importgeneric [48x48/16] {
 000000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000000
 }
 
-!define MSIMG_IMPORTGENERIC_G <img:../sprites/Enterprise/import_generic_gray.png>
-!define MSIMG_IMPORTGENERIC_B <img:../sprites/Enterprise/import_generic_mono.png>
-!define MSIMG_IMPORTGENERIC_C <img:../sprites/Enterprise/import_generic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_IMPORTGENERIC_G <img:MS_SPRITESPATH/Enterprise/import_generic_gray.png>
+!define MSIMG_IMPORTGENERIC_B <img:MS_SPRITESPATH/Enterprise/import_generic_mono.png>
+!define MSIMG_IMPORTGENERIC_C <img:MS_SPRITESPATH/Enterprise/import_generic.png>
 @enduml

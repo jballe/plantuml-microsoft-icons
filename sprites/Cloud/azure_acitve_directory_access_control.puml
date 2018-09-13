@@ -50,7 +50,12 @@ sprite $azureacitvedirectoryaccesscontrol [48x48/16] {
 000000000000000000000008300000000000000000000000
 }
 
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_G <img:../sprites/Cloud/azure_acitve_directory_access_control_gray.png>
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_B <img:../sprites/Cloud/azure_acitve_directory_access_control_mono.png>
-!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_C <img:../sprites/Cloud/azure_acitve_directory_access_control.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_G <img:MS_SPRITESPATH/Cloud/azure_acitve_directory_access_control_gray.png>
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_B <img:MS_SPRITESPATH/Cloud/azure_acitve_directory_access_control_mono.png>
+!define MSIMG_AZUREACITVEDIRECTORYACCESSCONTROL_C <img:MS_SPRITESPATH/Cloud/azure_acitve_directory_access_control.png>
 @enduml

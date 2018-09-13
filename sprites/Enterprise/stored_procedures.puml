@@ -50,7 +50,12 @@ sprite $storedprocedures [48x48/16] {
 0000000000039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80000
 }
 
-!define MSIMG_STOREDPROCEDURES_G <img:../sprites/Enterprise/stored_procedures_gray.png>
-!define MSIMG_STOREDPROCEDURES_B <img:../sprites/Enterprise/stored_procedures_mono.png>
-!define MSIMG_STOREDPROCEDURES_C <img:../sprites/Enterprise/stored_procedures.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_STOREDPROCEDURES_G <img:MS_SPRITESPATH/Enterprise/stored_procedures_gray.png>
+!define MSIMG_STOREDPROCEDURES_B <img:MS_SPRITESPATH/Enterprise/stored_procedures_mono.png>
+!define MSIMG_STOREDPROCEDURES_C <img:MS_SPRITESPATH/Enterprise/stored_procedures.png>
 @enduml

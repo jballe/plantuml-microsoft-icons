@@ -50,7 +50,12 @@ sprite $maintenance [48x48/16] {
 000000009EEEEE9000000000000005EE8000000000000000
 }
 
-!define MSIMG_MAINTENANCE_G <img:../sprites/Enterprise/maintenance_gray.png>
-!define MSIMG_MAINTENANCE_B <img:../sprites/Enterprise/maintenance_mono.png>
-!define MSIMG_MAINTENANCE_C <img:../sprites/Enterprise/maintenance.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MAINTENANCE_G <img:MS_SPRITESPATH/Enterprise/maintenance_gray.png>
+!define MSIMG_MAINTENANCE_B <img:MS_SPRITESPATH/Enterprise/maintenance_mono.png>
+!define MSIMG_MAINTENANCE_C <img:MS_SPRITESPATH/Enterprise/maintenance.png>
 @enduml

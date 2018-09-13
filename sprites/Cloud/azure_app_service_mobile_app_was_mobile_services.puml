@@ -50,7 +50,12 @@ sprite $azureappservicemobileappwasmobileservices [48x48/16] {
 00000000008EEEEEEEEEEEEEEEEEEEEEEEEEE80000000000
 }
 
-!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_G <img:../sprites/Cloud/azure_app_service_mobile_app_was_mobile_services_gray.png>
-!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_B <img:../sprites/Cloud/azure_app_service_mobile_app_was_mobile_services_mono.png>
-!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_C <img:../sprites/Cloud/azure_app_service_mobile_app_was_mobile_services.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_G <img:MS_SPRITESPATH/Cloud/azure_app_service_mobile_app_was_mobile_services_gray.png>
+!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_B <img:MS_SPRITESPATH/Cloud/azure_app_service_mobile_app_was_mobile_services_mono.png>
+!define MSIMG_AZUREAPPSERVICEMOBILEAPPWASMOBILESERVICES_C <img:MS_SPRITESPATH/Cloud/azure_app_service_mobile_app_was_mobile_services.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEE500000050000039EEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESEARCH_G <img:../sprites/Cloud/azure_search_gray.png>
-!define MSIMG_AZURESEARCH_B <img:../sprites/Cloud/azure_search_mono.png>
-!define MSIMG_AZURESEARCH_C <img:../sprites/Cloud/azure_search.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESEARCH_G <img:MS_SPRITESPATH/Cloud/azure_search_gray.png>
+!define MSIMG_AZURESEARCH_B <img:MS_SPRITESPATH/Cloud/azure_search_mono.png>
+!define MSIMG_AZURESEARCH_C <img:MS_SPRITESPATH/Cloud/azure_search.png>
 @enduml

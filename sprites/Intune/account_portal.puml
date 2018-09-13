@@ -50,7 +50,12 @@ sprite $accountportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_ACCOUNTPORTAL_G <img:../sprites/Intune/account_portal_gray.png>
-!define MSIMG_ACCOUNTPORTAL_B <img:../sprites/Intune/account_portal_mono.png>
-!define MSIMG_ACCOUNTPORTAL_C <img:../sprites/Intune/account_portal.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ACCOUNTPORTAL_G <img:MS_SPRITESPATH/Intune/account_portal_gray.png>
+!define MSIMG_ACCOUNTPORTAL_B <img:MS_SPRITESPATH/Intune/account_portal_mono.png>
+!define MSIMG_ACCOUNTPORTAL_C <img:MS_SPRITESPATH/Intune/account_portal.png>
 @enduml

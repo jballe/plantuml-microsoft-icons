@@ -50,7 +50,12 @@ EEEEEEEEEEEE300000000000000000000000000000000000
 0000000000889EEE95800000000000000000000000000000
 }
 
-!define MSIMG_OMSLOGANALYTICS_G <img:../sprites/Cloud/oms_log_analytics_gray.png>
-!define MSIMG_OMSLOGANALYTICS_B <img:../sprites/Cloud/oms_log_analytics_mono.png>
-!define MSIMG_OMSLOGANALYTICS_C <img:../sprites/Cloud/oms_log_analytics.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSLOGANALYTICS_G <img:MS_SPRITESPATH/Cloud/oms_log_analytics_gray.png>
+!define MSIMG_OMSLOGANALYTICS_B <img:MS_SPRITESPATH/Cloud/oms_log_analytics_mono.png>
+!define MSIMG_OMSLOGANALYTICS_C <img:MS_SPRITESPATH/Cloud/oms_log_analytics.png>
 @enduml

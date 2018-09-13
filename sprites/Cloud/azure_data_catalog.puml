@@ -50,7 +50,12 @@ sprite $azuredatacatalog [48x48/16] {
 0000000000000000000000000000389EEEEE985000000000
 }
 
-!define MSIMG_AZUREDATACATALOG_G <img:../sprites/Cloud/azure_data_catalog_gray.png>
-!define MSIMG_AZUREDATACATALOG_B <img:../sprites/Cloud/azure_data_catalog_mono.png>
-!define MSIMG_AZUREDATACATALOG_C <img:../sprites/Cloud/azure_data_catalog.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATACATALOG_G <img:MS_SPRITESPATH/Cloud/azure_data_catalog_gray.png>
+!define MSIMG_AZUREDATACATALOG_B <img:MS_SPRITESPATH/Cloud/azure_data_catalog_mono.png>
+!define MSIMG_AZUREDATACATALOG_C <img:MS_SPRITESPATH/Cloud/azure_data_catalog.png>
 @enduml

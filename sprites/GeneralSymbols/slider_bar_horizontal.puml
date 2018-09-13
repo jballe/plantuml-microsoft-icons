@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE00
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SLIDERBARHORIZONTAL_G <img:../sprites/GeneralSymbols/slider_bar_horizontal_gray.png>
-!define MSIMG_SLIDERBARHORIZONTAL_B <img:../sprites/GeneralSymbols/slider_bar_horizontal_mono.png>
-!define MSIMG_SLIDERBARHORIZONTAL_C <img:../sprites/GeneralSymbols/slider_bar_horizontal.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SLIDERBARHORIZONTAL_G <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_horizontal_gray.png>
+!define MSIMG_SLIDERBARHORIZONTAL_B <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_horizontal_mono.png>
+!define MSIMG_SLIDERBARHORIZONTAL_C <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_horizontal.png>
 @enduml

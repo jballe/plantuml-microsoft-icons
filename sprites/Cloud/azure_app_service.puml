@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEE5005EEEEEEEEEEEEEEEEEEEEEE
 9EEEEEEEEEEEEEEEEEEEEE5005EEEEEEEEEEEEEEEEEEEEE9
 }
 
-!define MSIMG_AZUREAPPSERVICE_G <img:../sprites/Cloud/azure_app_service_gray.png>
-!define MSIMG_AZUREAPPSERVICE_B <img:../sprites/Cloud/azure_app_service_mono.png>
-!define MSIMG_AZUREAPPSERVICE_C <img:../sprites/Cloud/azure_app_service.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPSERVICE_G <img:MS_SPRITESPATH/Cloud/azure_app_service_gray.png>
+!define MSIMG_AZUREAPPSERVICE_B <img:MS_SPRITESPATH/Cloud/azure_app_service_mono.png>
+!define MSIMG_AZUREAPPSERVICE_C <img:MS_SPRITESPATH/Cloud/azure_app_service.png>
 @enduml

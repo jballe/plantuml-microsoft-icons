@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_KEYBOARD_G <img:../sprites/Enterprise/keyboard_gray.png>
-!define MSIMG_KEYBOARD_B <img:../sprites/Enterprise/keyboard_mono.png>
-!define MSIMG_KEYBOARD_C <img:../sprites/Enterprise/keyboard.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_KEYBOARD_G <img:MS_SPRITESPATH/Enterprise/keyboard_gray.png>
+!define MSIMG_KEYBOARD_B <img:MS_SPRITESPATH/Enterprise/keyboard_mono.png>
+!define MSIMG_KEYBOARD_C <img:MS_SPRITESPATH/Enterprise/keyboard.png>
 @enduml

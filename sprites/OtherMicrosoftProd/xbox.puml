@@ -50,7 +50,12 @@ sprite $xbox [48x48/16] {
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_XBOX_G <img:../sprites/OtherMicrosoftProd/xbox_gray.png>
-!define MSIMG_XBOX_B <img:../sprites/OtherMicrosoftProd/xbox_mono.png>
-!define MSIMG_XBOX_C <img:../sprites/OtherMicrosoftProd/xbox.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_XBOX_G <img:MS_SPRITESPATH/OtherMicrosoftProd/xbox_gray.png>
+!define MSIMG_XBOX_B <img:MS_SPRITESPATH/OtherMicrosoftProd/xbox_mono.png>
+!define MSIMG_XBOX_C <img:MS_SPRITESPATH/OtherMicrosoftProd/xbox.png>
 @enduml

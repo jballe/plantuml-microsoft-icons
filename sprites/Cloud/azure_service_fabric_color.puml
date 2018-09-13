@@ -50,7 +50,12 @@ sprite $azureservicefabriccolor [48x48/16] {
 000000000008333800000000000000008555500000000000
 }
 
-!define MSIMG_AZURESERVICEFABRICCOLOR_G <img:../sprites/Cloud/azure_service_fabric_color_gray.png>
-!define MSIMG_AZURESERVICEFABRICCOLOR_B <img:../sprites/Cloud/azure_service_fabric_color_mono.png>
-!define MSIMG_AZURESERVICEFABRICCOLOR_C <img:../sprites/Cloud/azure_service_fabric_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESERVICEFABRICCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_service_fabric_color_gray.png>
+!define MSIMG_AZURESERVICEFABRICCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_service_fabric_color_mono.png>
+!define MSIMG_AZURESERVICEFABRICCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_service_fabric_color.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEE0000000000000000000000000009EEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_G <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_B <img:../sprites/Cloud/visual_studio_team_services_codeplex_source_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_C <img:../sprites/Cloud/visual_studio_team_services_codeplex_source.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_G <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_codeplex_source_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_B <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_codeplex_source_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCODEPLEXSOURCE_C <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_codeplex_source.png>
 @enduml

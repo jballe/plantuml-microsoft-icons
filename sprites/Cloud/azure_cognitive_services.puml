@@ -50,7 +50,12 @@ EEEEE08EE9000008EEEE50005EEEEE30EEEEE508EEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECOGNITIVESERVICES_G <img:../sprites/Cloud/azure_cognitive_services_gray.png>
-!define MSIMG_AZURECOGNITIVESERVICES_B <img:../sprites/Cloud/azure_cognitive_services_mono.png>
-!define MSIMG_AZURECOGNITIVESERVICES_C <img:../sprites/Cloud/azure_cognitive_services.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECOGNITIVESERVICES_G <img:MS_SPRITESPATH/Cloud/azure_cognitive_services_gray.png>
+!define MSIMG_AZURECOGNITIVESERVICES_B <img:MS_SPRITESPATH/Cloud/azure_cognitive_services_mono.png>
+!define MSIMG_AZURECOGNITIVESERVICES_C <img:MS_SPRITESPATH/Cloud/azure_cognitive_services.png>
 @enduml

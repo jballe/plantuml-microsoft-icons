@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEE58EEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_BACKUPONLINE_G <img:../sprites/Enterprise/backup_online_gray.png>
-!define MSIMG_BACKUPONLINE_B <img:../sprites/Enterprise/backup_online_mono.png>
-!define MSIMG_BACKUPONLINE_C <img:../sprites/Enterprise/backup_online.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_BACKUPONLINE_G <img:MS_SPRITESPATH/Enterprise/backup_online_gray.png>
+!define MSIMG_BACKUPONLINE_B <img:MS_SPRITESPATH/Enterprise/backup_online_mono.png>
+!define MSIMG_BACKUPONLINE_C <img:MS_SPRITESPATH/Enterprise/backup_online.png>
 @enduml

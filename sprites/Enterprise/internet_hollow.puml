@@ -50,7 +50,12 @@ E0000000000000000000000000000000000000000000000E
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INTERNETHOLLOW_G <img:../sprites/Enterprise/internet_hollow_gray.png>
-!define MSIMG_INTERNETHOLLOW_B <img:../sprites/Enterprise/internet_hollow_mono.png>
-!define MSIMG_INTERNETHOLLOW_C <img:../sprites/Enterprise/internet_hollow.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTERNETHOLLOW_G <img:MS_SPRITESPATH/Enterprise/internet_hollow_gray.png>
+!define MSIMG_INTERNETHOLLOW_B <img:MS_SPRITESPATH/Enterprise/internet_hollow_mono.png>
+!define MSIMG_INTERNETHOLLOW_C <img:MS_SPRITESPATH/Enterprise/internet_hollow.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $webhook [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_WEBHOOK_G <img:../sprites/Deprecated/webhook_gray.png>
-!define MSIMG_WEBHOOK_B <img:../sprites/Deprecated/webhook_mono.png>
-!define MSIMG_WEBHOOK_C <img:../sprites/Deprecated/webhook.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WEBHOOK_G <img:MS_SPRITESPATH/Deprecated/webhook_gray.png>
+!define MSIMG_WEBHOOK_B <img:MS_SPRITESPATH/Deprecated/webhook_mono.png>
+!define MSIMG_WEBHOOK_C <img:MS_SPRITESPATH/Deprecated/webhook.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $azureappservicelogicapp [48x48/16] {
 000000005500000000003555555555555500000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICELOGICAPP_G <img:../sprites/Deprecated/azure_app_service_logic_app_gray.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPP_B <img:../sprites/Deprecated/azure_app_service_logic_app_mono.png>
-!define MSIMG_AZUREAPPSERVICELOGICAPP_C <img:../sprites/Deprecated/azure_app_service_logic_app.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPSERVICELOGICAPP_G <img:MS_SPRITESPATH/Deprecated/azure_app_service_logic_app_gray.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPP_B <img:MS_SPRITESPATH/Deprecated/azure_app_service_logic_app_mono.png>
+!define MSIMG_AZUREAPPSERVICELOGICAPP_C <img:MS_SPRITESPATH/Deprecated/azure_app_service_logic_app.png>
 @enduml

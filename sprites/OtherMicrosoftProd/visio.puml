@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE80000000000000000000
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_VISIO_G <img:../sprites/OtherMicrosoftProd/visio_gray.png>
-!define MSIMG_VISIO_B <img:../sprites/OtherMicrosoftProd/visio_mono.png>
-!define MSIMG_VISIO_C <img:../sprites/OtherMicrosoftProd/visio.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VISIO_G <img:MS_SPRITESPATH/OtherMicrosoftProd/visio_gray.png>
+!define MSIMG_VISIO_B <img:MS_SPRITESPATH/OtherMicrosoftProd/visio_mono.png>
+!define MSIMG_VISIO_C <img:MS_SPRITESPATH/OtherMicrosoftProd/visio.png>
 @enduml

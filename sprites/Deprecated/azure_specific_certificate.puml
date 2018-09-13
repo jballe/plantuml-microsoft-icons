@@ -50,7 +50,12 @@ EE30000000000000000005E5000EE80000000009E5000E90
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESPECIFICCERTIFICATE_G <img:../sprites/Deprecated/azure_specific_certificate_gray.png>
-!define MSIMG_AZURESPECIFICCERTIFICATE_B <img:../sprites/Deprecated/azure_specific_certificate_mono.png>
-!define MSIMG_AZURESPECIFICCERTIFICATE_C <img:../sprites/Deprecated/azure_specific_certificate.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESPECIFICCERTIFICATE_G <img:MS_SPRITESPATH/Deprecated/azure_specific_certificate_gray.png>
+!define MSIMG_AZURESPECIFICCERTIFICATE_B <img:MS_SPRITESPATH/Deprecated/azure_specific_certificate_mono.png>
+!define MSIMG_AZURESPECIFICCERTIFICATE_C <img:MS_SPRITESPATH/Deprecated/azure_specific_certificate.png>
 @enduml

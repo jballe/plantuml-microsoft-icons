@@ -50,7 +50,12 @@ sprite $azurestoragefiles [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGEFILES_G <img:../sprites/Cloud/azure_storage_files_gray.png>
-!define MSIMG_AZURESTORAGEFILES_B <img:../sprites/Cloud/azure_storage_files_mono.png>
-!define MSIMG_AZURESTORAGEFILES_C <img:../sprites/Cloud/azure_storage_files.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESTORAGEFILES_G <img:MS_SPRITESPATH/Cloud/azure_storage_files_gray.png>
+!define MSIMG_AZURESTORAGEFILES_B <img:MS_SPRITESPATH/Cloud/azure_storage_files_mono.png>
+!define MSIMG_AZURESTORAGEFILES_C <img:MS_SPRITESPATH/Cloud/azure_storage_files.png>
 @enduml

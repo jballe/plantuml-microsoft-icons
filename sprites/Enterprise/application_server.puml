@@ -50,7 +50,12 @@ sprite $applicationserver [48x48/16] {
 0000EEEEEEEEEEE003333333333333333333333800000000
 }
 
-!define MSIMG_APPLICATIONSERVER_G <img:../sprites/Enterprise/application_server_gray.png>
-!define MSIMG_APPLICATIONSERVER_B <img:../sprites/Enterprise/application_server_mono.png>
-!define MSIMG_APPLICATIONSERVER_C <img:../sprites/Enterprise/application_server.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_APPLICATIONSERVER_G <img:MS_SPRITESPATH/Enterprise/application_server_gray.png>
+!define MSIMG_APPLICATIONSERVER_B <img:MS_SPRITESPATH/Enterprise/application_server_mono.png>
+!define MSIMG_APPLICATIONSERVER_C <img:MS_SPRITESPATH/Enterprise/application_server.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $sqldatawarehouse [48x48/16] {
 0009E9000000000000359EEEEEE9850000000000009E9000
 }
 
-!define MSIMG_SQLDATAWAREHOUSE_G <img:../sprites/Deprecated/sql_data_warehouse_gray.png>
-!define MSIMG_SQLDATAWAREHOUSE_B <img:../sprites/Deprecated/sql_data_warehouse_mono.png>
-!define MSIMG_SQLDATAWAREHOUSE_C <img:../sprites/Deprecated/sql_data_warehouse.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SQLDATAWAREHOUSE_G <img:MS_SPRITESPATH/Deprecated/sql_data_warehouse_gray.png>
+!define MSIMG_SQLDATAWAREHOUSE_B <img:MS_SPRITESPATH/Deprecated/sql_data_warehouse_mono.png>
+!define MSIMG_SQLDATAWAREHOUSE_C <img:MS_SPRITESPATH/Deprecated/sql_data_warehouse.png>
 @enduml

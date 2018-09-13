@@ -50,7 +50,12 @@ sprite $azuremobileengagement [48x48/16] {
 00000000003EEEEEEEEEEEEEEEEEEEEEEEEE900000000000
 }
 
-!define MSIMG_AZUREMOBILEENGAGEMENT_G <img:../sprites/Cloud/azure_mobile_engagement_gray.png>
-!define MSIMG_AZUREMOBILEENGAGEMENT_B <img:../sprites/Cloud/azure_mobile_engagement_mono.png>
-!define MSIMG_AZUREMOBILEENGAGEMENT_C <img:../sprites/Cloud/azure_mobile_engagement.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREMOBILEENGAGEMENT_G <img:MS_SPRITESPATH/Cloud/azure_mobile_engagement_gray.png>
+!define MSIMG_AZUREMOBILEENGAGEMENT_B <img:MS_SPRITESPATH/Cloud/azure_mobile_engagement_mono.png>
+!define MSIMG_AZUREMOBILEENGAGEMENT_C <img:MS_SPRITESPATH/Cloud/azure_mobile_engagement.png>
 @enduml

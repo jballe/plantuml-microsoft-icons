@@ -50,7 +50,12 @@ sprite $cablesettoptvbox [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CABLESETTOPTVBOX_G <img:../sprites/GeneralSymbols/cable_settop_tv_box_gray.png>
-!define MSIMG_CABLESETTOPTVBOX_B <img:../sprites/GeneralSymbols/cable_settop_tv_box_mono.png>
-!define MSIMG_CABLESETTOPTVBOX_C <img:../sprites/GeneralSymbols/cable_settop_tv_box.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CABLESETTOPTVBOX_G <img:MS_SPRITESPATH/GeneralSymbols/cable_settop_tv_box_gray.png>
+!define MSIMG_CABLESETTOPTVBOX_B <img:MS_SPRITESPATH/GeneralSymbols/cable_settop_tv_box_mono.png>
+!define MSIMG_CABLESETTOPTVBOX_C <img:MS_SPRITESPATH/GeneralSymbols/cable_settop_tv_box.png>
 @enduml

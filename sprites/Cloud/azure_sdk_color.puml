@@ -50,7 +50,12 @@ EE5000000000000038EEEEEEEEEEEEEEEEEEEEEEEEEE9000
 0005EE9500000000000000000008EE93000000000E500000
 }
 
-!define MSIMG_AZURESDKCOLOR_G <img:../sprites/Cloud/azure_sdk_color_gray.png>
-!define MSIMG_AZURESDKCOLOR_B <img:../sprites/Cloud/azure_sdk_color_mono.png>
-!define MSIMG_AZURESDKCOLOR_C <img:../sprites/Cloud/azure_sdk_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESDKCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_sdk_color_gray.png>
+!define MSIMG_AZURESDKCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_sdk_color_mono.png>
+!define MSIMG_AZURESDKCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_sdk_color.png>
 @enduml

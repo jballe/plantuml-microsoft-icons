@@ -50,7 +50,12 @@ sprite $azuredocumentdb [48x48/16] {
 000000000000000003589EEEEEE995300000000000000000
 }
 
-!define MSIMG_AZUREDOCUMENTDB_G <img:../sprites/Cloud/azure_documentdb_gray.png>
-!define MSIMG_AZUREDOCUMENTDB_B <img:../sprites/Cloud/azure_documentdb_mono.png>
-!define MSIMG_AZUREDOCUMENTDB_C <img:../sprites/Cloud/azure_documentdb.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDOCUMENTDB_G <img:MS_SPRITESPATH/Cloud/azure_documentdb_gray.png>
+!define MSIMG_AZUREDOCUMENTDB_B <img:MS_SPRITESPATH/Cloud/azure_documentdb_mono.png>
+!define MSIMG_AZUREDOCUMENTDB_C <img:MS_SPRITESPATH/Cloud/azure_documentdb.png>
 @enduml

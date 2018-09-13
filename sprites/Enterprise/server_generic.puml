@@ -50,7 +50,12 @@ sprite $servergeneric [48x48/16] {
 0000000000005EEEEEEEEEEEEEEEEEEEEEE5000000000000
 }
 
-!define MSIMG_SERVERGENERIC_G <img:../sprites/Enterprise/server_generic_gray.png>
-!define MSIMG_SERVERGENERIC_B <img:../sprites/Enterprise/server_generic_mono.png>
-!define MSIMG_SERVERGENERIC_C <img:../sprites/Enterprise/server_generic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVERGENERIC_G <img:MS_SPRITESPATH/Enterprise/server_generic_gray.png>
+!define MSIMG_SERVERGENERIC_B <img:MS_SPRITESPATH/Enterprise/server_generic_mono.png>
+!define MSIMG_SERVERGENERIC_C <img:MS_SPRITESPATH/Enterprise/server_generic.png>
 @enduml

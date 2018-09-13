@@ -50,7 +50,12 @@ sprite $lockunlockedaccessible [48x48/16] {
 00000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50000000
 }
 
-!define MSIMG_LOCKUNLOCKEDACCESSIBLE_G <img:../sprites/Enterprise/lock_unlocked_accessible_gray.png>
-!define MSIMG_LOCKUNLOCKEDACCESSIBLE_B <img:../sprites/Enterprise/lock_unlocked_accessible_mono.png>
-!define MSIMG_LOCKUNLOCKEDACCESSIBLE_C <img:../sprites/Enterprise/lock_unlocked_accessible.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LOCKUNLOCKEDACCESSIBLE_G <img:MS_SPRITESPATH/Enterprise/lock_unlocked_accessible_gray.png>
+!define MSIMG_LOCKUNLOCKEDACCESSIBLE_B <img:MS_SPRITESPATH/Enterprise/lock_unlocked_accessible_mono.png>
+!define MSIMG_LOCKUNLOCKEDACCESSIBLE_C <img:MS_SPRITESPATH/Enterprise/lock_unlocked_accessible.png>
 @enduml

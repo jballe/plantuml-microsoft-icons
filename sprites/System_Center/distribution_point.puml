@@ -50,7 +50,12 @@ sprite $distributionpoint [48x48/16] {
 000000000000000005EEEEEEEEEEEEEEEEEEEEEEEEEE9000
 }
 
-!define MSIMG_DISTRIBUTIONPOINT_G <img:../sprites/System_Center/distribution_point_gray.png>
-!define MSIMG_DISTRIBUTIONPOINT_B <img:../sprites/System_Center/distribution_point_mono.png>
-!define MSIMG_DISTRIBUTIONPOINT_C <img:../sprites/System_Center/distribution_point.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DISTRIBUTIONPOINT_G <img:MS_SPRITESPATH/System_Center/distribution_point_gray.png>
+!define MSIMG_DISTRIBUTIONPOINT_B <img:MS_SPRITESPATH/System_Center/distribution_point_mono.png>
+!define MSIMG_DISTRIBUTIONPOINT_C <img:MS_SPRITESPATH/System_Center/distribution_point.png>
 @enduml

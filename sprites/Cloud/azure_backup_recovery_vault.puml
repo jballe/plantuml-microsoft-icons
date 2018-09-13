@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEE580859EEEEEE958085EEEEEEEEEEEEEEE
 0039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9300
 }
 
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_G <img:../sprites/Cloud/azure_backup_recovery_vault_gray.png>
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_B <img:../sprites/Cloud/azure_backup_recovery_vault_mono.png>
-!define MSIMG_AZUREBACKUPRECOVERYVAULT_C <img:../sprites/Cloud/azure_backup_recovery_vault.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_G <img:MS_SPRITESPATH/Cloud/azure_backup_recovery_vault_gray.png>
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_B <img:MS_SPRITESPATH/Cloud/azure_backup_recovery_vault_mono.png>
+!define MSIMG_AZUREBACKUPRECOVERYVAULT_C <img:MS_SPRITESPATH/Cloud/azure_backup_recovery_vault.png>
 @enduml

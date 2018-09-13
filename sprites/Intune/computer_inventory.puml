@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEE00EE0000000000000008EEEE00
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_COMPUTERINVENTORY_G <img:../sprites/Intune/computer_inventory_gray.png>
-!define MSIMG_COMPUTERINVENTORY_B <img:../sprites/Intune/computer_inventory_mono.png>
-!define MSIMG_COMPUTERINVENTORY_C <img:../sprites/Intune/computer_inventory.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_COMPUTERINVENTORY_G <img:MS_SPRITESPATH/Intune/computer_inventory_gray.png>
+!define MSIMG_COMPUTERINVENTORY_B <img:MS_SPRITESPATH/Intune/computer_inventory_mono.png>
+!define MSIMG_COMPUTERINVENTORY_C <img:MS_SPRITESPATH/Intune/computer_inventory.png>
 @enduml

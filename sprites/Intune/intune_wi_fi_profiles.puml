@@ -50,7 +50,12 @@ sprite $intunewifiprofiles [48x48/16] {
 0000000000000000000000008EEEEE500000000000000000
 }
 
-!define MSIMG_INTUNEWIFIPROFILES_G <img:../sprites/Intune/intune_wi_fi_profiles_gray.png>
-!define MSIMG_INTUNEWIFIPROFILES_B <img:../sprites/Intune/intune_wi_fi_profiles_mono.png>
-!define MSIMG_INTUNEWIFIPROFILES_C <img:../sprites/Intune/intune_wi_fi_profiles.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTUNEWIFIPROFILES_G <img:MS_SPRITESPATH/Intune/intune_wi_fi_profiles_gray.png>
+!define MSIMG_INTUNEWIFIPROFILES_B <img:MS_SPRITESPATH/Intune/intune_wi_fi_profiles_mono.png>
+!define MSIMG_INTUNEWIFIPROFILES_C <img:MS_SPRITESPATH/Intune/intune_wi_fi_profiles.png>
 @enduml

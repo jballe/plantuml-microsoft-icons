@@ -64,6 +64,9 @@ function asciifyToPlantuml(spriteArray, size) {
     return sprite;
 }
 
+const defineUrl = '!ifdef MS_SPRITESPATH\n!else\n!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n!endif\n\n';
+
+
 recursive(symbolsDir, [ignoreFile]).then(files => {
     console.log(`Processing ${files.length} files...`);
     return files.map(file => {
@@ -155,9 +158,10 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
                 const imgName = "MSIMG_" + fileName.replace(/_/g, '').toUpperCase();
                 const localVarName = fileName.replace(/_/g, '').toLowerCase();
                 const content = `@startuml\nsprite \$${localVarName} [${format}/16] {\n${sprite}\n}\n\n`
-                    +  `!define ${imgName}_G <img:../sprites/${folderName}/${fileName}_gray.png>\n`
-                    +  `!define ${imgName}_B <img:../sprites/${folderName}/${fileName}_mono.png>\n`
-                    +  `!define ${imgName}_C <img:../sprites/${folderName}/${fileName}.png>\n`
+                    + defineUrl
+                    +  `!define ${imgName}_G <img:MS_SPRITESPATH/${folderName}/${fileName}_gray.png>\n`
+                    +  `!define ${imgName}_B <img:MS_SPRITESPATH/${folderName}/${fileName}_mono.png>\n`
+                    +  `!define ${imgName}_C <img:MS_SPRITESPATH/${folderName}/${fileName}.png>\n`
                     // + `!define ${entityName}(_alias) ENTITY(rectangle,black,${localVarName},_alias,${stereoName})\n`
                     // + `!define ${entityName}(_alias, _label) ENTITY(rectangle,black,${localVarName},_label, _alias,${stereoName})\n`
                     // + `!define ${entityName}(_alias, _label, _shape) ENTITY(_shape,black,${localVarName},_label, _alias,${stereoName})\n`
@@ -176,8 +180,7 @@ recursive(symbolsDir, [ignoreFile]).then(files => {
     folders.map(name => {
         const folderPath = path.join(resultDir, name);
         const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml')>0 && file !== allFileName);
-        const content = '@startuml\n' +
-                        '!ifdef MS_SPRITESPATH\n!else\n!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites\n!endif\n\n' +
+        const content = '@startuml\n' + defineUrl +
                         files.map(fileName => `!includeurl MS_SPRITESPATH/${name}/${fileName}`).join('\n') +
                         //files.map(fileName => `!include ${name}/${fileName}`).join('\n') +
                         '\n@enduml';

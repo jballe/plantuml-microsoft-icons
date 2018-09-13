@@ -50,7 +50,12 @@ sprite $omslogmanagement [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSLOGMANAGEMENT_G <img:../sprites/OMS/oms_log_management_gray.png>
-!define MSIMG_OMSLOGMANAGEMENT_B <img:../sprites/OMS/oms_log_management_mono.png>
-!define MSIMG_OMSLOGMANAGEMENT_C <img:../sprites/OMS/oms_log_management.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSLOGMANAGEMENT_G <img:MS_SPRITESPATH/OMS/oms_log_management_gray.png>
+!define MSIMG_OMSLOGMANAGEMENT_B <img:MS_SPRITESPATH/OMS/oms_log_management_mono.png>
+!define MSIMG_OMSLOGMANAGEMENT_C <img:MS_SPRITESPATH/OMS/oms_log_management.png>
 @enduml

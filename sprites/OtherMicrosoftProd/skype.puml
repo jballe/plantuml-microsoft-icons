@@ -50,7 +50,12 @@ sprite $skype [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SKYPE_G <img:../sprites/OtherMicrosoftProd/skype_gray.png>
-!define MSIMG_SKYPE_B <img:../sprites/OtherMicrosoftProd/skype_mono.png>
-!define MSIMG_SKYPE_C <img:../sprites/OtherMicrosoftProd/skype.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SKYPE_G <img:MS_SPRITESPATH/OtherMicrosoftProd/skype_gray.png>
+!define MSIMG_SKYPE_B <img:MS_SPRITESPATH/OtherMicrosoftProd/skype_mono.png>
+!define MSIMG_SKYPE_C <img:MS_SPRITESPATH/OtherMicrosoftProd/skype.png>
 @enduml

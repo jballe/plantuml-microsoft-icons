@@ -50,7 +50,12 @@ sprite $azurestack [48x48/16] {
 0000000000039EEEEEEEEEEEEEEEEEEEE880000000000000
 }
 
-!define MSIMG_AZURESTACK_G <img:../sprites/Cloud/azure_stack_gray.png>
-!define MSIMG_AZURESTACK_B <img:../sprites/Cloud/azure_stack_mono.png>
-!define MSIMG_AZURESTACK_C <img:../sprites/Cloud/azure_stack.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESTACK_G <img:MS_SPRITESPATH/Cloud/azure_stack_gray.png>
+!define MSIMG_AZURESTACK_B <img:MS_SPRITESPATH/Cloud/azure_stack_mono.png>
+!define MSIMG_AZURESTACK_C <img:MS_SPRITESPATH/Cloud/azure_stack.png>
 @enduml

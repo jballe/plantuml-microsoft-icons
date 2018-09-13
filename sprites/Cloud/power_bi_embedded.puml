@@ -50,7 +50,12 @@ sprite $powerbiembedded [48x48/16] {
 00000000000000000000000000008E980000000000000000
 }
 
-!define MSIMG_POWERBIEMBEDDED_G <img:../sprites/Cloud/power_bi_embedded_gray.png>
-!define MSIMG_POWERBIEMBEDDED_B <img:../sprites/Cloud/power_bi_embedded_mono.png>
-!define MSIMG_POWERBIEMBEDDED_C <img:../sprites/Cloud/power_bi_embedded.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_POWERBIEMBEDDED_G <img:MS_SPRITESPATH/Cloud/power_bi_embedded_gray.png>
+!define MSIMG_POWERBIEMBEDDED_B <img:MS_SPRITESPATH/Cloud/power_bi_embedded_mono.png>
+!define MSIMG_POWERBIEMBEDDED_C <img:MS_SPRITESPATH/Cloud/power_bi_embedded.png>
 @enduml

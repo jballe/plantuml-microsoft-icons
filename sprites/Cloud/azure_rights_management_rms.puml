@@ -50,7 +50,12 @@ sprite $azurerightsmanagementrms [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_G <img:../sprites/Cloud/azure_rights_management_rms_gray.png>
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_B <img:../sprites/Cloud/azure_rights_management_rms_mono.png>
-!define MSIMG_AZURERIGHTSMANAGEMENTRMS_C <img:../sprites/Cloud/azure_rights_management_rms.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_G <img:MS_SPRITESPATH/Cloud/azure_rights_management_rms_gray.png>
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_B <img:MS_SPRITESPATH/Cloud/azure_rights_management_rms_mono.png>
+!define MSIMG_AZURERIGHTSMANAGEMENTRMS_C <img:MS_SPRITESPATH/Cloud/azure_rights_management_rms.png>
 @enduml

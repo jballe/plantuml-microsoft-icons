@@ -50,7 +50,12 @@ EEEEEEEEEEEEE0000000000000000000000EEEEEEEEEEEEE
 00000000000000008E000000000000E80000000000000000
 }
 
-!define MSIMG_SETTINGS_G <img:../sprites/Enterprise/settings_gray.png>
-!define MSIMG_SETTINGS_B <img:../sprites/Enterprise/settings_mono.png>
-!define MSIMG_SETTINGS_C <img:../sprites/Enterprise/settings.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SETTINGS_G <img:MS_SPRITESPATH/Enterprise/settings_gray.png>
+!define MSIMG_SETTINGS_B <img:MS_SPRITESPATH/Enterprise/settings_mono.png>
+!define MSIMG_SETTINGS_C <img:MS_SPRITESPATH/Enterprise/settings.png>
 @enduml

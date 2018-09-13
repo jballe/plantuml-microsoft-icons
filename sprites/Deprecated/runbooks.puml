@@ -50,7 +50,12 @@ sprite $runbooks [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RUNBOOKS_G <img:../sprites/Deprecated/runbooks_gray.png>
-!define MSIMG_RUNBOOKS_B <img:../sprites/Deprecated/runbooks_mono.png>
-!define MSIMG_RUNBOOKS_C <img:../sprites/Deprecated/runbooks.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_RUNBOOKS_G <img:MS_SPRITESPATH/Deprecated/runbooks_gray.png>
+!define MSIMG_RUNBOOKS_B <img:MS_SPRITESPATH/Deprecated/runbooks_mono.png>
+!define MSIMG_RUNBOOKS_C <img:MS_SPRITESPATH/Deprecated/runbooks.png>
 @enduml

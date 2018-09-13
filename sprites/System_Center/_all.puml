@@ -4,5 +4,14 @@
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !endif
 
-
+!includeurl MS_SPRITESPATH/System_Center/central_administration_site.puml
+!includeurl MS_SPRITESPATH/System_Center/central_administration_site_sql.puml
+!includeurl MS_SPRITESPATH/System_Center/cloud_distribution_point.puml
+!includeurl MS_SPRITESPATH/System_Center/distribution_point.puml
+!includeurl MS_SPRITESPATH/System_Center/management_point.puml
+!includeurl MS_SPRITESPATH/System_Center/primary_site.puml
+!includeurl MS_SPRITESPATH/System_Center/roles_class_for_multiple_versions.puml
+!includeurl MS_SPRITESPATH/System_Center/secondary_site.puml
+!includeurl MS_SPRITESPATH/System_Center/software_update_point.puml
+!includeurl MS_SPRITESPATH/System_Center/system_center_admin_console.puml
 @enduml

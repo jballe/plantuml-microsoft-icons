@@ -50,7 +50,12 @@ sprite $3green [48x48/16] {
 00000000000000000008599EEE9580000000000000000000
 }
 
-!define MSIMG_3GREEN_G <img:../sprites/GeneralSymbols/3green_gray.png>
-!define MSIMG_3GREEN_B <img:../sprites/GeneralSymbols/3green_mono.png>
-!define MSIMG_3GREEN_C <img:../sprites/GeneralSymbols/3green.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_3GREEN_G <img:MS_SPRITESPATH/GeneralSymbols/3green_gray.png>
+!define MSIMG_3GREEN_B <img:MS_SPRITESPATH/GeneralSymbols/3green_mono.png>
+!define MSIMG_3GREEN_C <img:MS_SPRITESPATH/GeneralSymbols/3green.png>
 @enduml

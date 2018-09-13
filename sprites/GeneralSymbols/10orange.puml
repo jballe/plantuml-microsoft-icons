@@ -50,7 +50,12 @@ sprite $10orange [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_10ORANGE_G <img:../sprites/GeneralSymbols/10orange_gray.png>
-!define MSIMG_10ORANGE_B <img:../sprites/GeneralSymbols/10orange_mono.png>
-!define MSIMG_10ORANGE_C <img:../sprites/GeneralSymbols/10orange.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_10ORANGE_G <img:MS_SPRITESPATH/GeneralSymbols/10orange_gray.png>
+!define MSIMG_10ORANGE_B <img:MS_SPRITESPATH/GeneralSymbols/10orange_mono.png>
+!define MSIMG_10ORANGE_C <img:MS_SPRITESPATH/GeneralSymbols/10orange.png>
 @enduml

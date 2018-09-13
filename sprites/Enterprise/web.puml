@@ -50,7 +50,12 @@ EEE95555EEE85555555555EEEE55555555558EEE85559EEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_WEB_G <img:../sprites/Enterprise/web_gray.png>
-!define MSIMG_WEB_B <img:../sprites/Enterprise/web_mono.png>
-!define MSIMG_WEB_C <img:../sprites/Enterprise/web.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WEB_G <img:MS_SPRITESPATH/Enterprise/web_gray.png>
+!define MSIMG_WEB_B <img:MS_SPRITESPATH/Enterprise/web_mono.png>
+!define MSIMG_WEB_C <img:MS_SPRITESPATH/Enterprise/web.png>
 @enduml

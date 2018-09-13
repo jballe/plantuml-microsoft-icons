@@ -50,7 +50,12 @@ sprite $omsdashboard [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSDASHBOARD_G <img:../sprites/OMS/oms_dashboard_gray.png>
-!define MSIMG_OMSDASHBOARD_B <img:../sprites/OMS/oms_dashboard_mono.png>
-!define MSIMG_OMSDASHBOARD_C <img:../sprites/OMS/oms_dashboard.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSDASHBOARD_G <img:MS_SPRITESPATH/OMS/oms_dashboard_gray.png>
+!define MSIMG_OMSDASHBOARD_B <img:MS_SPRITESPATH/OMS/oms_dashboard_mono.png>
+!define MSIMG_OMSDASHBOARD_C <img:MS_SPRITESPATH/OMS/oms_dashboard.png>
 @enduml

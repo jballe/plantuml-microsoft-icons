@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 9EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9
 }
 
-!define MSIMG_AZURESERVICEBUS_G <img:../sprites/Cloud/azure_service_bus_gray.png>
-!define MSIMG_AZURESERVICEBUS_B <img:../sprites/Cloud/azure_service_bus_mono.png>
-!define MSIMG_AZURESERVICEBUS_C <img:../sprites/Cloud/azure_service_bus.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESERVICEBUS_G <img:MS_SPRITESPATH/Cloud/azure_service_bus_gray.png>
+!define MSIMG_AZURESERVICEBUS_B <img:MS_SPRITESPATH/Cloud/azure_service_bus_mono.png>
+!define MSIMG_AZURESERVICEBUS_C <img:MS_SPRITESPATH/Cloud/azure_service_bus.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_STORAGE_G <img:../sprites/Cloud/storage_gray.png>
-!define MSIMG_STORAGE_B <img:../sprites/Cloud/storage_mono.png>
-!define MSIMG_STORAGE_C <img:../sprites/Cloud/storage.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_STORAGE_G <img:MS_SPRITESPATH/Cloud/storage_gray.png>
+!define MSIMG_STORAGE_B <img:MS_SPRITESPATH/Cloud/storage_mono.png>
+!define MSIMG_STORAGE_C <img:MS_SPRITESPATH/Cloud/storage.png>
 @enduml

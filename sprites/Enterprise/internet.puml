@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INTERNET_G <img:../sprites/Enterprise/internet_gray.png>
-!define MSIMG_INTERNET_B <img:../sprites/Enterprise/internet_mono.png>
-!define MSIMG_INTERNET_C <img:../sprites/Enterprise/internet.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTERNET_G <img:MS_SPRITESPATH/Enterprise/internet_gray.png>
+!define MSIMG_INTERNET_B <img:MS_SPRITESPATH/Enterprise/internet_mono.png>
+!define MSIMG_INTERNET_C <img:MS_SPRITESPATH/Enterprise/internet.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $connector [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONNECTOR_G <img:../sprites/Intune/connector_gray.png>
-!define MSIMG_CONNECTOR_B <img:../sprites/Intune/connector_mono.png>
-!define MSIMG_CONNECTOR_C <img:../sprites/Intune/connector.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CONNECTOR_G <img:MS_SPRITESPATH/Intune/connector_gray.png>
+!define MSIMG_CONNECTOR_B <img:MS_SPRITESPATH/Intune/connector_mono.png>
+!define MSIMG_CONNECTOR_C <img:MS_SPRITESPATH/Intune/connector.png>
 @enduml

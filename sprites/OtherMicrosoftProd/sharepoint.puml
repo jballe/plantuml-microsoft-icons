@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEE9338E9000000000000000
 000000000000000000000000003800000000000000000000
 }
 
-!define MSIMG_SHAREPOINT_G <img:../sprites/OtherMicrosoftProd/sharepoint_gray.png>
-!define MSIMG_SHAREPOINT_B <img:../sprites/OtherMicrosoftProd/sharepoint_mono.png>
-!define MSIMG_SHAREPOINT_C <img:../sprites/OtherMicrosoftProd/sharepoint.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SHAREPOINT_G <img:MS_SPRITESPATH/OtherMicrosoftProd/sharepoint_gray.png>
+!define MSIMG_SHAREPOINT_B <img:MS_SPRITESPATH/OtherMicrosoftProd/sharepoint_mono.png>
+!define MSIMG_SHAREPOINT_C <img:MS_SPRITESPATH/OtherMicrosoftProd/sharepoint.png>
 @enduml

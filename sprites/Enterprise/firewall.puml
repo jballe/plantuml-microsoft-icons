@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEE50EEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_FIREWALL_G <img:../sprites/Enterprise/firewall_gray.png>
-!define MSIMG_FIREWALL_B <img:../sprites/Enterprise/firewall_mono.png>
-!define MSIMG_FIREWALL_C <img:../sprites/Enterprise/firewall.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_FIREWALL_G <img:MS_SPRITESPATH/Enterprise/firewall_gray.png>
+!define MSIMG_FIREWALL_B <img:MS_SPRITESPATH/Enterprise/firewall_mono.png>
+!define MSIMG_FIREWALL_C <img:MS_SPRITESPATH/Enterprise/firewall.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE0
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTORAGE_G <img:../sprites/Cloud/azure_storage_gray.png>
-!define MSIMG_AZURESTORAGE_B <img:../sprites/Cloud/azure_storage_mono.png>
-!define MSIMG_AZURESTORAGE_C <img:../sprites/Cloud/azure_storage.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESTORAGE_G <img:MS_SPRITESPATH/Cloud/azure_storage_gray.png>
+!define MSIMG_AZURESTORAGE_B <img:MS_SPRITESPATH/Cloud/azure_storage_mono.png>
+!define MSIMG_AZURESTORAGE_C <img:MS_SPRITESPATH/Cloud/azure_storage.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEE999999EEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TABLET_G <img:../sprites/Enterprise/tablet_gray.png>
-!define MSIMG_TABLET_B <img:../sprites/Enterprise/tablet_mono.png>
-!define MSIMG_TABLET_C <img:../sprites/Enterprise/tablet.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TABLET_G <img:MS_SPRITESPATH/Enterprise/tablet_gray.png>
+!define MSIMG_TABLET_B <img:MS_SPRITESPATH/Enterprise/tablet_mono.png>
+!define MSIMG_TABLET_C <img:MS_SPRITESPATH/Enterprise/tablet.png>
 @enduml

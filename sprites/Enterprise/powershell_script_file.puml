@@ -50,7 +50,12 @@ sprite $powershellscriptfile [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_POWERSHELLSCRIPTFILE_G <img:../sprites/Enterprise/powershell_script_file_gray.png>
-!define MSIMG_POWERSHELLSCRIPTFILE_B <img:../sprites/Enterprise/powershell_script_file_mono.png>
-!define MSIMG_POWERSHELLSCRIPTFILE_C <img:../sprites/Enterprise/powershell_script_file.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_POWERSHELLSCRIPTFILE_G <img:MS_SPRITESPATH/Enterprise/powershell_script_file_gray.png>
+!define MSIMG_POWERSHELLSCRIPTFILE_B <img:MS_SPRITESPATH/Enterprise/powershell_script_file_mono.png>
+!define MSIMG_POWERSHELLSCRIPTFILE_C <img:MS_SPRITESPATH/Enterprise/powershell_script_file.png>
 @enduml

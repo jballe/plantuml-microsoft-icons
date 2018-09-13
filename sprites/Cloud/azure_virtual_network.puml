@@ -50,7 +50,12 @@ sprite $azurevirtualnetwork [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVIRTUALNETWORK_G <img:../sprites/Cloud/azure_virtual_network_gray.png>
-!define MSIMG_AZUREVIRTUALNETWORK_B <img:../sprites/Cloud/azure_virtual_network_mono.png>
-!define MSIMG_AZUREVIRTUALNETWORK_C <img:../sprites/Cloud/azure_virtual_network.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVIRTUALNETWORK_G <img:MS_SPRITESPATH/Cloud/azure_virtual_network_gray.png>
+!define MSIMG_AZUREVIRTUALNETWORK_B <img:MS_SPRITESPATH/Cloud/azure_virtual_network_mono.png>
+!define MSIMG_AZUREVIRTUALNETWORK_C <img:MS_SPRITESPATH/Cloud/azure_virtual_network.png>
 @enduml

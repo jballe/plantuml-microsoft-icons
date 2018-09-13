@@ -50,7 +50,12 @@ EE00000000000000000000000000000000000000000000EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_INTUNEMANAGEDAPP_G <img:../sprites/Intune/intune_managed_app_gray.png>
-!define MSIMG_INTUNEMANAGEDAPP_B <img:../sprites/Intune/intune_managed_app_mono.png>
-!define MSIMG_INTUNEMANAGEDAPP_C <img:../sprites/Intune/intune_managed_app.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTUNEMANAGEDAPP_G <img:MS_SPRITESPATH/Intune/intune_managed_app_gray.png>
+!define MSIMG_INTUNEMANAGEDAPP_B <img:MS_SPRITESPATH/Intune/intune_managed_app_mono.png>
+!define MSIMG_INTUNEMANAGEDAPP_C <img:MS_SPRITESPATH/Intune/intune_managed_app.png>
 @enduml

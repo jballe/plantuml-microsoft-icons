@@ -50,7 +50,12 @@ sprite $omssecurity [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSECURITY_G <img:../sprites/OMS/oms_security_gray.png>
-!define MSIMG_OMSSECURITY_B <img:../sprites/OMS/oms_security_mono.png>
-!define MSIMG_OMSSECURITY_C <img:../sprites/OMS/oms_security.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSSECURITY_G <img:MS_SPRITESPATH/OMS/oms_security_gray.png>
+!define MSIMG_OMSSECURITY_B <img:MS_SPRITESPATH/OMS/oms_security_mono.png>
+!define MSIMG_OMSSECURITY_C <img:MS_SPRITESPATH/OMS/oms_security.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $10green [48x48/16] {
 0000000000000000000859EEEE9830000000000000000000
 }
 
-!define MSIMG_10GREEN_G <img:../sprites/GeneralSymbols/10green_gray.png>
-!define MSIMG_10GREEN_B <img:../sprites/GeneralSymbols/10green_mono.png>
-!define MSIMG_10GREEN_C <img:../sprites/GeneralSymbols/10green.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_10GREEN_G <img:MS_SPRITESPATH/GeneralSymbols/10green_gray.png>
+!define MSIMG_10GREEN_B <img:MS_SPRITESPATH/GeneralSymbols/10green_mono.png>
+!define MSIMG_10GREEN_C <img:MS_SPRITESPATH/GeneralSymbols/10green.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $unidentifiedfeatureobject [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_G <img:../sprites/Cloud/unidentified_feature_object_gray.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_B <img:../sprites/Cloud/unidentified_feature_object_mono.png>
-!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_C <img:../sprites/Cloud/unidentified_feature_object.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_G <img:MS_SPRITESPATH/Cloud/unidentified_feature_object_gray.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_B <img:MS_SPRITESPATH/Cloud/unidentified_feature_object_mono.png>
+!define MSIMG_UNIDENTIFIEDFEATUREOBJECT_C <img:MS_SPRITESPATH/Cloud/unidentified_feature_object.png>
 @enduml

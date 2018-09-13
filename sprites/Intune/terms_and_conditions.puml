@@ -50,7 +50,12 @@ sprite $termsandconditions [48x48/16] {
 0000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9000000
 }
 
-!define MSIMG_TERMSANDCONDITIONS_G <img:../sprites/Intune/terms_and_conditions_gray.png>
-!define MSIMG_TERMSANDCONDITIONS_B <img:../sprites/Intune/terms_and_conditions_mono.png>
-!define MSIMG_TERMSANDCONDITIONS_C <img:../sprites/Intune/terms_and_conditions.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TERMSANDCONDITIONS_G <img:MS_SPRITESPATH/Intune/terms_and_conditions_gray.png>
+!define MSIMG_TERMSANDCONDITIONS_B <img:MS_SPRITESPATH/Intune/terms_and_conditions_mono.png>
+!define MSIMG_TERMSANDCONDITIONS_C <img:MS_SPRITESPATH/Intune/terms_and_conditions.png>
 @enduml

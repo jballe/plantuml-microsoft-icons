@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEE9EEEE905EEEE8000000009EEEEEEE500
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CERTIFICATECOMPLIANCE_G <img:../sprites/Intune/certificate_compliance_gray.png>
-!define MSIMG_CERTIFICATECOMPLIANCE_B <img:../sprites/Intune/certificate_compliance_mono.png>
-!define MSIMG_CERTIFICATECOMPLIANCE_C <img:../sprites/Intune/certificate_compliance.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CERTIFICATECOMPLIANCE_G <img:MS_SPRITESPATH/Intune/certificate_compliance_gray.png>
+!define MSIMG_CERTIFICATECOMPLIANCE_B <img:MS_SPRITESPATH/Intune/certificate_compliance_mono.png>
+!define MSIMG_CERTIFICATECOMPLIANCE_C <img:MS_SPRITESPATH/Intune/certificate_compliance.png>
 @enduml

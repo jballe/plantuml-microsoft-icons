@@ -50,7 +50,12 @@ sprite $dataservices [48x48/16] {
 000000000000000003589EEEEEE985300000000000000000
 }
 
-!define MSIMG_DATASERVICES_G <img:../sprites/Deprecated/data_services_gray.png>
-!define MSIMG_DATASERVICES_B <img:../sprites/Deprecated/data_services_mono.png>
-!define MSIMG_DATASERVICES_C <img:../sprites/Deprecated/data_services.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DATASERVICES_G <img:MS_SPRITESPATH/Deprecated/data_services_gray.png>
+!define MSIMG_DATASERVICES_B <img:MS_SPRITESPATH/Deprecated/data_services_mono.png>
+!define MSIMG_DATASERVICES_C <img:MS_SPRITESPATH/Deprecated/data_services.png>
 @enduml

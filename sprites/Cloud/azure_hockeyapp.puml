@@ -50,7 +50,12 @@ EEEEEEE5000000000000000000000000000000005EEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREHOCKEYAPP_G <img:../sprites/Cloud/azure_hockeyapp_gray.png>
-!define MSIMG_AZUREHOCKEYAPP_B <img:../sprites/Cloud/azure_hockeyapp_mono.png>
-!define MSIMG_AZUREHOCKEYAPP_C <img:../sprites/Cloud/azure_hockeyapp.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREHOCKEYAPP_G <img:MS_SPRITESPATH/Cloud/azure_hockeyapp_gray.png>
+!define MSIMG_AZUREHOCKEYAPP_B <img:MS_SPRITESPATH/Cloud/azure_hockeyapp_mono.png>
+!define MSIMG_AZUREHOCKEYAPP_C <img:MS_SPRITESPATH/Cloud/azure_hockeyapp.png>
 @enduml

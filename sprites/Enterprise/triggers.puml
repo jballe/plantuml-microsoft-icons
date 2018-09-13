@@ -50,7 +50,12 @@ sprite $triggers [48x48/16] {
 0000000000039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80000
 }
 
-!define MSIMG_TRIGGERS_G <img:../sprites/Enterprise/triggers_gray.png>
-!define MSIMG_TRIGGERS_B <img:../sprites/Enterprise/triggers_mono.png>
-!define MSIMG_TRIGGERS_C <img:../sprites/Enterprise/triggers.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TRIGGERS_G <img:MS_SPRITESPATH/Enterprise/triggers_gray.png>
+!define MSIMG_TRIGGERS_B <img:MS_SPRITESPATH/Enterprise/triggers_mono.png>
+!define MSIMG_TRIGGERS_C <img:MS_SPRITESPATH/Enterprise/triggers.png>
 @enduml

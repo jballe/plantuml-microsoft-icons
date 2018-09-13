@@ -50,7 +50,12 @@ sprite $azurevpngateway [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_AZUREVPNGATEWAY_G <img:../sprites/Cloud/azure_vpn_gateway_gray.png>
-!define MSIMG_AZUREVPNGATEWAY_B <img:../sprites/Cloud/azure_vpn_gateway_mono.png>
-!define MSIMG_AZUREVPNGATEWAY_C <img:../sprites/Cloud/azure_vpn_gateway.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVPNGATEWAY_G <img:MS_SPRITESPATH/Cloud/azure_vpn_gateway_gray.png>
+!define MSIMG_AZUREVPNGATEWAY_B <img:MS_SPRITESPATH/Cloud/azure_vpn_gateway_mono.png>
+!define MSIMG_AZUREVPNGATEWAY_C <img:MS_SPRITESPATH/Cloud/azure_vpn_gateway.png>
 @enduml

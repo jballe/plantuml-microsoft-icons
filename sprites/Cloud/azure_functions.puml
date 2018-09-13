@@ -50,7 +50,12 @@ EEE80000000003EEEEEEEEEEEEEEEEE00000000000005EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREFUNCTIONS_G <img:../sprites/Cloud/azure_functions_gray.png>
-!define MSIMG_AZUREFUNCTIONS_B <img:../sprites/Cloud/azure_functions_mono.png>
-!define MSIMG_AZUREFUNCTIONS_C <img:../sprites/Cloud/azure_functions.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREFUNCTIONS_G <img:MS_SPRITESPATH/Cloud/azure_functions_gray.png>
+!define MSIMG_AZUREFUNCTIONS_B <img:MS_SPRITESPATH/Cloud/azure_functions_mono.png>
+!define MSIMG_AZUREFUNCTIONS_C <img:MS_SPRITESPATH/Cloud/azure_functions.png>
 @enduml

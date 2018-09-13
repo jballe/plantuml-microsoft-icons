@@ -50,7 +50,12 @@ sprite $azuretrafficmanager [48x48/16] {
 000000000000009EEEEEEEEEEEEEEE500000000000000000
 }
 
-!define MSIMG_AZURETRAFFICMANAGER_G <img:../sprites/Cloud/azure_traffic_manager_gray.png>
-!define MSIMG_AZURETRAFFICMANAGER_B <img:../sprites/Cloud/azure_traffic_manager_mono.png>
-!define MSIMG_AZURETRAFFICMANAGER_C <img:../sprites/Cloud/azure_traffic_manager.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURETRAFFICMANAGER_G <img:MS_SPRITESPATH/Cloud/azure_traffic_manager_gray.png>
+!define MSIMG_AZURETRAFFICMANAGER_B <img:MS_SPRITESPATH/Cloud/azure_traffic_manager_mono.png>
+!define MSIMG_AZURETRAFFICMANAGER_C <img:MS_SPRITESPATH/Cloud/azure_traffic_manager.png>
 @enduml

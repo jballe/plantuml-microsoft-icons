@@ -50,7 +50,12 @@ EEEEEE90000000008EEEEEEEEEEEEEE30000000009EEEEEE
 000000000000000000000085580000000000000000000000
 }
 
-!define MSIMG_SQLELASTICPOOLS_G <img:../sprites/Cloud/sql_elastic_pools_gray.png>
-!define MSIMG_SQLELASTICPOOLS_B <img:../sprites/Cloud/sql_elastic_pools_mono.png>
-!define MSIMG_SQLELASTICPOOLS_C <img:../sprites/Cloud/sql_elastic_pools.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SQLELASTICPOOLS_G <img:MS_SPRITESPATH/Cloud/sql_elastic_pools_gray.png>
+!define MSIMG_SQLELASTICPOOLS_B <img:MS_SPRITESPATH/Cloud/sql_elastic_pools_mono.png>
+!define MSIMG_SQLELASTICPOOLS_C <img:MS_SPRITESPATH/Cloud/sql_elastic_pools.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $vhddatadisk [48x48/16] {
 000000000000000000000000000000389EEE958000000000
 }
 
-!define MSIMG_VHDDATADISK_G <img:../sprites/Cloud/vhd_data_disk_gray.png>
-!define MSIMG_VHDDATADISK_B <img:../sprites/Cloud/vhd_data_disk_mono.png>
-!define MSIMG_VHDDATADISK_C <img:../sprites/Cloud/vhd_data_disk.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VHDDATADISK_G <img:MS_SPRITESPATH/Cloud/vhd_data_disk_gray.png>
+!define MSIMG_VHDDATADISK_B <img:MS_SPRITESPATH/Cloud/vhd_data_disk_mono.png>
+!define MSIMG_VHDDATADISK_C <img:MS_SPRITESPATH/Cloud/vhd_data_disk.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $continouscyclecircle [48x48/16] {
 000000000000000000000080000000000000000000000000
 }
 
-!define MSIMG_CONTINOUSCYCLECIRCLE_G <img:../sprites/GeneralSymbols/continous_cycle_circle_gray.png>
-!define MSIMG_CONTINOUSCYCLECIRCLE_B <img:../sprites/GeneralSymbols/continous_cycle_circle_mono.png>
-!define MSIMG_CONTINOUSCYCLECIRCLE_C <img:../sprites/GeneralSymbols/continous_cycle_circle.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CONTINOUSCYCLECIRCLE_G <img:MS_SPRITESPATH/GeneralSymbols/continous_cycle_circle_gray.png>
+!define MSIMG_CONTINOUSCYCLECIRCLE_B <img:MS_SPRITESPATH/GeneralSymbols/continous_cycle_circle_mono.png>
+!define MSIMG_CONTINOUSCYCLECIRCLE_C <img:MS_SPRITESPATH/GeneralSymbols/continous_cycle_circle.png>
 @enduml

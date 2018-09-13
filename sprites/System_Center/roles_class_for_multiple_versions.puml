@@ -50,7 +50,12 @@ sprite $rolesclassformultipleversions [48x48/16] {
 000000000000000000000000000059000003980000000000
 }
 
-!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_G <img:../sprites/System_Center/roles_class_for_multiple_versions_gray.png>
-!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_B <img:../sprites/System_Center/roles_class_for_multiple_versions_mono.png>
-!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_C <img:../sprites/System_Center/roles_class_for_multiple_versions.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_G <img:MS_SPRITESPATH/System_Center/roles_class_for_multiple_versions_gray.png>
+!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_B <img:MS_SPRITESPATH/System_Center/roles_class_for_multiple_versions_mono.png>
+!define MSIMG_ROLESCLASSFORMULTIPLEVERSIONS_C <img:MS_SPRITESPATH/System_Center/roles_class_for_multiple_versions.png>
 @enduml

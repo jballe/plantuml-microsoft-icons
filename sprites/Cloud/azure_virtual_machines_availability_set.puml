@@ -50,7 +50,12 @@ EEEEEEEE0008EEEEE5000EEEEEE0005EEEEE8000EEEEEEEE
 089EEEE90005EEEEE5000EEEEEE0005EEEEE80009EEEE980
 }
 
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_G <img:../sprites/Cloud/azure_virtual_machines_availability_set_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_B <img:../sprites/Cloud/azure_virtual_machines_availability_set_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_C <img:../sprites/Cloud/azure_virtual_machines_availability_set.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_G <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_availability_set_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_B <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_availability_set_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINESAVAILABILITYSET_C <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_availability_set.png>
 @enduml

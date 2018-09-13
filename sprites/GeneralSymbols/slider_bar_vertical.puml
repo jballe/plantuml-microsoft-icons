@@ -50,7 +50,12 @@ sprite $sliderbarvertical [48x48/16] {
 0000000000000000000E5000000000899800000000000000
 }
 
-!define MSIMG_SLIDERBARVERTICAL_G <img:../sprites/GeneralSymbols/slider_bar_vertical_gray.png>
-!define MSIMG_SLIDERBARVERTICAL_B <img:../sprites/GeneralSymbols/slider_bar_vertical_mono.png>
-!define MSIMG_SLIDERBARVERTICAL_C <img:../sprites/GeneralSymbols/slider_bar_vertical.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SLIDERBARVERTICAL_G <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_vertical_gray.png>
+!define MSIMG_SLIDERBARVERTICAL_B <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_vertical_mono.png>
+!define MSIMG_SLIDERBARVERTICAL_C <img:MS_SPRITESPATH/GeneralSymbols/slider_bar_vertical.png>
 @enduml

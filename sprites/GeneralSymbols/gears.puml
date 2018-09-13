@@ -50,7 +50,12 @@ EEEEEEE80000000EEEEEEE00000003EEEE90000000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GEARS_G <img:../sprites/GeneralSymbols/gears_gray.png>
-!define MSIMG_GEARS_B <img:../sprites/GeneralSymbols/gears_mono.png>
-!define MSIMG_GEARS_C <img:../sprites/GeneralSymbols/gears.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_GEARS_G <img:MS_SPRITESPATH/GeneralSymbols/gears_gray.png>
+!define MSIMG_GEARS_B <img:MS_SPRITESPATH/GeneralSymbols/gears_mono.png>
+!define MSIMG_GEARS_C <img:MS_SPRITESPATH/GeneralSymbols/gears.png>
 @enduml

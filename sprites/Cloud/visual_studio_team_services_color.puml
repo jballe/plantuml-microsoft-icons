@@ -50,7 +50,12 @@ EEEEEEEE5000000000000003EEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000005880000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_G <img:../sprites/Cloud/visual_studio_team_services_color_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_B <img:../sprites/Cloud/visual_studio_team_services_color_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_C <img:../sprites/Cloud/visual_studio_team_services_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_G <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_color_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_B <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_color_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESCOLOR_C <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_color.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $databasegeneric [48x48/16] {
 00000000000000000589EEEEEEEE98580000000000000000
 }
 
-!define MSIMG_DATABASEGENERIC_G <img:../sprites/Enterprise/database_generic_gray.png>
-!define MSIMG_DATABASEGENERIC_B <img:../sprites/Enterprise/database_generic_mono.png>
-!define MSIMG_DATABASEGENERIC_C <img:../sprites/Enterprise/database_generic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DATABASEGENERIC_G <img:MS_SPRITESPATH/Enterprise/database_generic_gray.png>
+!define MSIMG_DATABASEGENERIC_B <img:MS_SPRITESPATH/Enterprise/database_generic_mono.png>
+!define MSIMG_DATABASEGENERIC_C <img:MS_SPRITESPATH/Enterprise/database_generic.png>
 @enduml

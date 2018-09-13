@@ -50,7 +50,12 @@ sprite $azuredatacatalogcolor [48x48/16] {
 000000000000000000000000000000855555338000000000
 }
 
-!define MSIMG_AZUREDATACATALOGCOLOR_G <img:../sprites/Cloud/azure_data_catalog_color_gray.png>
-!define MSIMG_AZUREDATACATALOGCOLOR_B <img:../sprites/Cloud/azure_data_catalog_color_mono.png>
-!define MSIMG_AZUREDATACATALOGCOLOR_C <img:../sprites/Cloud/azure_data_catalog_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATACATALOGCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_data_catalog_color_gray.png>
+!define MSIMG_AZUREDATACATALOGCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_data_catalog_color_mono.png>
+!define MSIMG_AZUREDATACATALOGCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_data_catalog_color.png>
 @enduml

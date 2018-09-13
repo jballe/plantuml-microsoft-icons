@@ -50,7 +50,12 @@ sprite $azurewebappwebjobscolor [48x48/16] {
 00000000000000E8000000000000000008EE800000000000
 }
 
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_G <img:../sprites/Cloud/azure_webapp_webjobs_color_gray.png>
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_B <img:../sprites/Cloud/azure_webapp_webjobs_color_mono.png>
-!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_C <img:../sprites/Cloud/azure_webapp_webjobs_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_webapp_webjobs_color_gray.png>
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_webapp_webjobs_color_mono.png>
+!define MSIMG_AZUREWEBAPPWEBJOBSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_webapp_webjobs_color.png>
 @enduml

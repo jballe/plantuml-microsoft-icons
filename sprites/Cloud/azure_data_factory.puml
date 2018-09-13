@@ -50,7 +50,12 @@ sprite $azuredatafactory [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATAFACTORY_G <img:../sprites/Cloud/azure_data_factory_gray.png>
-!define MSIMG_AZUREDATAFACTORY_B <img:../sprites/Cloud/azure_data_factory_mono.png>
-!define MSIMG_AZUREDATAFACTORY_C <img:../sprites/Cloud/azure_data_factory.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATAFACTORY_G <img:MS_SPRITESPATH/Cloud/azure_data_factory_gray.png>
+!define MSIMG_AZUREDATAFACTORY_B <img:MS_SPRITESPATH/Cloud/azure_data_factory_mono.png>
+!define MSIMG_AZUREDATAFACTORY_C <img:MS_SPRITESPATH/Cloud/azure_data_factory.png>
 @enduml

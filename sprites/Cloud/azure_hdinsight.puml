@@ -50,7 +50,12 @@ E9000EEEEE08EEEEEEEEEEE05EEEEEEEEEEEEEEE8EEEEEE5
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREHDINSIGHT_G <img:../sprites/Cloud/azure_hdinsight_gray.png>
-!define MSIMG_AZUREHDINSIGHT_B <img:../sprites/Cloud/azure_hdinsight_mono.png>
-!define MSIMG_AZUREHDINSIGHT_C <img:../sprites/Cloud/azure_hdinsight.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREHDINSIGHT_G <img:MS_SPRITESPATH/Cloud/azure_hdinsight_gray.png>
+!define MSIMG_AZUREHDINSIGHT_B <img:MS_SPRITESPATH/Cloud/azure_hdinsight_mono.png>
+!define MSIMG_AZUREHDINSIGHT_C <img:MS_SPRITESPATH/Cloud/azure_hdinsight.png>
 @enduml

@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEE900005EEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_HEALTHY_G <img:../sprites/Enterprise/healthy_gray.png>
-!define MSIMG_HEALTHY_B <img:../sprites/Enterprise/healthy_mono.png>
-!define MSIMG_HEALTHY_C <img:../sprites/Enterprise/healthy.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_HEALTHY_G <img:MS_SPRITESPATH/Enterprise/healthy_gray.png>
+!define MSIMG_HEALTHY_B <img:MS_SPRITESPATH/Enterprise/healthy_mono.png>
+!define MSIMG_HEALTHY_C <img:MS_SPRITESPATH/Enterprise/healthy.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $video [48x48/16] {
 8E900005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500008E8
 }
 
-!define MSIMG_VIDEO_G <img:../sprites/GeneralSymbols/video_gray.png>
-!define MSIMG_VIDEO_B <img:../sprites/GeneralSymbols/video_mono.png>
-!define MSIMG_VIDEO_C <img:../sprites/GeneralSymbols/video.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VIDEO_G <img:MS_SPRITESPATH/GeneralSymbols/video_gray.png>
+!define MSIMG_VIDEO_B <img:MS_SPRITESPATH/GeneralSymbols/video_mono.png>
+!define MSIMG_VIDEO_C <img:MS_SPRITESPATH/GeneralSymbols/video.png>
 @enduml

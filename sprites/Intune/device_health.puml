@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEE8888EEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DEVICEHEALTH_G <img:../sprites/Intune/device_health_gray.png>
-!define MSIMG_DEVICEHEALTH_B <img:../sprites/Intune/device_health_mono.png>
-!define MSIMG_DEVICEHEALTH_C <img:../sprites/Intune/device_health.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DEVICEHEALTH_G <img:MS_SPRITESPATH/Intune/device_health_gray.png>
+!define MSIMG_DEVICEHEALTH_B <img:MS_SPRITESPATH/Intune/device_health_mono.png>
+!define MSIMG_DEVICEHEALTH_C <img:MS_SPRITESPATH/Intune/device_health.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $6red [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_6RED_G <img:../sprites/GeneralSymbols/6red_gray.png>
-!define MSIMG_6RED_B <img:../sprites/GeneralSymbols/6red_mono.png>
-!define MSIMG_6RED_C <img:../sprites/GeneralSymbols/6red.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_6RED_G <img:MS_SPRITESPATH/GeneralSymbols/6red_gray.png>
+!define MSIMG_6RED_B <img:MS_SPRITESPATH/GeneralSymbols/6red_mono.png>
+!define MSIMG_6RED_C <img:MS_SPRITESPATH/GeneralSymbols/6red.png>
 @enduml

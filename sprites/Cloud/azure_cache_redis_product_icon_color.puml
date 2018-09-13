@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_G <img:../sprites/Cloud/azure_cache_redis_product_icon_color_gray.png>
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_B <img:../sprites/Cloud/azure_cache_redis_product_icon_color_mono.png>
-!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_C <img:../sprites/Cloud/azure_cache_redis_product_icon_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_cache_redis_product_icon_color_gray.png>
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_cache_redis_product_icon_color_mono.png>
+!define MSIMG_AZURECACHEREDISPRODUCTICONCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_cache_redis_product_icon_color.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $document [48x48/16] {
 00000EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE00000
 }
 
-!define MSIMG_DOCUMENT_G <img:../sprites/Enterprise/document_gray.png>
-!define MSIMG_DOCUMENT_B <img:../sprites/Enterprise/document_mono.png>
-!define MSIMG_DOCUMENT_C <img:../sprites/Enterprise/document.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DOCUMENT_G <img:MS_SPRITESPATH/Enterprise/document_gray.png>
+!define MSIMG_DOCUMENT_B <img:MS_SPRITESPATH/Enterprise/document_mono.png>
+!define MSIMG_DOCUMENT_C <img:MS_SPRITESPATH/Enterprise/document.png>
 @enduml

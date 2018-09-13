@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CALENDAR_G <img:../sprites/GeneralSymbols/calendar_gray.png>
-!define MSIMG_CALENDAR_B <img:../sprites/GeneralSymbols/calendar_mono.png>
-!define MSIMG_CALENDAR_C <img:../sprites/GeneralSymbols/calendar.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CALENDAR_G <img:MS_SPRITESPATH/GeneralSymbols/calendar_gray.png>
+!define MSIMG_CALENDAR_B <img:MS_SPRITESPATH/GeneralSymbols/calendar_mono.png>
+!define MSIMG_CALENDAR_C <img:MS_SPRITESPATH/GeneralSymbols/calendar.png>
 @enduml

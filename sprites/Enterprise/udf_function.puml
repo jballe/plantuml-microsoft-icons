@@ -50,7 +50,12 @@ sprite $udffunction [48x48/16] {
 0000000000039EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80000
 }
 
-!define MSIMG_UDFFUNCTION_G <img:../sprites/Enterprise/udf_function_gray.png>
-!define MSIMG_UDFFUNCTION_B <img:../sprites/Enterprise/udf_function_mono.png>
-!define MSIMG_UDFFUNCTION_C <img:../sprites/Enterprise/udf_function.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_UDFFUNCTION_G <img:MS_SPRITESPATH/Enterprise/udf_function_gray.png>
+!define MSIMG_UDFFUNCTION_B <img:MS_SPRITESPATH/Enterprise/udf_function_mono.png>
+!define MSIMG_UDFFUNCTION_C <img:MS_SPRITESPATH/Enterprise/udf_function.png>
 @enduml

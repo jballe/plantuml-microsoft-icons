@@ -50,7 +50,12 @@ EEEEE3003EEEEEE50009EEEEEEEEE0008EEEEEE8000EEEEE
 000000000000000000000999999000000000000000000000
 }
 
-!define MSIMG_XMLWEBSERVICE_G <img:../sprites/Enterprise/xml_web_service_gray.png>
-!define MSIMG_XMLWEBSERVICE_B <img:../sprites/Enterprise/xml_web_service_mono.png>
-!define MSIMG_XMLWEBSERVICE_C <img:../sprites/Enterprise/xml_web_service.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_XMLWEBSERVICE_G <img:MS_SPRITESPATH/Enterprise/xml_web_service_gray.png>
+!define MSIMG_XMLWEBSERVICE_B <img:MS_SPRITESPATH/Enterprise/xml_web_service_mono.png>
+!define MSIMG_XMLWEBSERVICE_C <img:MS_SPRITESPATH/Enterprise/xml_web_service.png>
 @enduml

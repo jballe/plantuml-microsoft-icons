@@ -50,7 +50,12 @@ sprite $loadbalancergeneric [48x48/16] {
 000000000000000000000005000000000000000000000000
 }
 
-!define MSIMG_LOADBALANCERGENERIC_G <img:../sprites/Enterprise/load_balancer_generic_gray.png>
-!define MSIMG_LOADBALANCERGENERIC_B <img:../sprites/Enterprise/load_balancer_generic_mono.png>
-!define MSIMG_LOADBALANCERGENERIC_C <img:../sprites/Enterprise/load_balancer_generic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LOADBALANCERGENERIC_G <img:MS_SPRITESPATH/Enterprise/load_balancer_generic_gray.png>
+!define MSIMG_LOADBALANCERGENERIC_B <img:MS_SPRITESPATH/Enterprise/load_balancer_generic_mono.png>
+!define MSIMG_LOADBALANCERGENERIC_C <img:MS_SPRITESPATH/Enterprise/load_balancer_generic.png>
 @enduml

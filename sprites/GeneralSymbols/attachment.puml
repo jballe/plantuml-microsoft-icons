@@ -50,7 +50,12 @@ sprite $attachment [48x48/16] {
 0000000000000000000058EEEE8500000000000000000000
 }
 
-!define MSIMG_ATTACHMENT_G <img:../sprites/GeneralSymbols/attachment_gray.png>
-!define MSIMG_ATTACHMENT_B <img:../sprites/GeneralSymbols/attachment_mono.png>
-!define MSIMG_ATTACHMENT_C <img:../sprites/GeneralSymbols/attachment.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ATTACHMENT_G <img:MS_SPRITESPATH/GeneralSymbols/attachment_gray.png>
+!define MSIMG_ATTACHMENT_B <img:MS_SPRITESPATH/GeneralSymbols/attachment_mono.png>
+!define MSIMG_ATTACHMENT_C <img:MS_SPRITESPATH/GeneralSymbols/attachment.png>
 @enduml

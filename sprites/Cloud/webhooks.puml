@@ -50,7 +50,12 @@ EEEE5009EEEEEEEE505EEEEEEEEEEEEEEEEEEEEE9003EEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_WEBHOOKS_G <img:../sprites/Cloud/webhooks_gray.png>
-!define MSIMG_WEBHOOKS_B <img:../sprites/Cloud/webhooks_mono.png>
-!define MSIMG_WEBHOOKS_C <img:../sprites/Cloud/webhooks.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WEBHOOKS_G <img:MS_SPRITESPATH/Cloud/webhooks_gray.png>
+!define MSIMG_WEBHOOKS_B <img:MS_SPRITESPATH/Cloud/webhooks_mono.png>
+!define MSIMG_WEBHOOKS_C <img:MS_SPRITESPATH/Cloud/webhooks.png>
 @enduml

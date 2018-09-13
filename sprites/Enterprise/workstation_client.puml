@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEE000EEEEEE98888889EEEEEEE0000000
 EEEEEEEEEEEEEEEEE008EEEE9800000000039EEEE0000000
 }
 
-!define MSIMG_WORKSTATIONCLIENT_G <img:../sprites/Enterprise/workstation_client_gray.png>
-!define MSIMG_WORKSTATIONCLIENT_B <img:../sprites/Enterprise/workstation_client_mono.png>
-!define MSIMG_WORKSTATIONCLIENT_C <img:../sprites/Enterprise/workstation_client.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WORKSTATIONCLIENT_G <img:MS_SPRITESPATH/Enterprise/workstation_client_gray.png>
+!define MSIMG_WORKSTATIONCLIENT_B <img:MS_SPRITESPATH/Enterprise/workstation_client_mono.png>
+!define MSIMG_WORKSTATIONCLIENT_C <img:MS_SPRITESPATH/Enterprise/workstation_client.png>
 @enduml

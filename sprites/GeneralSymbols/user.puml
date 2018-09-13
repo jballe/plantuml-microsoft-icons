@@ -50,7 +50,12 @@ sprite $user [48x48/16] {
 09EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE90
 }
 
-!define MSIMG_USER_G <img:../sprites/GeneralSymbols/user_gray.png>
-!define MSIMG_USER_B <img:../sprites/GeneralSymbols/user_mono.png>
-!define MSIMG_USER_C <img:../sprites/GeneralSymbols/user.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_USER_G <img:MS_SPRITESPATH/GeneralSymbols/user_gray.png>
+!define MSIMG_USER_B <img:MS_SPRITESPATH/GeneralSymbols/user_mono.png>
+!define MSIMG_USER_C <img:MS_SPRITESPATH/GeneralSymbols/user.png>
 @enduml

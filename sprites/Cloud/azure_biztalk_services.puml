@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEE5008EEEEEEE000EEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREBIZTALKSERVICES_G <img:../sprites/Cloud/azure_biztalk_services_gray.png>
-!define MSIMG_AZUREBIZTALKSERVICES_B <img:../sprites/Cloud/azure_biztalk_services_mono.png>
-!define MSIMG_AZUREBIZTALKSERVICES_C <img:../sprites/Cloud/azure_biztalk_services.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREBIZTALKSERVICES_G <img:MS_SPRITESPATH/Cloud/azure_biztalk_services_gray.png>
+!define MSIMG_AZUREBIZTALKSERVICES_B <img:MS_SPRITESPATH/Cloud/azure_biztalk_services_mono.png>
+!define MSIMG_AZUREBIZTALKSERVICES_C <img:MS_SPRITESPATH/Cloud/azure_biztalk_services.png>
 @enduml

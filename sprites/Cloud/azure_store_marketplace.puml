@@ -50,7 +50,12 @@ sprite $azurestoremarketplace [48x48/16] {
 000000000000000000000000000008355899E90000000000
 }
 
-!define MSIMG_AZURESTOREMARKETPLACE_G <img:../sprites/Cloud/azure_store_marketplace_gray.png>
-!define MSIMG_AZURESTOREMARKETPLACE_B <img:../sprites/Cloud/azure_store_marketplace_mono.png>
-!define MSIMG_AZURESTOREMARKETPLACE_C <img:../sprites/Cloud/azure_store_marketplace.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESTOREMARKETPLACE_G <img:MS_SPRITESPATH/Cloud/azure_store_marketplace_gray.png>
+!define MSIMG_AZURESTOREMARKETPLACE_B <img:MS_SPRITESPATH/Cloud/azure_store_marketplace_mono.png>
+!define MSIMG_AZURESTOREMARKETPLACE_C <img:MS_SPRITESPATH/Cloud/azure_store_marketplace.png>
 @enduml

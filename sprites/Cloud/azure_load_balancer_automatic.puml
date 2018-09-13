@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURELOADBALANCERAUTOMATIC_G <img:../sprites/Cloud/azure_load_balancer_automatic_gray.png>
-!define MSIMG_AZURELOADBALANCERAUTOMATIC_B <img:../sprites/Cloud/azure_load_balancer_automatic_mono.png>
-!define MSIMG_AZURELOADBALANCERAUTOMATIC_C <img:../sprites/Cloud/azure_load_balancer_automatic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURELOADBALANCERAUTOMATIC_G <img:MS_SPRITESPATH/Cloud/azure_load_balancer_automatic_gray.png>
+!define MSIMG_AZURELOADBALANCERAUTOMATIC_B <img:MS_SPRITESPATH/Cloud/azure_load_balancer_automatic_mono.png>
+!define MSIMG_AZURELOADBALANCERAUTOMATIC_C <img:MS_SPRITESPATH/Cloud/azure_load_balancer_automatic.png>
 @enduml

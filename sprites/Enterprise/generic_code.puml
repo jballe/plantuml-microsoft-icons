@@ -50,7 +50,12 @@ sprite $genericcode [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_GENERICCODE_G <img:../sprites/Enterprise/generic_code_gray.png>
-!define MSIMG_GENERICCODE_B <img:../sprites/Enterprise/generic_code_mono.png>
-!define MSIMG_GENERICCODE_C <img:../sprites/Enterprise/generic_code.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_GENERICCODE_G <img:MS_SPRITESPATH/Enterprise/generic_code_gray.png>
+!define MSIMG_GENERICCODE_B <img:MS_SPRITESPATH/Enterprise/generic_code_mono.png>
+!define MSIMG_GENERICCODE_C <img:MS_SPRITESPATH/Enterprise/generic_code.png>
 @enduml

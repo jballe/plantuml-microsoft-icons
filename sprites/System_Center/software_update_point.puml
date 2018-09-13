@@ -50,7 +50,12 @@ EEEEEEEEEEE903EEEEEEEEEEEEEEEEEEEEEE5005EEE00000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SOFTWAREUPDATEPOINT_G <img:../sprites/System_Center/software_update_point_gray.png>
-!define MSIMG_SOFTWAREUPDATEPOINT_B <img:../sprites/System_Center/software_update_point_mono.png>
-!define MSIMG_SOFTWAREUPDATEPOINT_C <img:../sprites/System_Center/software_update_point.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SOFTWAREUPDATEPOINT_G <img:MS_SPRITESPATH/System_Center/software_update_point_gray.png>
+!define MSIMG_SOFTWAREUPDATEPOINT_B <img:MS_SPRITESPATH/System_Center/software_update_point_mono.png>
+!define MSIMG_SOFTWAREUPDATEPOINT_C <img:MS_SPRITESPATH/System_Center/software_update_point.png>
 @enduml

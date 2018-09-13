@@ -50,7 +50,12 @@ EEE9000000000009EEEE9500059EEEEE8000000000009EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LOGICAPPS_G <img:../sprites/Cloud/logic_apps_gray.png>
-!define MSIMG_LOGICAPPS_B <img:../sprites/Cloud/logic_apps_mono.png>
-!define MSIMG_LOGICAPPS_C <img:../sprites/Cloud/logic_apps.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LOGICAPPS_G <img:MS_SPRITESPATH/Cloud/logic_apps_gray.png>
+!define MSIMG_LOGICAPPS_B <img:MS_SPRITESPATH/Cloud/logic_apps_mono.png>
+!define MSIMG_LOGICAPPS_C <img:MS_SPRITESPATH/Cloud/logic_apps.png>
 @enduml

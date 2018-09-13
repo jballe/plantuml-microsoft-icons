@@ -50,7 +50,12 @@ sprite $intunemobileapplicationmanagement [48x48/16] {
 05EEEEEEEEEEEEEEEE500000000000000000000000000000
 }
 
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_G <img:../sprites/Intune/intune_mobile_application_management_gray.png>
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_B <img:../sprites/Intune/intune_mobile_application_management_mono.png>
-!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_C <img:../sprites/Intune/intune_mobile_application_management.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_G <img:MS_SPRITESPATH/Intune/intune_mobile_application_management_gray.png>
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_B <img:MS_SPRITESPATH/Intune/intune_mobile_application_management_mono.png>
+!define MSIMG_INTUNEMOBILEAPPLICATIONMANAGEMENT_C <img:MS_SPRITESPATH/Intune/intune_mobile_application_management.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $centraladministrationsite [48x48/16] {
 000000000000000000000000000859EEEEE9850000000000
 }
 
-!define MSIMG_CENTRALADMINISTRATIONSITE_G <img:../sprites/System_Center/central_administration_site_gray.png>
-!define MSIMG_CENTRALADMINISTRATIONSITE_B <img:../sprites/System_Center/central_administration_site_mono.png>
-!define MSIMG_CENTRALADMINISTRATIONSITE_C <img:../sprites/System_Center/central_administration_site.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CENTRALADMINISTRATIONSITE_G <img:MS_SPRITESPATH/System_Center/central_administration_site_gray.png>
+!define MSIMG_CENTRALADMINISTRATIONSITE_B <img:MS_SPRITESPATH/System_Center/central_administration_site_mono.png>
+!define MSIMG_CENTRALADMINISTRATIONSITE_C <img:MS_SPRITESPATH/System_Center/central_administration_site.png>
 @enduml

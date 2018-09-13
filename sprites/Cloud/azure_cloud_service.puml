@@ -50,7 +50,12 @@ EEEEEEEEEEE300005EEE900008EEEE9EEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECLOUDSERVICE_G <img:../sprites/Cloud/azure_cloud_service_gray.png>
-!define MSIMG_AZURECLOUDSERVICE_B <img:../sprites/Cloud/azure_cloud_service_mono.png>
-!define MSIMG_AZURECLOUDSERVICE_C <img:../sprites/Cloud/azure_cloud_service.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECLOUDSERVICE_G <img:MS_SPRITESPATH/Cloud/azure_cloud_service_gray.png>
+!define MSIMG_AZURECLOUDSERVICE_B <img:MS_SPRITESPATH/Cloud/azure_cloud_service_mono.png>
+!define MSIMG_AZURECLOUDSERVICE_C <img:MS_SPRITESPATH/Cloud/azure_cloud_service.png>
 @enduml

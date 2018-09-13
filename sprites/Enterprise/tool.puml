@@ -50,7 +50,12 @@ EEE9000000009EEEEEEE300000005EEEEEEEEEEEEE900000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_TOOL_G <img:../sprites/Enterprise/tool_gray.png>
-!define MSIMG_TOOL_B <img:../sprites/Enterprise/tool_mono.png>
-!define MSIMG_TOOL_C <img:../sprites/Enterprise/tool.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_TOOL_G <img:MS_SPRITESPATH/Enterprise/tool_gray.png>
+!define MSIMG_TOOL_B <img:MS_SPRITESPATH/Enterprise/tool_mono.png>
+!define MSIMG_TOOL_C <img:MS_SPRITESPATH/Enterprise/tool.png>
 @enduml

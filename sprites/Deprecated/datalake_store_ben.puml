@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEE50005EEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000008589E50000EEEEEEEEEEEEEEEEEEEEEEEEEE5
 }
 
-!define MSIMG_DATALAKESTOREBEN_G <img:../sprites/Deprecated/datalake_store_ben_gray.png>
-!define MSIMG_DATALAKESTOREBEN_B <img:../sprites/Deprecated/datalake_store_ben_mono.png>
-!define MSIMG_DATALAKESTOREBEN_C <img:../sprites/Deprecated/datalake_store_ben.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DATALAKESTOREBEN_G <img:MS_SPRITESPATH/Deprecated/datalake_store_ben_gray.png>
+!define MSIMG_DATALAKESTOREBEN_B <img:MS_SPRITESPATH/Deprecated/datalake_store_ben_mono.png>
+!define MSIMG_DATALAKESTOREBEN_C <img:MS_SPRITESPATH/Deprecated/datalake_store_ben.png>
 @enduml

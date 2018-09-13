@@ -50,7 +50,12 @@ sprite $secondarysite [48x48/16] {
 000059999999999800EEEEEEEEEEEEEEEEEEEEEEEEE50000
 }
 
-!define MSIMG_SECONDARYSITE_G <img:../sprites/System_Center/secondary_site_gray.png>
-!define MSIMG_SECONDARYSITE_B <img:../sprites/System_Center/secondary_site_mono.png>
-!define MSIMG_SECONDARYSITE_C <img:../sprites/System_Center/secondary_site.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SECONDARYSITE_G <img:MS_SPRITESPATH/System_Center/secondary_site_gray.png>
+!define MSIMG_SECONDARYSITE_B <img:MS_SPRITESPATH/System_Center/secondary_site_mono.png>
+!define MSIMG_SECONDARYSITE_C <img:MS_SPRITESPATH/System_Center/secondary_site.png>
 @enduml

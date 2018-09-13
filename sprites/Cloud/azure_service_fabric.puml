@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEE000000000000000000EEEEEEEEEEEEEEE
 000000000039EE95000000000000000059EE930000000000
 }
 
-!define MSIMG_AZURESERVICEFABRIC_G <img:../sprites/Cloud/azure_service_fabric_gray.png>
-!define MSIMG_AZURESERVICEFABRIC_B <img:../sprites/Cloud/azure_service_fabric_mono.png>
-!define MSIMG_AZURESERVICEFABRIC_C <img:../sprites/Cloud/azure_service_fabric.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESERVICEFABRIC_G <img:MS_SPRITESPATH/Cloud/azure_service_fabric_gray.png>
+!define MSIMG_AZURESERVICEFABRIC_B <img:MS_SPRITESPATH/Cloud/azure_service_fabric_mono.png>
+!define MSIMG_AZURESERVICEFABRIC_C <img:MS_SPRITESPATH/Cloud/azure_service_fabric.png>
 @enduml

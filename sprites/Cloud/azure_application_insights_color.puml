@@ -50,7 +50,12 @@ sprite $azureapplicationinsightscolor [48x48/16] {
 000000000000000000000055550000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_G <img:../sprites/Cloud/azure_application_insights_color_gray.png>
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_B <img:../sprites/Cloud/azure_application_insights_color_mono.png>
-!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_C <img:../sprites/Cloud/azure_application_insights_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_application_insights_color_gray.png>
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_application_insights_color_mono.png>
+!define MSIMG_AZUREAPPLICATIONINSIGHTSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_application_insights_color.png>
 @enduml

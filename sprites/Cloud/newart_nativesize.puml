@@ -45,7 +45,12 @@ sprite $newartnativesize [43x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_NEWARTNATIVESIZE_G <img:../sprites/Cloud/newart_nativesize_gray.png>
-!define MSIMG_NEWARTNATIVESIZE_B <img:../sprites/Cloud/newart_nativesize_mono.png>
-!define MSIMG_NEWARTNATIVESIZE_C <img:../sprites/Cloud/newart_nativesize.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_NEWARTNATIVESIZE_G <img:MS_SPRITESPATH/Cloud/newart_nativesize_gray.png>
+!define MSIMG_NEWARTNATIVESIZE_B <img:MS_SPRITESPATH/Cloud/newart_nativesize_mono.png>
+!define MSIMG_NEWARTNATIVESIZE_C <img:MS_SPRITESPATH/Cloud/newart_nativesize.png>
 @enduml

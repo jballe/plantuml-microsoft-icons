@@ -50,7 +50,12 @@ sprite $azurevirtualmachineslinuxpenguinshadowcolor [48x48/16] {
 00000000008589EEE98500000000589EEEE9850000000000
 }
 
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_G <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color_gray.png>
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_B <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color_mono.png>
-!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_C <img:../sprites/Cloud/azure_virtual_machines_linux_penguin_shadow_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_linux_penguin_shadow_color_gray.png>
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_linux_penguin_shadow_color_mono.png>
+!define MSIMG_AZUREVIRTUALMACHINESLINUXPENGUINSHADOWCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_virtual_machines_linux_penguin_shadow_color.png>
 @enduml

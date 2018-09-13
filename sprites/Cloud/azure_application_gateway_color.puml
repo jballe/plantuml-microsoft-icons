@@ -50,7 +50,12 @@ sprite $azureapplicationgatewaycolor [48x48/16] {
 00000000000000000000005EE50000000000000000000000
 }
 
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_G <img:../sprites/Cloud/azure_application_gateway_color_gray.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_B <img:../sprites/Cloud/azure_application_gateway_color_mono.png>
-!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_C <img:../sprites/Cloud/azure_application_gateway_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_application_gateway_color_gray.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_application_gateway_color_mono.png>
+!define MSIMG_AZUREAPPLICATIONGATEWAYCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_application_gateway_color.png>
 @enduml

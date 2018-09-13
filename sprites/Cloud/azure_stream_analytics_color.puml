@@ -50,7 +50,12 @@ sprite $azurestreamanalyticscolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_G <img:../sprites/Cloud/azure_stream_analytics_color_gray.png>
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_B <img:../sprites/Cloud/azure_stream_analytics_color_mono.png>
-!define MSIMG_AZURESTREAMANALYTICSCOLOR_C <img:../sprites/Cloud/azure_stream_analytics_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_stream_analytics_color_gray.png>
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_stream_analytics_color_mono.png>
+!define MSIMG_AZURESTREAMANALYTICSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_stream_analytics_color.png>
 @enduml

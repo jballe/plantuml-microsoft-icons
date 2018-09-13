@@ -50,7 +50,12 @@ sprite $loadtesting [48x48/16] {
 000000000009EE50000000000000000009EE500000000000
 }
 
-!define MSIMG_LOADTESTING_G <img:../sprites/Enterprise/load_testing_gray.png>
-!define MSIMG_LOADTESTING_B <img:../sprites/Enterprise/load_testing_mono.png>
-!define MSIMG_LOADTESTING_C <img:../sprites/Enterprise/load_testing.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LOADTESTING_G <img:MS_SPRITESPATH/Enterprise/load_testing_gray.png>
+!define MSIMG_LOADTESTING_B <img:MS_SPRITESPATH/Enterprise/load_testing_mono.png>
+!define MSIMG_LOADTESTING_C <img:MS_SPRITESPATH/Enterprise/load_testing.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $logicappscolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_LOGICAPPSCOLOR_G <img:../sprites/Cloud/logic_apps_color_gray.png>
-!define MSIMG_LOGICAPPSCOLOR_B <img:../sprites/Cloud/logic_apps_color_mono.png>
-!define MSIMG_LOGICAPPSCOLOR_C <img:../sprites/Cloud/logic_apps_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_LOGICAPPSCOLOR_G <img:MS_SPRITESPATH/Cloud/logic_apps_color_gray.png>
+!define MSIMG_LOGICAPPSCOLOR_B <img:MS_SPRITESPATH/Cloud/logic_apps_color_mono.png>
+!define MSIMG_LOGICAPPSCOLOR_C <img:MS_SPRITESPATH/Cloud/logic_apps_color.png>
 @enduml

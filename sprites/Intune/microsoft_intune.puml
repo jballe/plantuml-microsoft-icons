@@ -50,7 +50,12 @@ sprite $microsoftintune [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MICROSOFTINTUNE_G <img:../sprites/Intune/microsoft_intune_gray.png>
-!define MSIMG_MICROSOFTINTUNE_B <img:../sprites/Intune/microsoft_intune_mono.png>
-!define MSIMG_MICROSOFTINTUNE_C <img:../sprites/Intune/microsoft_intune.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MICROSOFTINTUNE_G <img:MS_SPRITESPATH/Intune/microsoft_intune_gray.png>
+!define MSIMG_MICROSOFTINTUNE_B <img:MS_SPRITESPATH/Intune/microsoft_intune_mono.png>
+!define MSIMG_MICROSOFTINTUNE_C <img:MS_SPRITESPATH/Intune/microsoft_intune.png>
 @enduml

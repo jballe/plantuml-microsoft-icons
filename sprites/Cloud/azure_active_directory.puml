@@ -50,7 +50,12 @@ sprite $azureactivedirectory [48x48/16] {
 000000000000000000000008300000000000000000000000
 }
 
-!define MSIMG_AZUREACTIVEDIRECTORY_G <img:../sprites/Cloud/azure_active_directory_gray.png>
-!define MSIMG_AZUREACTIVEDIRECTORY_B <img:../sprites/Cloud/azure_active_directory_mono.png>
-!define MSIMG_AZUREACTIVEDIRECTORY_C <img:../sprites/Cloud/azure_active_directory.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREACTIVEDIRECTORY_G <img:MS_SPRITESPATH/Cloud/azure_active_directory_gray.png>
+!define MSIMG_AZUREACTIVEDIRECTORY_B <img:MS_SPRITESPATH/Cloud/azure_active_directory_mono.png>
+!define MSIMG_AZUREACTIVEDIRECTORY_C <img:MS_SPRITESPATH/Cloud/azure_active_directory.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $azuremachinelearning [48x48/16] {
 008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800
 }
 
-!define MSIMG_AZUREMACHINELEARNING_G <img:../sprites/Cloud/azure_machine_learning_gray.png>
-!define MSIMG_AZUREMACHINELEARNING_B <img:../sprites/Cloud/azure_machine_learning_mono.png>
-!define MSIMG_AZUREMACHINELEARNING_C <img:../sprites/Cloud/azure_machine_learning.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREMACHINELEARNING_G <img:MS_SPRITESPATH/Cloud/azure_machine_learning_gray.png>
+!define MSIMG_AZUREMACHINELEARNING_B <img:MS_SPRITESPATH/Cloud/azure_machine_learning_mono.png>
+!define MSIMG_AZUREMACHINELEARNING_C <img:MS_SPRITESPATH/Cloud/azure_machine_learning.png>
 @enduml

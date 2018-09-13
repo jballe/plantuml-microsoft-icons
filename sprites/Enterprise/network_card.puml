@@ -50,7 +50,12 @@ EE9000000000000EEEEEEEEEEEEEEE800009EEEEEEEE0000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_NETWORKCARD_G <img:../sprites/Enterprise/network_card_gray.png>
-!define MSIMG_NETWORKCARD_B <img:../sprites/Enterprise/network_card_mono.png>
-!define MSIMG_NETWORKCARD_C <img:../sprites/Enterprise/network_card.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_NETWORKCARD_G <img:MS_SPRITESPATH/Enterprise/network_card_gray.png>
+!define MSIMG_NETWORKCARD_B <img:MS_SPRITESPATH/Enterprise/network_card_mono.png>
+!define MSIMG_NETWORKCARD_C <img:MS_SPRITESPATH/Enterprise/network_card.png>
 @enduml

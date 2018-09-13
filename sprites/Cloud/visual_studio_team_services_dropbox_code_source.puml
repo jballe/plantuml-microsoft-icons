@@ -50,7 +50,12 @@ sprite $visualstudioteamservicesdropboxcodesource [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_G <img:../sprites/Cloud/visual_studio_team_services_dropbox_code_source_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_B <img:../sprites/Cloud/visual_studio_team_services_dropbox_code_source_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_C <img:../sprites/Cloud/visual_studio_team_services_dropbox_code_source.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_G <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_dropbox_code_source_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_B <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_dropbox_code_source_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESDROPBOXCODESOURCE_C <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_dropbox_code_source.png>
 @enduml

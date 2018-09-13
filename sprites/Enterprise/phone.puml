@@ -50,7 +50,12 @@ sprite $phone [48x48/16] {
 0000000003EEEEEEEEEEEEEEEEEEEEEEEEEEEE3000000000
 }
 
-!define MSIMG_PHONE_G <img:../sprites/Enterprise/phone_gray.png>
-!define MSIMG_PHONE_B <img:../sprites/Enterprise/phone_mono.png>
-!define MSIMG_PHONE_C <img:../sprites/Enterprise/phone.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_PHONE_G <img:MS_SPRITESPATH/Enterprise/phone_gray.png>
+!define MSIMG_PHONE_B <img:MS_SPRITESPATH/Enterprise/phone_mono.png>
+!define MSIMG_PHONE_C <img:MS_SPRITESPATH/Enterprise/phone.png>
 @enduml

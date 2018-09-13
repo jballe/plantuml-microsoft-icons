@@ -50,7 +50,12 @@ sprite $checkmarksuccess [48x48/16] {
 000000000000000000085000000000000000000000000000
 }
 
-!define MSIMG_CHECKMARKSUCCESS_G <img:../sprites/GeneralSymbols/checkmark_success_gray.png>
-!define MSIMG_CHECKMARKSUCCESS_B <img:../sprites/GeneralSymbols/checkmark_success_mono.png>
-!define MSIMG_CHECKMARKSUCCESS_C <img:../sprites/GeneralSymbols/checkmark_success.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CHECKMARKSUCCESS_G <img:MS_SPRITESPATH/GeneralSymbols/checkmark_success_gray.png>
+!define MSIMG_CHECKMARKSUCCESS_B <img:MS_SPRITESPATH/GeneralSymbols/checkmark_success_mono.png>
+!define MSIMG_CHECKMARKSUCCESS_C <img:MS_SPRITESPATH/GeneralSymbols/checkmark_success.png>
 @enduml

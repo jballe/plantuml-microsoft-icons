@@ -50,7 +50,12 @@ sprite $azuresdk [48x48/16] {
 000050000000008550085580005003300000003530000000
 }
 
-!define MSIMG_AZURESDK_G <img:../sprites/Cloud/azure_sdk_gray.png>
-!define MSIMG_AZURESDK_B <img:../sprites/Cloud/azure_sdk_mono.png>
-!define MSIMG_AZURESDK_C <img:../sprites/Cloud/azure_sdk.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESDK_G <img:MS_SPRITESPATH/Cloud/azure_sdk_gray.png>
+!define MSIMG_AZURESDK_B <img:MS_SPRITESPATH/Cloud/azure_sdk_mono.png>
+!define MSIMG_AZURESDK_C <img:MS_SPRITESPATH/Cloud/azure_sdk.png>
 @enduml

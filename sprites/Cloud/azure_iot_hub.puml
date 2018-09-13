@@ -50,7 +50,12 @@ sprite $azureiothub [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREIOTHUB_G <img:../sprites/Cloud/azure_iot_hub_gray.png>
-!define MSIMG_AZUREIOTHUB_B <img:../sprites/Cloud/azure_iot_hub_mono.png>
-!define MSIMG_AZUREIOTHUB_C <img:../sprites/Cloud/azure_iot_hub.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREIOTHUB_G <img:MS_SPRITESPATH/Cloud/azure_iot_hub_gray.png>
+!define MSIMG_AZUREIOTHUB_B <img:MS_SPRITESPATH/Cloud/azure_iot_hub_mono.png>
+!define MSIMG_AZUREIOTHUB_C <img:MS_SPRITESPATH/Cloud/azure_iot_hub.png>
 @enduml

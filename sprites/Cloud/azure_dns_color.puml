@@ -50,7 +50,12 @@ sprite $azurednscolor [48x48/16] {
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_AZUREDNSCOLOR_G <img:../sprites/Cloud/azure_dns_color_gray.png>
-!define MSIMG_AZUREDNSCOLOR_B <img:../sprites/Cloud/azure_dns_color_mono.png>
-!define MSIMG_AZUREDNSCOLOR_C <img:../sprites/Cloud/azure_dns_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDNSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_dns_color_gray.png>
+!define MSIMG_AZUREDNSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_dns_color_mono.png>
+!define MSIMG_AZUREDNSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_dns_color.png>
 @enduml

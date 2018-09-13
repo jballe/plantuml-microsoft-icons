@@ -50,7 +50,12 @@ EEE50000000000008EEEEEEEEEEE500000000085838EEEE0
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREAPIMANAGEMENT_G <img:../sprites/Cloud/azure_api_management_gray.png>
-!define MSIMG_AZUREAPIMANAGEMENT_B <img:../sprites/Cloud/azure_api_management_mono.png>
-!define MSIMG_AZUREAPIMANAGEMENT_C <img:../sprites/Cloud/azure_api_management.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPIMANAGEMENT_G <img:MS_SPRITESPATH/Cloud/azure_api_management_gray.png>
+!define MSIMG_AZUREAPIMANAGEMENT_B <img:MS_SPRITESPATH/Cloud/azure_api_management_mono.png>
+!define MSIMG_AZUREAPIMANAGEMENT_C <img:MS_SPRITESPATH/Cloud/azure_api_management.png>
 @enduml

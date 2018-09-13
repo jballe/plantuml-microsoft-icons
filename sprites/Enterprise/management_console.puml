@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MANAGEMENTCONSOLE_G <img:../sprites/Enterprise/management_console_gray.png>
-!define MSIMG_MANAGEMENTCONSOLE_B <img:../sprites/Enterprise/management_console_mono.png>
-!define MSIMG_MANAGEMENTCONSOLE_C <img:../sprites/Enterprise/management_console.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MANAGEMENTCONSOLE_G <img:MS_SPRITESPATH/Enterprise/management_console_gray.png>
+!define MSIMG_MANAGEMENTCONSOLE_B <img:MS_SPRITESPATH/Enterprise/management_console_mono.png>
+!define MSIMG_MANAGEMENTCONSOLE_C <img:MS_SPRITESPATH/Enterprise/management_console.png>
 @enduml

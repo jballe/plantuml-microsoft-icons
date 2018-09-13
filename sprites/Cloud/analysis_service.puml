@@ -50,7 +50,12 @@ EEEEEEEEE0833EEEEEEE000000059E9300000000000000EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_ANALYSISSERVICE_G <img:../sprites/Cloud/analysis_service_gray.png>
-!define MSIMG_ANALYSISSERVICE_B <img:../sprites/Cloud/analysis_service_mono.png>
-!define MSIMG_ANALYSISSERVICE_C <img:../sprites/Cloud/analysis_service.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ANALYSISSERVICE_G <img:MS_SPRITESPATH/Cloud/analysis_service_gray.png>
+!define MSIMG_ANALYSISSERVICE_B <img:MS_SPRITESPATH/Cloud/analysis_service_mono.png>
+!define MSIMG_ANALYSISSERVICE_C <img:MS_SPRITESPATH/Cloud/analysis_service.png>
 @enduml

@@ -4,5 +4,24 @@
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !endif
 
-
+!includeurl MS_SPRITESPATH/OMS/oms_alerts.puml
+!includeurl MS_SPRITESPATH/OMS/oms_app_with_changes.puml
+!includeurl MS_SPRITESPATH/OMS/oms_assessments.puml
+!includeurl MS_SPRITESPATH/OMS/oms_capacity.puml
+!includeurl MS_SPRITESPATH/OMS/oms_config_assessment.puml
+!includeurl MS_SPRITESPATH/OMS/oms_dashboard.puml
+!includeurl MS_SPRITESPATH/OMS/oms_dependency_monitor.puml
+!includeurl MS_SPRITESPATH/OMS/oms_diagnostics.puml
+!includeurl MS_SPRITESPATH/OMS/oms_jobs.puml
+!includeurl MS_SPRITESPATH/OMS/oms_log_management.puml
+!includeurl MS_SPRITESPATH/OMS/oms_log_search.puml
+!includeurl MS_SPRITESPATH/OMS/oms_malware_assessment.puml
+!includeurl MS_SPRITESPATH/OMS/oms_overview.puml
+!includeurl MS_SPRITESPATH/OMS/oms_security.puml
+!includeurl MS_SPRITESPATH/OMS/oms_server_with_changes.puml
+!includeurl MS_SPRITESPATH/OMS/oms_services.puml
+!includeurl MS_SPRITESPATH/OMS/oms_solutions.puml
+!includeurl MS_SPRITESPATH/OMS/oms_system_update.puml
+!includeurl MS_SPRITESPATH/OMS/oms_track_changes.puml
+!includeurl MS_SPRITESPATH/OMS/oms_wire_data.puml
 @enduml

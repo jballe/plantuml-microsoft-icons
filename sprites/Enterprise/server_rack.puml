@@ -50,7 +50,12 @@ sprite $serverrack [48x48/16] {
 05EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50
 }
 
-!define MSIMG_SERVERRACK_G <img:../sprites/Enterprise/server_rack_gray.png>
-!define MSIMG_SERVERRACK_B <img:../sprites/Enterprise/server_rack_mono.png>
-!define MSIMG_SERVERRACK_C <img:../sprites/Enterprise/server_rack.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVERRACK_G <img:MS_SPRITESPATH/Enterprise/server_rack_gray.png>
+!define MSIMG_SERVERRACK_B <img:MS_SPRITESPATH/Enterprise/server_rack_mono.png>
+!define MSIMG_SERVERRACK_C <img:MS_SPRITESPATH/Enterprise/server_rack.png>
 @enduml

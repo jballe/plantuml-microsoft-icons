@@ -50,7 +50,12 @@ sprite $userpermissions [48x48/16] {
 08EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE80
 }
 
-!define MSIMG_USERPERMISSIONS_G <img:../sprites/Enterprise/user_permissions_gray.png>
-!define MSIMG_USERPERMISSIONS_B <img:../sprites/Enterprise/user_permissions_mono.png>
-!define MSIMG_USERPERMISSIONS_C <img:../sprites/Enterprise/user_permissions.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_USERPERMISSIONS_G <img:MS_SPRITESPATH/Enterprise/user_permissions_gray.png>
+!define MSIMG_USERPERMISSIONS_B <img:MS_SPRITESPATH/Enterprise/user_permissions_mono.png>
+!define MSIMG_USERPERMISSIONS_C <img:MS_SPRITESPATH/Enterprise/user_permissions.png>
 @enduml

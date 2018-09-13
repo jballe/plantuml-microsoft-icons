@@ -50,7 +50,12 @@ sprite $visualstudioteamservicesbitbucketcodesource [48x48/16] {
 000000000000000000359EEEEEE953000000000000000000
 }
 
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_G <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source_gray.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_B <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source_mono.png>
-!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_C <img:../sprites/Cloud/visual_studio_team_services_bitbucket_code_source.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_G <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_bitbucket_code_source_gray.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_B <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_bitbucket_code_source_mono.png>
+!define MSIMG_VISUALSTUDIOTEAMSERVICESBITBUCKETCODESOURCE_C <img:MS_SPRITESPATH/Cloud/visual_studio_team_services_bitbucket_code_source.png>
 @enduml

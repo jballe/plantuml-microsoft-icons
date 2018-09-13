@@ -50,7 +50,12 @@ sprite $plugandplay [48x48/16] {
 000005000000000000000000000000000000000000000000
 }
 
-!define MSIMG_PLUGANDPLAY_G <img:../sprites/Enterprise/plug_and_play_gray.png>
-!define MSIMG_PLUGANDPLAY_B <img:../sprites/Enterprise/plug_and_play_mono.png>
-!define MSIMG_PLUGANDPLAY_C <img:../sprites/Enterprise/plug_and_play.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_PLUGANDPLAY_G <img:MS_SPRITESPATH/Enterprise/plug_and_play_gray.png>
+!define MSIMG_PLUGANDPLAY_B <img:MS_SPRITESPATH/Enterprise/plug_and_play_mono.png>
+!define MSIMG_PLUGANDPLAY_C <img:MS_SPRITESPATH/Enterprise/plug_and_play.png>
 @enduml

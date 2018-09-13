@@ -50,7 +50,12 @@ EEEEEEEEEEE3000000000000000000000000000000008EEE
 EEEEEEEEEEE5000000000000000000000000000000008EEE
 }
 
-!define MSIMG_ACCOUNTSWORKACCOUNT_G <img:../sprites/Cloud/accounts_work_account_gray.png>
-!define MSIMG_ACCOUNTSWORKACCOUNT_B <img:../sprites/Cloud/accounts_work_account_mono.png>
-!define MSIMG_ACCOUNTSWORKACCOUNT_C <img:../sprites/Cloud/accounts_work_account.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ACCOUNTSWORKACCOUNT_G <img:MS_SPRITESPATH/Cloud/accounts_work_account_gray.png>
+!define MSIMG_ACCOUNTSWORKACCOUNT_B <img:MS_SPRITESPATH/Cloud/accounts_work_account_mono.png>
+!define MSIMG_ACCOUNTSWORKACCOUNT_C <img:MS_SPRITESPATH/Cloud/accounts_work_account.png>
 @enduml

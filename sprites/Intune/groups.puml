@@ -50,7 +50,12 @@ EEEEEEEEEEEE503EEEEEEEEEEEEEEEEEEEEEE50000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GROUPS_G <img:../sprites/Intune/groups_gray.png>
-!define MSIMG_GROUPS_B <img:../sprites/Intune/groups_mono.png>
-!define MSIMG_GROUPS_C <img:../sprites/Intune/groups.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_GROUPS_G <img:MS_SPRITESPATH/Intune/groups_gray.png>
+!define MSIMG_GROUPS_B <img:MS_SPRITESPATH/Intune/groups_mono.png>
+!define MSIMG_GROUPS_C <img:MS_SPRITESPATH/Intune/groups.png>
 @enduml

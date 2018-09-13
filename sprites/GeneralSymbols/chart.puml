@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE9
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CHART_G <img:../sprites/GeneralSymbols/chart_gray.png>
-!define MSIMG_CHART_B <img:../sprites/GeneralSymbols/chart_mono.png>
-!define MSIMG_CHART_C <img:../sprites/GeneralSymbols/chart.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CHART_G <img:MS_SPRITESPATH/GeneralSymbols/chart_gray.png>
+!define MSIMG_CHART_B <img:MS_SPRITESPATH/GeneralSymbols/chart_mono.png>
+!define MSIMG_CHART_C <img:MS_SPRITESPATH/GeneralSymbols/chart.png>
 @enduml

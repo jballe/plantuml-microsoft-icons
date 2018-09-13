@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEE009EEE9300000359EEEEE59EE03EE00EE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONTAINERSERVICE_G <img:../sprites/Cloud/container_service_gray.png>
-!define MSIMG_CONTAINERSERVICE_B <img:../sprites/Cloud/container_service_mono.png>
-!define MSIMG_CONTAINERSERVICE_C <img:../sprites/Cloud/container_service.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CONTAINERSERVICE_G <img:MS_SPRITESPATH/Cloud/container_service_gray.png>
+!define MSIMG_CONTAINERSERVICE_B <img:MS_SPRITESPATH/Cloud/container_service_mono.png>
+!define MSIMG_CONTAINERSERVICE_C <img:MS_SPRITESPATH/Cloud/container_service.png>
 @enduml

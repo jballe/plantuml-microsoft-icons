@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREBACKUP_G <img:../sprites/Cloud/azure_backup_gray.png>
-!define MSIMG_AZUREBACKUP_B <img:../sprites/Cloud/azure_backup_mono.png>
-!define MSIMG_AZUREBACKUP_C <img:../sprites/Cloud/azure_backup.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREBACKUP_G <img:MS_SPRITESPATH/Cloud/azure_backup_gray.png>
+!define MSIMG_AZUREBACKUP_B <img:MS_SPRITESPATH/Cloud/azure_backup_mono.png>
+!define MSIMG_AZUREBACKUP_C <img:MS_SPRITESPATH/Cloud/azure_backup.png>
 @enduml

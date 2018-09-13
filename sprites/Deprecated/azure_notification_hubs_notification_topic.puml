@@ -50,7 +50,12 @@ EEEEEEEE90000000000000000000000000000009EEEEEEEE
 000000000000000000000000000000800000000000000000
 }
 
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_G <img:../sprites/Deprecated/azure_notification_hubs_notification_topic_gray.png>
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_B <img:../sprites/Deprecated/azure_notification_hubs_notification_topic_mono.png>
-!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_C <img:../sprites/Deprecated/azure_notification_hubs_notification_topic.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_G <img:MS_SPRITESPATH/Deprecated/azure_notification_hubs_notification_topic_gray.png>
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_B <img:MS_SPRITESPATH/Deprecated/azure_notification_hubs_notification_topic_mono.png>
+!define MSIMG_AZURENOTIFICATIONHUBSNOTIFICATIONTOPIC_C <img:MS_SPRITESPATH/Deprecated/azure_notification_hubs_notification_topic.png>
 @enduml

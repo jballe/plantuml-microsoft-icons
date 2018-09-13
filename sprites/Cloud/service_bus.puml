@@ -50,7 +50,12 @@ sprite $servicebus [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_SERVICEBUS_G <img:../sprites/Cloud/service_bus_gray.png>
-!define MSIMG_SERVICEBUS_B <img:../sprites/Cloud/service_bus_mono.png>
-!define MSIMG_SERVICEBUS_C <img:../sprites/Cloud/service_bus.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVICEBUS_G <img:MS_SPRITESPATH/Cloud/service_bus_gray.png>
+!define MSIMG_SERVICEBUS_B <img:MS_SPRITESPATH/Cloud/service_bus_mono.png>
+!define MSIMG_SERVICEBUS_C <img:MS_SPRITESPATH/Cloud/service_bus.png>
 @enduml

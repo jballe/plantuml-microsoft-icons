@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREALERT_G <img:../sprites/Cloud/azure_alert_gray.png>
-!define MSIMG_AZUREALERT_B <img:../sprites/Cloud/azure_alert_mono.png>
-!define MSIMG_AZUREALERT_C <img:../sprites/Cloud/azure_alert.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREALERT_G <img:MS_SPRITESPATH/Cloud/azure_alert_gray.png>
+!define MSIMG_AZUREALERT_B <img:MS_SPRITESPATH/Cloud/azure_alert_mono.png>
+!define MSIMG_AZUREALERT_C <img:MS_SPRITESPATH/Cloud/azure_alert.png>
 @enduml

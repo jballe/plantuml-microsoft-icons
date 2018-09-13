@@ -50,7 +50,12 @@ sprite $monitorrunningapps [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MONITORRUNNINGAPPS_G <img:../sprites/Enterprise/monitor_running_apps_gray.png>
-!define MSIMG_MONITORRUNNINGAPPS_B <img:../sprites/Enterprise/monitor_running_apps_mono.png>
-!define MSIMG_MONITORRUNNINGAPPS_C <img:../sprites/Enterprise/monitor_running_apps.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MONITORRUNNINGAPPS_G <img:MS_SPRITESPATH/Enterprise/monitor_running_apps_gray.png>
+!define MSIMG_MONITORRUNNINGAPPS_B <img:MS_SPRITESPATH/Enterprise/monitor_running_apps_mono.png>
+!define MSIMG_MONITORRUNNINGAPPS_C <img:MS_SPRITESPATH/Enterprise/monitor_running_apps.png>
 @enduml

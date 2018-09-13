@@ -50,7 +50,12 @@ sprite $companyportal [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_COMPANYPORTAL_G <img:../sprites/Intune/company_portal_gray.png>
-!define MSIMG_COMPANYPORTAL_B <img:../sprites/Intune/company_portal_mono.png>
-!define MSIMG_COMPANYPORTAL_C <img:../sprites/Intune/company_portal.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_COMPANYPORTAL_G <img:MS_SPRITESPATH/Intune/company_portal_gray.png>
+!define MSIMG_COMPANYPORTAL_B <img:MS_SPRITESPATH/Intune/company_portal_mono.png>
+!define MSIMG_COMPANYPORTAL_C <img:MS_SPRITESPATH/Intune/company_portal.png>
 @enduml

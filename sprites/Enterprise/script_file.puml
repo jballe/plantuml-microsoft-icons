@@ -50,7 +50,12 @@ sprite $scriptfile [48x48/16] {
 000008EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE800000
 }
 
-!define MSIMG_SCRIPTFILE_G <img:../sprites/Enterprise/script_file_gray.png>
-!define MSIMG_SCRIPTFILE_B <img:../sprites/Enterprise/script_file_mono.png>
-!define MSIMG_SCRIPTFILE_C <img:../sprites/Enterprise/script_file.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SCRIPTFILE_G <img:MS_SPRITESPATH/Enterprise/script_file_gray.png>
+!define MSIMG_SCRIPTFILE_B <img:MS_SPRITESPATH/Enterprise/script_file_mono.png>
+!define MSIMG_SCRIPTFILE_C <img:MS_SPRITESPATH/Enterprise/script_file.png>
 @enduml

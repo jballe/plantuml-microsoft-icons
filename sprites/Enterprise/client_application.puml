@@ -50,7 +50,12 @@ sprite $clientapplication [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLIENTAPPLICATION_G <img:../sprites/Enterprise/client_application_gray.png>
-!define MSIMG_CLIENTAPPLICATION_B <img:../sprites/Enterprise/client_application_mono.png>
-!define MSIMG_CLIENTAPPLICATION_C <img:../sprites/Enterprise/client_application.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CLIENTAPPLICATION_G <img:MS_SPRITESPATH/Enterprise/client_application_gray.png>
+!define MSIMG_CLIENTAPPLICATION_B <img:MS_SPRITESPATH/Enterprise/client_application_mono.png>
+!define MSIMG_CLIENTAPPLICATION_C <img:MS_SPRITESPATH/Enterprise/client_application.png>
 @enduml

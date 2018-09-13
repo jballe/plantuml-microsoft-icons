@@ -50,7 +50,12 @@ EEE00000000005EEEEEEEE8008EEEEEEEE50000000000EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_RESOURCEGROUP_G <img:../sprites/Cloud/resource_group_gray.png>
-!define MSIMG_RESOURCEGROUP_B <img:../sprites/Cloud/resource_group_mono.png>
-!define MSIMG_RESOURCEGROUP_C <img:../sprites/Cloud/resource_group.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_RESOURCEGROUP_G <img:MS_SPRITESPATH/Cloud/resource_group_gray.png>
+!define MSIMG_RESOURCEGROUP_B <img:MS_SPRITESPATH/Cloud/resource_group_mono.png>
+!define MSIMG_RESOURCEGROUP_C <img:MS_SPRITESPATH/Cloud/resource_group.png>
 @enduml

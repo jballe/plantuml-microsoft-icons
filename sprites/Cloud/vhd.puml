@@ -50,7 +50,12 @@ sprite $vhd [48x48/16] {
 000005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_VHD_G <img:../sprites/Cloud/vhd_gray.png>
-!define MSIMG_VHD_B <img:../sprites/Cloud/vhd_mono.png>
-!define MSIMG_VHD_C <img:../sprites/Cloud/vhd.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_VHD_G <img:MS_SPRITESPATH/Cloud/vhd_gray.png>
+!define MSIMG_VHD_B <img:MS_SPRITESPATH/Cloud/vhd_mono.png>
+!define MSIMG_VHD_C <img:MS_SPRITESPATH/Cloud/vhd.png>
 @enduml

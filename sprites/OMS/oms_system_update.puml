@@ -50,7 +50,12 @@ sprite $omssystemupdate [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSSYSTEMUPDATE_G <img:../sprites/OMS/oms_system_update_gray.png>
-!define MSIMG_OMSSYSTEMUPDATE_B <img:../sprites/OMS/oms_system_update_mono.png>
-!define MSIMG_OMSSYSTEMUPDATE_C <img:../sprites/OMS/oms_system_update.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSSYSTEMUPDATE_G <img:MS_SPRITESPATH/OMS/oms_system_update_gray.png>
+!define MSIMG_OMSSYSTEMUPDATE_B <img:MS_SPRITESPATH/OMS/oms_system_update_mono.png>
+!define MSIMG_OMSSYSTEMUPDATE_C <img:MS_SPRITESPATH/OMS/oms_system_update.png>
 @enduml

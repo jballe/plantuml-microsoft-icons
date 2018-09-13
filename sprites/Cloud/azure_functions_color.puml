@@ -50,7 +50,12 @@ EEE800000000008888888888888855300000000000005EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREFUNCTIONSCOLOR_G <img:../sprites/Cloud/azure_functions_color_gray.png>
-!define MSIMG_AZUREFUNCTIONSCOLOR_B <img:../sprites/Cloud/azure_functions_color_mono.png>
-!define MSIMG_AZUREFUNCTIONSCOLOR_C <img:../sprites/Cloud/azure_functions_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREFUNCTIONSCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_functions_color_gray.png>
+!define MSIMG_AZUREFUNCTIONSCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_functions_color_mono.png>
+!define MSIMG_AZUREFUNCTIONSCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_functions_color.png>
 @enduml

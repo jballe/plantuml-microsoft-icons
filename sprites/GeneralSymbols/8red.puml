@@ -50,7 +50,12 @@ sprite $8red [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_8RED_G <img:../sprites/GeneralSymbols/8red_gray.png>
-!define MSIMG_8RED_B <img:../sprites/GeneralSymbols/8red_mono.png>
-!define MSIMG_8RED_C <img:../sprites/GeneralSymbols/8red.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_8RED_G <img:MS_SPRITESPATH/GeneralSymbols/8red_gray.png>
+!define MSIMG_8RED_B <img:MS_SPRITESPATH/GeneralSymbols/8red_mono.png>
+!define MSIMG_8RED_C <img:MS_SPRITESPATH/GeneralSymbols/8red.png>
 @enduml

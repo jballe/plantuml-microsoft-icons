@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DEVICE_G <img:../sprites/Enterprise/device_gray.png>
-!define MSIMG_DEVICE_B <img:../sprites/Enterprise/device_mono.png>
-!define MSIMG_DEVICE_C <img:../sprites/Enterprise/device.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DEVICE_G <img:MS_SPRITESPATH/Enterprise/device_gray.png>
+!define MSIMG_DEVICE_B <img:MS_SPRITESPATH/Enterprise/device_mono.png>
+!define MSIMG_DEVICE_C <img:MS_SPRITESPATH/Enterprise/device.png>
 @enduml

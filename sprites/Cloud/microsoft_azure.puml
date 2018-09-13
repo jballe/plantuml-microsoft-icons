@@ -50,7 +50,12 @@ EE50000000000089EEEEEEEEEEEEEEEEEEEEEEEEEEEEE500
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_MICROSOFTAZURE_G <img:../sprites/Cloud/microsoft_azure_gray.png>
-!define MSIMG_MICROSOFTAZURE_B <img:../sprites/Cloud/microsoft_azure_mono.png>
-!define MSIMG_MICROSOFTAZURE_C <img:../sprites/Cloud/microsoft_azure.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_MICROSOFTAZURE_G <img:MS_SPRITESPATH/Cloud/microsoft_azure_gray.png>
+!define MSIMG_MICROSOFTAZURE_B <img:MS_SPRITESPATH/Cloud/microsoft_azure_mono.png>
+!define MSIMG_MICROSOFTAZURE_C <img:MS_SPRITESPATH/Cloud/microsoft_azure.png>
 @enduml

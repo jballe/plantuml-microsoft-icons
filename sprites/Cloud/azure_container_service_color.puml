@@ -50,7 +50,12 @@ sprite $azurecontainerservicecolor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECONTAINERSERVICECOLOR_G <img:../sprites/Cloud/azure_container_service_color_gray.png>
-!define MSIMG_AZURECONTAINERSERVICECOLOR_B <img:../sprites/Cloud/azure_container_service_color_mono.png>
-!define MSIMG_AZURECONTAINERSERVICECOLOR_C <img:../sprites/Cloud/azure_container_service_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECONTAINERSERVICECOLOR_G <img:MS_SPRITESPATH/Cloud/azure_container_service_color_gray.png>
+!define MSIMG_AZURECONTAINERSERVICECOLOR_B <img:MS_SPRITESPATH/Cloud/azure_container_service_color_mono.png>
+!define MSIMG_AZURECONTAINERSERVICECOLOR_C <img:MS_SPRITESPATH/Cloud/azure_container_service_color.png>
 @enduml

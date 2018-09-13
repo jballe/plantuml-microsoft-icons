@@ -50,7 +50,12 @@ EE95005EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE50
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREVMCONTAINER_G <img:../sprites/Cloud/azure_vm_container_gray.png>
-!define MSIMG_AZUREVMCONTAINER_B <img:../sprites/Cloud/azure_vm_container_mono.png>
-!define MSIMG_AZUREVMCONTAINER_C <img:../sprites/Cloud/azure_vm_container.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREVMCONTAINER_G <img:MS_SPRITESPATH/Cloud/azure_vm_container_gray.png>
+!define MSIMG_AZUREVMCONTAINER_B <img:MS_SPRITESPATH/Cloud/azure_vm_container_mono.png>
+!define MSIMG_AZUREVMCONTAINER_C <img:MS_SPRITESPATH/Cloud/azure_vm_container.png>
 @enduml

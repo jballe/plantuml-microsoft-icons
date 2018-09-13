@@ -4,5 +4,35 @@
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !endif
 
-
+!includeurl MS_SPRITESPATH/Deprecated/application_generic.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_application_gateway_v1_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_app_service_logic_app.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_app_service_logic_app_color.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_bot.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_content_delivery_network_cdn_v1_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_machine_learning.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_notification_hubs_notification_topic.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_specific_certificate.puml
+!includeurl MS_SPRITESPATH/Deprecated/azure_vpn_gateway_v1.puml
+!includeurl MS_SPRITESPATH/Deprecated/compute.puml
+!includeurl MS_SPRITESPATH/Deprecated/datalake_analytics_ben.puml
+!includeurl MS_SPRITESPATH/Deprecated/datalake_store_ben.puml
+!includeurl MS_SPRITESPATH/Deprecated/data_lake_ben.puml
+!includeurl MS_SPRITESPATH/Deprecated/data_services.puml
+!includeurl MS_SPRITESPATH/Deprecated/hdinsight_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/os_image.puml
+!includeurl MS_SPRITESPATH/Deprecated/runbooks.puml
+!includeurl MS_SPRITESPATH/Deprecated/runbooks2_color.puml
+!includeurl MS_SPRITESPATH/Deprecated/service_bus_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/service_bus_queue_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/service_bus_relay_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/service_bus_topic_old.puml
+!includeurl MS_SPRITESPATH/Deprecated/service_package.puml
+!includeurl MS_SPRITESPATH/Deprecated/sql_data_warehouse.puml
+!includeurl MS_SPRITESPATH/Deprecated/sql_reporting.puml
+!includeurl MS_SPRITESPATH/Deprecated/sql_stretch_database_db.puml
+!includeurl MS_SPRITESPATH/Deprecated/step_1_fixed.puml
+!includeurl MS_SPRITESPATH/Deprecated/vhd_old_style.puml
+!includeurl MS_SPRITESPATH/Deprecated/webhook.puml
+!includeurl MS_SPRITESPATH/Deprecated/webhook_old.puml
 @enduml

@@ -50,7 +50,12 @@ EEE9000000000000009EEEEEEEEEEEEEE00000000005EEEE
 0000000000000000000589EEEE9850000000000000000000
 }
 
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_G <img:../sprites/Cloud/azure_app_service_web_app_color_gray.png>
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_B <img:../sprites/Cloud/azure_app_service_web_app_color_mono.png>
-!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_C <img:../sprites/Cloud/azure_app_service_web_app_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_app_service_web_app_color_gray.png>
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_app_service_web_app_color_mono.png>
+!define MSIMG_AZUREAPPSERVICEWEBAPPCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_app_service_web_app_color.png>
 @enduml

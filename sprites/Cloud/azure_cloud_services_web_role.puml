@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_G <img:../sprites/Cloud/azure_cloud_services_web_role_gray.png>
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_B <img:../sprites/Cloud/azure_cloud_services_web_role_mono.png>
-!define MSIMG_AZURECLOUDSERVICESWEBROLE_C <img:../sprites/Cloud/azure_cloud_services_web_role.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_G <img:MS_SPRITESPATH/Cloud/azure_cloud_services_web_role_gray.png>
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_B <img:MS_SPRITESPATH/Cloud/azure_cloud_services_web_role_mono.png>
+!define MSIMG_AZURECLOUDSERVICESWEBROLE_C <img:MS_SPRITESPATH/Cloud/azure_cloud_services_web_role.png>
 @enduml

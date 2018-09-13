@@ -50,7 +50,12 @@ EEEEEEEEEE08EEEEE9000009EEEEE0000588883000000000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_G <img:../sprites/Intune/client_software_deployment_wizard_gray.png>
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_B <img:../sprites/Intune/client_software_deployment_wizard_mono.png>
-!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_C <img:../sprites/Intune/client_software_deployment_wizard.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_G <img:MS_SPRITESPATH/Intune/client_software_deployment_wizard_gray.png>
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_B <img:MS_SPRITESPATH/Intune/client_software_deployment_wizard_mono.png>
+!define MSIMG_CLIENTSOFTWAREDEPLOYMENTWIZARD_C <img:MS_SPRITESPATH/Intune/client_software_deployment_wizard.png>
 @enduml

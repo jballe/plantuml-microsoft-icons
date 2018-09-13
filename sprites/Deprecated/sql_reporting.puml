@@ -50,7 +50,12 @@ sprite $sqlreporting [48x48/16] {
 0000000000000359E808EEEEEEEEEEEEEEEEEEEEEE500000
 }
 
-!define MSIMG_SQLREPORTING_G <img:../sprites/Deprecated/sql_reporting_gray.png>
-!define MSIMG_SQLREPORTING_B <img:../sprites/Deprecated/sql_reporting_mono.png>
-!define MSIMG_SQLREPORTING_C <img:../sprites/Deprecated/sql_reporting.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SQLREPORTING_G <img:MS_SPRITESPATH/Deprecated/sql_reporting_gray.png>
+!define MSIMG_SQLREPORTING_B <img:MS_SPRITESPATH/Deprecated/sql_reporting_mono.png>
+!define MSIMG_SQLREPORTING_C <img:MS_SPRITESPATH/Deprecated/sql_reporting.png>
 @enduml

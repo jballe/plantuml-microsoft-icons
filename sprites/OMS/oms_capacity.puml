@@ -50,7 +50,12 @@ sprite $omscapacity [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSCAPACITY_G <img:../sprites/OMS/oms_capacity_gray.png>
-!define MSIMG_OMSCAPACITY_B <img:../sprites/OMS/oms_capacity_mono.png>
-!define MSIMG_OMSCAPACITY_C <img:../sprites/OMS/oms_capacity.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSCAPACITY_G <img:MS_SPRITESPATH/OMS/oms_capacity_gray.png>
+!define MSIMG_OMSCAPACITY_B <img:MS_SPRITESPATH/OMS/oms_capacity_mono.png>
+!define MSIMG_OMSCAPACITY_C <img:MS_SPRITESPATH/OMS/oms_capacity.png>
 @enduml

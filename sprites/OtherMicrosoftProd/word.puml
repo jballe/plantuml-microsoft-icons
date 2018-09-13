@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE0000000000000000009E
 000000000000000000000000058900000000000000000000
 }
 
-!define MSIMG_WORD_G <img:../sprites/OtherMicrosoftProd/word_gray.png>
-!define MSIMG_WORD_B <img:../sprites/OtherMicrosoftProd/word_mono.png>
-!define MSIMG_WORD_C <img:../sprites/OtherMicrosoftProd/word.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WORD_G <img:MS_SPRITESPATH/OtherMicrosoftProd/word_gray.png>
+!define MSIMG_WORD_B <img:MS_SPRITESPATH/OtherMicrosoftProd/word_mono.png>
+!define MSIMG_WORD_C <img:MS_SPRITESPATH/OtherMicrosoftProd/word.png>
 @enduml

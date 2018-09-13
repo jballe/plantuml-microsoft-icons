@@ -50,7 +50,12 @@ sprite $omsoverview [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSOVERVIEW_G <img:../sprites/OMS/oms_overview_gray.png>
-!define MSIMG_OMSOVERVIEW_B <img:../sprites/OMS/oms_overview_mono.png>
-!define MSIMG_OMSOVERVIEW_C <img:../sprites/OMS/oms_overview.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSOVERVIEW_G <img:MS_SPRITESPATH/OMS/oms_overview_gray.png>
+!define MSIMG_OMSOVERVIEW_B <img:MS_SPRITESPATH/OMS/oms_overview_mono.png>
+!define MSIMG_OMSOVERVIEW_C <img:MS_SPRITESPATH/OMS/oms_overview.png>
 @enduml

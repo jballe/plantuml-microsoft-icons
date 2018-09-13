@@ -50,7 +50,12 @@ sprite $wirelessconnection [48x48/16] {
 000000000000000000000000000000005000000000000000
 }
 
-!define MSIMG_WIRELESSCONNECTION_G <img:../sprites/Enterprise/wireless_connection_gray.png>
-!define MSIMG_WIRELESSCONNECTION_B <img:../sprites/Enterprise/wireless_connection_mono.png>
-!define MSIMG_WIRELESSCONNECTION_C <img:../sprites/Enterprise/wireless_connection.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WIRELESSCONNECTION_G <img:MS_SPRITESPATH/Enterprise/wireless_connection_gray.png>
+!define MSIMG_WIRELESSCONNECTION_B <img:MS_SPRITESPATH/Enterprise/wireless_connection_mono.png>
+!define MSIMG_WIRELESSCONNECTION_C <img:MS_SPRITESPATH/Enterprise/wireless_connection.png>
 @enduml

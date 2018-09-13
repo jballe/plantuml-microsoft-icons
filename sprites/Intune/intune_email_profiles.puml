@@ -50,7 +50,12 @@ sprite $intuneemailprofiles [48x48/16] {
 0000000000000000000008EEEEEEEEEEEEEEEEEEEEEEEEE3
 }
 
-!define MSIMG_INTUNEEMAILPROFILES_G <img:../sprites/Intune/intune_email_profiles_gray.png>
-!define MSIMG_INTUNEEMAILPROFILES_B <img:../sprites/Intune/intune_email_profiles_mono.png>
-!define MSIMG_INTUNEEMAILPROFILES_C <img:../sprites/Intune/intune_email_profiles.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_INTUNEEMAILPROFILES_G <img:MS_SPRITESPATH/Intune/intune_email_profiles_gray.png>
+!define MSIMG_INTUNEEMAILPROFILES_B <img:MS_SPRITESPATH/Intune/intune_email_profiles_mono.png>
+!define MSIMG_INTUNEEMAILPROFILES_C <img:MS_SPRITESPATH/Intune/intune_email_profiles.png>
 @enduml

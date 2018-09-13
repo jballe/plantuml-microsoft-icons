@@ -50,7 +50,12 @@ EEE80009EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE90008EEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREEXPRESSROUTE_G <img:../sprites/Cloud/azure_expressroute_gray.png>
-!define MSIMG_AZUREEXPRESSROUTE_B <img:../sprites/Cloud/azure_expressroute_mono.png>
-!define MSIMG_AZUREEXPRESSROUTE_C <img:../sprites/Cloud/azure_expressroute.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREEXPRESSROUTE_G <img:MS_SPRITESPATH/Cloud/azure_expressroute_gray.png>
+!define MSIMG_AZUREEXPRESSROUTE_B <img:MS_SPRITESPATH/Cloud/azure_expressroute_mono.png>
+!define MSIMG_AZUREEXPRESSROUTE_C <img:MS_SPRITESPATH/Cloud/azure_expressroute.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $centraladministrationsitesql [48x48/16] {
 000000000000000000000000000359EEEEE9850000000000
 }
 
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_G <img:../sprites/System_Center/central_administration_site_sql_gray.png>
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_B <img:../sprites/System_Center/central_administration_site_sql_mono.png>
-!define MSIMG_CENTRALADMINISTRATIONSITESQL_C <img:../sprites/System_Center/central_administration_site_sql.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_G <img:MS_SPRITESPATH/System_Center/central_administration_site_sql_gray.png>
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_B <img:MS_SPRITESPATH/System_Center/central_administration_site_sql_mono.png>
+!define MSIMG_CENTRALADMINISTRATIONSITESQL_C <img:MS_SPRITESPATH/System_Center/central_administration_site_sql.png>
 @enduml

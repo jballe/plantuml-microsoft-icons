@@ -50,7 +50,12 @@ sprite $omsdependencymonitor [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSDEPENDENCYMONITOR_G <img:../sprites/OMS/oms_dependency_monitor_gray.png>
-!define MSIMG_OMSDEPENDENCYMONITOR_B <img:../sprites/OMS/oms_dependency_monitor_mono.png>
-!define MSIMG_OMSDEPENDENCYMONITOR_C <img:../sprites/OMS/oms_dependency_monitor.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSDEPENDENCYMONITOR_G <img:MS_SPRITESPATH/OMS/oms_dependency_monitor_gray.png>
+!define MSIMG_OMSDEPENDENCYMONITOR_B <img:MS_SPRITESPATH/OMS/oms_dependency_monitor_mono.png>
+!define MSIMG_OMSDEPENDENCYMONITOR_C <img:MS_SPRITESPATH/OMS/oms_dependency_monitor.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $servicebusqueueold [48x48/16] {
 000000000000000000300000000000000000000000000000
 }
 
-!define MSIMG_SERVICEBUSQUEUEOLD_G <img:../sprites/Deprecated/service_bus_queue_old_gray.png>
-!define MSIMG_SERVICEBUSQUEUEOLD_B <img:../sprites/Deprecated/service_bus_queue_old_mono.png>
-!define MSIMG_SERVICEBUSQUEUEOLD_C <img:../sprites/Deprecated/service_bus_queue_old.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVICEBUSQUEUEOLD_G <img:MS_SPRITESPATH/Deprecated/service_bus_queue_old_gray.png>
+!define MSIMG_SERVICEBUSQUEUEOLD_B <img:MS_SPRITESPATH/Deprecated/service_bus_queue_old_mono.png>
+!define MSIMG_SERVICEBUSQUEUEOLD_C <img:MS_SPRITESPATH/Deprecated/service_bus_queue_old.png>
 @enduml

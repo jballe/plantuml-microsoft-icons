@@ -50,7 +50,12 @@ sprite $serverdirectory [48x48/16] {
 000005EEEEEEEEEEEE008EEEEEEEEE8859EEEEEEE9000000
 }
 
-!define MSIMG_SERVERDIRECTORY_G <img:../sprites/Enterprise/server_directory_gray.png>
-!define MSIMG_SERVERDIRECTORY_B <img:../sprites/Enterprise/server_directory_mono.png>
-!define MSIMG_SERVERDIRECTORY_C <img:../sprites/Enterprise/server_directory.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_SERVERDIRECTORY_G <img:MS_SPRITESPATH/Enterprise/server_directory_gray.png>
+!define MSIMG_SERVERDIRECTORY_B <img:MS_SPRITESPATH/Enterprise/server_directory_mono.png>
+!define MSIMG_SERVERDIRECTORY_C <img:MS_SPRITESPATH/Enterprise/server_directory.png>
 @enduml

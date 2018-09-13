@@ -50,7 +50,12 @@ sprite $windows [48x48/16] {
 000000000000000000000000000000000000000000035990
 }
 
-!define MSIMG_WINDOWS_G <img:../sprites/OtherMicrosoftProd/windows_gray.png>
-!define MSIMG_WINDOWS_B <img:../sprites/OtherMicrosoftProd/windows_mono.png>
-!define MSIMG_WINDOWS_C <img:../sprites/OtherMicrosoftProd/windows.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_WINDOWS_G <img:MS_SPRITESPATH/OtherMicrosoftProd/windows_gray.png>
+!define MSIMG_WINDOWS_B <img:MS_SPRITESPATH/OtherMicrosoftProd/windows_mono.png>
+!define MSIMG_WINDOWS_C <img:MS_SPRITESPATH/OtherMicrosoftProd/windows.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $databasesynchronization [48x48/16] {
 000005EEEEEEEEEEEEEEEEE8000059EEE950000000000000
 }
 
-!define MSIMG_DATABASESYNCHRONIZATION_G <img:../sprites/Enterprise/database_synchronization_gray.png>
-!define MSIMG_DATABASESYNCHRONIZATION_B <img:../sprites/Enterprise/database_synchronization_mono.png>
-!define MSIMG_DATABASESYNCHRONIZATION_C <img:../sprites/Enterprise/database_synchronization.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DATABASESYNCHRONIZATION_G <img:MS_SPRITESPATH/Enterprise/database_synchronization_gray.png>
+!define MSIMG_DATABASESYNCHRONIZATION_B <img:MS_SPRITESPATH/Enterprise/database_synchronization_mono.png>
+!define MSIMG_DATABASESYNCHRONIZATION_C <img:MS_SPRITESPATH/Enterprise/database_synchronization.png>
 @enduml

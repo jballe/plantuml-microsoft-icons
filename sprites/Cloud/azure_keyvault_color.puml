@@ -50,7 +50,12 @@ sprite $azurekeyvaultcolor [48x48/16] {
 0000000000000000000389EEEE9830000000000000000000
 }
 
-!define MSIMG_AZUREKEYVAULTCOLOR_G <img:../sprites/Cloud/azure_keyvault_color_gray.png>
-!define MSIMG_AZUREKEYVAULTCOLOR_B <img:../sprites/Cloud/azure_keyvault_color_mono.png>
-!define MSIMG_AZUREKEYVAULTCOLOR_C <img:../sprites/Cloud/azure_keyvault_color.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREKEYVAULTCOLOR_G <img:MS_SPRITESPATH/Cloud/azure_keyvault_color_gray.png>
+!define MSIMG_AZUREKEYVAULTCOLOR_B <img:MS_SPRITESPATH/Cloud/azure_keyvault_color_mono.png>
+!define MSIMG_AZUREKEYVAULTCOLOR_C <img:MS_SPRITESPATH/Cloud/azure_keyvault_color.png>
 @enduml

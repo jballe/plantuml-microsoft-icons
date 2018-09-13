@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZUREDATALAKESTORE_G <img:../sprites/Cloud/azure_data_lake_store_gray.png>
-!define MSIMG_AZUREDATALAKESTORE_B <img:../sprites/Cloud/azure_data_lake_store_mono.png>
-!define MSIMG_AZUREDATALAKESTORE_C <img:../sprites/Cloud/azure_data_lake_store.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATALAKESTORE_G <img:MS_SPRITESPATH/Cloud/azure_data_lake_store_gray.png>
+!define MSIMG_AZUREDATALAKESTORE_B <img:MS_SPRITESPATH/Cloud/azure_data_lake_store_mono.png>
+!define MSIMG_AZUREDATALAKESTORE_C <img:MS_SPRITESPATH/Cloud/azure_data_lake_store.png>
 @enduml

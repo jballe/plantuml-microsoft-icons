@@ -50,7 +50,12 @@ EEEEEEEEEEE80000000000000000000000008EEEEEEEEEEE
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_GAMECONTROLLER_G <img:../sprites/GeneralSymbols/game_controller_gray.png>
-!define MSIMG_GAMECONTROLLER_B <img:../sprites/GeneralSymbols/game_controller_mono.png>
-!define MSIMG_GAMECONTROLLER_C <img:../sprites/GeneralSymbols/game_controller.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_GAMECONTROLLER_G <img:MS_SPRITESPATH/GeneralSymbols/game_controller_gray.png>
+!define MSIMG_GAMECONTROLLER_B <img:MS_SPRITESPATH/GeneralSymbols/game_controller_mono.png>
+!define MSIMG_GAMECONTROLLER_C <img:MS_SPRITESPATH/GeneralSymbols/game_controller.png>
 @enduml

@@ -4,5 +4,48 @@
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
 !endif
 
-
+!includeurl MS_SPRITESPATH/Intune/account_portal.puml
+!includeurl MS_SPRITESPATH/Intune/administration.puml
+!includeurl MS_SPRITESPATH/Intune/alerts.puml
+!includeurl MS_SPRITESPATH/Intune/apps.puml
+!includeurl MS_SPRITESPATH/Intune/certificate_compliance.puml
+!includeurl MS_SPRITESPATH/Intune/client_software_deployment_wizard.puml
+!includeurl MS_SPRITESPATH/Intune/company_portal.puml
+!includeurl MS_SPRITESPATH/Intune/computer_inventory.puml
+!includeurl MS_SPRITESPATH/Intune/conditional_access_exchange.puml
+!includeurl MS_SPRITESPATH/Intune/conditional_access_sharepoint.puml
+!includeurl MS_SPRITESPATH/Intune/connector.puml
+!includeurl MS_SPRITESPATH/Intune/dashboard.puml
+!includeurl MS_SPRITESPATH/Intune/data_migration_wizard.puml
+!includeurl MS_SPRITESPATH/Intune/detected_software.puml
+!includeurl MS_SPRITESPATH/Intune/device_group.puml
+!includeurl MS_SPRITESPATH/Intune/device_health.puml
+!includeurl MS_SPRITESPATH/Intune/device_history.puml
+!includeurl MS_SPRITESPATH/Intune/device_os.puml
+!includeurl MS_SPRITESPATH/Intune/end_protection.puml
+!includeurl MS_SPRITESPATH/Intune/exchange_connector.puml
+!includeurl MS_SPRITESPATH/Intune/groups.puml
+!includeurl MS_SPRITESPATH/Intune/hybrid.puml
+!includeurl MS_SPRITESPATH/Intune/intune_certificate_profiles.puml
+!includeurl MS_SPRITESPATH/Intune/intune_email_profiles.puml
+!includeurl MS_SPRITESPATH/Intune/intune_managed_app.puml
+!includeurl MS_SPRITESPATH/Intune/intune_mobile_application_management.puml
+!includeurl MS_SPRITESPATH/Intune/intune_vpn_profiles.puml
+!includeurl MS_SPRITESPATH/Intune/intune_wi_fi_profiles.puml
+!includeurl MS_SPRITESPATH/Intune/inventory_license.puml
+!includeurl MS_SPRITESPATH/Intune/inventory_software.puml
+!includeurl MS_SPRITESPATH/Intune/license_group.puml
+!includeurl MS_SPRITESPATH/Intune/license_installation.puml
+!includeurl MS_SPRITESPATH/Intune/microsoft_intune.puml
+!includeurl MS_SPRITESPATH/Intune/mobile_inventory.puml
+!includeurl MS_SPRITESPATH/Intune/noncompliant_apps.puml
+!includeurl MS_SPRITESPATH/Intune/policy.puml
+!includeurl MS_SPRITESPATH/Intune/protection.puml
+!includeurl MS_SPRITESPATH/Intune/reports.puml
+!includeurl MS_SPRITESPATH/Intune/settings.puml
+!includeurl MS_SPRITESPATH/Intune/subscription_portal.puml
+!includeurl MS_SPRITESPATH/Intune/terms_and_conditions.puml
+!includeurl MS_SPRITESPATH/Intune/update.puml
+!includeurl MS_SPRITESPATH/Intune/user_group.puml
+!includeurl MS_SPRITESPATH/Intune/user_management.puml
 @enduml

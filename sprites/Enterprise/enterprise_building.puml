@@ -50,7 +50,12 @@ sprite $enterprisebuilding [48x48/16] {
 0000000009EEEEEEEEEEEEEE805EEEEEEEEEEE9000000000
 }
 
-!define MSIMG_ENTERPRISEBUILDING_G <img:../sprites/Enterprise/enterprise_building_gray.png>
-!define MSIMG_ENTERPRISEBUILDING_B <img:../sprites/Enterprise/enterprise_building_mono.png>
-!define MSIMG_ENTERPRISEBUILDING_C <img:../sprites/Enterprise/enterprise_building.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ENTERPRISEBUILDING_G <img:MS_SPRITESPATH/Enterprise/enterprise_building_gray.png>
+!define MSIMG_ENTERPRISEBUILDING_B <img:MS_SPRITESPATH/Enterprise/enterprise_building_mono.png>
+!define MSIMG_ENTERPRISEBUILDING_C <img:MS_SPRITESPATH/Enterprise/enterprise_building.png>
 @enduml

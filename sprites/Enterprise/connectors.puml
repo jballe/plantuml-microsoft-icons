@@ -50,7 +50,12 @@ EEEEEEEEEEEEE9000009EEEEEEEEEEEEEEEEEEEEEEEEEEE3
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_CONNECTORS_G <img:../sprites/Enterprise/connectors_gray.png>
-!define MSIMG_CONNECTORS_B <img:../sprites/Enterprise/connectors_mono.png>
-!define MSIMG_CONNECTORS_C <img:../sprites/Enterprise/connectors.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_CONNECTORS_G <img:MS_SPRITESPATH/Enterprise/connectors_gray.png>
+!define MSIMG_CONNECTORS_B <img:MS_SPRITESPATH/Enterprise/connectors_mono.png>
+!define MSIMG_CONNECTORS_C <img:MS_SPRITESPATH/Enterprise/connectors.png>
 @enduml

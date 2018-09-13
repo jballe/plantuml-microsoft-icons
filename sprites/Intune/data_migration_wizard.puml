@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEE8000000000000000000003EEEEEE8000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_DATAMIGRATIONWIZARD_G <img:../sprites/Intune/data_migration_wizard_gray.png>
-!define MSIMG_DATAMIGRATIONWIZARD_B <img:../sprites/Intune/data_migration_wizard_mono.png>
-!define MSIMG_DATAMIGRATIONWIZARD_C <img:../sprites/Intune/data_migration_wizard.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_DATAMIGRATIONWIZARD_G <img:MS_SPRITESPATH/Intune/data_migration_wizard_gray.png>
+!define MSIMG_DATAMIGRATIONWIZARD_B <img:MS_SPRITESPATH/Intune/data_migration_wizard_mono.png>
+!define MSIMG_DATAMIGRATIONWIZARD_C <img:MS_SPRITESPATH/Intune/data_migration_wizard.png>
 @enduml

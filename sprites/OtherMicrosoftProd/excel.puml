@@ -50,7 +50,12 @@ sprite $excel [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_EXCEL_G <img:../sprites/OtherMicrosoftProd/excel_gray.png>
-!define MSIMG_EXCEL_B <img:../sprites/OtherMicrosoftProd/excel_mono.png>
-!define MSIMG_EXCEL_C <img:../sprites/OtherMicrosoftProd/excel.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_EXCEL_G <img:MS_SPRITESPATH/OtherMicrosoftProd/excel_gray.png>
+!define MSIMG_EXCEL_B <img:MS_SPRITESPATH/OtherMicrosoftProd/excel_mono.png>
+!define MSIMG_EXCEL_C <img:MS_SPRITESPATH/OtherMicrosoftProd/excel.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $administration [48x48/16] {
 00000000000000003EE90000000000000000000000000000
 }
 
-!define MSIMG_ADMINISTRATION_G <img:../sprites/Intune/administration_gray.png>
-!define MSIMG_ADMINISTRATION_B <img:../sprites/Intune/administration_mono.png>
-!define MSIMG_ADMINISTRATION_C <img:../sprites/Intune/administration.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_ADMINISTRATION_G <img:MS_SPRITESPATH/Intune/administration_gray.png>
+!define MSIMG_ADMINISTRATION_B <img:MS_SPRITESPATH/Intune/administration_mono.png>
+!define MSIMG_ADMINISTRATION_C <img:MS_SPRITESPATH/Intune/administration.png>
 @enduml

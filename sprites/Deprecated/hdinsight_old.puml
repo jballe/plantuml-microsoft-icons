@@ -50,7 +50,12 @@ sprite $hdinsightold [48x48/16] {
 0000000000085599EEEEEE98530000000000000000000000
 }
 
-!define MSIMG_HDINSIGHTOLD_G <img:../sprites/Deprecated/hdinsight_old_gray.png>
-!define MSIMG_HDINSIGHTOLD_B <img:../sprites/Deprecated/hdinsight_old_mono.png>
-!define MSIMG_HDINSIGHTOLD_C <img:../sprites/Deprecated/hdinsight_old.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_HDINSIGHTOLD_G <img:MS_SPRITESPATH/Deprecated/hdinsight_old_gray.png>
+!define MSIMG_HDINSIGHTOLD_B <img:MS_SPRITESPATH/Deprecated/hdinsight_old_mono.png>
+!define MSIMG_HDINSIGHTOLD_C <img:MS_SPRITESPATH/Deprecated/hdinsight_old.png>
 @enduml

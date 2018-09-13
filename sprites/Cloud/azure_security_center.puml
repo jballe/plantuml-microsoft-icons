@@ -50,7 +50,12 @@ sprite $azuresecuritycenter [48x48/16] {
 000000000000000000000008800000000000000000000000
 }
 
-!define MSIMG_AZURESECURITYCENTER_G <img:../sprites/Cloud/azure_security_center_gray.png>
-!define MSIMG_AZURESECURITYCENTER_B <img:../sprites/Cloud/azure_security_center_mono.png>
-!define MSIMG_AZURESECURITYCENTER_C <img:../sprites/Cloud/azure_security_center.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESECURITYCENTER_G <img:MS_SPRITESPATH/Cloud/azure_security_center_gray.png>
+!define MSIMG_AZURESECURITYCENTER_B <img:MS_SPRITESPATH/Cloud/azure_security_center_mono.png>
+!define MSIMG_AZURESECURITYCENTER_C <img:MS_SPRITESPATH/Cloud/azure_security_center.png>
 @enduml

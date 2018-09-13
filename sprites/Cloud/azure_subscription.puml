@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEE900085EEEEEEEEEEEEEEEEE0000
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_AZURESUBSCRIPTION_G <img:../sprites/Cloud/azure_subscription_gray.png>
-!define MSIMG_AZURESUBSCRIPTION_B <img:../sprites/Cloud/azure_subscription_mono.png>
-!define MSIMG_AZURESUBSCRIPTION_C <img:../sprites/Cloud/azure_subscription.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZURESUBSCRIPTION_G <img:MS_SPRITESPATH/Cloud/azure_subscription_gray.png>
+!define MSIMG_AZURESUBSCRIPTION_B <img:MS_SPRITESPATH/Cloud/azure_subscription_mono.png>
+!define MSIMG_AZURESUBSCRIPTION_C <img:MS_SPRITESPATH/Cloud/azure_subscription.png>
 @enduml

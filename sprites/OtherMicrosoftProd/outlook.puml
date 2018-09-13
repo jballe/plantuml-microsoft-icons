@@ -50,7 +50,12 @@ EEEEEEEEEEEEEEEEEEEEEEEEEEEE00000000000000000000
 000000000000000000000000858900000000000000000000
 }
 
-!define MSIMG_OUTLOOK_G <img:../sprites/OtherMicrosoftProd/outlook_gray.png>
-!define MSIMG_OUTLOOK_B <img:../sprites/OtherMicrosoftProd/outlook_mono.png>
-!define MSIMG_OUTLOOK_C <img:../sprites/OtherMicrosoftProd/outlook.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OUTLOOK_G <img:MS_SPRITESPATH/OtherMicrosoftProd/outlook_gray.png>
+!define MSIMG_OUTLOOK_B <img:MS_SPRITESPATH/OtherMicrosoftProd/outlook_mono.png>
+!define MSIMG_OUTLOOK_C <img:MS_SPRITESPATH/OtherMicrosoftProd/outlook.png>
 @enduml

@@ -50,7 +50,12 @@ sprite $azuredataservicescategoryrollup [48x48/16] {
 000000000000000085599EEE885553800000000000000000
 }
 
-!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_G <img:../sprites/Cloud/azure_dataservices_category_rollup_gray.png>
-!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_B <img:../sprites/Cloud/azure_dataservices_category_rollup_mono.png>
-!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_C <img:../sprites/Cloud/azure_dataservices_category_rollup.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_G <img:MS_SPRITESPATH/Cloud/azure_dataservices_category_rollup_gray.png>
+!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_B <img:MS_SPRITESPATH/Cloud/azure_dataservices_category_rollup_mono.png>
+!define MSIMG_AZUREDATASERVICESCATEGORYROLLUP_C <img:MS_SPRITESPATH/Cloud/azure_dataservices_category_rollup.png>
 @enduml

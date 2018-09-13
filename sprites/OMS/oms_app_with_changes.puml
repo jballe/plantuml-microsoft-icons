@@ -50,7 +50,12 @@ sprite $omsappwithchanges [48x48/16] {
 000000000000000000000000000000000000000000000000
 }
 
-!define MSIMG_OMSAPPWITHCHANGES_G <img:../sprites/OMS/oms_app_with_changes_gray.png>
-!define MSIMG_OMSAPPWITHCHANGES_B <img:../sprites/OMS/oms_app_with_changes_mono.png>
-!define MSIMG_OMSAPPWITHCHANGES_C <img:../sprites/OMS/oms_app_with_changes.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_OMSAPPWITHCHANGES_G <img:MS_SPRITESPATH/OMS/oms_app_with_changes_gray.png>
+!define MSIMG_OMSAPPWITHCHANGES_B <img:MS_SPRITESPATH/OMS/oms_app_with_changes_mono.png>
+!define MSIMG_OMSAPPWITHCHANGES_C <img:MS_SPRITESPATH/OMS/oms_app_with_changes.png>
 @enduml

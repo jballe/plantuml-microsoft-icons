@@ -50,7 +50,12 @@ EEEEEE9000000000000009E0000000000000000009EE0000
 000000000000000000000000000000059E98000000000000
 }
 
-!define MSIMG_AZUREDATALAKEANALYTICS_G <img:../sprites/Cloud/azure_data_lake_analytics_gray.png>
-!define MSIMG_AZUREDATALAKEANALYTICS_B <img:../sprites/Cloud/azure_data_lake_analytics_mono.png>
-!define MSIMG_AZUREDATALAKEANALYTICS_C <img:../sprites/Cloud/azure_data_lake_analytics.png>
+!ifdef MS_SPRITESPATH
+!else
+!define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
+!endif
+
+!define MSIMG_AZUREDATALAKEANALYTICS_G <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics_gray.png>
+!define MSIMG_AZUREDATALAKEANALYTICS_B <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics_mono.png>
+!define MSIMG_AZUREDATALAKEANALYTICS_C <img:MS_SPRITESPATH/Cloud/azure_data_lake_analytics.png>
 @enduml
