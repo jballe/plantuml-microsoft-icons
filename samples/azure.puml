@@ -7,18 +7,18 @@ skinparam defaultTextAlignment center
 
 ' !define MS_SPRITESPATH ../sprites
 !define MS_SPRITESPATH https://raw.githubusercontent.com/jballe/plantuml-microsoft-icons/master/sprites
-' !includeurl MS_SPRITESPATH/Cloud.puml
-' !includeurl MS_SPRITESPATH/Enterprise.puml
-' !includeurl MS_SPRITESPATH/OtherMicrosoftProd.puml
-!includeurl MS_SPRITESPATH/Cloud/Azure_App_Service.puml
-!includeurl MS_SPRITESPATH/Cloud/Microsoft_Azure.puml
-!includeurl MS_SPRITESPATH/Cloud/Azure_Active_Directory.puml
-!includeurl MS_SPRITESPATH/Enterprise/Settings.puml
-!includeurl MS_SPRITESPATH/Enterprise/Web.puml
-!includeurl MS_SPRITESPATH/Enterprise/Web_server.puml
-!includeurl MS_SPRITESPATH/Enterprise/Windows_Server.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Excel.puml
-!includeurl MS_SPRITESPATH/OtherMicrosoftProd/Microsoft.puml
+' !includeurl MS_SPRITESPATH/Cloud/_all.puml
+' !includeurl MS_SPRITESPATH/Enterprise/_all.puml
+' !includeurl MS_SPRITESPATH/OtherMicrosoftProd/_all.puml
+!includeurl MS_SPRITESPATH/Cloud/azure_app_service.puml
+!includeurl MS_SPRITESPATH/Cloud/microsoft_azure.puml
+!includeurl MS_SPRITESPATH/Cloud/azure_active_directory.puml
+!includeurl MS_SPRITESPATH/Enterprise/settings.puml
+!includeurl MS_SPRITESPATH/Enterprise/web.puml
+!includeurl MS_SPRITESPATH/Enterprise/web_server.puml
+!includeurl MS_SPRITESPATH/Enterprise/windows_server.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/excel.puml
+!includeurl MS_SPRITESPATH/OtherMicrosoftProd/microsoft.puml
 
 'title Microsoft Solution <$microsoft>
 title Microsoft Solution MSIMG_MICROSOFT_C 
