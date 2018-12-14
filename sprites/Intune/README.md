@@ -46,4 +46,3 @@
 | [update.puml](update.puml) | ![MSIMG_UPDATE_C](update.png) | ![MSIMG_UPDATE_M](update_mono.png) | ![MSIMG_UPDATE_G](update_gray.png) | 
 | [user_group.puml](user_group.puml) | ![MSIMG_USERGROUP_C](user_group.png) | ![MSIMG_USERGROUP_M](user_group_mono.png) | ![MSIMG_USERGROUP_G](user_group_gray.png) | 
 | [user_management.puml](user_management.puml) | ![MSIMG_USERMANAGEMENT_C](user_management.png) | ![MSIMG_USERMANAGEMENT_M](user_management_mono.png) | ![MSIMG_USERMANAGEMENT_G](user_management_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

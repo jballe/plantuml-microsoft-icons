@@ -12,4 +12,3 @@
 | [secondary_site.puml](secondary_site.puml) | ![MSIMG_SECONDARYSITE_C](secondary_site.png) | ![MSIMG_SECONDARYSITE_M](secondary_site_mono.png) | ![MSIMG_SECONDARYSITE_G](secondary_site_gray.png) | 
 | [software_update_point.puml](software_update_point.puml) | ![MSIMG_SOFTWAREUPDATEPOINT_C](software_update_point.png) | ![MSIMG_SOFTWAREUPDATEPOINT_M](software_update_point_mono.png) | ![MSIMG_SOFTWAREUPDATEPOINT_G](software_update_point_gray.png) | 
 | [system_center_admin_console.puml](system_center_admin_console.puml) | ![MSIMG_SYSTEMCENTERADMINCONSOLE_C](system_center_admin_console.png) | ![MSIMG_SYSTEMCENTERADMINCONSOLE_M](system_center_admin_console_mono.png) | ![MSIMG_SYSTEMCENTERADMINCONSOLE_G](system_center_admin_console_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

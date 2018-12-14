@@ -95,4 +95,3 @@
 | [wireless_connection.puml](wireless_connection.puml) | ![MSIMG_WIRELESSCONNECTION_C](wireless_connection.png) | ![MSIMG_WIRELESSCONNECTION_M](wireless_connection_mono.png) | ![MSIMG_WIRELESSCONNECTION_G](wireless_connection_gray.png) | 
 | [workstation_client.puml](workstation_client.puml) | ![MSIMG_WORKSTATIONCLIENT_C](workstation_client.png) | ![MSIMG_WORKSTATIONCLIENT_M](workstation_client_mono.png) | ![MSIMG_WORKSTATIONCLIENT_G](workstation_client_gray.png) | 
 | [xml_web_service.puml](xml_web_service.puml) | ![MSIMG_XMLWEBSERVICE_C](xml_web_service.png) | ![MSIMG_XMLWEBSERVICE_M](xml_web_service_mono.png) | ![MSIMG_XMLWEBSERVICE_G](xml_web_service_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

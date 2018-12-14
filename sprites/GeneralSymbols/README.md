@@ -109,4 +109,3 @@
 | [usb.puml](usb.puml) | ![MSIMG_USB_C](usb.png) | ![MSIMG_USB_M](usb_mono.png) | ![MSIMG_USB_G](usb_gray.png) | 
 | [user.puml](user.puml) | ![MSIMG_USER_C](user.png) | ![MSIMG_USER_M](user_mono.png) | ![MSIMG_USER_G](user_gray.png) | 
 | [video.puml](video.puml) | ![MSIMG_VIDEO_C](video.png) | ![MSIMG_VIDEO_M](video_mono.png) | ![MSIMG_VIDEO_G](video_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

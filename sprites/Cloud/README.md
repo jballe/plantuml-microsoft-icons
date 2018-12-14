@@ -225,4 +225,3 @@
 | [webhooks.puml](webhooks.puml) | ![MSIMG_WEBHOOKS_C](webhooks.png) | ![MSIMG_WEBHOOKS_M](webhooks_mono.png) | ![MSIMG_WEBHOOKS_G](webhooks_gray.png) | 
 | [webhooks_color.puml](webhooks_color.puml) | ![MSIMG_WEBHOOKSCOLOR_C](webhooks_color.png) | ![MSIMG_WEBHOOKSCOLOR_M](webhooks_color_mono.png) | ![MSIMG_WEBHOOKSCOLOR_G](webhooks_color_gray.png) | 
 | [webhooks_mono.puml](webhooks_mono.puml) | ![MSIMG_WEBHOOKSMONO_C](webhooks_mono.png) | ![MSIMG_WEBHOOKSMONO_M](webhooks_mono_mono.png) | ![MSIMG_WEBHOOKSMONO_G](webhooks_mono_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

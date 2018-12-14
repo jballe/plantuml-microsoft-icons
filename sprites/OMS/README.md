@@ -22,4 +22,3 @@
 | [oms_system_update.puml](oms_system_update.puml) | ![MSIMG_OMSSYSTEMUPDATE_C](oms_system_update.png) | ![MSIMG_OMSSYSTEMUPDATE_M](oms_system_update_mono.png) | ![MSIMG_OMSSYSTEMUPDATE_G](oms_system_update_gray.png) | 
 | [oms_track_changes.puml](oms_track_changes.puml) | ![MSIMG_OMSTRACKCHANGES_C](oms_track_changes.png) | ![MSIMG_OMSTRACKCHANGES_M](oms_track_changes_mono.png) | ![MSIMG_OMSTRACKCHANGES_G](oms_track_changes_gray.png) | 
 | [oms_wire_data.puml](oms_wire_data.puml) | ![MSIMG_OMSWIREDATA_C](oms_wire_data.png) | ![MSIMG_OMSWIREDATA_M](oms_wire_data_mono.png) | ![MSIMG_OMSWIREDATA_G](oms_wire_data_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

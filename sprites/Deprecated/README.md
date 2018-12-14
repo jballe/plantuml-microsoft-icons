@@ -33,4 +33,3 @@
 | [vhd_old_style.puml](vhd_old_style.puml) | ![MSIMG_VHDOLDSTYLE_C](vhd_old_style.png) | ![MSIMG_VHDOLDSTYLE_M](vhd_old_style_mono.png) | ![MSIMG_VHDOLDSTYLE_G](vhd_old_style_gray.png) | 
 | [webhook.puml](webhook.puml) | ![MSIMG_WEBHOOK_C](webhook.png) | ![MSIMG_WEBHOOK_M](webhook_mono.png) | ![MSIMG_WEBHOOK_G](webhook_gray.png) | 
 | [webhook_old.puml](webhook_old.puml) | ![MSIMG_WEBHOOKOLD_C](webhook_old.png) | ![MSIMG_WEBHOOKOLD_M](webhook_old_mono.png) | ![MSIMG_WEBHOOKOLD_G](webhook_old_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 

@@ -8,7 +8,7 @@ const jarPath = path.join(__dirname, '../artifacts/plantuml.jar');
 const folders = fs.readdirSync(resultDir).filter(name => fs.statSync(path.join(resultDir, name)).isDirectory());
 folders.map(name => {
     const folderPath = path.join(resultDir, name);
-    const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml') > 0);
+    const files = fs.readdirSync(folderPath).filter(file => file.indexOf('.puml') > 0 && file.indexOf('_all.puml') === -1);
     var icons = files.map(fileName => {
         const basename = path.basename(fileName, '.puml');
         const imgName = "MSIMG_" + basename.replace(/_/g, '').toUpperCase();

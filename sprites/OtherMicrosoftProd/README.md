@@ -21,4 +21,3 @@
 | [word.puml](word.puml) | ![MSIMG_WORD_C](word.png) | ![MSIMG_WORD_M](word_mono.png) | ![MSIMG_WORD_G](word_gray.png) | 
 | [xbox.puml](xbox.puml) | ![MSIMG_XBOX_C](xbox.png) | ![MSIMG_XBOX_M](xbox_mono.png) | ![MSIMG_XBOX_G](xbox_gray.png) | 
 | [xbox_one.puml](xbox_one.puml) | ![MSIMG_XBOXONE_C](xbox_one.png) | ![MSIMG_XBOXONE_M](xbox_one_mono.png) | ![MSIMG_XBOXONE_G](xbox_one_gray.png) | 
-| [_all.puml](_all.puml) | ![MSIMG_ALL_C](_all.png) | ![MSIMG_ALL_M](_all_mono.png) | ![MSIMG_ALL_G](_all_gray.png) | 
