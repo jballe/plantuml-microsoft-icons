@@ -1,5 +1,8 @@
 # Microsoft icon set for plantuml
 
+> This has been deprecated in favor of [Azure-PlantUML by RicardoNiepel](https://github.com/RicardoNiepel/Azure-PlantUML/)
+> which is now [PlantUml stdlib](https://github.com/plantuml-stdlib/Azure-PlantUML)
+
 Inspired by [plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites), I donwloaded [Microsoft icon set](http://aka.ms/CnESymbols), extracted and made ``.puml`` files.
 
 Furthermore I have included the [new Office 2019 Icons from this medium article](https://medium.com/jumpto365/need-large-transparent-png-versions-of-the-new-office-365-icons-here-you-go-997c58d32675)
